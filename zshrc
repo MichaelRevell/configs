@@ -53,6 +53,12 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 # vim bindings in terminal
 set -o vi
+bindkey -v                                          # Use vi key bindings
+bindkey '^r' history-incremental-search-backward    # [Ctrl-r] - Search backward incrementally for a specified string. The string may begin with ^ to anchor the search to the beginning of the line.
+
+# emacs style
+bindkey '^a' beginning-of-line
+bindkey '^e' end-of-line
 
 # Load all my aliases
 . ~/.alias
