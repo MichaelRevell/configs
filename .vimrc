@@ -191,16 +191,24 @@ autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
 
 
 " Make it easy to copy and paste. There's probably a better way
-let g:copy_mode = 0
-function! CopyModeToggle()
-  if g:copy_mode == 0
-    set nonu
-    let g:copy_mode = 1
-  else
-    set nu
-    let g:copy_mode = 0
-  endif
-endfunction
+"let g:copy_mode = 0
+"function! CopyModeToggle()
+  "if g:copy_mode == 0
+    "set nonu
+    "<C-w>o
+    "set mouse-=a
+    "let g:copy_mode = 1
+  "else
+    "set nu
+    "<C-w>o
+    "set mouse=a
+    "let g:copy_mode = 0
+  "endif
+"endfunction
+" Yes.. This is infact dum
 
-noremap <C-c> :call CopyModeToggle()<cr>
+"noremap <C-c> :call CopyModeToggle()<cr>
+"
+" Copies into the clipboard
+noremap <slilent> <C-c> :w !pbcopy<cr>
 
