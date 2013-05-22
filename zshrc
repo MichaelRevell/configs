@@ -62,3 +62,6 @@ bindkey '^e' end-of-line
 
 # Load all my aliases
 . ~/.alias
+
+# Make autojump work. General configs should be in their own file *NOTE*
+[[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh

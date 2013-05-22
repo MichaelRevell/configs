@@ -39,6 +39,7 @@ set ic
 set showcmd " shows commands in lower right
 set incsearch
 set wildmenu " Enhance comand line completion
+set clipboard+=unnamed
 
 " ================ Indentation ======================
 set autoindent
