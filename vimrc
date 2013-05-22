@@ -39,7 +39,19 @@ set ic
 set showcmd " shows commands in lower right
 set incsearch
 set wildmenu " Enhance comand line completion
-nnoremap <F3> :GundoToggle<CR>
+noremap <F3> :GundoToggle<CR>
+noremap Q :quitall<CR>
+
+" ================== Navigation =====================
+
+map <C-j> 20j " Perhaps Map these to Alt instead
+map <C-k> 20k
+
+" Map window movement
+noremap H <C-w>h
+noremap J <C-w>j
+noremap K <C-w>k
+noremap L <C-w>l
 
 " ================= Copy & Paste ====================
 " Requires MacVim
@@ -136,11 +148,7 @@ map ,, \\
 " Make Y consistent with C and D.  See :help Y.
 nnoremap Y y$
 
-" Map window movement
-noremap H <C-w>h
-noremap J <C-w>j
-noremap K <C-w>k
-noremap L <C-w>l
+
 
 " Splits
 noremap vv :vsplit<CR>
@@ -161,6 +169,7 @@ noremap ,n :NERDTreeToggle<CR>
 " Functions
 " ---------------------------------------------------------------
 
+" =============== Tab Browsing ===============
 "" Move current tab into the specified direction.
 " @param direction -1 for left, 1 for right.
 function! TabMove(direction)
@@ -185,6 +194,11 @@ endfunction
 " Move tab left or right
 map <C-H> :call TabMove(-1)<CR>
 map <C-L> :call TabMove(1)<CR>
+
+" Create tabs
+map <C-w><C-T> :tabnew<CR>
+nnoremap <A-Left> :tabprevious<CR>
+nnoremap <A-Right> :tabnext<CR>
 
 " =========== AUTO COMPLETION ============
 
