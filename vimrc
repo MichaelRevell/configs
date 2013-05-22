@@ -191,14 +191,24 @@ function! TabMove(direction)
     endif
 endfunction
 
+" Create tabs
+map <C-w><C-T> :tabnew<CR>
+noremap [n  :tabnew<CR>
+noremap tn :tabnew<CR>
+
+" Change tabs
+noremap th  :tabfirst<CR>
+noremap tj  :tabprev<CR>
+noremap tk  :tabnext<CR>
+noremap tl  :tablast<CR>
+noremap tt  :tabedit<Space>
+noremap tm  :tabm<Space>
+noremap td  :tabclose<CR>
+noremap tc  :tabclose<CR>
+
 " Move tab left or right
 map <C-H> :call TabMove(-1)<CR>
 map <C-L> :call TabMove(1)<CR>
-
-" Create tabs
-map <C-w><C-T> :tabnew<CR>
-nnoremap <A-Left> :tabprevious<CR>
-nnoremap <A-Right> :tabnext<CR>
 
 " =========== AUTO COMPLETION ============
 
