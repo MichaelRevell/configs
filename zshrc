@@ -1,3 +1,4 @@
+#
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
 
@@ -64,4 +65,4 @@ bindkey '^e' end-of-line
 . ~/.alias
 
 # Make autojump work. General configs should be in their own file *NOTE*
-[[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
+[[ -s `brew --prefix`/etc/autojump.zsh ]] && . `brew --prefix`/etc/autojump.zsh
