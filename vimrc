@@ -39,13 +39,18 @@ set ic
 set showcmd " shows commands in lower right
 set incsearch
 set wildmenu " Enhance comand line completion
-set clipboard+=unnamed
+nnoremap <F3> :GundoToggle<CR>
 
-" ================ Indentation ======================
+" ================= Copy & Paste ====================
+" Requires MacVim
+" set clipboard+=unnamed  "" Sets all to clipboard
+noremap <C-c> "+y
+
+" ================== Indentation ====================
 set autoindent
 set smartindent
 set shiftwidth=2
-set softtabstop=2
+set softtabstop=2 " Remove this if you want spaces
 set tabstop=2
 set expandtab
 
@@ -189,29 +194,5 @@ autocmd FileType html,markdown setlocal omnifunc=htmlcomplete#CompleteTags
 autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
 autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
 autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
-
-
-" Make it easy to copy and paste. There's probably a better way
-"let g:copy_mode = 0
-"function! CopyModeToggle()
-  "if g:copy_mode == 0
-    "set nonu
-    "<C-w>o
-    "set mouse-=a
-    "let g:copy_mode = 1
-  "else
-    "set nu
-    "<C-w>o
-    "set mouse=a
-    "let g:copy_mode = 0
-  "endif
-"endfunction
-" Yes.. This is infact dum
-
-"noremap <C-c> :call CopyModeToggle()<cr>
-"
-" Copies into the clipboard
-noremap <slilent> <C-c> :w !pbcopy<cr>
-
 
 " =========== NEED AUTO COMPLETION =======
