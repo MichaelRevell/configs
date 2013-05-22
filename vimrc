@@ -186,8 +186,9 @@ endfunction
 map <C-H> :call TabMove(-1)<CR>
 map <C-L> :call TabMove(1)<CR>
 
+" =========== AUTO COMPLETION ============
 
-
+setlocal omnifunc=syntaxcomplete#Complete "Default
 " Enable omni completion.
 autocmd FileType css setlocal omnifunc=csscomplete#CompleteCSS
 autocmd FileType html,markdown setlocal omnifunc=htmlcomplete#CompleteTags
@@ -195,4 +196,17 @@ autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
 autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
 autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
 
-" =========== NEED AUTO COMPLETION =======
+function! CleverTab()
+  if pumvisible()
+    return "\<C-N>"
+  endif
+  if strpart( getline('.'), 0, col('.')-1 ) =~ '^\s*$'
+    return "\<Tab>"
+  elseif exists('&omnifunc') && &omnifunc != ''
+    return "\<C-X>\<C-O>"
+  else
+    return "\<C-N>"
+  endif
+endfunction
+
+inoremap <Tab> <C-R>=CleverTab()<CR>
