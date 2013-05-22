@@ -212,3 +212,5 @@ autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
 " Copies into the clipboard
 noremap <slilent> <C-c> :w !pbcopy<cr>
 
+
+" =========== NEED AUTO COMPLETION =======

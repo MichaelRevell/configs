@@ -49,3 +49,4 @@ alias gdv="git diff | vim -"
 # alias vssh='go ct && vagrant ssh srv1'
 # alias vpsql="ssh -t -i ~/.ssh/vagrant vagrant@33.33.33.11 \"sudo su postgres -c 'psql crowdtilt'\""
 # alias pdb="sshc database1a \"sudo su postgres -c 'psql crowdtilt'\""
+alias vi="mvim -v"
