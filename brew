@@ -10,4 +10,5 @@ brew install autojump
 brew install fontforge
 brew install libssh2
 brew install ctags
-brew install macvim
+#brew install macvim
+brew install -v --force macvim
