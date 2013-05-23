@@ -241,6 +241,29 @@ set sidescroll=1
 highlight ColorColumn guibg=#220000
 set colorcolumn=80
 
+" ---------------------------------------------------------------
+" Programing Language Specific Config
+" ---------------------------------------------------------------
+
+" ==================== Ruby on Rails ======================
+"  - Vim will load/evaluate code in order to provide completions.  This may
+"   cause some code execution, which may be a concern. This is no longer
+"   enabled by default, to enable this feature add >
+     let g:rubycomplete_buffer_loading = 1
+"<- In context 1 above, Vim can parse the entire buffer to add a list of
+"   classes to the completion results. This feature is turned off by default,
+"   to enable it add >
+     let g:rubycomplete_classes_in_global = 1
+"<  to your vimrc
+" - In context 2 above, anonymous classes are not supported.
+" - In context 3 above, Vim will attempt to determine the methods supported by
+"   the object.
+" - Vim can detect and load the Rails environment for files within a rails
+"   project. The feature is disabled by default, to enable it add >
+     let g:rubycomplete_rails = 1
+"<  to your vimrc
+
+
 
 " ---------------------------------------------------------------
 " Functions

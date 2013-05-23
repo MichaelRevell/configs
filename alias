@@ -50,3 +50,5 @@ alias gdv="git diff | vim -"
 # alias vpsql="ssh -t -i ~/.ssh/vagrant vagrant@33.33.33.11 \"sudo su postgres -c 'psql crowdtilt'\""
 # alias pdb="sshc database1a \"sudo su postgres -c 'psql crowdtilt'\""
 alias vi="mvim -v"
+alias ctags="`brew --prefix`/bin/ctags"
+alias t='/usr/local/Cellar/todo-txt/2.9/bin/todo.sh -d $HOME/.todo/todo.cfg'
