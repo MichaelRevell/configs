@@ -67,3 +67,6 @@ bindkey '^e' end-of-line
 # Make autojump work. General configs should be in their own file *NOTE*
 [[ -s `brew --prefix`/etc/autojump.zsh ]] && . `brew --prefix`/etc/autojump.zsh
 autoload -U compinit && compinit
+
+# Lets make RVM work
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" 
