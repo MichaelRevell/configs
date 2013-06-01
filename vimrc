@@ -75,6 +75,13 @@ set showmode
 noremap <C-t> :CtrlP<CR>
 noremap ,n :NERDTreeToggle<CR>
 
+" ====================== Edit   Vimrc ======================
+" source $MYVIMRC reloads the saved $MYVIMRC
+:nmap <Leader>s :source $MYVIMRC
+
+" opens $MYVIMRC for editing, or use :tabedit $MYVIMRC
+:nmap <Leader>v :e $MYVIMRC
+
 " ====================== Color Scheme ======================
 set background=dark
 colorscheme solarized

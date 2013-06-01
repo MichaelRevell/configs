@@ -70,6 +70,3 @@ autoload -U compinit && compinit
 
 # Lets make RVM work
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" 
-
-# SSH Key forwarding for Crowdtilt
-ssh-agent; ssh-add
