@@ -47,7 +47,6 @@ set visualbell
 " highlight search results
 set hls
 
-         
 " Use mouse
 set mouse=a
 
@@ -69,7 +68,7 @@ noremap <C-H> :Rextract
 	
 set showmode
 
-:set wrap
+set wrap
 
 " Remap CtrlP to Ctr T
 noremap <C-t> :CtrlP<CR>
@@ -247,6 +246,13 @@ set sidescroll=1
 " This breaks auto complete for some reason :-(
 highlight ColorColumn guibg=#220000
 set colorcolumn=80
+
+" ====================== MacVim Settings ===================
+
+if has("gui_running")
+  set guifont=Monaco:h13
+  colorscheme solarized
+endif
 
 " ---------------------------------------------------------------
 " Programing Language Specific Config
