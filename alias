@@ -52,3 +52,9 @@ alias gdv="git diff | vim -"
 alias vi="mvim -v"
 alias ctags="`brew --prefix`/bin/ctags"
 alias t='/usr/local/Cellar/todo-txt/2.9/bin/todo.sh -d $HOME/.todo/todo.cfg'
+
+
+# tmux
+alias td='tmux detach'
+alias tl='tmux attach -t life'
+#alias tr='tmux attach -t rightscr'
