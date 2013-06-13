@@ -12,3 +12,7 @@ brew install libssh2
 brew install ctags
 #brew install macvim
 brew install -v --force macvim
+brew install tmux
+gem install tmuxinator
+brew install tmux-MacOSX-pasteboard
+brew install reattach-to-user-namespace

@@ -70,3 +70,4 @@ autoload -U compinit && compinit
 
 # Lets make RVM work
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" 
+[[ -s /Users/Mars/.tmuxinator/scripts/tmuxinator ]] && source /Users/Mars/.tmuxinator/scripts/tmuxinator
