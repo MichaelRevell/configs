@@ -1,0 +1,22 @@
+#~/.tmuxinator/ct.yml
+# you can make as many tabs as you wish...
+
+project_name: Tmuxinator
+project_root: ~/Projects/ct
+pre: #vagrant up srv1
+tabs:
+  - editor:
+      layout: main-vertical
+      panes:
+        - vi
+        - #empty, will just run plain bash
+        - top
+  - server:
+      layout: main-vertical
+      panes:
+        - vagrant ssh srv1
+        - vagrant ssh srv1 -c "tail -f /var/log/www/api.log"
+        - vagrant ssh srv1 -c "tail -f /var/log/www/www.log"
+  - mysql: vagrant ssh srv1
+  - shell: #git pull
+      project_root: ~/

@@ -58,3 +58,6 @@ alias t='/usr/local/Cellar/todo-txt/2.9/bin/todo.sh -d $HOME/.todo/todo.cfg'
 alias td='tmux detach'
 alias tl='tmux attach -t life'
 #alias tr='tmux attach -t rightscr'
+
+#irssi
+irssi='TERM=screen-256color irssi'

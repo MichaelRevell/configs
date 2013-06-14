@@ -1,0 +1,37 @@
+windows:
+  - name: editor
+    clear: true
+    root: ~/Projects/ct
+    layout: main-vertical
+    panes:
+        - cmd: vagrant ssh srv1
+        - cmd: vagrant ssh srv1 -c 'tail -f /var/log/www/api.log'
+        - cmd: vagrant ssh srv1 -c 'tail -f /var/log/www/www.log'
+  - name: editor
+    clear: true
+    root: ~/Projects/ct
+    layout: main-vertical
+    panes:
+        - cmd: vagrant ssh srv1
+        - cmd: vagrant ssh srv1 -c 'tail -f /var/log/www/api.log'
+        - cmd: vagrant ssh srv1 -c 'tail -f /var/log/www/www.log'
+  - name: server 
+    clear: true
+    root: ~/Projects/ct
+    layout: main-vertical
+    filters:
+      before:
+        - "vagrant ssh srv1"
+    panes:
+        - cmd: echo "yo"
+        - cmd: tail -f /var/log/www/api.log
+        - cmd: tail -f /var/log/www/www.log
+  - name: server 
+    clear: true
+    root: ~/Projects/ct
+    filters:
+      before:
+        - "vagrant ssh srv1"
+        - "sudo su postgres -c 'psql crowdtilt'"
+    panes:
+      - echo "yo"
