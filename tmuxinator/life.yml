@@ -12,9 +12,4 @@ tabs:
         - #empty, will just run plain bash
         - top
   - shell: #git pull
-  - server: j ct; vagrant ssh srv1
-  - database: #rails db
-  - logs: #tail -f logs/development.log
-  - console: #rails c
-  - capistrano:
-  - server: #ssh me@myhost
+  - server: cd Projects/ct; vagrant ssh srv1
