@@ -1,8 +1,8 @@
 servers = (
- {
+  {
     address = "jabber.crowdtilt.com";
     chatnet = "Crowdtilt";
-    password = "Crowdtilt!@#";
+    password = "crowdtilt123";
     autoconnect = "yes";
   },
   { address = "eu.irc6.net"; chatnet = "IRCnet"; port = "6667"; },
@@ -32,10 +32,7 @@ servers = (
 );
 
 chatnets = {
-Crowdtilt = {
-    type = "XMPP";
-    nick = "michael.revell@crowdtilt.com";
-  };
+  Crowdtilt = { type = "XMPP"; nick = "michael.revell@crowdtilt.com"; };
   IRCnet = {
     type = "IRC";
     max_kicks = "4";
@@ -262,6 +259,13 @@ statusbar = {
         topic = { };
         topic_empty = { };
         topicbarend = { priority = "100"; alignment = "right"; };
+      };
+    };
+    awl_0 = {
+      items = {
+        barstart = { priority = "100"; };
+        awl_0 = { };
+        barend = { priority = "100"; alignment = "right"; };
       };
     };
   };
