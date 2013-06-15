@@ -20,3 +20,4 @@ tabs:
   - mysql: vagrant ssh srv1
   - shell: #git pull
       project_root: ~/
+  - email: mutt

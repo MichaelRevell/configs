@@ -16,3 +16,5 @@ brew install tmux
 gem install tmuxinator
 brew install tmux-MacOSX-pasteboard
 brew install reattach-to-user-namespace
+brew install links
+brew install wget

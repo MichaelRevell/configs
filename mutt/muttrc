@@ -1,4 +1,5 @@
 # A basic .muttrc for use with Gmail
+# http://linsec.ca/Using_mutt_on_OS_X
 
 # Change the following six lines to match your Gmail account details
 set imap_user = "michael@crowdtilt.com"
@@ -33,8 +34,8 @@ ignore "Authentication-Results:"
 ignore "DomainKey-Signature:"
 ignore "DKIM-Signature:"
 hdr_order Date From To Cc
-alternative_order text/plain text/html *
 auto_view text/html
+alternative_order text/plain text/enriched text/html *
 bind editor <Tab> complete-query
 bind editor ^T complete
 bind editor <space> noop 
@@ -52,4 +53,4 @@ macro index,pager gl "<change-folder>"
 macro index,pager gd "<change-folder>=[Gmail]/Drafts<enter>" "Go to drafts"
 macro index,pager gt "<change-folder>=[Gmail]/Sent Mail<enter>" "Go to sent mail"
 
-source ~/.mutt-colors-solarized-dark-256.muttrc
+source ~/.mutt/mutt-colors-solarized-dark-256.muttrc
