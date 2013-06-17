@@ -1,0 +1,335 @@
+--- Log opened Mon Jun 17 12:13:50 2013
+12:13:50-!- --- crowdtilt@conference.jabber.crowdtilt.com sets modes [crowdtilt@conference.jabber.crowdtilt.com [+Mp Mars]]
+12:13:50--- Users 16 nicks [14 ops, 0 halfops, 2 voices, 0 normal]
+12:13:50--- Channel crowdtilt@conference.jabber.crowdtilt.com was synced in 0 seconds
+12:13:50[18:41:10] <&throughnothing  > to make sure $total_admin_conts != $total_conts
+12:13:50[18:41:11] <&throughnothing  > for the 0 case
+12:13:50[18:41:24] <&ironcamel       > ok
+12:13:50[18:41:27] <&throughnothing  > MachinShin: yeah the spacing is off on those first 2 line,s not sure why
+12:13:50[18:41:32] <&throughnothing  > maybe tabs?
+12:13:50[18:41:40] <&ironcamel       > you using tabs you tab lover
+12:13:50[18:41:52] <&MachinShin      > doh. lemme fix
+12:13:50[18:42:06] <&throughnothing  > TAB LOVER
+12:13:50[18:42:18] <&MachinShin      > sometimes vim seems to ignore my tab setting. it's supposed to make all tabs into spaces :|
+12:13:50[18:42:35] <&throughnothing  > mine does that too
+12:13:50[18:42:36] <&tiltbot         > [Jenkins: API-PRs (6b0cc0)] failure http://107.23.70.121:8080/job/API-PRs/1649/
+12:13:50[18:42:37] <&throughnothing  > i think its a plugin conflict
+12:13:50[18:42:43] <&throughnothing  > when i leave vim running for a long time (always)
+12:13:50[18:42:48] <&throughnothing  > it tends to get funky with tabs + spaces
+12:13:50[18:42:54] <&throughnothing  > sometimes it goes back to tabs and then I kill it
+12:13:50[18:43:43] <&dsog            > The solution is to switch to MS Visual Studio.
+12:13:50[18:43:53] <&StoneCypher     > huhu
+12:13:50[18:44:02] <&ironcamel       > never had that happen to me before
+12:13:50[18:44:15] <&dsog            > ironcamel: me neither. These guys are n00bs :P
+12:13:50[18:44:25] <&ironcamel       > obviously
+12:13:50[18:44:34] <&dsog            > And also .. is that what you said to her? :P
+12:13:50[18:44:36] <&StoneCypher     > editors: something you apparently need to not be a noob at
+12:13:50[18:44:47] <&ironcamel       > no, that's what she said
+12:13:50[18:44:57] <&dsog            > ironcamel: nicely done :)
+12:13:50[18:46:46] <&MachinShin      > damnit github! >:( 
+12:13:50[18:47:48] <&MachinShin      > ERROR: Storage server temporarily offline. See http://status.github.com for GitHub system status.
+12:13:50[18:47:48] <&MachinShin      > fatal: Could not read from remote repository.
+12:13:50[18:47:48] <&MachinShin      > Please make sure you have the correct access rights
+12:13:50[18:47:49] <&MachinShin      > and the repository exists.
+12:13:50[18:47:51] <&MachinShin      > >:( 
+12:13:50[18:48:36] <&throughnothing  > suckers
+12:13:50[18:48:39] <&throughnothing  > i just pushed
+12:13:50[18:48:40] <&throughnothing  > fine
+12:13:50[18:49:30] <&MachinShin      > ah. it's back up. 
+12:13:50[18:49:40] <&StoneCypher     > man github gets attacked a lot lately
+12:13:50[18:49:41] <&MachinShin      > ironcamel: fixed the spacing, rebased & push -f'd
+12:13:50[18:49:42] <&StoneCypher     > i wonder why
+12:13:50[18:50:27] <&ironcamel       > Hey there, would you like to enable our new repository design?
+12:13:50[18:50:28] <&ironcamel       > We’ve been working hard making a faster, better repository experience and we’d love to share it with you.
+12:13:50[18:50:49] <&ironcamel       > gonna click yes ... if i die, you guys know why ...
+12:13:50[18:50:57]  * throughnothing gets in the bunker
+12:13:50[18:51:14] <&ironcamel       > Welcome to repository next.
+12:13:50[18:51:15] <&ironcamel       > We’ve moved a few things around, and we’d like to steal 30 seconds of your attention to explain some of our thinking. 
+12:13:50[18:51:22] <&ironcamel       > .... this shit better not take more than 30 seconds
+12:13:50[18:52:03] <&throughnothing  > lol
+12:13:50[18:52:03] <&StoneCypher     > ONE
+12:13:50[18:52:05] <&StoneCypher     > TWO
+12:13:50[18:52:06] <&StoneCypher     > THREE
+12:13:50[18:52:11] <&alnewkirk       > don't do it
+12:13:50[18:52:11] <&ironcamel       > done
+12:13:50[18:52:16] <&throughnothing  > why did they pick ironcamel of all ppl
+12:13:50[18:52:24] <&StoneCypher     > ironcamel: is it ten thousand times better
+12:13:50[18:52:29] <&ironcamel       > because i have a great eye for UI design
+12:13:50[18:52:35] <&ironcamel       > psyche!
+12:13:50[18:52:45] <&throughnothing  > https://github.com/blog/1529-repository-next
+12:13:50[18:53:13] <&tiltbot         > [Jenkins: API-PRs (1b18c5)] success http://107.23.70.121:8080/job/API-PRs/1650/
+12:13:50[18:53:16] <&StoneCypher     > wtf is that color stripe
+12:13:50[18:53:39] <&throughnothing  > language statistics?
+12:13:50[18:53:39] <&alnewkirk       > having trouble building Business-GroupPayments-0.0700
+12:13:50[18:53:42] <&throughnothing  > why does that need to be prominent
+12:13:50[18:53:44] <&StoneCypher     > do not want giant red stripe :(
+12:13:50[18:53:51] <&throughnothing  > alnewkirk: don't run the tests
+12:13:50[18:53:56] <&throughnothing  > they wont work without env vars being set correctly
+12:13:50[18:54:02] <&throughnothing  > for payment processor tokens
+12:13:50[18:54:10] <&ironcamel       > alnewkirk: i can send you env vars to get the tests to run
+12:13:50[18:54:20] <&throughnothing  > alnewkirk: dont run the tests :P
+12:13:50[18:55:48] <&ironcamel       > alnewkirk: https://paste.crowdtilt.com/sLyfgHX4hGHWLS8MRNIiQ
+12:13:50[18:55:52] <&tiltbot         > [chef] PR-220 'Revert node-streamer' opened by throughnothing http://git.io/LIOXKg
+12:13:50[18:55:52] <&tiltbot         > [vagrant] PR-47 'Revert "Introduces setup for nodejs realtime streamer"' opened by throughnothing http://git.io/goBW6A
+12:13:50[18:56:32] <&ironcamel       > but yeah, you don't need to run the tests
+12:13:50[18:57:18] <&tiltbot         > [Jenkins: Public-Site-PRs (f93b67)] success http://107.23.70.121:8080/job/Public-Site-PRs/1597/
+12:13:50[18:57:38] <&Forest Belton   > i found & fixed the problem james was having with mobile mayoral contributions
+12:13:50[18:57:49] <&Forest Belton   > gonna make a PR
+12:13:50[18:58:00] <&alnewkirk       > i think the build is broken, not the tests
+12:13:50[18:58:13] <&MachinShin      > Forest Belton: sweet. what was it? 
+12:13:50[18:58:41] <&Forest Belton   > the submit handler for a form isn't called if the user has to log in first
+12:13:50[18:58:59] <&Forest Belton   > the submit handler for step 1 was where the contact data was being put in the right place
+12:13:50[18:59:22] <&throughnothing  > nice
+12:13:50[19:02:03] <&StoneCypher     > Forest Belton: word
+12:13:50[19:03:52] <&tiltbot         > [Jenkins: API-PRs (b8eb8b)] success http://107.23.70.121:8080/job/API-PRs/1651/
+12:13:50[19:04:31] <&tiltbot         > [crowdtilt-public-site] PR-1259 'Add contact information to form if user wasn't logged in' opened by forestbelton http://git.io/9vRs4Q
+12:13:50[19:05:55] <&throughnothing  > Forest Belton: why do you delete serialized.amount ?
+12:13:50[19:08:00] <&Forest Belton   > so that it doesn't overwrite the amount value which already exists - while the two values should agree, i think their representations differ
+12:13:50[19:09:46] <&throughnothing  > I kinda would rather andy review it
+12:13:50[19:09:52] <&throughnothing  > but it looks good to me
+12:13:50[19:09:57] <&throughnothing  > we'll see when he gets in
+12:13:50[19:10:38] <&ironcamel       > alnewkirk: yt?
+12:13:50[19:11:11] <&throughnothing  > ironcamel_mobile: +1 on PR 795
+12:13:50[19:11:28] <&alnewkirk       > ironcamel: yes
+12:13:50[19:11:49] <Mars            > exit
+12:13:50[19:11:52] <Mars            > \e
+12:13:50[19:12:06] <&ironcamel       > alnewkirk: if you agree with https://github.com/Crowdtilt/crowdtilt-internal-api/pull/798/files#r4732033, i can push a commit that does it
+12:13:50[19:12:06] <&tiltbot         > [PR-798](alnewkirk) BACK-441: Restore of max contribution limit per user per campaign
+12:13:50[19:12:15] <&MachinShin      > Mars: it's /exit or /quit :) 
+12:13:50[19:12:43] <&throughnothing  > lol
+12:13:50[19:12:49] <&throughnothing  > i /quit
+12:13:50[19:13:07] <&throughnothing  > oops, chatroom for the wrong job
+12:13:50[19:13:07] <&ironcamel       > who does \e?
+12:13:50[19:13:16] <&dsog            > Food time :)
+12:13:50[19:13:23] <Mars            > hahaha
+12:13:50-!- --- StoneSurface has changed the topic to: Not Crowdtilt
+12:14:06<&tiltbot> [Jenkins: API-PRs (62122d)] failure http://107.23.70.121:8080/job/API-PRs/1652/
+12:19:35<&ironcamel> alnewkirk: yes, no?
+12:20:13<&throughnothing> FOOD TIME
+12:20:22<&tiltbot> [Jenkins: Public-Site-PRs (7155d7)] success http://107.23.70.121:8080/job/Public-Site-PRs/1598/
+12:20:50<&alnewkirk> ironcamel: sorry, got distracted, yes, I'm changing it now
+12:20:57<&ironcamel> ok
+12:21:36<&ironcamel> alnewkirk: also, if you return early, you don't need to put the logic in a new indentation level (inside an if block)
+12:21:40<&ironcamel> make sense?
+--- Log closed Mon Jun 17 12:22:47 2013
+--- Log opened Mon Jun 17 12:22:51 2013
+12:22:51-!- --- crowdtilt@conference.jabber.crowdtilt.com sets modes [crowdtilt@conference.jabber.crowdtilt.com [+Mp Mars]]
+12:22:51--- Users 14 nicks [12 ops, 0 halfops, 2 voices, 0 normal]
+12:22:51--- Channel crowdtilt@conference.jabber.crowdtilt.com was synced in 0 seconds
+12:22:51[18:42:18] <&MachinShin      > sometimes vim seems to ignore my tab setting. it's supposed to make all tabs into spaces :|
+12:22:51[18:42:35] <&throughnothing  > mine does that too
+12:22:51[18:42:36] <&tiltbot         > [Jenkins: API-PRs (6b0cc0)] failure http://107.23.70.121:8080/job/API-PRs/1649/
+12:22:51[18:42:37] <&throughnothing  > i think its a plugin conflict
+12:22:51[18:42:43] <&throughnothing  > when i leave vim running for a long time (always)
+12:22:51[18:42:48] <&throughnothing  > it tends to get funky with tabs + spaces
+12:22:51[18:42:54] <&throughnothing  > sometimes it goes back to tabs and then I kill it
+12:22:51[18:43:43] <dsog            > The solution is to switch to MS Visual Studio.
+12:22:51[18:43:53] <&StoneCypher     > huhu
+12:22:51[18:44:02] <&ironcamel       > never had that happen to me before
+12:22:51[18:44:15] <dsog            > ironcamel: me neither. These guys are n00bs :P
+12:22:51[18:44:25] <&ironcamel       > obviously
+12:22:51[18:44:34] <dsog            > And also .. is that what you said to her? :P
+12:22:51[18:44:36] <&StoneCypher     > editors: something you apparently need to not be a noob at
+12:22:51[18:44:47] <&ironcamel       > no, that's what she said
+12:22:51[18:44:57] <dsog            > ironcamel: nicely done :)
+12:22:51[18:46:46] <&MachinShin      > damnit github! >:( 
+12:22:51[18:47:48] <&MachinShin      > ERROR: Storage server temporarily offline. See http://status.github.com for GitHub system status.
+12:22:51[18:47:48] <&MachinShin      > fatal: Could not read from remote repository.
+12:22:51[18:47:48] <&MachinShin      > Please make sure you have the correct access rights
+12:22:51[18:47:49] <&MachinShin      > and the repository exists.
+12:22:51[18:47:51] <&MachinShin      > >:( 
+12:22:51[18:48:36] <&throughnothing  > suckers
+12:22:51[18:48:39] <&throughnothing  > i just pushed
+12:22:51[18:48:40] <&throughnothing  > fine
+12:22:51[18:49:30] <&MachinShin      > ah. it's back up. 
+12:22:51[18:49:40] <&StoneCypher     > man github gets attacked a lot lately
+12:22:51[18:49:41] <&MachinShin      > ironcamel: fixed the spacing, rebased & push -f'd
+12:22:51[18:49:42] <&StoneCypher     > i wonder why
+12:22:51[18:50:27] <&ironcamel       > Hey there, would you like to enable our new repository design?
+12:22:51[18:50:28] <&ironcamel       > We’ve been working hard making a faster, better repository experience and we’d love to share it with you.
+12:22:51[18:50:49] <&ironcamel       > gonna click yes ... if i die, you guys know why ...
+12:22:51[18:50:57]  * throughnothing gets in the bunker
+12:22:51[18:51:14] <&ironcamel       > Welcome to repository next.
+12:22:51[18:51:15] <&ironcamel       > We’ve moved a few things around, and we’d like to steal 30 seconds of your attention to explain some of our thinking. 
+12:22:51[18:51:22] <&ironcamel       > .... this shit better not take more than 30 seconds
+12:22:51[18:52:03] <&throughnothing  > lol
+12:22:51[18:52:03] <&StoneCypher     > ONE
+12:22:51[18:52:05] <&StoneCypher     > TWO
+12:22:51[18:52:06] <&StoneCypher     > THREE
+12:22:51[18:52:11] <&alnewkirk       > don't do it
+12:22:51[18:52:11] <&ironcamel       > done
+12:22:51[18:52:16] <&throughnothing  > why did they pick ironcamel of all ppl
+12:22:51[18:52:24] <&StoneCypher     > ironcamel: is it ten thousand times better
+12:22:51[18:52:29] <&ironcamel       > because i have a great eye for UI design
+12:22:51[18:52:35] <&ironcamel       > psyche!
+12:22:51[18:52:45] <&throughnothing  > https://github.com/blog/1529-repository-next
+12:22:51[18:53:13] <&tiltbot         > [Jenkins: API-PRs (1b18c5)] success http://107.23.70.121:8080/job/API-PRs/1650/
+12:22:51[18:53:16] <&StoneCypher     > wtf is that color stripe
+12:22:51[18:53:39] <&throughnothing  > language statistics?
+12:22:51[18:53:39] <&alnewkirk       > having trouble building Business-GroupPayments-0.0700
+12:22:51[18:53:42] <&throughnothing  > why does that need to be prominent
+12:22:51[18:53:44] <&StoneCypher     > do not want giant red stripe :(
+12:22:51[18:53:51] <&throughnothing  > alnewkirk: don't run the tests
+12:22:51[18:53:56] <&throughnothing  > they wont work without env vars being set correctly
+12:22:51[18:54:02] <&throughnothing  > for payment processor tokens
+12:22:51[18:54:10] <&ironcamel       > alnewkirk: i can send you env vars to get the tests to run
+12:22:51[18:54:20] <&throughnothing  > alnewkirk: dont run the tests :P
+12:22:51[18:55:48] <&ironcamel       > alnewkirk: https://paste.crowdtilt.com/sLyfgHX4hGHWLS8MRNIiQ
+12:22:51[18:55:52] <&tiltbot         > [chef] PR-220 'Revert node-streamer' opened by throughnothing http://git.io/LIOXKg
+12:22:51[18:55:52] <&tiltbot         > [vagrant] PR-47 'Revert "Introduces setup for nodejs realtime streamer"' opened by throughnothing http://git.io/goBW6A
+12:22:51[18:56:32] <&ironcamel       > but yeah, you don't need to run the tests
+12:22:51[18:57:18] <&tiltbot         > [Jenkins: Public-Site-PRs (f93b67)] success http://107.23.70.121:8080/job/Public-Site-PRs/1597/
+12:22:51[18:57:38] <&Forest Belton   > i found & fixed the problem james was having with mobile mayoral contributions
+12:22:51[18:57:49] <&Forest Belton   > gonna make a PR
+12:22:51[18:58:00] <&alnewkirk       > i think the build is broken, not the tests
+12:22:51[18:58:13] <&MachinShin      > Forest Belton: sweet. what was it? 
+12:22:51[18:58:41] <&Forest Belton   > the submit handler for a form isn't called if the user has to log in first
+12:22:51[18:58:59] <&Forest Belton   > the submit handler for step 1 was where the contact data was being put in the right place
+12:22:51[18:59:22] <&throughnothing  > nice
+12:22:51[19:02:03] <&StoneCypher     > Forest Belton: word
+12:22:51[19:03:52] <&tiltbot         > [Jenkins: API-PRs (b8eb8b)] success http://107.23.70.121:8080/job/API-PRs/1651/
+12:22:51[19:04:31] <&tiltbot         > [crowdtilt-public-site] PR-1259 'Add contact information to form if user wasn't logged in' opened by forestbelton http://git.io/9vRs4Q
+12:22:51[19:05:55] <&throughnothing  > Forest Belton: why do you delete serialized.amount ?
+12:22:51[19:08:00] <&Forest Belton   > so that it doesn't overwrite the amount value which already exists - while the two values should agree, i think their representations differ
+12:22:51[19:09:46] <&throughnothing  > I kinda would rather andy review it
+12:22:51[19:09:52] <&throughnothing  > but it looks good to me
+12:22:51[19:09:57] <&throughnothing  > we'll see when he gets in
+12:22:51[19:10:38] <&ironcamel       > alnewkirk: yt?
+12:22:51[19:11:11] <&throughnothing  > ironcamel_mobile: +1 on PR 795
+12:22:51[19:11:28] <&alnewkirk       > ironcamel: yes
+12:22:51[19:11:49] <Mars            > exit
+12:22:51[19:11:52] <Mars            > \e
+12:22:51[19:12:06] <&ironcamel       > alnewkirk: if you agree with https://github.com/Crowdtilt/crowdtilt-internal-api/pull/798/files#r4732033, i can push a commit that does it
+12:22:51[19:12:06] <&tiltbot         > [PR-798](alnewkirk) BACK-441: Restore of max contribution limit per user per campaign
+12:22:51[19:12:15] <&MachinShin      > Mars: it's /exit or /quit :) 
+12:22:51[19:12:43] <&throughnothing  > lol
+12:22:51[19:12:49] <&throughnothing  > i /quit
+12:22:51[19:13:07] <&throughnothing  > oops, chatroom for the wrong job
+12:22:51[19:13:07] <&ironcamel       > who does \e?
+12:22:51[19:13:16] <dsog            > Food time :)
+12:22:51[19:13:23] <Mars            > hahaha
+12:22:51[19:14:06] <&tiltbot         > [Jenkins: API-PRs (62122d)] failure http://107.23.70.121:8080/job/API-PRs/1652/
+12:22:51[19:19:35] <&ironcamel       > alnewkirk: yes, no?
+12:22:51[19:20:12] <&throughnothing  > FOOD TIME
+12:22:51[19:20:21] <&tiltbot         > [Jenkins: Public-Site-PRs (7155d7)] success http://107.23.70.121:8080/job/Public-Site-PRs/1598/
+12:22:51[19:20:50] <&alnewkirk       > ironcamel: sorry, got distracted, yes, I'm changing it now
+12:22:51[19:20:57] <&ironcamel       > ok
+12:22:51[19:21:35] <&ironcamel       > alnewkirk: also, if you return early, you don't need to put the logic in a new indentation level (inside an if block)
+12:22:51[19:21:39] <&ironcamel       > make sense?
+12:22:51-!- --- StoneSurface has changed the topic to: Not Crowdtilt
+12:24:53<&alnewkirk> ironcamel: oh, too late :)
+12:25:12<&alnewkirk> ironcamel: yes, thats one perspective ...
+12:25:35<Mars            > test
+12:25:54<&tiltbot> [Jenkins: Public-Site-PRs (a95791)] failure http://107.23.70.121:8080/job/Public-Site-PRs/1599/
+12:25:59<Mars            > \q MachinShin 
+12:26:00<&alnewkirk> ... another is that given the flow of the routine, the next developer probably wouldn't expect any of the condition to return at all
+12:26:06<&alnewkirk> ironcamel: ^
+12:26:50<&alnewkirk> I'd probably say either-or, i.e. either all conditions return or none of them do
+12:26:57<&alnewkirk> just my opinion
+--- Log closed Mon Jun 17 12:28:27 2013
+--- Log opened Mon Jun 17 13:03:33 2013
+13:03:33::: mode/crowdtilt@conference.jabber.crowdtilt.com [+Mp Mars] by crowdtilt@conference.jabber.crowdtilt.com
+13:03:33::: Irssi: crowdtilt@conference.jabber.crowdtilt.com: Total of 15 nicks [13 ops, 0 halfops, 2 voices, 0 normal]
+13:03:33::: Irssi: Join to crowdtilt@conference.jabber.crowdtilt.com was synced in 0 secs
+13:03:33[19:34:19] <&alnewkirk       > explain? or in the ticket?
+13:03:33[19:34:20] <&ironcamel       > throughnothing: https://github.com/Crowdtilt/crowdtilt-internal-api/pull/798#discussion_r4732603
+13:03:33[19:34:21] <&tiltbot         > [PR-798#discussion_r4732603](alnewkirk) BACK-441: Restore of max contribution limit per user per campaign
+13:03:33[19:34:30] <&ironcamel       > alnewkirk: in the ticket is fine
+13:03:33[19:34:52] <&ironcamel       > and you can paste the answer in here too if you like
+13:03:33[19:35:14] <&ironcamel       > i like to annoy candy andy with crap he doesn't care about
+13:03:33[19:35:36] <&tiltbot         > [Jenkins: Public-Site-PRs (08b92c)] failure http://107.23.70.121:8080/job/Public-Site-PRs/1600/
+13:03:33[19:36:50] <&tiltbot         > [Jenkins: API-PRs (a9dcba)] failure http://107.23.70.121:8080/job/API-PRs/1653/
+13:03:33[19:37:42] <&alnewkirk       > sweet
+13:03:33[19:37:47] <&alnewkirk       > I commented
+13:03:33[19:37:52] <&alnewkirk       > incoming ...
+13:03:33[19:38:02] <&alnewkirk       > Okay, so this first query is getting all user contributions in the last month regardless of campaign, and the cont_rset routine is on the campaign result object. So I could've pulled the code in that routine out, or duplicated it somewhere else, either way it would've been duplicated, or double the effort to abstract it away and refactor all the code that uses it. ... and because I am duplicating here, I just decided to do the same in the next query so at-least its uniform.
+13:03:33[19:38:45] <&ironcamel       > but you are not actually duplicating the same logic
+13:03:33[19:38:50] <&ironcamel       > your logic is actually different
+13:03:33[19:38:54] <&ironcamel       > that was my concern
+13:03:33[19:40:11] <&ironcamel       > also, it would have taken no effort to use cont_rset() itself, since as you know, you can chain resultset methods
+13:03:33[19:40:15] <&alnewkirk       > yeah, true, which brings me to your initial question
+13:03:33[19:40:24] <&alnewkirk       > the decision was based on this hash map
+13:03:33[19:40:28] <&alnewkirk       >     my $status_map = {
+13:03:33[19:40:28] <&alnewkirk       >         preauth_approved => 'authorized',
+13:03:33[19:40:28] <&alnewkirk       >         postauth_approved => 'charged',
+13:03:33[19:40:28] <&alnewkirk       >         credit_released => 'released',
+13:03:33[19:40:28] <&alnewkirk       >         postauth_rejected => 'rejected',
+13:03:33[19:40:28] <&alnewkirk       >         preauth_rejected => 'rejected',
+13:03:33[19:40:28] <&alnewkirk       >         postauth_refunded => 'refunded',
+13:03:33[19:40:28] <&alnewkirk       >         preauth_refunded => 'refunded',
+13:03:33[19:40:29] <&alnewkirk       >     };
+13:03:33[19:40:31] <&ironcamel       > the only reason not to, is if you actually needed the different logic
+13:03:33[19:41:19] <&alnewkirk       > how does chaining come into play?
+13:03:33[19:42:35] <&ironcamel       > for example, you are doing, +            my $amounts = $campaign->contributions->search({
+13:03:33[19:42:35] <&ironcamel       > +                user_id => $user_id,
+13:03:33[19:42:35] <&ironcamel       > +                status  => { -in => [@status] },
+13:03:33[19:42:35] <&ironcamel       > +                deleted => 0
+13:03:33[19:42:37] <&ironcamel       > +            }); 
+13:03:33[19:43:02] <&ironcamel       > that could be $campaign->cont_rset->({ user_id => $user_id });
+13:03:33[19:43:07] <&ironcamel       > right?
+13:03:33[19:44:01] <&alnewkirk       > right, but as I said earlier, since that didn't apply to the first query, I didn't apply it to the query you referenced
+13:03:33[19:44:44] <&ironcamel       > you are saying that you on purpose did different logic than what is in cont_rset right?
+13:03:33[19:45:13] <&ironcamel       > can you explain to me how you came up with the new logic
+13:03:33[19:45:38] <&alnewkirk       > yes ... and yes
+13:03:33[19:46:55] <&alnewkirk       > using the status map defined in the contribution result object, I created a query for all positive contirbutions
+13:03:33[19:50:35] <&ironcamel       > i believe that is also the goal of the cont_rset() method
+13:03:33[19:50:50] <&alnewkirk       > ...
+13:03:33[19:51:06] <&alnewkirk       > brb
+13:03:33[19:51:52] <&alnewkirk       > so cont_rset queries for (-not_in => [qw(preauth_accepted preauth_refunded postauth_refunded)]) ...
+13:03:33[19:52:00] <&ironcamel       > yeah :/
+13:03:33[19:52:04] <&ironcamel       > i kinda like your way better
+13:03:33[19:52:26] <&alnewkirk       > which kinda suggests that postauth_rejected, ???_rejected, etc could be returned also
+13:03:33[19:52:40] <&ironcamel       > well, the reason that the cont_rset logic may still be correct
+13:03:33[19:52:50] <&ironcamel       > is if those status are no longer valid statuses
+13:03:33[19:53:00] <&ironcamel       > we used to have a different payment processor, called poundpay
+13:03:33[19:53:09] <&ironcamel       > and some of the status we used then, we no longer use
+13:03:33[19:53:17] <&alnewkirk       > ... not to mention, a status of preauth_accepted, seems valid in the query I'm trtying to construct
+13:03:33[19:53:35] <&ironcamel       > again, preauth_accepted does not exist anymore i believe
+13:03:33[19:53:44] <&ironcamel       > it is not even in that hash map that you pasted
+13:03:33[19:53:52] <&alnewkirk       > is there a master list of possible statuses?
+13:03:33[19:53:56] <&ironcamel       > yes
+13:03:33[19:54:06] <&ironcamel       > select distinct status from contributions;
+13:03:33[19:54:07] <&alnewkirk       > but it is in the cont_rset criteria
+13:03:33[19:54:23] <&ironcamel       > yeah
+13:03:33[19:54:41] <&alnewkirk       > ironcamel: that just shows whats in the database at the time, not what possibilities there are
+13:03:33[19:54:50] <&ironcamel       > yeah
+13:03:33[19:54:59] <&ironcamel       > i don't know what the current possibilities are
+13:03:33[19:55:09] <&ironcamel       > not at the time
+13:03:33[19:55:14] <&alnewkirk       > me either, so I did the best I could :}
+13:03:33[19:55:17] <&ironcamel       > it shows the possibilities of all time
+13:03:33[19:55:22] <&alnewkirk       > seemed valid at the time
+13:03:33[19:55:28] <&ironcamel       > right
+13:03:33[19:55:35] <&ironcamel       > so the best way to do it is to centralize the logic
+13:03:33[19:55:40] <&ironcamel       > and use existing logic
+13:03:33[19:55:42] <&StoneCypher     > you know what else seemed valid at the time?  disco.
+13:03:33[19:55:43] <&alnewkirk       > well ... maybe, if run against the production database
+13:03:33[19:55:44] <&ironcamel       > instead of creating new logic
+13:03:33[19:55:45] <&alnewkirk       > maybe
+13:03:33[19:55:50] <&throughnothing  > select distinct status from contributions will give you all the possibilities as well
+13:03:33[19:55:59] <&ironcamel       > alnewkirk: your db in vagrant is a copy of the production db
+13:03:33[19:56:09] <&ironcamel       > throughnothing: isnt that what i said?
+13:03:33[19:56:21] <&throughnothing  > yeah
+13:03:33[19:56:24] <&throughnothing  > i was validating it
+13:03:33[19:56:59] <&ironcamel       > throughnothing: can you look at https://github.com/Crowdtilt/crowdtilt-internal-api/pull/798/files#L0R639
+13:03:33[19:56:59] <&tiltbot         > [PR-798](alnewkirk) BACK-441: Restore of max contribution limit per user per campaign
+13:03:33[19:57:22] <&ironcamel       > throughnothing: my concern is that it is different than the logic cont_rset() uses
+13:03:33[19:57:27] <&ironcamel       > in the Campaign dbic class
+13:03:33[19:57:35] <&ironcamel       > lib/Crowdtilt/Internal/API/Schema/Result/Campaign.pm
+13:03:33[19:59:32] <&ironcamel       > alnewkirk: what i think would be really cool is if you made a ResultSet class for the Contribution resultset, like you did in your other PR
+13:03:33[19:59:52] <&ironcamel       > and we put the cont_rset method in there
+13:03:33[19:59:59] <&alnewkirk       > or, -and => [ status => Crowdtilt::Internal::API::Schema::Result::Campaign::_cont_status_not_in, ... ]
+13:03:33[20:00:00] <&alnewkirk       > lol
+13:03:33[20:00:06] <&ironcamel       > then i think both the Campaign and Contribution dbic class could take advantage of it
+13:03:33[20:00:23] <&ironcamel       > no, not like that
+13:03:33[20:00:35] <&ironcamel       > make cont_rset a method of the new ResultSet class
+13:03:33[20:00:38] <&alnewkirk       > ironcamel: solid proposition
+13:03:33[20:00:49] <&alnewkirk       > I know, it was humor
+13:03:33[20:00:50] <&ironcamel       > maybe give it a better name, lol
+13:03:33[20:00:56] <&ironcamel       > than cont_rset
+13:03:33[20:01:22] <&alnewkirk       > doing it now
+13:03:33[20:01:25] <&ironcamel       > sweet
+13:03:33[20:03:06] <&alnewkirk       > what should we call it?
+13:03:33[20:03:19] <&alnewkirk       > active_contributions
+13:03:33[20:03:25] <&alnewkirk       > positive_contributions
+13:03:33::: StoneSurface changed the topic of crowdtilt@conference.jabber.crowdtilt.com to: Not Crowdtilt
+13:03:44<&alnewkirk> green_contributions
