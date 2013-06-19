@@ -4411,3 +4411,1079 @@
 23:33:07</:>/:?/:g cIrssi:c nm.pl: Error: trying to set unknown color '%ZarebaZarebag'
 23:33:07</:>/:?/:g cIrssi:c nm.pl: Available colors: 4/r</R2/g:/G6/y>/Y5/m=/M3/c;/C5/p=/P7/w?/W/41/22/63/55/36/77d8c9bU
 --- Log closed Tue Jun 18 23:37:02 2013
+--- Log opened Wed Jun 19 11:11:13 2013
+11:11:13</:>/:?/:g mode/6/crowdtilt@conference.jabber.crowdtilt.comg 3/[g+Mp Mars3/]g by ccrowdtilt@conference.jabber.crowdtilt.comc
+11:11:13</:>/:?/:g cIrssi:c 6/crowdtilt@conference.jabber.crowdtilt.comg: Total of c15c nicks 3/[gc13c ops, c0c halfops, c2c voices, c0c normal3/]g
+11:11:13</:>/:?/:g cIrssi:c Join to 6/crowdtilt@conference.jabber.crowdtilt.comg was synced in c0c secs
+11:11:133/[g3/08:28:52g3/]g cc<ccc;/throughnothing  g> eprobably on the client (ios and website)
+11:11:133/[g3/08:29:00g3/]g cc<ccc;/throughnothing  g> enot necessarily client side though (browser)
+11:11:133/[g3/08:30:05g3/]g cc<ccc;/throughnothing  g> eman $53k in the last 24 hours
+11:11:133/[g3/08:30:08g3/]g cc<ccc;/throughnothing  g> ecrazy awesomezness
+11:11:133/[g3/08:30:44g3/]g cc<c&cc;/DelvarWorld     g> ewe can do it
+11:11:133/[g3/08:30:50g3/]g cc<c&cc;/DelvarWorld     g> ewe'd have to retroactively change admin updates tho ? :(
+11:11:133/[g3/08:31:10g3/]g cc<ccc;/throughnothing  g> eyeah, i think thats easy
+11:11:133/[g3/08:31:13g3/]g cc<ccc;/throughnothing  g> ejust html strip those bitches
+11:11:133/[g3/08:31:31g3/]g cc<ccc;/throughnothing  g> ewe're going to need a similar solution for campaign description :/
+11:11:133/[g3/08:31:34g3/]g cc<ccc;/throughnothing  g> enot sure how to handle that yet
+11:11:133/[g3/08:31:41g3/]g cc<ccc;/throughnothing  g> eand we currently have HTML Entities in campaign titles too
+11:11:133/[g3/08:31:43g3/]g cc<ccc;/throughnothing  g> ewhich is an issue
+11:11:133/[g3/08:32:28g3/]g cc<c&cc;/DelvarWorld     g> ehrmph
+11:11:133/[g3/08:32:34g3/]g cc<c&cc;/DelvarWorld     g> eI mean, we want descriptions to be rich
+11:11:133/[g3/08:32:46g3/]g cc<c&cc;/DelvarWorld     g> ecould weeeee
+11:11:133/[g3/08:32:48g3/]g cc<c&cc;/DelvarWorld     g> eparse them?
+11:11:133/[g3/08:32:53g3/]g cc<c&cc;/DelvarWorld     g> ethe editor outputs well formed html
+11:11:133/[g3/08:34:26g3/]g cc<ccc;/throughnothing  g> eone option
+11:11:133/[g3/08:34:30g3/]g cc<ccc;/throughnothing  g> eis to html strip on the way in
+11:11:133/[g3/08:34:34g3/]g cc<ccc;/throughnothing  g> eand store it in a description_raw field
+11:11:133/[g3/08:34:44g3/]g cc<ccc;/throughnothing  g> eand ios can use that
+11:11:133/[g3/08:34:52g3/]g cc<ccc;/throughnothing  g> ei don't really like that, but it works (i think™)
+11:11:133/[g3/08:35:05g3/]g cc<c&cc;/DelvarWorld     g> eI want to know if ios can do bold, italic, linked and underline (lists??)
+11:11:133/[g3/08:35:19g3/]g cc<c&cc;/DelvarWorld     g> eI don't know what the technical limitations are of ios
+11:11:133/[g3/08:35:26g3/]g cc<ccc;/throughnothing  g> eironcamel: +1 on 804
+11:11:133/[g3/08:35:31g3/]g cc<ccc;/throughnothing  g> ehttps://github.com/Crowdtilt/crowdtilt-internal-api/pull/804
+11:11:133/[g3/08:35:31g3/]g cc<c&cc;/tiltbot         g> e[PR-804](ironcamel) Updated the api script to not try to set api_users.role.
+11:11:133/[g3/08:35:36g3/]g cc<c&cc;/ironcamel       g> ethanks
+11:11:133/[g3/08:35:44g3/]g cc<ccc;/throughnothing  g> eDelvarWorld: it can do them but apparently its a pain in the ass
+11:11:133/[g3/08:35:49g3/]g cc<ccc;/throughnothing  g> ei think the 'right' way to do it
+11:11:133/[g3/08:35:51g3/]g cc<c&cc;/DelvarWorld     g> ethroughnothing:  way to take my idea and run with it
+11:11:133/[g3/08:36:01g3/]g cc<ccc;/throughnothing  g> eis to use an incredibly simple markup language that supports only the subset of things we want
+11:11:133/[g3/08:36:03g3/]g cc<c&cc;/DelvarWorld     g> eI think if we take away lists that's a bad user experience
+11:11:133/[g3/08:36:07g3/]g cc<ccc;/throughnothing  g> eagreed
+11:11:133/[g3/08:36:10g3/]g cc<ccc;/throughnothing  g> elists, links, and bold
+11:11:133/[g3/08:36:11g3/]g cc<c&cc;/DelvarWorld     g> ebold and italic I could live without
+11:11:133/[g3/08:36:12g3/]g cc<ccc;/throughnothing  g> ewe need for sure
+11:11:133/[g3/08:36:16g3/]g cc<c&cc;/DelvarWorld     g> eor that
+11:11:133/[g3/08:36:19g3/]g cc<c&cc;/DelvarWorld     g> elinks definitely
+11:11:133/[g3/08:36:25g3/]g cc<ccc;/throughnothing  g> eyeah bold and italic i could live without
+11:11:133/[g3/08:36:30g3/]g cc<c&cc;/DelvarWorld     g> ethat's all our editor supports anyway
+11:11:133/[g3/08:36:31g3/]g cc<ccc;/throughnothing  g> eso if we had like a super simple markdown
+11:11:133/[g3/08:36:36g3/]g cc<ccc;/throughnothing  g> ethat could only do UL/OL and links
+11:11:133/[g3/08:36:39g3/]g cc<c&cc;/DelvarWorld     g> ewe can just strip out the other bullsh that can come in from pasting
+11:11:133/[g3/08:36:43g3/]g cc<ccc;/throughnothing  g> eand just parse them on the web client
+11:11:133/[g3/08:36:49g3/]g cc<ccc;/throughnothing  g> eand build a parser on the ios side
+11:11:133/[g3/08:36:55g3/]g cc<ccc;/throughnothing  g> ebut we'd have to migrate all existing descriptions
+11:11:133/[g3/08:37:59g3/]g cc<ccc;/throughnothing  g> ehttps://crowdtilt.atlassian.net/browse/SITE-1432
+11:11:133/[g3/08:37:59g3/]g cc<c&cc;/tiltbot         g> e[SITE-1432](Important) Open: andy => Make all comments/admin updates plain text in the db https://crowdtilt.atlassian.net/browse/SITE-1432
+11:11:133/[g3/08:38:10g3/]g cc<c&cc;/DelvarWorld     g> edurrrrrph
+11:11:133/[g3/08:38:57g3/]g cc<ccc;/throughnothing  g> ewhat about html entities in titles?
+11:11:133/[g3/08:40:51g3/]g cc<ccc;/throughnothing  g> eDelvarWorld: ^
+11:11:133/[g3/08:41:48g3/]g cc<c&cc;/DelvarWorld     g> ethroughnothing:  uhhhhhh
+11:11:133/[g3/08:41:56g3/]g cc<c&cc;/DelvarWorld     g> ewe could map them to non-entity equivalents
+11:11:133/[g3/08:42:17g3/]g cc<c&cc;/DelvarWorld     g> ewhat the hell is ios, ie6? these limitations are barfy
+11:11:133/[g3/08:42:41g3/]g cc<c&cc;/DelvarWorld     g> ethroughnothing:  june startup ride is tmrw :O
+11:11:133/[g3/08:45:12g3/]g cc<ccc;/throughnothing  g> ei know
+11:11:133/[g3/08:45:14g3/]g cc<ccc;/throughnothing  g> ei kant go :(
+11:11:133/[g3/08:45:27g3/]g cc<ccc;/throughnothing  g> ei'm getting dinner with an indian couple who may be helping angelle get a job in SF
+11:11:133/[g3/08:45:36g3/]g cc<ccc;/throughnothing  g> eat Amber India in mission
+11:11:133/[g3/08:45:49g3/]g cc<c&cc;/ironcamel       g> ei pray for your ass
+11:11:133/[g3/08:46:01g3/]g cc<c&cc;/ironcamel       g> ethe day after your dinner
+11:11:133/[g3/08:48:39g3/]g cc<ccc;/throughnothing  g> ei do fine with indian
+11:11:133/[g3/08:48:39g3/]g cc<c&cc;/DelvarWorld     g> eoooooh shat
+11:11:133/[g3/08:48:46g3/]g cc<ccc;/throughnothing  g> ei eat indian a lot, its great in sf
+11:11:133/[g3/08:48:49g3/]g cc<c&cc;/DelvarWorld     g> ei've always wanted to date an indian woman
+11:11:133/[g3/08:49:09g3/]g cc<c&cc;/DelvarWorld     g> ei've always wanted to date a woman
+11:11:133/[g3/08:50:18g3/]g cc<c&cc;/ironcamel       g> enice
+11:11:133/[g3/08:50:44g3/]g cc<ccc;/throughnothing  g> eDelvarWorld: good luck
+11:11:133/[g3/08:50:59g3/]g cc<c&cc;/ironcamel       g> edammit, al was here the whole time, and didn't say hi
+11:11:133/[g3/08:51:22g3/]g cc<ccc;/throughnothing  g> eLOL
+11:11:133/[g3/09:02:43g3/]g cc<ccc;/throughnothing  g> eNITE
+11:11:133/[g3/09:21:20g3/]g cc<c&cc;/DelvarWorld     g> ewhat's the back end status for split costs?
+11:11:133/[g3/09:25:43g3/]g cc<c&cc;/tiltbot         g> e[Jenkins: Public-Site-PRs (4c5ea8)] failure http://107.23.70.121:8080/job/Public-Site-PRs/1638/
+11:11:133/[g3/09:34:43g3/]g cc<c&cc;/ironcamel       g> eDelvarWorld: its almost ready
+11:11:133/[g3/09:36:23g3/]g cc<c&cc;/DelvarWorld     g> egoodnighcamel
+11:11:133/[g3/10:58:45g3/]g cc<c&cc;/tiltbot         g> e[crowdtilt-internal-api] PR-805 'Defined a trigger to audit the pocomq messages table.' opened by ironcamel http://git.io/x-HR5Q
+11:11:133/[g3/11:07:32g3/]g cc<c&cc;/tiltbot         g> e[Jenkins: API-PRs (bcc2a1)] success http://107.23.70.121:8080/job/API-PRs/1689/
+11:11:133/[g3/11:10:01g3/]g cc<c&cc;/tiltbot         g> e[Jenkins: API-PRs (ef1af0)] success http://107.23.70.121:8080/job/API-PRs/1688/
+11:11:133/[g3/15:42:11g3/]g cc<c&cc;/tiltbot         g> eSuccessful Chef run with git deploy on node metrics1
+11:11:133/[g3/17:00:45g3/]g cc<c&cc;/StoneCypher     g> eMy laptop has figured out how to troll me
+11:11:133/[g3/17:01:10g3/]g cc<c&cc;/StoneCypher     g> e[01:35:59] <throughnothing> is to use an incredibly simple markup language that supports only the subset of things we want
+11:11:133/[g3/17:01:14g3/]g cc<c&cc;/StoneCypher     g> eso like ... markdown?
+11:11:133/[g3/17:08:32g3/]g cc<c&cc;/tiltbot         g> e[Jenkins: Chef-Stage (dev)] success http://107.23.70.121:8080/job/Chef-Stage/198/
+11:11:133/[g3/17:09:43g3/]g cc<c&cc;/alnewkirk       g> emorning all
+11:11:133/[g3/17:09:43g3/]g cc<c&cc;/tiltbot         g> e[Jenkins: Chef-Deploy (master)] success http://107.23.70.121:8080/job/Chef-Deploy/77/
+11:11:133/[g3/17:27:02g3/]g cc<c&cc;/tiltbot         g> eSuccessful Chef run with git deploy on node staging-database1
+11:11:133/[g3/17:30:28g3/]g cc<c&cc;/MachinShin      g> eironcamel, DelvarWorld: actually, the backend for split-costs is ready to go. once frontend is ready, we'll want to do a rebase before merging into dev ( i figure we'll probably have at least a few merges of minor tickets by then). 
+11:11:133/[g3/17:49:34g3/]g cc<c&cc;/tiltbot         g> e[Jenkins: API-PRs (832358)] success http://107.23.70.121:8080/job/API-PRs/1691/
+11:11:133/[g3/17:54:22g3/]g cc<c&cc;/alnewkirk       g> epingo
+11:11:133/[g3/17:54:55g3/]g cc<c&cc;/MachinShin      g> epango
+11:11:133/[g3/17:54:56g3/]g cc<c&cc;/DelvarWorld     g> emarco?
+11:11:133/[g3/17:55:05g3/]g cc<c&cc;/alnewkirk       g> eyoyo
+11:11:133/[g3/18:00:32g3/]g cc<c&cc;/DelvarWorld     g> eour top hit right now on the site is the unsubscribe link :X
+11:11:133/[g3/18:01:17g3/]g cc<c&cc;/DelvarWorld     g> e1. /unsubscribe/post   6  10.34%
+11:11:133/[g3/18:01:55g3/]g cc<c&cc;/alnewkirk       g> elinkedin is the worst offender I've ever experienced
+11:11:133/[g3/18:04:11g3/]g cc<c&cc;/ghostface phillag> ealnewkirk: +1
+11:11:133/[g3/18:04:21g3/]g cc<c&cc;/ghostface phillag> eit was up to 22 earlier andy ;(
+11:11:133/[g3/18:07:55g3/]g cc<c&cc;/DelvarWorld     g> emsaint said we just did an email blast
+11:11:133/[g3/18:09:00g3/]g cc<c&cc;/MachinShin      g> eoh. yah. the [Tilted Week] email
+11:11:13</:>/:?/:g cStoneSurfacec changed the topic of 6/crowdtilt@conference.jabber.crowdtilt.comg to: Not Crowdtilt
+11:13:51</:>/:?/:g mode/6/crowdtilt@conference.jabber.crowdtilt.comg 3/[g+Om dsog3/]g by ccrowdtilt@conference.jabber.crowdtilt.comc
+11:15:15cc<c&cc;/02/magoog> eCRITICAL Errors in www.log <http://www.log> (tag www-log)
+11:15:15[de8c213d450eff1481935698f9154182] [hit #946] [19/Jun/2013 18:08:04] API REQUEST: POST http://internal-Prod-API-LB-1125472390.us-east-1.elb.amazonaws.com:5000/campaigns/8941/contributions API REQUEST DATA: {"contribution":{"expiration_year":"2016","amount":600,"brand_amount":0,"security_code": "XXX","user_id":"59064","expiration_month":"02","card_number": "XXX"}} RES STATUS: 500 Internal Server Error API RESPONSE: {"error":"Can't call method \"store_custom_fields\" on an undefined value at /opt/crowdtilt-internal-api/lib/Crowdtilt/Internal/API/Campaign.pm line 1410.\n"}
+11:15:20cc<c&cc;/02/magoog> eapi2 ^
+11:15:40cc<c&cc;/02/magoog> eMachinShin: your script is coming in very handy :)
+11:16:47</:>/:?/:g mode/6/crowdtilt@conference.jabber.crowdtilt.comg 3/[g+Om throughnothing3/]g by ccrowdtilt@conference.jabber.crowdtilt.comc
+11:18:44cc<c&cc;/0?/StoneCypherg> eI can *not* stop laughing.  http://www.wisdomofchopra.com/
+11:18:53cc<c&cc;/0?/StoneCypherg> emagoo: there's your internet randomness for the day, and then some
+11:21:30cc<c&cc;/02/throughnothingg> eStoneCypher: http://www.espetus.com/
+11:22:28cc<c&cc;/02/throughnothingg> ealnewkirk: ping
+11:22:34cc<c&cc;/02/throughnothingg> e/magoo> CRITICAL Errors in www.log <http://www.log/> (tag www-log)
+11:22:34[de8c213d450eff1481935698f9154182] [hit #946] [19/Jun/2013 18:08:04] API REQUEST: POST http://internal-Prod-API-LB-1125472390.us-east-1.elb.amazonaws.com:5000/campaigns/8941/contributions API REQUEST DATA: {"contribution":{"expiration_year":"2016","amount":600,"brand_amount":0,"security_code": "XXX","user_id":"59064","expiration_month":"02","card_number": "XXX"}} RES STATUS: 500 Internal Server Error API RESPONSE: {"error":"Can't call method \"store_custom_fields\" on an undefined value at /opt/crowdtilt-internal-api/lib/Crowdtilt/Internal/API/Campaign.pm line 1410.\n"}
+11:22:34˜/magoo> api2 ^
+11:22:40cc<c&cc;/0>/MachinShing> emagoo: um.. thanks i guess :P i was talking w/ will, some of those are expcted. like the ones w/ request_id are from balanced. 
+11:22:52cc<c&cc;/0>/MachinShing> eso they're "ok". and should be triggered down to warning. 
+11:23:17cc<c&cc;/02/magoog> ethroughnothing: I pasted that before you entered 
+--- Log closed Wed Jun 19 11:23:19 2013
+--- Log opened Wed Jun 19 11:23:30 2013
+11:23:30</:>/:?/:g mode/6/crowdtilt@conference.jabber.crowdtilt.comg 3/[g+Mp Mars3/]g by ccrowdtilt@conference.jabber.crowdtilt.comc
+11:23:30</:>/:?/:g cIrssi:c 6/crowdtilt@conference.jabber.crowdtilt.comg: Total of c17c nicks 3/[gc15c ops, c0c halfops, c2c voices, c0c normal3/]g
+11:23:30</:>/:?/:g cIrssi:c Join to 6/crowdtilt@conference.jabber.crowdtilt.comg was synced in c0c secs
+11:23:303/[g3/08:31:43g3/]g cc<c&cc;/throughnothing  g> ewhich is an issue
+11:23:303/[g3/08:32:28g3/]g cc<c&cc;/DelvarWorld     g> ehrmph
+11:23:303/[g3/08:32:34g3/]g cc<c&cc;/DelvarWorld     g> eI mean, we want descriptions to be rich
+11:23:303/[g3/08:32:46g3/]g cc<c&cc;/DelvarWorld     g> ecould weeeee
+11:23:303/[g3/08:32:48g3/]g cc<c&cc;/DelvarWorld     g> eparse them?
+11:23:303/[g3/08:32:53g3/]g cc<c&cc;/DelvarWorld     g> ethe editor outputs well formed html
+11:23:303/[g3/08:34:26g3/]g cc<c&cc;/throughnothing  g> eone option
+11:23:303/[g3/08:34:30g3/]g cc<c&cc;/throughnothing  g> eis to html strip on the way in
+11:23:303/[g3/08:34:34g3/]g cc<c&cc;/throughnothing  g> eand store it in a description_raw field
+11:23:303/[g3/08:34:44g3/]g cc<c&cc;/throughnothing  g> eand ios can use that
+11:23:303/[g3/08:34:52g3/]g cc<c&cc;/throughnothing  g> ei don't really like that, but it works (i think™)
+11:23:303/[g3/08:35:05g3/]g cc<c&cc;/DelvarWorld     g> eI want to know if ios can do bold, italic, linked and underline (lists??)
+11:23:303/[g3/08:35:19g3/]g cc<c&cc;/DelvarWorld     g> eI don't know what the technical limitations are of ios
+11:23:303/[g3/08:35:26g3/]g cc<c&cc;/throughnothing  g> eironcamel: +1 on 804
+11:23:303/[g3/08:35:31g3/]g cc<c&cc;/throughnothing  g> ehttps://github.com/Crowdtilt/crowdtilt-internal-api/pull/804
+11:23:303/[g3/08:35:31g3/]g cc<c&cc;/tiltbot         g> e[PR-804](ironcamel) Updated the api script to not try to set api_users.role.
+11:23:303/[g3/08:35:36g3/]g cc<c&cc;/ironcamel       g> ethanks
+11:23:303/[g3/08:35:44g3/]g cc<c&cc;/throughnothing  g> eDelvarWorld: it can do them but apparently its a pain in the ass
+11:23:303/[g3/08:35:49g3/]g cc<c&cc;/throughnothing  g> ei think the 'right' way to do it
+11:23:303/[g3/08:35:51g3/]g cc<c&cc;/DelvarWorld     g> ethroughnothing:  way to take my idea and run with it
+11:23:303/[g3/08:36:01g3/]g cc<c&cc;/throughnothing  g> eis to use an incredibly simple markup language that supports only the subset of things we want
+11:23:303/[g3/08:36:03g3/]g cc<c&cc;/DelvarWorld     g> eI think if we take away lists that's a bad user experience
+11:23:303/[g3/08:36:07g3/]g cc<c&cc;/throughnothing  g> eagreed
+11:23:303/[g3/08:36:10g3/]g cc<c&cc;/throughnothing  g> elists, links, and bold
+11:23:303/[g3/08:36:11g3/]g cc<c&cc;/DelvarWorld     g> ebold and italic I could live without
+11:23:303/[g3/08:36:12g3/]g cc<c&cc;/throughnothing  g> ewe need for sure
+11:23:303/[g3/08:36:16g3/]g cc<c&cc;/DelvarWorld     g> eor that
+11:23:303/[g3/08:36:19g3/]g cc<c&cc;/DelvarWorld     g> elinks definitely
+11:23:303/[g3/08:36:25g3/]g cc<c&cc;/throughnothing  g> eyeah bold and italic i could live without
+11:23:303/[g3/08:36:30g3/]g cc<c&cc;/DelvarWorld     g> ethat's all our editor supports anyway
+11:23:303/[g3/08:36:31g3/]g cc<c&cc;/throughnothing  g> eso if we had like a super simple markdown
+11:23:303/[g3/08:36:36g3/]g cc<c&cc;/throughnothing  g> ethat could only do UL/OL and links
+11:23:303/[g3/08:36:39g3/]g cc<c&cc;/DelvarWorld     g> ewe can just strip out the other bullsh that can come in from pasting
+11:23:303/[g3/08:36:43g3/]g cc<c&cc;/throughnothing  g> eand just parse them on the web client
+11:23:303/[g3/08:36:49g3/]g cc<c&cc;/throughnothing  g> eand build a parser on the ios side
+11:23:303/[g3/08:36:55g3/]g cc<c&cc;/throughnothing  g> ebut we'd have to migrate all existing descriptions
+11:23:303/[g3/08:37:59g3/]g cc<c&cc;/throughnothing  g> ehttps://crowdtilt.atlassian.net/browse/SITE-1432
+11:23:303/[g3/08:37:59g3/]g cc<c&cc;/tiltbot         g> e[SITE-1432](Important) Open: andy => Make all comments/admin updates plain text in the db https://crowdtilt.atlassian.net/browse/SITE-1432
+11:23:303/[g3/08:38:10g3/]g cc<c&cc;/DelvarWorld     g> edurrrrrph
+11:23:303/[g3/08:38:57g3/]g cc<c&cc;/throughnothing  g> ewhat about html entities in titles?
+11:23:303/[g3/08:40:51g3/]g cc<c&cc;/throughnothing  g> eDelvarWorld: ^
+11:23:303/[g3/08:41:48g3/]g cc<c&cc;/DelvarWorld     g> ethroughnothing:  uhhhhhh
+11:23:303/[g3/08:41:56g3/]g cc<c&cc;/DelvarWorld     g> ewe could map them to non-entity equivalents
+11:23:303/[g3/08:42:17g3/]g cc<c&cc;/DelvarWorld     g> ewhat the hell is ios, ie6? these limitations are barfy
+11:23:303/[g3/08:42:41g3/]g cc<c&cc;/DelvarWorld     g> ethroughnothing:  june startup ride is tmrw :O
+11:23:303/[g3/08:45:12g3/]g cc<c&cc;/throughnothing  g> ei know
+11:23:303/[g3/08:45:14g3/]g cc<c&cc;/throughnothing  g> ei kant go :(
+11:23:303/[g3/08:45:27g3/]g cc<c&cc;/throughnothing  g> ei'm getting dinner with an indian couple who may be helping angelle get a job in SF
+11:23:303/[g3/08:45:36g3/]g cc<c&cc;/throughnothing  g> eat Amber India in mission
+11:23:303/[g3/08:45:49g3/]g cc<c&cc;/ironcamel       g> ei pray for your ass
+11:23:303/[g3/08:46:01g3/]g cc<c&cc;/ironcamel       g> ethe day after your dinner
+11:23:303/[g3/08:48:39g3/]g cc<c&cc;/throughnothing  g> ei do fine with indian
+11:23:303/[g3/08:48:39g3/]g cc<c&cc;/DelvarWorld     g> eoooooh shat
+11:23:303/[g3/08:48:46g3/]g cc<c&cc;/throughnothing  g> ei eat indian a lot, its great in sf
+11:23:303/[g3/08:48:49g3/]g cc<c&cc;/DelvarWorld     g> ei've always wanted to date an indian woman
+11:23:303/[g3/08:49:09g3/]g cc<c&cc;/DelvarWorld     g> ei've always wanted to date a woman
+11:23:303/[g3/08:50:18g3/]g cc<c&cc;/ironcamel       g> enice
+11:23:303/[g3/08:50:44g3/]g cc<c&cc;/throughnothing  g> eDelvarWorld: good luck
+11:23:303/[g3/08:50:59g3/]g cc<c&cc;/ironcamel       g> edammit, al was here the whole time, and didn't say hi
+11:23:303/[g3/08:51:22g3/]g cc<c&cc;/throughnothing  g> eLOL
+11:23:303/[g3/09:02:43g3/]g cc<c&cc;/throughnothing  g> eNITE
+11:23:303/[g3/09:21:20g3/]g cc<c&cc;/DelvarWorld     g> ewhat's the back end status for split costs?
+11:23:303/[g3/09:25:43g3/]g cc<c&cc;/tiltbot         g> e[Jenkins: Public-Site-PRs (4c5ea8)] failure http://107.23.70.121:8080/job/Public-Site-PRs/1638/
+11:23:303/[g3/09:34:43g3/]g cc<c&cc;/ironcamel       g> eDelvarWorld: its almost ready
+11:23:303/[g3/09:36:23g3/]g cc<c&cc;/DelvarWorld     g> egoodnighcamel
+11:23:303/[g3/10:58:45g3/]g cc<c&cc;/tiltbot         g> e[crowdtilt-internal-api] PR-805 'Defined a trigger to audit the pocomq messages table.' opened by ironcamel http://git.io/x-HR5Q
+11:23:303/[g3/11:07:32g3/]g cc<c&cc;/tiltbot         g> e[Jenkins: API-PRs (bcc2a1)] success http://107.23.70.121:8080/job/API-PRs/1689/
+11:23:303/[g3/11:10:01g3/]g cc<c&cc;/tiltbot         g> e[Jenkins: API-PRs (ef1af0)] success http://107.23.70.121:8080/job/API-PRs/1688/
+11:23:303/[g3/15:42:11g3/]g cc<c&cc;/tiltbot         g> eSuccessful Chef run with git deploy on node metrics1
+11:23:303/[g3/17:00:45g3/]g cc<c&cc;/StoneCypher     g> eMy laptop has figured out how to troll me
+11:23:303/[g3/17:01:10g3/]g cc<c&cc;/StoneCypher     g> e[01:35:59] <throughnothing> is to use an incredibly simple markup language that supports only the subset of things we want
+11:23:303/[g3/17:01:14g3/]g cc<c&cc;/StoneCypher     g> eso like ... markdown?
+11:23:303/[g3/17:08:32g3/]g cc<c&cc;/tiltbot         g> e[Jenkins: Chef-Stage (dev)] success http://107.23.70.121:8080/job/Chef-Stage/198/
+11:23:303/[g3/17:09:43g3/]g cc<c&cc;/alnewkirk       g> emorning all
+11:23:303/[g3/17:09:43g3/]g cc<c&cc;/tiltbot         g> e[Jenkins: Chef-Deploy (master)] success http://107.23.70.121:8080/job/Chef-Deploy/77/
+11:23:303/[g3/17:27:02g3/]g cc<c&cc;/tiltbot         g> eSuccessful Chef run with git deploy on node staging-database1
+11:23:303/[g3/17:30:28g3/]g cc<c&cc;/MachinShin      g> eironcamel, DelvarWorld: actually, the backend for split-costs is ready to go. once frontend is ready, we'll want to do a rebase before merging into dev ( i figure we'll probably have at least a few merges of minor tickets by then). 
+11:23:303/[g3/17:49:34g3/]g cc<c&cc;/tiltbot         g> e[Jenkins: API-PRs (832358)] success http://107.23.70.121:8080/job/API-PRs/1691/
+11:23:303/[g3/17:54:22g3/]g cc<c&cc;/alnewkirk       g> epingo
+11:23:303/[g3/17:54:55g3/]g cc<c&cc;/MachinShin      g> epango
+11:23:303/[g3/17:54:56g3/]g cc<c&cc;/DelvarWorld     g> emarco?
+11:23:303/[g3/17:55:05g3/]g cc<c&cc;/alnewkirk       g> eyoyo
+11:23:303/[g3/18:00:32g3/]g cc<c&cc;/DelvarWorld     g> eour top hit right now on the site is the unsubscribe link :X
+11:23:303/[g3/18:01:17g3/]g cc<c&cc;/DelvarWorld     g> e1. /unsubscribe/post   6  10.34%
+11:23:303/[g3/18:01:55g3/]g cc<c&cc;/alnewkirk       g> elinkedin is the worst offender I've ever experienced
+11:23:303/[g3/18:04:11g3/]g cc<c&cc;/ghostface phillag> ealnewkirk: +1
+11:23:303/[g3/18:04:21g3/]g cc<c&cc;/ghostface phillag> eit was up to 22 earlier andy ;(
+11:23:303/[g3/18:07:55g3/]g cc<c&cc;/DelvarWorld     g> emsaint said we just did an email blast
+11:23:303/[g3/18:09:00g3/]g cc<c&cc;/MachinShin      g> eoh. yah. the [Tilted Week] email
+11:23:303/[g3/18:15:14g3/]g cc<c&cc;/magoo           g> eCRITICAL Errors in www.log <http://www.log> (tag www-log)
+11:23:30[de8c213d450eff1481935698f9154182] [hit #946] [19/Jun/2013 18:08:04] API REQUEST: POST http://internal-Prod-API-LB-1125472390.us-east-1.elb.amazonaws.com:5000/campaigns/8941/contributions API REQUEST DATA: {"contribution":{"expiration_year":"2016","amount":600,"brand_amount":0,"security_code": "XXX","user_id":"59064","expiration_month":"02","card_number": "XXX"}} RES STATUS: 500 Internal Server Error API RESPONSE: {"error":"Can't call method \"store_custom_fields\" on an undefined value at /opt/crowdtilt-internal-api/lib/Crowdtilt/Internal/API/Campaign.pm line 1410.\n"}
+11:23:303/[g3/18:15:19g3/]g cc<c&cc;/magoo           g> eapi2 ^
+11:23:303/[g3/18:15:40g3/]g cc<c&cc;/magoo           g> eMachinShin: your script is coming in very handy :)
+11:23:303/[g3/18:18:43g3/]g cc<c&cc;/StoneCypher     g> eI can *not* stop laughing.  http://www.wisdomofchopra.com/
+11:23:303/[g3/18:18:52g3/]g cc<c&cc;/StoneCypher     g> emagoo: there's your internet randomness for the day, and then some
+11:23:303/[g3/18:21:29g3/]g cc<c&cc;/throughnothing  g> eStoneCypher: http://www.espetus.com/
+11:23:303/[g3/18:22:28g3/]g cc<c&cc;/throughnothing  g> ealnewkirk: ping
+11:23:303/[g3/18:22:33g3/]g cc<c&cc;/throughnothing  g> e/magoo> CRITICAL Errors in www.log <http://www.log/> (tag www-log)
+11:23:30[de8c213d450eff1481935698f9154182] [hit #946] [19/Jun/2013 18:08:04] API REQUEST: POST http://internal-Prod-API-LB-1125472390.us-east-1.elb.amazonaws.com:5000/campaigns/8941/contributions API REQUEST DATA: {"contribution":{"expiration_year":"2016","amount":600,"brand_amount":0,"security_code": "XXX","user_id":"59064","expiration_month":"02","card_number": "XXX"}} RES STATUS: 500 Internal Server Error API RESPONSE: {"error":"Can't call method \"store_custom_fields\" on an undefined value at /opt/crowdtilt-internal-api/lib/Crowdtilt/Internal/API/Campaign.pm line 1410.\n"}
+11:23:30˜/magoo> api2 ^
+11:23:303/[g3/18:22:39g3/]g cc<c&cc;/MachinShin      g> emagoo: um.. thanks i guess :P i was talking w/ will, some of those are expcted. like the ones w/ request_id are from balanced. 
+11:23:303/[g3/18:22:51g3/]g cc<c&cc;/MachinShin      g> eso they're "ok". and should be triggered down to warning. 
+11:23:303/[g3/18:23:16g3/]g cc<c&cc;/magoo           g> ethroughnothing: I pasted that before you entered 
+11:23:30</:>/:?/:g cStoneSurfacec changed the topic of 6/crowdtilt@conference.jabber.crowdtilt.comg to: Not Crowdtilt
+11:23:34cc<c&cc;/02/throughnothingg> emagoo: i know
+11:23:37cc<c&cc;/02/throughnothingg> ei repasted it to al
+11:23:43cc<c&cc;/02/throughnothingg> eb/c store_custom_fileds is al's stuff
+11:23:54cc<c&cc;/02/alnewkirkg> ethroughnothing: present
+11:24:57cc<c&cc;/02/alnewkirkg> eokay, looking
+11:26:04cc<c&cc;/06/dsogg> emagoo: yt?
+11:26:31cc<c&cc;/02/magoog> eyeah
+11:26:38cc<c&cc;/06/dsogg> eCheck your IM
+11:26:53cc<c&cc;/02/throughnothingg> ealnewkirk: thx! :)
+11:27:39cc<c&cc;/02/alnewkirkg> ethroughnothing: https://github.com/Crowdtilt/crowdtilt-internal-api/blob/9b08c32f1ffe1281e0fa7bb5ab3af58d5f8856f5/lib/Crowdtilt/Internal/API/Campaign.pm#L1410
+11:27:39cc<c&cc;/0=/tiltbotg> e[9b08c32f1ffe1281e0fa7bb5ab3af58d5f8856f5] /lib/Crowdtilt/Internal/API/Campaign.pm#L1410
+11:28:05cc<c&cc;/02/alnewkirkg> ethroughnothing: looks like create_contribution no longer returns a contribution object
+11:28:40cc<c&cc;/02/alnewkirkg> e... shouldnt it always return a contribution object?
+11:28:53cc<c&cc;/02/throughnothingg> ei believe it returns undef if there's a problem :/ and we have to check the reval
+11:29:16cc<c&cc;/02/alnewkirkg> ehrmmm
+11:30:07</:>/:?/:g mode/6/crowdtilt@conference.jabber.crowdtilt.comg 3/[g+Om Forest Belton3/]g by ccrowdtilt@conference.jabber.crowdtilt.comc
+11:30:23cc<c&cc;/02/throughnothingg> emagoo: https://api.crowdtilt.com/
+11:30:32cc<c&cc;/02/throughnothingg> eit seems like I can't hit routes above /v1 still
+11:31:09cc<c&cc;/02/alnewkirkg> ethroughnothing: we never checked the return value before, are you sure?
+11:32:07cc<c&cc;/02/magoog> ethroughnothing: let me verify the change
+11:33:04cc<c&cc;/02/magoog> ethe change didn't go in.... gonna chef again
+11:34:16cc<c&cc;/03/DelvarWorldg> eForest Belton:  StoneCypher https://docs.google.com/a/crowdtilt.com/spreadsheet/ccc?key=0Aucq2-ZAoddWdDhHY0lWZmNmNkoyM2ROVGs4Vkk0RXc#gid=0
+11:35:11cc<c&cc;/05/Forest Beltong> edanke
+11:36:43cc<c&cc;/02/magoog> ethroughnothing: guess chef has been hung on staging-www1 for some time now
+11:36:51cc<c&cc;/02/magoog> enehow, it should work if you'll try again
+11:37:51cc<c&cc;/03/DelvarWorldg> eForest Belton:  StoneCypher front end and back end branches are both named split-costs
+11:40:16</:>/:?/:g mode/6/crowdtilt@conference.jabber.crowdtilt.comg 3/[g+Om ghostface philla3/]g by ccrowdtilt@conference.jabber.crowdtilt.comc
+11:41:40cc<c&cc;/0?/StoneCypherg> ehipsterism distilled: http://i.imgur.com/QC1SNuN.jpg
+11:42:43cc<c&cc;/0>/MachinShing> ehahahaha
+11:42:53</:>/:?/:g mode/6/crowdtilt@conference.jabber.crowdtilt.comg 3/[g+Om castral3/]g by ccrowdtilt@conference.jabber.crowdtilt.comc
+11:44:48cc<c&cc;/03/DelvarWorldg> eoooh I don't think we need the /quantity route anymore
+11:47:36</:>/:?/:g mode/6/crowdtilt@conference.jabber.crowdtilt.comg 3/[g+Om MachinShin3/]g by ccrowdtilt@conference.jabber.crowdtilt.comc
+11:49:42cc<c&cc;/02/throughnothingg> emagoo: im talking about prod, not staging
+11:50:05cc<c&cc;/02/magoog> eI made that change specific to staging
+11:51:24cc<c&cc;/03/DelvarWorldg> eMachinShin:  on the stats object, you don't give me max_quantity on campaign stats for a regular campaign that has max_quantity set (not split) - n  branch split-costs
+11:52:07cc<c&cc;/02/throughnothingg> emagoo: oh can we get it in production :)
+11:52:43cc<c&cc;/0>/MachinShing> emagoo: i was looking in nagios. what's the loghost box? 
+11:52:44cc<c&cc;/02/magoog> eyeah, it'll simplify the code, actually
+11:52:47cc<c&cc;/0>/MachinShing> eDelvarWorld: cool. 
+11:53:03cc<c&cc;/02/magoog> eMachinShin: loghost is the central rsyslog server that aggregates all logs from all systems
+11:53:11cc<c&cc;/02/throughnothingg> emagoo: sweet, i'll test it on staging to make sure its good
+11:53:19cc<c&cc;/02/throughnothingg> ethen if we could get it out to prod today that'd be awezome
+11:53:31cc<c&cc;/02/magoog> eok, let me know when you're done testing and I'll PR the change for prod
+11:53:53cc<c&cc;/0>/MachinShing> emagoo: just rsyslog? not app-logs? that'd be handy to have too. especially if we pusehd it to a postgres db or something.. 
+11:54:09cc<c&cc;/0</ironcamelg> ethroughnothing: yo
+11:54:22cc<c&cc;/02/throughnothingg> eironcamel: yo yo
+11:54:35cc<c&cc;/02/magoog> eMachinShin: rsyslog watches all our app files and then it goes to a custom postgres database called citusdb where we do all kinds of queries
+11:54:40cc<c&cc;/02/magoog> ehave you not heard of this before?
+11:55:00cc<c&cc;/0>/MachinShing> emagoo: apparently i didn't know much about it :)
+11:55:15c>/>>?/&c=/MachinShin      g>/<< e?/Mars: ^^^ re: our previous discussion :) 
+11:55:24cc<c&cc;/0>/MachinShing> e*lunch
+11:55:36cc<c&cc;/02/magoog> ewhen I get out there, I'll try to do some tech talks
+11:55:51cc<c&cc;/02/magoog> especifically regarding chef, metrics, and logging
+11:56:00cc<c&cc;/02/throughnothingg> ewoooo
+11:56:05cc<c&cc;/02/throughnothingg> emagoo: that'll be the bees kneez
+11:57:00>/cc<ccc</Mars            g>/> egMachinShin: wait. what'd i miss?
+11:59:28cc<c&cc;/0=/tiltbotg> e[chef] PR-221 'Allowing / for Nginx api requests' opened by mago0 http://git.io/xVIS6Q
+12:04:10cc<c&cc;/02/throughnothingg> emagoo: sweet, It looks like its good on staging
+12:04:12cc<c&cc;/02/throughnothingg> egonna test a few more things
+12:04:29cc<c&cc;/02/magoog> eok, have a look at that PR
+12:04:44cc<c&cc;/02/alnewkirkg> ethroughnothing: ironcamel: https://github.com/Crowdtilt/crowdtilt-internal-api/blob/dev/lib/Crowdtilt/Internal/BalancedPaymentsContribution.pm#L190
+12:04:44cc<c&cc;/0=/tiltbotg> e[dev] /lib/Crowdtilt/Internal/BalancedPaymentsContribution.pm#L190
+12:04:48cc<c&cc;/02/throughnothingg> emagoo: yup, it looks good on staging, i can't hit the routes as other users
+12:04:51cc<c&cc;/02/throughnothingg> ebut as our ct user i can
+12:05:08cc<c&cc;/0=/tiltbotg> e[Jenkins: API-PRs (4c4faa)] failure http://107.23.70.121:8080/job/API-PRs/1692/
+12:05:17cc<c&cc;/02/alnewkirkg> esame for GroupPaymentContribution.pm
+12:05:21cc<c&cc;/0=/tiltbotg> e[Jenkins: Public-Site-PRs (6781ef)] failure http://107.23.70.121:8080/job/Public-Site-PRs/1640/
+12:05:31</:>/:?/:g mode/6/crowdtilt@conference.jabber.crowdtilt.comg 3/[g+Om Forest Belton3/]g by ccrowdtilt@conference.jabber.crowdtilt.comc
+12:05:40cc<c&cc;/02/throughnothingg> ealnewkirk: not sure what ur saying
+12:05:47cc<c&cc;/02/alnewkirkg> eeither should always return a DBIC contribution object
+12:06:07cc<c&cc;/02/alnewkirkg> e... we should be trapping the execution but we've never did that
+12:06:11cc<c&cc;/02/throughnothingg> ewhat if it didn't make one
+12:06:52cc<c&cc;/0=/tiltbotg> e[Jenkins: Public-Site-PRs (af74e2)] failure http://107.23.70.121:8080/job/Public-Site-PRs/1639/
+12:07:14cc<c&cc;/0=/tiltbotg> e[Jenkins: API-PRs (a32de9)] success http://107.23.70.121:8080/job/API-PRs/1693/
+12:09:47cc<c&cc;/02/magoog> ethroughnothing: merged, we'll need to verify a chef run on staging-www1 one more time and then we'll be gtg on prod
+12:10:31cc<c&cc;/0=/tiltbotg> e[Jenkins: Chef-Stage (dev)] success http://107.23.70.121:8080/job/Chef-Stage/199/
+12:10:59cc<c&cc;/02/alnewkirkg> ethroughnothing: oh I see (fixing)
+--- Log closed Wed Jun 19 12:33:59 2013
+--- Log opened Wed Jun 19 12:34:01 2013
+12:34:01</:>/:?/:g mode/6/crowdtilt@conference.jabber.crowdtilt.comg 3/[g+Mp Mars3/]g by ccrowdtilt@conference.jabber.crowdtilt.comc
+12:34:01</:>/:?/:g cIrssi:c 6/crowdtilt@conference.jabber.crowdtilt.comg: Total of c19c nicks 3/[gc17c ops, c0c halfops, c2c voices, c0c normal3/]g
+12:34:01</:>/:?/:g cIrssi:c Join to 6/crowdtilt@conference.jabber.crowdtilt.comg was synced in c0c secs
+12:34:013/[g3/18:04:11g3/]g cc<c&cc;/ghostface phillag> ealnewkirk: +1
+12:34:013/[g3/18:04:21g3/]g cc<c&cc;/ghostface phillag> eit was up to 22 earlier andy ;(
+12:34:013/[g3/18:07:55g3/]g cc<c&cc;/DelvarWorld     g> emsaint said we just did an email blast
+12:34:013/[g3/18:09:00g3/]g cc<c&cc;/MachinShin      g> eoh. yah. the [Tilted Week] email
+12:34:013/[g3/18:15:14g3/]g cc<c&cc;/magoo           g> eCRITICAL Errors in www.log <http://www.log> (tag www-log)
+12:34:01[de8c213d450eff1481935698f9154182] [hit #946] [19/Jun/2013 18:08:04] API REQUEST: POST http://internal-Prod-API-LB-1125472390.us-east-1.elb.amazonaws.com:5000/campaigns/8941/contributions API REQUEST DATA: {"contribution":{"expiration_year":"2016","amount":600,"brand_amount":0,"security_code": "XXX","user_id":"59064","expiration_month":"02","card_number": "XXX"}} RES STATUS: 500 Internal Server Error API RESPONSE: {"error":"Can't call method \"store_custom_fields\" on an undefined value at /opt/crowdtilt-internal-api/lib/Crowdtilt/Internal/API/Campaign.pm line 1410.\n"}
+12:34:013/[g3/18:15:19g3/]g cc<c&cc;/magoo           g> eapi2 ^
+12:34:013/[g3/18:15:40g3/]g cc<c&cc;/magoo           g> eMachinShin: your script is coming in very handy :)
+12:34:013/[g3/18:18:43g3/]g cc<c&cc;/StoneCypher     g> eI can *not* stop laughing.  http://www.wisdomofchopra.com/
+12:34:013/[g3/18:18:52g3/]g cc<c&cc;/StoneCypher     g> emagoo: there's your internet randomness for the day, and then some
+12:34:013/[g3/18:21:29g3/]g cc<c&cc;/throughnothing  g> eStoneCypher: http://www.espetus.com/
+12:34:013/[g3/18:22:28g3/]g cc<c&cc;/throughnothing  g> ealnewkirk: ping
+12:34:013/[g3/18:22:33g3/]g cc<c&cc;/throughnothing  g> e/magoo> CRITICAL Errors in www.log <http://www.log/> (tag www-log)
+12:34:01[de8c213d450eff1481935698f9154182] [hit #946] [19/Jun/2013 18:08:04] API REQUEST: POST http://internal-Prod-API-LB-1125472390.us-east-1.elb.amazonaws.com:5000/campaigns/8941/contributions API REQUEST DATA: {"contribution":{"expiration_year":"2016","amount":600,"brand_amount":0,"security_code": "XXX","user_id":"59064","expiration_month":"02","card_number": "XXX"}} RES STATUS: 500 Internal Server Error API RESPONSE: {"error":"Can't call method \"store_custom_fields\" on an undefined value at /opt/crowdtilt-internal-api/lib/Crowdtilt/Internal/API/Campaign.pm line 1410.\n"}
+12:34:01˜/magoo> api2 ^
+12:34:013/[g3/18:22:39g3/]g cc<c&cc;/MachinShin      g> emagoo: um.. thanks i guess :P i was talking w/ will, some of those are expcted. like the ones w/ request_id are from balanced. 
+12:34:013/[g3/18:22:51g3/]g cc<c&cc;/MachinShin      g> eso they're "ok". and should be triggered down to warning. 
+12:34:013/[g3/18:23:16g3/]g cc<c&cc;/magoo           g> ethroughnothing: I pasted that before you entered 
+12:34:013/[g3/18:23:33g3/]g cc<c&cc;/throughnothing  g> emagoo: i know
+12:34:013/[g3/18:23:36g3/]g cc<c&cc;/throughnothing  g> ei repasted it to al
+12:34:013/[g3/18:23:42g3/]g cc<c&cc;/throughnothing  g> eb/c store_custom_fileds is al's stuff
+12:34:013/[g3/18:23:53g3/]g cc<c&cc;/alnewkirk       g> ethroughnothing: present
+12:34:013/[g3/18:24:57g3/]g cc<c&cc;/alnewkirk       g> eokay, looking
+12:34:013/[g3/18:26:03g3/]g cc<c&cc;/dsog            g> emagoo: yt?
+12:34:013/[g3/18:26:30g3/]g cc<c&cc;/magoo           g> eyeah
+12:34:013/[g3/18:26:37g3/]g cc<c&cc;/dsog            g> eCheck your IM
+12:34:013/[g3/18:26:52g3/]g cc<c&cc;/throughnothing  g> ealnewkirk: thx! :)
+12:34:013/[g3/18:27:38g3/]g cc<c&cc;/alnewkirk       g> ethroughnothing: https://github.com/Crowdtilt/crowdtilt-internal-api/blob/9b08c32f1ffe1281e0fa7bb5ab3af58d5f8856f5/lib/Crowdtilt/Internal/API/Campaign.pm#L1410
+12:34:013/[g3/18:27:38g3/]g cc<c&cc;/tiltbot         g> e[9b08c32f1ffe1281e0fa7bb5ab3af58d5f8856f5] /lib/Crowdtilt/Internal/API/Campaign.pm#L1410
+12:34:013/[g3/18:28:04g3/]g cc<c&cc;/alnewkirk       g> ethroughnothing: looks like create_contribution no longer returns a contribution object
+12:34:013/[g3/18:28:39g3/]g cc<c&cc;/alnewkirk       g> e... shouldnt it always return a contribution object?
+12:34:013/[g3/18:28:52g3/]g cc<c&cc;/throughnothing  g> ei believe it returns undef if there's a problem :/ and we have to check the reval
+12:34:013/[g3/18:29:15g3/]g cc<c&cc;/alnewkirk       g> ehrmmm
+12:34:013/[g3/18:30:22g3/]g cc<c&cc;/throughnothing  g> emagoo: https://api.crowdtilt.com/
+12:34:013/[g3/18:30:31g3/]g cc<c&cc;/throughnothing  g> eit seems like I can't hit routes above /v1 still
+12:34:013/[g3/18:31:08g3/]g cc<c&cc;/alnewkirk       g> ethroughnothing: we never checked the return value before, are you sure?
+12:34:013/[g3/18:32:06g3/]g cc<c&cc;/magoo           g> ethroughnothing: let me verify the change
+12:34:013/[g3/18:33:03g3/]g cc<c&cc;/magoo           g> ethe change didn't go in.... gonna chef again
+12:34:013/[g3/18:34:15g3/]g cc<c&cc;/DelvarWorld     g> eForest Belton:  StoneCypher https://docs.google.com/a/crowdtilt.com/spreadsheet/ccc?key=0Aucq2-ZAoddWdDhHY0lWZmNmNkoyM2ROVGs4Vkk0RXc#gid=0
+12:34:013/[g3/18:35:10g3/]g cc<c&cc;/Forest Belton   g> edanke
+12:34:013/[g3/18:36:42g3/]g cc<c&cc;/magoo           g> ethroughnothing: guess chef has been hung on staging-www1 for some time now
+12:34:013/[g3/18:36:50g3/]g cc<c&cc;/magoo           g> enehow, it should work if you'll try again
+12:34:013/[g3/18:37:50g3/]g cc<c&cc;/DelvarWorld     g> eForest Belton:  StoneCypher front end and back end branches are both named split-costs
+12:34:013/[g3/18:41:39g3/]g cc<c&cc;/StoneCypher     g> ehipsterism distilled: http://i.imgur.com/QC1SNuN.jpg
+12:34:013/[g3/18:42:42g3/]g cc<c&cc;/MachinShin      g> ehahahaha
+12:34:013/[g3/18:44:48g3/]g cc<c&cc;/DelvarWorld     g> eoooh I don't think we need the /quantity route anymore
+12:34:013/[g3/18:49:41g3/]g cc<c&cc;/throughnothing  g> emagoo: im talking about prod, not staging
+12:34:013/[g3/18:50:04g3/]g cc<c&cc;/magoo           g> eI made that change specific to staging
+12:34:013/[g3/18:51:23g3/]g cc<c&cc;/DelvarWorld     g> eMachinShin:  on the stats object, you don't give me max_quantity on campaign stats for a regular campaign that has max_quantity set (not split) - n  branch split-costs
+12:34:013/[g3/18:52:06g3/]g cc<c&cc;/throughnothing  g> emagoo: oh can we get it in production :)
+12:34:013/[g3/18:52:42g3/]g cc<c&cc;/MachinShin      g> emagoo: i was looking in nagios. what's the loghost box? 
+12:34:013/[g3/18:52:44g3/]g cc<c&cc;/magoo           g> eyeah, it'll simplify the code, actually
+12:34:013/[g3/18:52:46g3/]g cc<c&cc;/MachinShin      g> eDelvarWorld: cool. 
+12:34:013/[g3/18:53:02g3/]g cc<c&cc;/magoo           g> eMachinShin: loghost is the central rsyslog server that aggregates all logs from all systems
+12:34:013/[g3/18:53:10g3/]g cc<c&cc;/throughnothing  g> emagoo: sweet, i'll test it on staging to make sure its good
+12:34:013/[g3/18:53:18g3/]g cc<c&cc;/throughnothing  g> ethen if we could get it out to prod today that'd be awezome
+12:34:013/[g3/18:53:30g3/]g cc<c&cc;/magoo           g> eok, let me know when you're done testing and I'll PR the change for prod
+12:34:013/[g3/18:53:52g3/]g cc<c&cc;/MachinShin      g> emagoo: just rsyslog? not app-logs? that'd be handy to have too. especially if we pusehd it to a postgres db or something.. 
+12:34:013/[g3/18:54:08g3/]g cc<c&cc;/ironcamel       g> ethroughnothing: yo
+12:34:013/[g3/18:54:21g3/]g cc<c&cc;/throughnothing  g> eironcamel: yo yo
+12:34:013/[g3/18:54:34g3/]g cc<c&cc;/magoo           g> eMachinShin: rsyslog watches all our app files and then it goes to a custom postgres database called citusdb where we do all kinds of queries
+12:34:013/[g3/18:54:39g3/]g cc<c&cc;/magoo           g> ehave you not heard of this before?
+12:34:013/[g3/18:54:59g3/]g cc<c&cc;/MachinShin      g> emagoo: apparently i didn't know much about it :)
+12:34:013/[g3/18:55:14g3/]g cc<c&cc;/MachinShin      g> eMars: ^^^ re: our previous discussion :) 
+12:34:013/[g3/18:55:23g3/]g cc<c&cc;/MachinShin      g> e*lunch
+12:34:013/[g3/18:55:36g3/]g cc<c&cc;/magoo           g> ewhen I get out there, I'll try to do some tech talks
+12:34:013/[g3/18:55:50g3/]g cc<c&cc;/magoo           g> especifically regarding chef, metrics, and logging
+12:34:013/[g3/18:55:59g3/]g cc<c&cc;/throughnothing  g> ewoooo
+12:34:013/[g3/18:56:04g3/]g cc<c&cc;/throughnothing  g> emagoo: that'll be the bees kneez
+12:34:013/[g3/18:56:59g3/]g cc<ccc;/Mars            g> eMachinShin: wait. what'd i miss?
+12:34:013/[g3/18:59:27g3/]g cc<c&cc;/tiltbot         g> e[chef] PR-221 'Allowing / for Nginx api requests' opened by mago0 http://git.io/xVIS6Q
+12:34:013/[g3/19:04:09g3/]g cc<c&cc;/throughnothing  g> emagoo: sweet, It looks like its good on staging
+12:34:013/[g3/19:04:11g3/]g cc<c&cc;/throughnothing  g> egonna test a few more things
+12:34:013/[g3/19:04:28g3/]g cc<c&cc;/magoo           g> eok, have a look at that PR
+12:34:013/[g3/19:04:43g3/]g cc<c&cc;/alnewkirk       g> ethroughnothing: ironcamel: https://github.com/Crowdtilt/crowdtilt-internal-api/blob/dev/lib/Crowdtilt/Internal/BalancedPaymentsContribution.pm#L190
+12:34:013/[g3/19:04:43g3/]g cc<c&cc;/tiltbot         g> e[dev] /lib/Crowdtilt/Internal/BalancedPaymentsContribution.pm#L190
+12:34:013/[g3/19:04:47g3/]g cc<c&cc;/throughnothing  g> emagoo: yup, it looks good on staging, i can't hit the routes as other users
+12:34:013/[g3/19:04:50g3/]g cc<c&cc;/throughnothing  g> ebut as our ct user i can
+12:34:013/[g3/19:05:07g3/]g cc<c&cc;/tiltbot         g> e[Jenkins: API-PRs (4c4faa)] failure http://107.23.70.121:8080/job/API-PRs/1692/
+12:34:013/[g3/19:05:16g3/]g cc<c&cc;/alnewkirk       g> esame for GroupPaymentContribution.pm
+12:34:013/[g3/19:05:20g3/]g cc<c&cc;/tiltbot         g> e[Jenkins: Public-Site-PRs (6781ef)] failure http://107.23.70.121:8080/job/Public-Site-PRs/1640/
+12:34:013/[g3/19:05:39g3/]g cc<c&cc;/throughnothing  g> ealnewkirk: not sure what ur saying
+12:34:013/[g3/19:05:47g3/]g cc<c&cc;/alnewkirk       g> eeither should always return a DBIC contribution object
+12:34:013/[g3/19:06:07g3/]g cc<c&cc;/alnewkirk       g> e... we should be trapping the execution but we've never did that
+12:34:013/[g3/19:06:10g3/]g cc<c&cc;/throughnothing  g> ewhat if it didn't make one
+12:34:013/[g3/19:06:52g3/]g cc<c&cc;/tiltbot         g> e[Jenkins: Public-Site-PRs (af74e2)] failure http://107.23.70.121:8080/job/Public-Site-PRs/1639/
+12:34:013/[g3/19:07:13g3/]g cc<c&cc;/tiltbot         g> e[Jenkins: API-PRs (a32de9)] success http://107.23.70.121:8080/job/API-PRs/1693/
+12:34:013/[g3/19:09:46g3/]g cc<c&cc;/magoo           g> ethroughnothing: merged, we'll need to verify a chef run on staging-www1 one more time and then we'll be gtg on prod
+12:34:013/[g3/19:10:30g3/]g cc<c&cc;/tiltbot         g> e[Jenkins: Chef-Stage (dev)] success http://107.23.70.121:8080/job/Chef-Stage/199/
+12:34:013/[g3/19:10:58g3/]g cc<c&cc;/alnewkirk       g> ethroughnothing: oh I see (fixing)
+12:34:013/[g3/19:18:23g3/]g cc<c&cc;/DelvarWorld     g> ethis combination of muscle milk, lunch, coffee, and pork dinner and wine last night is brewing the perfect storm
+12:34:013/[g3/19:21:53g3/]g cc<c&cc;/Forest Belton   g> eDelvarWorld: can you access the contribute page on a split costs campaign?
+12:34:013/[g3/19:22:17g3/]g cc<c&cc;/DelvarWorld     g> eForest Belton:  eys
+12:34:013/[g3/19:22:18g3/]g cc<c&cc;/DelvarWorld     g> eyes*
+12:34:013/[g3/19:22:28g3/]g cc<c&cc;/DelvarWorld     g> eForest Belton:  both logged in and out
+12:34:013/[g3/19:22:30g3/]g cc<c&cc;/DelvarWorld     g> ewhat are you seeing?
+12:34:013/[g3/19:22:39g3/]g cc<c&cc;/Forest Belton   g> egetting a template toolkit error
+12:34:013/[g3/19:30:24g3/]g cc<c&cc;/DelvarWorld     g> eMachinShin:  wait I lied to you
+12:34:013/[g3/19:32:05g3/]g cc<c&cc;/StoneCypher     g> eso did i
+12:34:013/[g3/19:32:30g3/]g cc<c&cc;/StoneCypher     g> eDelvarWorld: sounds like you should eat some pebbles and smoke a cigarette
+12:34:013/[g3/19:32:32g3/]g cc<c&cc;/MachinShin      g> eDelvarWorld: of course. about what? 
+12:34:013/[g3/19:32:53g3/]g cc<c&cc;/DelvarWorld     g> eMachinShin:  it's my fault stats doesn't have current_quantity
+12:34:013/[g3/19:33:02g3/]g cc<c&cc;/DelvarWorld     g> eignore it
+12:34:01</:>/:?/:g cStoneSurfacec changed the topic of 6/crowdtilt@conference.jabber.crowdtilt.comg to: Not Crowdtilt
+12:34:20cc<c&cc;/0>/MachinShing> eDelvarWorld: ok. cool
+12:40:12cc<c&cc;/02/throughnothingg> eironcamel: haha my email
+12:40:17cc<c&cc;/02/throughnothingg> emarc and I were talking about the organization stuff
+12:40:27cc<c&cc;/02/throughnothingg> eand he mentioned maybe we could tie every api_user with a crowdtilt user
+12:40:32cc<c&cc;/02/throughnothingg> eandj ust link it to users.id
+12:40:41cc<c&cc;/02/throughnothingg> ethat way multiple api_users could be associated with the same crowdtilt user
+12:40:46cc<c&cc;/02/throughnothingg> eand we don't need a new organization concept
+12:40:46cc<c&cc;/02/magoog> ethroughnothing: can you verify staging once more?
+12:40:52cc<c&cc;/02/throughnothingg> emagoo: sure
+12:41:29cc<c&cc;/02/throughnothingg> emagoo worked for my 2 test cases
+12:41:36cc<c&cc;/02/throughnothingg> ecrowdtilt user has access, others dont
+12:41:40cc<c&cc;/0>/MachinShing> ethroughnothing: https://github.com/machinshin/dotfiles/blob/master/.tmux.conf#L39  is the binding for synchronize-panes
+12:41:40cc<c&cc;/0=/tiltbotg> e[master] /.tmux.conf#L39
+12:41:49cc<c&cc;/02/throughnothingg> eMachinShin: sweet
+12:41:52cc<c&cc;/02/magoog> eok, i'm going to deploy prod then
+12:42:04cc<c&cc;/02/throughnothingg> eMachinShin: how do you un-synchronize them?
+12:42:10cc<c&cc;/0>/MachinShing> ethroughnothing: also ctrl-a : to get to the tmux commandline and typing "synchronize-panes on" would also work
+12:42:13cc<c&cc;/0>/MachinShing> eit's a toggle
+12:43:09cc<c&cc;/02/throughnothingg> eoh nice
+12:43:34cc<c&cc;/02/throughnothingg> esweet, works!
+12:44:01cc<c&cc;/0>/MachinShing> e:)
+12:45:01cc<c&cc;/0>/MachinShing> ethroughnothing: i'm looking at the remind-admins-about-bank script, it doesn't look to use mailgun. it's hitting Common directly. does that mean i need to write it to match what (for instance) email-admin-pro-tips does? 
+12:45:45cc<c&cc;/02/throughnothingg> eMachinShin: what do u mean?
+12:46:31cc<c&cc;/02/magoog> eloled
+12:46:40cc<c&cc;/02/magoog> ehttp://i.imgur.com/cP0bT8B.jpg
+12:46:44cc<c&cc;/0=/tiltbotg> e[Jenkins: Chef-Deploy (master)] success http://107.23.70.121:8080/job/Chef-Deploy/78/
+12:47:37cc<c&cc;/02/magoog> eeven though it was probably created by a 10 year old
+12:47:55cc<c&cc;/0>/MachinShing> ethroughnothing: so if you look at email-admin-pro-tips, it's checking it's doing $email = config->{ct_overwrite_email} unless config->{environment} eq 'production';  remind-admins-about-bank doesnt' do that check. 
+12:48:02cc<c&cc;/0>/MachinShing> eoh. but common->send_email does
+12:48:03cc<c&cc;/02/throughnothingg> emagoo: i like that it says "Open Code programs"
+12:48:11cc<c&cc;/02/throughnothingg> eMachinShin: yeah its good the way ti is
+12:48:13cc<c&cc;/02/magoog> eyeah, that's the 10 year old giveaway
+12:48:15cc<c&cc;/02/throughnothingg> ecommon->send_email handles it
+12:48:32cc<c&cc;/0=/tiltbotg> e[Jenkins: API-PRs (694980)] success http://107.23.70.121:8080/job/API-PRs/1694/
+12:48:55cc<c&cc;/02/magoog> etop comment: Yes, "open code" programs...god, I hope the summer break ends soon...
+12:50:06cc<c&cc;/02/throughnothingg> elol
+12:51:52cc<c&cc;/05/Forest Beltong> ebut then i have to go back to middle school :(
+12:52:29cc<c&cc;/02/throughnothingg> eForest Belton: you went through middle school already?
+12:52:34cc<c&cc;/02/throughnothingg> edamn, you're older than you look!
+12:52:48cc<c&cc;/05/Forest Beltong> ethey let me skip a few grades
+12:52:52cc<c&cc;/0>/MachinShing> ethroughnothing: he's smarterer
+12:52:52cc<c&cc;/05/Forest Beltong> ethat's why
+12:53:15cc<c&cc;/02/throughnothingg> ethey learned you gooder in high school than they did me!
+12:53:47cc<c&cc;/0>/MachinShing> ethroughnothing: you mean weller ;) 
+12:54:24cc<c&cc;/0>/MachinShing> ei learneded more better english, i done did!
+12:55:57cc<c&cc;/0=/tiltbotg> e[crowdtilt-internal-api] PR-806 'Allow emtpy response on successful contribution posting' opened by alnewkirk http://git.io/CShlwQ
+12:57:37cc<c&cc;/02/alnewkirkg> ethroughnothing: split-cost fix is in ^
+12:57:42cc<c&cc;/03/DelvarWorldg> eAW SNAP
+12:57:48cc<c&cc;/02/alnewkirkg> e... and back-444 is ready to go
+12:57:57cc<c&cc;/02/throughnothingg> ei done learnt to read gooder and speak weller than does my feller classmates at the time!
+12:58:41cc<c&cc;/05/Forest Beltong> ememaw and pep-pep sure said so
+12:59:05cc<c&cc;/02/throughnothingg> e'ey did, 'ey did!
+12:59:24</:>/:?/:g mode/6/crowdtilt@conference.jabber.crowdtilt.comg 3/[g+Om MachinShin3/]g by ccrowdtilt@conference.jabber.crowdtilt.comc
+13:01:18cc<c&cc;/02/magoog> ethroughnothing: dsog: closeout meeting
+13:03:06cc<c&cc;/03/DelvarWorldg> equick, will this work in javscript?                 $.map( [ function1, function2 ], $(window).unbind );
+13:03:06
+13:03:29cc<c&cc;/03/DelvarWorldg> eactually, that's a dumb question
+13:04:32cc<c&cc;/03/DelvarWorldg> eStoneCypher:  Forest Belton also can we move the task rows to "completed tasks" when we do them
+13:04:47cc<c&cc;/05/Forest Beltong> ei couldn't figure out how
+13:04:52cc<c&cc;/05/Forest Beltong> ecuz imma dummy
+13:04:56cc<c&cc;/05/Forest Beltong> envm
+13:04:58cc<c&cc;/0?/StoneCypherg> eoh okay
+13:05:07cc<c&cc;/0?/StoneCypherg> ei was just putting things in the next column over but that works too
+13:05:12cc<c&cc;/03/DelvarWorldg> eForest Belton:  you are a special boy
+13:05:27cc<c&cc;/05/Forest Beltong> ethanks, momma always said that
+13:05:54cc<c&cc;/0?/StoneCypherg> eshe meant the "use the other bus" kind of special
+13:06:22cc<c&cc;/03/DelvarWorldg> ethe syllabus
+13:07:05cc<c&cc;/0?/StoneCypherg> ethe arquebus
+13:07:23cc<c&cc;/0=/tiltbotg> e[Jenkins: API-PRs (df8b34)] success http://107.23.70.121:8080/job/API-PRs/1695/
+13:08:04cc<c&cc;/05/Forest Beltong> eendobus
+13:20:08cc<c&cc;/0=/tiltbotg> e[Jenkins: Public-Site-PRs (8c74d3)] failure http://107.23.70.121:8080/job/Public-Site-PRs/1641/
+13:22:35cc<c&cc;/03/DelvarWorldg> estop moving rows and leaving blank rows
+13:23:03cc<c&cc;/0?/StoneCypherg> ek
+13:23:03cc<c&cc;/03/DelvarWorldg> eI can see which cursor you are forest
+13:23:10cc<c&cc;/0?/StoneCypherg> ei was doing that too
+13:23:11cc<c&cc;/05/Forest Beltong> e:(
+13:23:17cc<c&cc;/05/Forest Beltong> edamn you google
+13:23:20cc<c&cc;/03/DelvarWorldg> espreadsheets are serious business
+13:25:51cc<c&cc;/0=/tiltbotg> e[Jenkins: Public-Site-PRs (e62ac7)] failure http://107.23.70.121:8080/job/Public-Site-PRs/1642/
+13:30:46cc<c&cc;/0=/tiltbotg> e[crowdtilt-api-spec] PR-41 'Terms' opened by msaint http://git.io/Blp9hg
+13:33:43cc<c&cc;/02/throughnothingg> ealnewkirk: yo yo
+13:33:47cc<c&cc;/02/throughnothingg> eyou around?
+13:34:32cc<c&cc;/0=/tiltbotg> eSuccessful Chef run with git deploy on node staging-database1
+13:35:11cc<c&cc;/02/alnewkirkg> ethroughnothing: present
+13:36:42cc<c&cc;/02/throughnothingg> ealnewkirk: just wanted to make sure u saw the new tickets i made for you last night
+13:36:46cc<c&cc;/02/throughnothingg> eand see if you had any questions on them
+13:36:55cc<c&cc;/02/throughnothingg> ei think it was just the 2 about doing filepicker migrations for old user/campaign images
+13:37:11cc<c&cc;/02/alnewkirkg> eoh, I didn't see them yet (looking)
+13:37:41cc<c&cc;/02/throughnothingg> ewe've been meaning to do this, but ios is making it a priority
+13:37:49cc<c&cc;/02/throughnothingg> eso they don't have to do the same crappy logic we do on the website
+13:38:27cc<c&cc;/0</ironcamelg> ealnewkirk: have you given up on https://github.com/Crowdtilt/crowdtilt-internal-api/pull/798 ?
+13:38:27cc<c&cc;/0=/tiltbotg> e[PR-798](alnewkirk) BACK-441: Restore of max contribution limit per user per campaign
+13:38:52cc<c&cc;/0</ironcamelg> ei can take that over for you if you like
+13:38:57cc<c&cc;/0</ironcamelg> eif you are tired of dealing with it
+13:41:38cc<c&cc;/02/alnewkirkg> eironcamel: re PR 798, I thought I was done with it
+13:42:04cc<c&cc;/02/alnewkirkg> eironcamel: if you'd like to take it over you can, no problems here
+13:42:37cc<c&cc;/02/alnewkirkg> e... I didn't see or expect any additional comments on it
+13:42:38cc<c&cc;/02/throughnothingg> eironcamel: looks like it has merge conflicts too now
+13:42:57cc<c&cc;/0=/tiltbotg> e[Jenkins: API-PRs (0ee02a)] success http://107.23.70.121:8080/job/API-PRs/1696/
+13:43:06cc<c&cc;/0</ironcamelg> eyou should always expect additional comments, sucker
+13:43:16cc<c&cc;/02/throughnothingg> ehaha
+13:43:37cc<c&cc;/02/throughnothingg> ei always fear the ironcamel comments on my pr's
+13:43:47cc<c&cc;/0</ironcamelg> efear me
+13:43:52cc<c&cc;/0</ironcamelg> eexpect me
+13:43:54cc<c&cc;/02/throughnothingg> ebut i calm myself knowing that they're usually for the best, except when i have to show him that he's wrong
+13:43:55cc<c&cc;/02/alnewkirkg> ewhy? most of them are irrelevant
+13:44:25cc<c&cc;/0</ironcamelg> e:(
+13:44:30cc<c&cc;/02/alnewkirkg> esearch({}, @_) vs. search({}, $params) ..? why, because theres no reason to create a variable there
+13:44:52cc<c&cc;/02/throughnothingg> eit makes it easier to read and see what it accepts
+13:45:03cc<c&cc;/02/throughnothingg> ethe other way you cant tell if it should be a hash, multiple args, a hashref
+13:45:05cc<c&cc;/0=/tiltbotg> e[Jenkins: Public-Site-PRs (028516)] failure http://107.23.70.121:8080/job/Public-Site-PRs/1643/
+13:45:08cc<c&cc;/02/throughnothingg> ewith $params you know
+13:45:22cc<c&cc;/0>/MachinShing> ealso the variable $params was already created. 
+13:45:51cc<c&cc;/02/alnewkirkg> eI guess
+13:45:59cc<c&cc;/02/throughnothingg> ei generally don't like using @_ in anything other than the first line of a sub, but I know in around () wrappers you sometimes have to :(
+13:46:13cc<c&cc;/0</ironcamelg> ethroughnothing++
+13:46:21cc<c&cc;/02/throughnothingg> eits tricky when ur looking at a sub to understand it, especially a long one, and then all of a sudden theres a @_ 25 lines down in the route
+13:46:27cc<c&cc;/02/throughnothingg> es/route/sub
+13:46:37cc<c&cc;/02/throughnothingg> eand ur like wait wtf
+13:46:46cc<c&cc;/02/throughnothingg> eit accepts more args than i thought now, blah blah
+13:46:48cc<c&cc;/02/throughnothingg> ego refigure things out
+13:47:28cc<c&cc;/02/alnewkirkg> ethis is one line, and I can read it just fine, its not confusing at all (to me)
+13:47:37cc<c&cc;/02/alnewkirkg> e... but I'll change it
+13:47:41cc<c&cc;/02/throughnothingg> eits not confusing what its doing, definitely
+13:47:42cc<c&cc;/02/throughnothingg> ebut
+13:47:45cc<c&cc;/02/throughnothingg> eits unclear what the extra args should be
+13:47:46cc<c&cc;/02/throughnothingg> eshould i call
+13:47:57cc<c&cc;/02/throughnothingg> econt_rest( arg1 => 'value' )
+13:48:07cc<c&cc;/02/throughnothingg> eshould I call cant_rset({ arg1 => 'value' });
+13:48:10cc<c&cc;/02/throughnothingg> econt*
+13:48:15cc<c&cc;/02/throughnothingg> eor cont_rset( arg1, arg2 );
+13:48:17cc<c&cc;/02/alnewkirkg> e(sigh)
+13:48:17cc<c&cc;/02/throughnothingg> ei don't know
+13:48:25cc<c&cc;/02/throughnothingg> ehaha
+13:48:29cc<c&cc;/02/throughnothingg> ealnewkirk: doesn't that make sense?
+13:48:56cc<c&cc;/02/alnewkirkg> egiven search({}, $params) ... search({}, [1..3]) isn't right either
+13:49:04cc<c&cc;/02/alnewkirkg> eyou still have to know what you're doing
+13:49:14cc<c&cc;/02/throughnothingg> ewell you know its 1 param
+13:49:18cc<c&cc;/02/throughnothingg> eso it has to etiher be 1 value, or a ref
+13:49:38cc<c&cc;/02/alnewkirkg> ebut if it isn't a hasref it won't work
+13:49:51cc<c&cc;/02/throughnothingg> eyeah, that's true
+13:49:51cc<c&cc;/02/alnewkirkg> eso 1 value or a ref it specific
+13:49:57cc<c&cc;/02/alnewkirkg> eisn't
+13:49:58cc<c&cc;/0</ironcamelg> ewe unpack @_ as the first line of our subs so that it is clear what the interface of our functions are
+13:50:13cc<c&cc;/02/alnewkirkg> emy $this_is_a_hashref
+13:50:17cc<c&cc;/02/alnewkirkg> e:/
+13:50:20cc<c&cc;/02/throughnothingg> ealnewkirk: haha :)
+13:50:25cc<c&cc;/02/alnewkirkg> esure
+13:50:28cc<c&cc;/02/alnewkirkg> eI concede
+13:50:45cc<c&cc;/0</ironcamelg> ethere is no good reason to not do that. i admit there are special cases, like the one throughnothing brought up.
+13:51:13cc<c&cc;/03/msaintg> eironcamel:  hey Naveed…not sure why it pulled in those commits on that PR
+13:51:16cc<c&cc;/03/msaintg> edefinitely weird
+13:51:39cc<c&cc;/02/throughnothingg> emsaint: how do you like the pentesters TEARING APART your (balanced's) javascript
+13:51:43cc<c&cc;/02/throughnothingg> eabsolutely ravashing it
+13:51:54cc<c&cc;/02/throughnothingg> e(with those 2 very low unimportant things)
+13:52:14cc<c&cc;/02/throughnothingg> eRAVASHING
+13:52:27cc<c&cc;/02/throughnothingg> e*RAVISHING
+13:52:41cc<c&cc;/06/ghostface phillag> edo you mean ravaging?
+13:52:44cc<c&cc;/02/throughnothingg> eno
+13:52:46cc<c&cc;/02/throughnothingg> ei mean ravishing
+13:52:48cc<c&cc;/03/DelvarWorldg> eravioling?
+13:52:53cc<c&cc;/0>/MachinShing> eyou keep using that word. i dont' think it means waht you think it means
+13:52:53cc<c&cc;/02/throughnothingg> ethere you go
+13:52:57cc<c&cc;/0>/MachinShing> e;)
+13:52:58cc<c&cc;/0</ironcamelg> ealnewkirk: so are you going back to that PR, or am i taking it over?
+13:53:06cc<c&cc;/06/ghostface phillag> edoes JS turn you on?
+13:53:07cc<c&cc;/0>/MachinShing> ecanolla-ing
+13:53:08cc<c&cc;/02/alnewkirkg> eironcamel: you got it
+13:53:12cc<c&cc;/02/throughnothingg> eghostface philla: it delights me
+13:53:13cc<c&cc;/0</ironcamelg> ealnewkirk: thanks
+13:53:21cc<c&cc;/06/ghostface phillag> ehahaha
+13:53:28cc<c&cc;/06/ghostface phillag> edat afternoon delight
+13:53:28cc<c&cc;/02/alnewkirkg> eironcamel: np, let me know if you have questions
+13:53:29cc<c&cc;/06/ghostface phillag> eanyways
+13:53:37cc<c&cc;/02/throughnothingg> eghostface philla: did i mention that your username has a space in it
+13:53:40cc<c&cc;/03/msaintg> ethroughnothing:  hahaha…those guys are brutal
+13:53:41cc<c&cc;/02/throughnothingg> eand that DOES NOT RAVISH ME
+13:53:47cc<c&cc;/03/DelvarWorldg> ehttps://twitter.com/robdelaney/status/347100351327006720
+13:53:47cc<c&cc;/0=/tiltbotg> e@: 
+13:53:52cc<c&cc;/02/throughnothingg> eROFL
+13:54:32cc<c&cc;/0</ironcamelg> ehahahahahhahahahahhaaaaaahahahaa
+13:54:35cc<c&cc;/0>/MachinShing> elol
+13:56:40</:>/:?/:g mode/6/crowdtilt@conference.jabber.crowdtilt.comg 3/[g+Om phillinonyobooty3/]g by ccrowdtilt@conference.jabber.crowdtilt.comc
+13:56:48cc<c&cc;/04phillinonyobootyg> ethroughnothing: no space now
+13:56:59cc<c&cc;/02/throughnothingg> ephillinonyobooty: NICE
+13:57:10</:>/:?/:g 7/throughnothingg is now known as ?/willworkforsexytimeg
+13:57:12cc<c&cc;/04phillinonyobootyg> ei think msaint came up with this one
+13:57:20</:>/:?/:g 7/DelvarWorldg is now known as ?/pleasetouchmeg
+13:57:23</:>/:?/:g mode/6/crowdtilt@conference.jabber.crowdtilt.comg 3/[g+Om dsog3/]g by ccrowdtilt@conference.jabber.crowdtilt.comc
+13:57:25cc<c&cc;/07willworkforsexytimeg> ephillinonyobooty: whats up sweet thang
+13:57:27cc<c&cc;/03/msaintg> ehaha I can't take credit for that one
+13:57:39cc<c&cc;/03/msaintg> eohh
+13:57:43cc<c&cc;/03/msaintg> ebut just thought of another
+13:57:47cc<c&cc;/02/alnewkirkg> ebrb
+13:57:48cc<c&cc;/03/msaintg> einspired by my new body art
+13:57:54cc<c&cc;/03/msaintg> ephilsbury dough boy
+13:58:07cc<c&cc;/04phillinonyobootyg> e(y)
+13:58:26cc<c&cc;/0>/MachinShing> ewho came up w/ phillatio? we're still waiting for that one :P 
+13:58:32cc<c&cc;/07willworkforsexytimeg> eTHAT WAS ME
+13:58:34cc<c&cc;/07willworkforsexytimeg> eTHAT WAS ME
+13:58:37cc<c&cc;/07willworkforsexytimeg> eOH OH PICK ME
+13:58:41cc<c&cc;/0>/MachinShing> elol
+13:58:45cc<c&cc;/0>/MachinShing> ewas it you willworkforsexytime?
+13:58:49cc<c&cc;/07willworkforsexytimeg> elol
+13:58:59</:>/:?/:g 7/willworkforsexytimeg is now known as ?/willlliwg
+13:59:02cc<c&cc;/04phillinonyobootyg> egotta keep it semi SFW
+13:59:27cc<c&cc;/02willlliwg> elook, my name is a mnemonic pentagram, its spelled the same backwards and forwards
+13:59:30cc<c&cc;/0>/MachinShing> ephillinonyobooty: really? who said THAT? :) 
+13:59:53cc<c&cc;/04phillinonyobootyg> elol
+14:00:13</:>/:?/:g 7/pleasetouchmeg is now known as ?/DelvarWorldg
+14:03:07cc<c&cc;/02willlliwg> eironcamel: https://github.com/Crowdtilt/crowdtilt-internal-api/pull/806/files
+14:03:07cc<c&cc;/0=/tiltbotg> e[PR-806](alnewkirk) Allow emtpy response on successful contribution posting
+14:03:17cc<c&cc;/02willlliwg> ewhy is it good to return an empty contribution there?
+14:03:53cc<c&cc;/0</ironcamelg> ewilllliw: it's not
+14:03:56cc<c&cc;/0</ironcamelg> eit should return 500
+14:04:10cc<c&cc;/0</ironcamelg> eright?
+14:04:28cc<c&cc;/02willlliwg> eyeah, but you +1'ed this
+14:04:39cc<c&cc;/03/msaintg> edudsies
+14:04:39cc<c&cc;/03/msaintg> ehttps://github.com/Crowdtilt/crowdtilt-api-spec/pull/41
+14:04:39cc<c&cc;/0=/tiltbotg> e[PR-41](msaint) Terms
+14:04:45cc<c&cc;/0</ironcamelg> ei know :(
+14:04:47cc<c&cc;/02willlliwg> elol
+14:04:56cc<c&cc;/03/msaintg> edo you think it pulled in all those commits b/c I did the PR from github directly?
+14:04:59cc<c&cc;/0</ironcamelg> ei mean, no i didn't
+14:05:02cc<c&cc;/02willlliwg> emsaint: no
+14:05:09cc<c&cc;/02willlliwg> eironcamel: you did
+14:05:12cc<c&cc;/03/msaintg> efor all the others I think the pullreq script you guys wrote was used
+14:05:13cc<c&cc;/0</ironcamelg> enope
+14:05:23cc<c&cc;/02willlliwg> e?
+14:05:26cc<c&cc;/02willlliwg> ehttps://github.com/Crowdtilt/crowdtilt-internal-api/pull/806
+14:05:26cc<c&cc;/0=/tiltbotg> e[PR-806](alnewkirk) Allow emtpy response on successful contribution posting
+14:05:36cc<c&cc;/0</ironcamelg> ei don't see a +1 there from me
+14:05:39cc<c&cc;/0>/MachinShing> ehaha.
+14:05:40cc<c&cc;/0>/MachinShing> ehe removed it ;) 
+14:05:54cc<c&cc;/02willlliwg> elol
+14:05:59cc<c&cc;/02willlliwg> eironcamel: sucker
+14:06:08cc<c&cc;/02willlliwg> egood thing i go back behind your back and re-check all PR's you +1 and that get merged
+14:06:08cc<c&cc;/02willlliwg> e:P
+14:06:13cc<c&cc;/0</ironcamelg> ehaha
+14:06:15cc<c&cc;/02willlliwg> ealnewkirk: https://github.com/Crowdtilt/crowdtilt-internal-api/pull/806
+14:06:16cc<c&cc;/0=/tiltbotg> e[PR-806](alnewkirk) Allow emtpy response on successful contribution posting
+14:06:16cc<c&cc;/02willlliwg> e:(
+14:06:23cc<c&cc;/0</ironcamelg> eyeah, good thing ... i was testing you
+14:06:29cc<c&cc;/02willlliwg> eironcamel: test failed
+14:06:29cc<c&cc;/0</ironcamelg> eseeing if you were paying attention
+14:07:01cc<c&cc;/03/msaintg> eironcamel:  willworkforsexytime: shooouuuuld I just merge it anyway?
+14:07:08cc<c&cc;/03/msaintg> ethe 'files changed' looks right
+14:07:14cc<c&cc;/02willlliwg> emsaint: no
+14:07:24cc<c&cc;/03/msaintg> ebah
+14:07:24cc<c&cc;/02willlliwg> eyou need a +1 honky
+14:07:55cc<c&cc;/03/msaintg> elmgtfy
+14:08:08cc<c&cc;/0</ironcamelg> emsaint: can you just save your changes somewhere, fix up your repo, maybe check out a clean repo, and apply your diff back to it, then commit again?
+14:08:18cc<c&cc;/03/DelvarWorldg> ewhat the hell
+14:08:27cc<c&cc;/03/DelvarWorldg> e(unrelated)
+14:08:29cc<c&cc;/03/msaintg> eironcamel:  I'll try, but I just cloned the repo fresh
+14:08:32cc<c&cc;/02willlliwg> emsaint: refresh
+14:08:32cc<c&cc;/03/msaintg> ebefore making that change
+14:08:40cc<c&cc;/03/msaintg> ewhoa
+14:08:41cc<c&cc;/03/msaintg> emind.
+14:08:42cc<c&cc;/03/msaintg> eblown.
+14:08:53cc<c&cc;/02willlliwg> eall your (re)base are belong to me
+14:09:20cc<c&cc;/03/msaintg> eohhhhhhh
+14:09:25cc<c&cc;/03/msaintg> eI branched off of master
+14:09:27cc<c&cc;/03/msaintg> enot dev
+14:09:29cc<c&cc;/03/msaintg> emystery solved
+14:09:39cc<c&cc;/02willlliwg> esucka
+14:09:58cc<c&cc;/02willlliwg> ehey guys, remember that time we TILTED FUCKIng OAKLAND
+14:10:22cc<c&cc;/03/DelvarWorldg> eit already tilted?
+14:10:34cc<c&cc;/02willlliwg> eno obviously
+14:10:59cc<c&cc;/03/DelvarWorldg> eit's close
+14:11:01cc<c&cc;/03/DelvarWorldg> e15k/20k
+14:11:25cc<c&cc;/03/msaintg> ewillworkforsexytime:  with what sort of github magic were you able to rebase the branch I committed?
+14:11:25cc<c&cc;/02willlliwg> eclose and closed are verey close(d) but NOT the same
+14:11:32cc<c&cc;/03/DelvarWorldg> eit's pretty fucking exciting though - is this our first political campaign ever?
+14:11:45cc<c&cc;/02willlliwg> emsaint: git fetch --all && git checkout terms && git rebase dev && git push -f origin terms
+14:12:37cc<c&cc;/03/msaintg> eahh I see
+14:12:49cc<c&cc;/03/msaintg> ejust forcin your way around
+14:13:16cc<c&cc;/03/msaintg> esooooo
+14:13:18cc<c&cc;/02willlliwg> ethat's how i do
+14:13:19cc<c&cc;/03/msaintg> ehow about that +1
+14:13:21cc<c&cc;/02willlliwg> ejust force my way in there
+14:13:21cc<c&cc;/02/alnewkirkg> eback
+14:13:31cc<c&cc;/02/alnewkirkg> ewilllliw: whats wrong w/ https://github.com/Crowdtilt/crowdtilt-internal-api/pull/806
+14:13:31cc<c&cc;/0=/tiltbotg> e[PR-806](alnewkirk) Allow emtpy response on successful contribution posting
+14:13:45cc<c&cc;/02willlliwg> e@all @gong
+14:13:46cc<c&cc;/02willlliwg> ehttp://www.cnn.com/2013/06/14/travel/private-island-rentals/index.html?hpt=tr_t3
+14:13:51cc<c&cc;/02willlliwg> elet's crowdtilt an island mother f'ers
+14:14:01cc<c&cc;/02/alnewkirkg> e+1
+14:14:02cc<c&cc;/0</ironcamelg> ealnewkirk: if a contribution is not created, that should be a 500
+14:14:12cc<c&cc;/02/alnewkirkg> eironcamel: it was
+14:14:14cc<c&cc;/02/alnewkirkg> e:)
+14:14:17cc<c&cc;/02/alnewkirkg> elmfao
+14:14:17cc<c&cc;/0>/MachinShing> ewilllliw: ++++++
+14:14:31cc<c&cc;/02willlliwg> ealnewkirk: it was, but now its not :(
+14:15:32cc<c&cc;/02/magoog> ewilllliw: Will?
+14:15:35cc<c&cc;/02/alnewkirkg> e15:03 <&throughnothing> alnewkirk: not sure what ur saying
+14:15:35cc<c&cc;/02/alnewkirkg> e15:04 <&alnewkirk> either should always return a DBIC contribution object
+14:15:35cc<c&cc;/02/alnewkirkg> e15:04 <&alnewkirk> ... we should be trapping the execution but we've never did that
+14:15:35cc<c&cc;/02/alnewkirkg> e15:04 <&throughnothing> what if it didn't make one
+14:15:49</ >>/>?/> ;/alnewkirk     g lost in the sauce
+14:15:58cc<c&cc;/02willlliwg> euhhhhh
+14:16:02cc<c&cc;/02willlliwg> ewhat if it didnt make one?
+14:16:03cc<c&cc;/02willlliwg> e:)
+14:16:14cc<c&cc;/02/alnewkirkg> e{0_0}
+14:16:25cc<c&cc;/02/magoog> ejust as a precaution, I'd like to wait until ~ 10 est to chef the production web heads
+14:16:53cc<c&cc;/02/magoog> eunless there's a hard requirement for the / to be available to the api before then
+14:17:19cc<c&cc;/02/alnewkirkg> ebbiab, I need to sign a background check and get it to Sara
+14:17:29cc<c&cc;/02willlliwg> emsaint: https://github.com/Crowdtilt/crowdtilt-api-spec/pull/41
+14:17:30cc<c&cc;/0=/tiltbotg> e[PR-41](msaint) Terms
+14:17:32cc<c&cc;/02willlliwg> egood thing this isn't public
+14:17:32cc<c&cc;/03/DelvarWorldg> ealnewkirk:  did we finally learn about all your murders?
+14:17:38cc<c&cc;/0?/StoneCypherg> emy split cost campaigns don't appear to be showing campaign images
+14:17:40cc<c&cc;/0?/StoneCypherg> eare they supposed to?
+14:17:42cc<c&cc;/02/alnewkirkg> e... it was nice knowing yall
+14:17:44cc<c&cc;/03/DelvarWorldg> eStoneCypher:  yes they are
+14:17:48cc<c&cc;/02willlliwg> emagoo: that's fine, so 7pm?
+14:18:26</ >>/>?/> ;/alnewkirk     g is wanted in 50 states
+14:18:35cc<c&cc;/02willlliwg> eat least its just 1 country
+14:18:41cc<c&cc;/0?/StoneCypherg> ealnewkirk: how the fuck did you get wanted in wyoming, i'm barely at 40
+14:18:45cc<c&cc;/02willlliwg> ei'm no longer allowed in public spaces in 32 countries
+14:18:47cc<c&cc;/02/alnewkirkg> e... that leave Puerto RIco and Hawaii
+14:19:20cc<c&cc;/02/alnewkirkg> ewilllliw: lol
+14:19:31cc<c&cc;/03/DelvarWorldg> eI'm no longer allowed in pubic spaces in 32 countries
+14:19:34cc<c&cc;/02/alnewkirkg> eStoneCypher: for playing rap music
+14:19:37cc<c&cc;/02/alnewkirkg> e:)
+14:19:48cc<c&cc;/0?/StoneCypherg> euh actually my basic campaigns aren't either, maybe it's something local
+14:20:06cc<c&cc;/0?/StoneCypherg> eDelvarWorld: i'm hoping that was not a typo
+14:20:17cc<c&cc;/03/DelvarWorldg> eit was not
+14:20:26cc<c&cc;/0?/StoneCypherg> eer, i guess willlliw said it frist
+14:21:03cc<c&cc;/02willlliwg> epleasetouchme: i'm no longer allowed in pubic spaces on all 11,652 women i've met, seen, or walked past in my life
+14:22:03cc<c&cc;/0?/StoneCypherg> ealso most of the others
+14:23:21cc<c&cc;/03/msaintg> ewillworkforsexytime:  pi*poop = circumference of the turd ?
+14:23:46cc<c&cc;/0=/tiltbotg> e[Jenkins: API-PRs (657681)] success http://107.23.70.121:8080/job/API-PRs/1697/
+14:24:17cc<c&cc;/0=/tiltbotg> e[crowdtilt-api-spec] PR-42 'Adding Terms' opened by msaint http://git.io/gxtr2Q
+14:25:30cc<c&cc;/02willlliwg> emsaint: msaint i wasn't sure how to represent asymmetrical geodesic circumference
+14:25:32cc<c&cc;/02willlliwg> eso that was the best i could do
+14:26:35cc<c&cc;/0=/tiltbotg> e[crowdtilt-internal-api] PR-807 'Restored/fixed campaign contribution creation logic' opened by alnewkirk http://git.io/1aI6eg
+14:26:55cc<c&cc;/03/msaintg> ewillworkforsexytime:  good enough for me
+14:27:55cc<c&cc;/0</ironcamelg> ewilllliw: https://github.com/Crowdtilt/crowdtilt-internal-api/pull/807
+14:27:56cc<c&cc;/0=/tiltbotg> e[PR-807](alnewkirk) Restored/fixed campaign contribution creation logic
+14:28:19cc<c&cc;/02/alnewkirkg> ebbiab
+14:28:30cc<c&cc;/02willlliwg> ealnewkirk: nice, thanks for this PR :)
+14:28:53cc<c&cc;/02/alnewkirkg> eno problem, I completely misunderstood the problem
+14:30:46cc<c&cc;/0?/StoneCypherg> eForest Belton: Dope and fly and poppin' fresh, home slice
+14:31:28cc<c&cc;/02willlliwg> ealnewkirk: :)
+14:31:39cc<c&cc;/05/Forest Beltong> e#checcko
+14:32:27cc<c&cc;/0</ironcamelg> ewilllliw: i turned on the pocomq archiving in staging
+14:32:30cc<c&cc;/0</ironcamelg> ewilllliw: https://github.com/Crowdtilt/crowdtilt-internal-api/pull/805
+14:32:30cc<c&cc;/0=/tiltbotg> e[PR-805](ironcamel) Defined a trigger to audit the pocomq messages table.
+14:32:46cc<c&cc;/0</ironcamelg> eMachinShin: you may be interested ^^^
+14:34:34cc<c&cc;/0>/MachinShing> eoh. lessee
+14:35:03cc<c&cc;/0</ironcamelg> eMachinShin: you can see it in action if you go to staging-database1
+14:35:16cc<c&cc;/0</ironcamelg> esudo -u postgres psql pocomq
+14:35:28cc<c&cc;/0</ironcamelg> eselect * from messages_audit;
+14:35:34cc<c&cc;/0>/MachinShing> enice
+14:36:12cc<c&cc;/0=/tiltbotg> e[Jenkins: Public-Site-PRs (327cef)] success http://107.23.70.121:8080/job/Public-Site-PRs/1644/
+14:37:28cc<c&cc;/02willlliwg> eironcamel: this is awesome
+14:37:35cc<c&cc;/02willlliwg> eso it shows when its 'in_use', and then when it gets deleted
+14:37:42cc<c&cc;/02willlliwg> eso we could see how long our queue times are wit hthis
+14:37:44cc<c&cc;/0</ironcamelg> ewilllliw: yes, i agree, i love it
+14:37:45cc<c&cc;/02willlliwg> ebefore something picks it up
+14:37:45cc<c&cc;/02willlliwg> eetc.
+14:37:47cc<c&cc;/0=/tiltbotg> e[Jenkins: API-PRs (84a0ea)] success http://107.23.70.121:8080/job/API-PRs/1698/
+14:37:52cc<c&cc;/0>/MachinShing> ethis is quite killer :) 
+14:37:59cc<c&cc;/02willlliwg> eironcamel: you're a sneaky one
+14:38:03cc<c&cc;/0</ironcamelg> ewilllliw: i asked in #postgresql
+14:38:07cc<c&cc;/0</ironcamelg> ewilllliw: and i basically copied http://www.postgresql.org/docs/current/static/plpgsql-trigger.html#PLPGSQL-TRIGGER-AUDIT-EXAMPLE
+14:38:10</:>/:?/:g mode/6/crowdtilt@conference.jabber.crowdtilt.comg 3/[g+Om msaint3/]g by ccrowdtilt@conference.jabber.crowdtilt.comc
+14:43:36cc<c&cc;/0</ironcamelg> eto test it
+14:43:45cc<c&cc;/0</ironcamelg> eyou can login into staging via facebook
+14:43:56cc<c&cc;/0</ironcamelg> ethat creates a facebooklogin event message
+14:44:11cc<c&cc;/0</ironcamelg> ethen the size of messages_audit should have increased by 2
+14:44:17cc<c&cc;/0</ironcamelg> eone for the insert, and one for the delete
+14:44:37cc<c&cc;/02willlliwg> eironcamel: +1'ed you
+14:44:39</:>/:?/:g 7/willlliwg is now known as ?/throughnothingg
+14:44:57cc<c&cc;/0</ironcamelg> eyeah you are right, this table is going to get huge
+14:44:59cc<c&cc;/0=/tiltbotg> e[Jenkins: API-PRs (03bec2)] success http://107.23.70.121:8080/job/API-PRs/1699/
+14:45:05cc<c&cc;/0</ironcamelg> ewe'll figure out later how to deal with that
+14:45:07cc<c&cc;/02/throughnothingg> eyup
+14:45:10cc<c&cc;/02/throughnothingg> ei don't think thats a problem
+14:45:14cc<c&cc;/02/throughnothingg> eif that's the data we want
+14:45:16cc<c&cc;/02/throughnothingg> eand its useful
+14:45:22cc<c&cc;/0</ironcamelg> e+1
+14:45:33cc<c&cc;/02/throughnothingg> ethen its just a lot of data we want, and we gotta figure out how to store it, hehe
+14:45:38cc<c&cc;/02/throughnothingg> eplus the new db boxes are on EBS i believe
+14:45:44cc<c&cc;/02/throughnothingg> eso they can grow to any size i think?
+14:45:47cc<c&cc;/0>/MachinShing> ethroughnothing: so re: back-380. do you want to me to make some change to remind-admins.pl? 
+14:46:22cc<c&cc;/02/throughnothingg> eMachinShin: no, I think its good…i was just hoping you could explain how the logic is diff
+14:46:25cc<c&cc;/02/throughnothingg> eso the old code said
+14:46:37cc<c&cc;/02/throughnothingg> eif the count of non-admin, non-deleted contribuntions is truthy
+14:46:38cc<c&cc;/0>/MachinShing> eah.ok, i added a comment
+14:46:48cc<c&cc;/02/throughnothingg> eit'll send the email
+14:46:52cc<c&cc;/02/throughnothingg> eif that isn't truthy, it wont
+14:47:02cc<c&cc;/02/throughnothingg> ewhat was the case where that logic is wrong?
+14:48:12cc<c&cc;/0>/MachinShing> eguh. you're making me think :( i think it has to do w/ if you have a had no contributions, or ..um.. 
+14:48:25cc<c&cc;/02/throughnothingg> eMachinShin: i think the code that's there is fine
+14:48:28cc<c&cc;/02/throughnothingg> ei'm just not convinced it fixes the ticket
+14:48:29cc<c&cc;/02/throughnothingg> ethat's all
+14:48:41cc<c&cc;/02/throughnothingg> ei think its at least the same as it was before
+14:49:16cc<c&cc;/02/throughnothingg> etruth table time? lol
+14:49:17cc<c&cc;/02/throughnothingg> elemme see
+14:49:26cc<c&cc;/0>/MachinShing> ewell. i tested it. if i have only admin contribution, i didn't receive an email. if i had non-admin, it did.. so that's the logic we want
+14:50:03cc<c&cc;/02/throughnothingg> edid u test it before + after ?
+14:50:04cc<c&cc;/02/throughnothingg> e:p
+14:50:11cc<c&cc;/02/throughnothingg> ei.e did one of those cases not work before?
+14:50:34cc<c&cc;/0>/MachinShing> ei did not.. sec
+14:52:54cc<c&cc;/0>/MachinShing> ethroughnothing: DDDUUUUDDDEEEE!!! -> http://tmate.io/
+14:53:10cc<c&cc;/02/throughnothingg> eoh. shit.
+14:53:50cc<c&cc;/02/throughnothingg> eoh
+14:53:53cc<c&cc;/02/throughnothingg> eit uses their servers
+14:53:55cc<c&cc;/02/throughnothingg> eits a service?
+14:53:59cc<c&cc;/0?/StoneCypherg> e... i actually kind of like that domain, even though it's a domain hack
+14:54:05cc<c&cc;/0>/MachinShing> eoh. is it? 
+14:54:06cc<c&cc;/0?/StoneCypherg> ei wonder if it's on purpose
+14:54:11cc<c&cc;/02/throughnothingg> eWhen launching tmate, an ssh connection is established to tmate.io in the background through libssh <http://www.libssh.org/>. The server ssh key signatures are hardcoded in the tmate client and are verified during the DH exchange to prevent man in the middle attacks <http://en.wikipedia.org/wiki/Man-in-the-middle_attack>. The client is authenticated with local ssh keys.
+14:54:24cc<c&cc;/02/throughnothingg> e:(
+14:54:29cc<c&cc;/0?/StoneCypherg> eew
+14:54:34cc<c&cc;/05/Forest Beltong> elul
+14:55:10cc<c&cc;/0>/MachinShing> e:(
+14:55:12cc<c&cc;/05/Forest Beltong> epleasetouchme: can you help me with this test?
+14:55:18cc<c&cc;/0>/MachinShing> ebollocks
+14:55:35cc<c&cc;/02/throughnothingg> ebut
+14:55:39cc<c&cc;/02/throughnothingg> eit seems like the tmate source is open?
+14:55:41cc<c&cc;/02/throughnothingg> eso in theory
+14:55:46cc<c&cc;/02/throughnothingg> eu should be able to run your own tmate.io server
+14:55:50cc<c&cc;/02/throughnothingg> ebut i guess their server code may not be open source
+14:56:16cc<c&cc;/02/throughnothingg> eoh
+14:56:20cc<c&cc;/02/throughnothingg> ei think the server code is open
+14:56:26cc<c&cc;/0=/tiltbotg> e[Jenkins: API-PRs (7741f9)] success http://107.23.70.121:8080/job/API-PRs/1700/
+14:56:47cc<c&cc;/02/throughnothingg> ewell, i guess im not sure
+14:56:48cc<c&cc;/02/throughnothingg> eits unclear
+14:57:41cc<c&cc;/02/throughnothingg> eon his roadmap is
+14:57:41cc<c&cc;/02/throughnothingg> eTolerate network failures. Dealing with reconnections and roaming (IP changes) similarly to what Mosh <http://mosh.mit.edu/> offers.
+14:57:43cc<c&cc;/02/throughnothingg> ethat would be sweet
+14:57:51cc<c&cc;/02/throughnothingg> eUDP ssh sessions that automagically reconnect 
+14:57:54cc<c&cc;/0>/MachinShing> enope. not open yet. 
+14:57:57cc<c&cc;/02/throughnothingg> ebetween users
+14:58:03cc<c&cc;/02/throughnothingg> eMachinShin: "yet" ?
+14:58:05cc<c&cc;/02/throughnothingg> eis it going to be? :)
+14:58:27cc<c&cc;/0>/MachinShing> ethroughnothing: i dunno. the dev just pasted that link in #tmux/freenode. so i asked some questions :) 
+14:58:34cc<c&cc;/02/throughnothingg> eoh nice
+14:58:43cc<c&cc;/02/throughnothingg> eit at least looks like using his sserver is free atm
+14:58:48cc<c&cc;/02/throughnothingg> eb/c there's nothing about pricing or anything
+14:58:58cc<c&cc;/02/throughnothingg> eif he oen sources the server
+14:59:03cc<c&cc;/02/throughnothingg> ewe're gonna get an ec2 box with that shit running
+14:59:24cc<c&cc;/02/throughnothingg> eand everyone relying on a GUI development env will cry
+14:59:41</ >>/>?/> ;/throughnothingg looks at the ios guys
+14:59:51cc<c&cc;/0>/MachinShing> elol
+15:00:17cc<c&cc;/0>/MachinShing> ethey'll just have to rebuild all their stuff using ncurses ;) 
+15:00:41cc<c&cc;/05/Forest Beltong> eyeah, just write an app that ascii-arts a cocoa window then pipe that to a terminal
+15:00:52cc<c&cc;/0>/MachinShing> ethroughnothing: so i asked him, and he said "i haven't decided yet" 
+15:00:55cc<c&cc;/02/throughnothingg> eForest Belton: gimme 5 minutes, i'll whip that together
+15:01:07cc<c&cc;/02/throughnothingg> eMachinShin: :(
+15:01:16cc<c&cc;/02/throughnothingg> edid he say why?
+15:01:21cc<c&cc;/02/throughnothingg> eis he thinking about commercialiing it i guess
+15:01:24cc<c&cc;/02/throughnothingg> ethats the only reason i could think of
+15:01:33cc<c&cc;/02/throughnothingg> ei feel like if he goes that route
+15:01:40cc<c&cc;/02/throughnothingg> ethere will just be someone else who writes a compatible server
+15:01:41cc<c&cc;/02/throughnothingg> eand forks tmate
+15:01:46cc<c&cc;/02/throughnothingg> eto work with your own server
+15:01:50cc<c&cc;/0>/MachinShing> eyah
+15:01:52cc<c&cc;/02/throughnothingg> eand that soemone will be me
+15:01:54cc<c&cc;/02/throughnothingg> emuahaha
+15:11:13cc<c&cc;/0>/MachinShing> eyah. he wants to commercialize it. 
+15:13:53cc<c&cc;/02/throughnothingg> ethat fuqr
+15:14:47cc<c&cc;/02/throughnothingg> epleasetouchme: check your email
+15:14:50cc<c&cc;/02/throughnothingg> elets look into the issue
+15:19:22</:>/:?/:g mode/6/crowdtilt@conference.jabber.crowdtilt.comg 3/[g+Om DelvarWorld3/]g by ccrowdtilt@conference.jabber.crowdtilt.comc
+15:20:10</:>/:?/:g mode/6/crowdtilt@conference.jabber.crowdtilt.comg 3/[g+Om dsog3/]g by ccrowdtilt@conference.jabber.crowdtilt.comc
+15:29:28cc<c&cc;/0>/MachinShing> ethroughnothing: so verified, in the daily script, the old logic was fine, admins weren't getting notified. but the issue marek wanted fixed was the change i made to BillingManager.. 
+15:29:47cc<c&cc;/0>/MachinShing> ethroughnothing: i think i'll leave the change in remind-admins.pl though. cleaner that way :) 
+15:30:59cc<c&cc;/02/throughnothingg> eMachinShin: lol ok
+15:31:01cc<c&cc;/02/throughnothingg> eglad we looked into it
+15:31:02cc<c&cc;/02/throughnothingg> ei'll +1
+15:31:05cc<c&cc;/0>/MachinShing> eword
+15:31:19cc<c&cc;/02/throughnothingg> eDelvarWorld: you there?
+15:31:52cc<c&cc;/0>/MachinShing> ehe's here talking w/ forest, "is it urgent?"
+15:32:12cc<c&cc;/0>/MachinShing> ethroughnothing: merging it
+15:34:22cc<c&cc;/0</ironcamelg> ethroughnothing: yt?
+15:35:20cc<c&cc;/03/DelvarWorldg> ethroughnothing: 
+15:35:24cc<c&cc;/03/DelvarWorldg> ethroughnothing:  what
+15:35:49cc<c&cc;/0</ironcamelg> ethroughnothing: this logic looks wrong https://github.com/Crowdtilt/crowdtilt-internal-api/blob/dev/lib/Crowdtilt/Internal/API/Billing.pm#L646
+15:35:49cc<c&cc;/0=/tiltbotg> e[dev] /lib/Crowdtilt/Internal/API/Billing.pm#L646
+15:36:44cc<c&cc;/02/throughnothingg> eDelvarWorld: looking into the issue mary emailed about
+15:36:56cc<c&cc;/03/DelvarWorldg> ethroughnothing:  yeah
+15:37:10cc<c&cc;/02/throughnothingg> eironcamel: why
+15:37:10cc<c&cc;/03/DelvarWorldg> ewhere are you?
+15:37:15cc<c&cc;/02/throughnothingg> eDelvarWorld: in the back, i know the issue
+15:37:16cc<c&cc;/02/throughnothingg> efixing
+15:37:17cc<c&cc;/0</ironcamelg> ethroughnothing: it seems backwards
+15:37:22cc<c&cc;/03/DelvarWorldg> ethroughnothing:  ok
+15:37:30cc<c&cc;/0</ironcamelg> ethroughnothing: $amount is a resultset object
+15:37:31cc<c&cc;/03/DelvarWorldg> ethroughnothing:  front end or api?
+15:37:43cc<c&cc;/0</ironcamelg> eif it is truthy, you are setting it to 0
+15:38:01cc<c&cc;/0</ironcamelg> eif it is falsy, you are doing a sum on its column
+15:38:08cc<c&cc;/0</ironcamelg> ewhich would blow up right?
+15:39:23cc<c&cc;/0=/tiltbotg> eSuccessful Chef run with git deploy on node staging-database1
+15:40:15cc<c&cc;/0</ironcamelg> eand doesn't make sense to call scalar on $amount, it is already a scalar.
+15:40:28</:>/:?/:g mode/6/crowdtilt@conference.jabber.crowdtilt.comg 3/[g+Om dsog3/]g by ccrowdtilt@conference.jabber.crowdtilt.comc
+15:42:35cc<c&cc;/0</ironcamelg> ethroughnothing: are you looking?
+15:44:54cc<c&cc;/03/DelvarWorldg> eI keep forgetting that the blur event does not bubble
+15:45:06cc<c&cc;/03/DelvarWorldg> ethat's donkey horticulture
+15:45:12cc<c&cc;/0>/MachinShing> elol
+15:45:14cc<c&cc;/03/DelvarWorldg> eeven weirder is the window event has a blur event when you tab out
+15:45:26cc<c&cc;/05/Forest Beltong> ewat
+15:45:49cc<c&cc;/0?/StoneCypherg> eyeah that's where you hook the identity theft layover
+15:46:45cc<c&cc;/02/throughnothingg> eDelvarWorld: incoming
+15:46:50cc<c&cc;/02/throughnothingg> evvv
+15:46:50cc<c&cc;/03/DelvarWorldg> elooking
+15:46:51cc<c&cc;/0=/tiltbotg> e[crowdtilt-public-site] PR-1274 'Fix analytics arrays in UTM Codes' opened by throughnothing http://git.io/UlPlWQ
+15:47:03cc<c&cc;/03/DelvarWorldg> er u serious?
+15:47:22cc<c&cc;/03/DelvarWorldg> ethroughnothing:  how did it become an array?
+15:47:48cc<c&cc;/03/DelvarWorldg> eutm_source=asdf&utm_source=pen15 ?
+15:48:14cc<c&cc;/02/throughnothingg> eDelvarWorld: yup
+15:48:15cc<c&cc;/02/throughnothingg> eexactly
+15:48:22cc<c&cc;/02/throughnothingg> emary accidentally put 2 in an email that went out today
+15:48:25cc<c&cc;/02/throughnothingg> eso they are arrays
+15:48:28cc<c&cc;/02/throughnothingg> eandi ts failing on the POST to the API
+15:48:33cc<c&cc;/02/throughnothingg> ewhen the utm_* value is an array
+15:48:37cc<c&cc;/02/throughnothingg> eDelvarWorld: just pushed an update
+15:48:40cc<c&cc;/02/throughnothingg> eto the PR
+15:49:04cc<c&cc;/03/DelvarWorldg> elookin
+15:49:24cc<c&cc;/03/DelvarWorldg> ei'm gonna test it
+15:49:30cc<c&cc;/02/throughnothingg> eyeah i just tested it by adding a debug
+15:49:33cc<c&cc;/02/throughnothingg> ethat prints $analytics
+15:49:34cc<c&cc;/02/throughnothingg> eafter the array
+15:49:36cc<c&cc;/02/throughnothingg> ebut one thing to test
+15:49:44cc<c&cc;/02/throughnothingg> ecan you set 2 before you visit this branch
+15:49:47cc<c&cc;/02/throughnothingg> emake sure its got an array
+15:49:50cc<c&cc;/02/throughnothingg> ethen refresh after you've loaded my branch
+15:49:52cc<c&cc;/02/throughnothingg> eand make sure it updates it
+15:49:54cc<c&cc;/02/throughnothingg> eoh actually
+15:49:55cc<c&cc;/02/throughnothingg> eit wont
+15:50:39cc<c&cc;/0=/tiltbotg> e[crowdtilt-public-site] PR-1275 'SITE-1335: Ability to prefill desc field with URL.' opened by khussein http://git.io/_TzmFQ
+15:50:44cc<c&cc;/03/DelvarWorldg> ethroughnothing:  my contribution should fail if I don't check out yoru branch and go to /contrubte?utm_source=a&utm_source=b right?
+15:52:41cc<c&cc;/02/throughnothingg> eDelvarWorld: ok tested that case
+15:52:45cc<c&cc;/02/throughnothingg> epushing the update
+15:52:50cc<c&cc;/02/throughnothingg> eDelvarWorld: yes
+15:52:54cc<c&cc;/03/DelvarWorldg> eTESTING
+15:52:54cc<c&cc;/02/throughnothingg> eunless you already had old utm codes set
+15:52:57cc<c&cc;/03/DelvarWorldg> eSHUT UP
+15:52:58cc<c&cc;/02/throughnothingg> ein ur session
+15:53:34cc<c&cc;/02/throughnothingg> ePUSHED
+15:54:28cc<c&cc;/03/DelvarWorldg> eok
+15:54:29cc<c&cc;/03/DelvarWorldg> etesting
+15:54:56cc<c&cc;/03/DelvarWorldg> ethroughnothing:  i'm impressed we haven't had that branch name b4
+15:55:05cc<c&cc;/02/throughnothingg> eyou just think we havent
+15:55:29c>/>>?/&c=/throughnothing  g>/<< e?/ironcamel: i got Mars hooked on vim-script-runner just now
+15:55:31cc<c&cc;/02/throughnothingg> ehe lubs it
+15:55:36cc<c&cc;/0</ironcamelg> esweet
+15:55:40cc<c&cc;/03/DelvarWorldg> ethroughnothing:  it's still failing for me
+15:55:43cc<c&cc;/0</ironcamelg> ei need to make a helptags thing for it
+15:55:46cc<c&cc;/0</ironcamelg> eand push it to vim.org
+15:55:47cc<c&cc;/02/throughnothingg> eDelvarWorld: after my braynch?
+15:55:52cc<c&cc;/03/DelvarWorldg> eLOL
+15:55:57cc<c&cc;/03/DelvarWorldg> eI DIDNT CHECK OUT UR BRANCH
+15:55:58cc<c&cc;/02/throughnothingg> esuck(h)er
+15:56:02cc<c&cc;/02/throughnothingg> eDelvarWorld: make sure u fetch again
+15:56:09cc<c&cc;/02/throughnothingg> ei push -f'ed like 14 times π
+15:56:10cc<c&cc;/03/DelvarWorldg> eoh, I tried to checkout anal-lytics
+15:56:17cc<c&cc;/03/DelvarWorldg> ehow lytical
+15:56:20>/cc<ccc</Mars            g>/> egthroughnothing ironcamel: haha. It rocks!
+15:56:22cc<c&cc;/0</ironcamelg> ethroughnothing: did you get a chance to look at https://github.com/Crowdtilt/crowdtilt-internal-api/blob/dev/lib/Crowdtilt/Internal/API/Billing.pm#L646
+15:56:22cc<c&cc;/0=/tiltbotg> e[dev] /lib/Crowdtilt/Internal/API/Billing.pm#L646
+15:56:27cc<c&cc;/02/throughnothingg> eyes
+15:56:38cc<c&cc;/02/throughnothingg> eironcamel: what you said sounds reasonable, i need to look at what/whehre that function is called
+15:56:41c>/>>?/&c=/ironcamel       g>/<< e?/Mars: thanks! feel free to improve it, code is on github
+15:56:41cc<c&cc;/02/throughnothingg> ehow did you come across it?
+15:56:58cc<c&cc;/0</ironcamelg> ethroughnothing: just was working on https://github.com/Crowdtilt/crowdtilt-internal-api/pull/798
+15:56:58cc<c&cc;/0=/tiltbotg> e[PR-798](alnewkirk) BACK-441: Restore of max contribution limit per user per campaign
+15:57:11cc<c&cc;/0</ironcamelg> eand looking at the code that was changed in that file, in that method
+15:57:13cc<c&cc;/02/throughnothingg> eironcamel: and did you git blame on that?
+15:57:17cc<c&cc;/0</ironcamelg> eyes, it was you
+15:57:18cc<c&cc;/02/throughnothingg> eits probably me or khaled
+15:57:20cc<c&cc;/02/throughnothingg> ehaha
+15:57:22cc<c&cc;/02/throughnothingg> efigures
+15:57:26cc<c&cc;/02/throughnothingg> ei had a 50/50 shot
+15:57:32cc<c&cc;/0=/tiltbotg> e[Jenkins: API-PRs (41bf35)] failure http://107.23.70.121:8080/job/API-PRs/1701/
+15:57:34cc<c&cc;/02/throughnothingg> eDAMMIT
+15:57:48cc<c&cc;/02/throughnothingg> eironcamel: do we have tests that test the contribution limits?
+15:57:50cc<c&cc;/02/throughnothingg> ethaht u know of
+15:58:04cc<c&cc;/0</ironcamelg> et/02_campaigns/12-contribution-limits.t maybe
+15:58:15cc<c&cc;/0</ironcamelg> ethose are the tests i have been running
+15:59:09cc<c&cc;/02/throughnothingg> eand they pass?
+15:59:12cc<c&cc;/02/throughnothingg> e:/
+15:59:17cc<c&cc;/02/throughnothingg> ei guess flip it and see if they pass
+15:59:23cc<c&cc;/02/throughnothingg> eand if not, make sure the test logic is sound?
+15:59:26cc<c&cc;/03/DelvarWorldg> ethroughnothing:  by the powers vested in me by Billy's Beef Barn, I hereby +1 your PR after minimal testing
+15:59:26cc<c&cc;/02/throughnothingg> eit seems scary to change
+15:59:27cc<c&cc;/0</ironcamelg> eok
+15:59:28cc<c&cc;/0</ironcamelg> eyeah
+15:59:46cc<c&cc;/05/Forest Beltong> eDelvarWorld: i've finished the tasks marked for me - should i get back to the new sign-up/login lightbox, or take some of the unassigned ones?
+15:59:50cc<c&cc;/02/throughnothingg> eDelvarWorld: billy's beef barn never called me back
+15:59:54cc<c&cc;/02/throughnothingg> e:-'(
+16:00:07cc<c&cc;/03/DelvarWorldg> ethroughnothing:  verified it's in the database too for the contribution
+16:00:11cc<c&cc;/02/throughnothingg> eNIZE
+16:00:15cc<c&cc;/02/throughnothingg> ei don't see a pluts
+16:00:18cc<c&cc;/02/throughnothingg> eDelvarWorld: ^^
+16:00:25cc<c&cc;/03/DelvarWorldg> eForest Belton:  no, grab another one
+16:00:29cc<c&cc;/03/DelvarWorldg> elet's knock this out
+16:00:36cc<c&cc;/05/Forest Beltong> ekk
+16:01:01cc<c&cc;/0=/tiltbotg> e[Jenkins: Public-Site-PRs (c10ac2)] success http://107.23.70.121:8080/job/Public-Site-PRs/1646/
+16:01:08cc<c&cc;/03/DelvarWorldg> eStoneSurface:  which one are you working on?
+16:01:24cc<c&cc;/03/DelvarWorldg> envm, he got one
+16:01:25cc<c&cc;/06/dsogg> ethroughnothing: I see what you are saying on jenkins taking forever now.
+16:01:27cc<c&cc;/03/DelvarWorldg> eeveryone shut up
+16:01:29cc<c&cc;/06/dsogg> eboo :P
+16:01:36cc<c&cc;/02/throughnothingg> eDelvarWorld: plus me plus me
+16:01:56cc<c&cc;/02/throughnothingg> edsog: we need to spin up more jenkins boxes in ec2 maybe
+16:02:01cc<c&cc;/02/throughnothingg> eand set them up as worker slaves
+16:02:05cc<c&cc;/02/throughnothingg> eso we can build like 12 builds at a time
+16:02:06cc<c&cc;/02/throughnothingg> eheh
+16:02:07cc<c&cc;/03/DelvarWorldg> ethroughnothing:  doesn't matter jenky
+16:02:08cc<c&cc;/06/dsogg> eYeah, I'll let Matt's team handle that :)
+16:02:09cc<c&cc;/03/DelvarWorldg> e(SLOW)
+16:02:14cc<c&cc;/0=/tiltbotg> e[Jenkins: Public-Site-PRs (3049c1)] success http://107.23.70.121:8080/job/Public-Site-PRs/1647/
+16:02:14cc<c&cc;/0=/tiltbotg> e[Jenkins: Public-Site-PRs (860105)] success http://107.23.70.121:8080/job/Public-Site-PRs/1648/
+16:02:19cc<c&cc;/02/throughnothingg> eDelvarWorld: PLUS ME
+16:02:22cc<c&cc;/03/DelvarWorldg> eI DID
+16:02:22cc<c&cc;/02/throughnothingg> edone
+16:02:33cc<c&cc;/06/dsogg> eDelvarWorld: https://github.com/Crowdtilt/crowdtilt-public-site/pull/1275
+16:02:33cc<c&cc;/0=/tiltbotg> e[PR-1275](khussein) SITE-1335: Ability to prefill desc field with URL.
+16:02:39cc<c&cc;/0=/tiltbotg> e[Jenkins: Public-Site-PRs (5f38fb)] success http://107.23.70.121:8080/job/Public-Site-PRs/1645/
+16:02:58cc<c&cc;/02/throughnothingg> etiltbot: ci run Production-Deploy
+16:02:58cc<c&cc;/0=/tiltbotg> ethroughnothing: building Production-Deploy...
+16:03:01cc<c&cc;/02/throughnothingg> eDelvarWorld: ^^
+16:03:37cc<c&cc;/03/DelvarWorldg> eLOL
+16:03:42cc<c&cc;/03/DelvarWorldg> edid you even check teh queue?
+16:03:49cc<c&cc;/02/throughnothingg> edammit
+16:03:51cc<c&cc;/02/throughnothingg> eyeah ijust did
+16:03:53cc<c&cc;/02/throughnothingg> ei gotta kill that one
+16:03:53cc<c&cc;/03/DelvarWorldg> etiltbot:  needs a show queue task
+16:03:58cc<c&cc;/02/throughnothingg> eal didn't merge his other thing
+16:04:00cc<c&cc;/02/throughnothingg> emerging that
+16:04:01cc<c&cc;/02/throughnothingg> eand redoing
+16:04:02cc<c&cc;/03/DelvarWorldg> eLOL
+16:04:15cc<c&cc;/03/DelvarWorldg> ethroughnothing: 
+16:04:17</:>/:?/:g mode/6/crowdtilt@conference.jabber.crowdtilt.comg 3/[g+Om phillinonyobooty3/]g by ccrowdtilt@conference.jabber.crowdtilt.comc
+16:04:19cc<c&cc;/03/DelvarWorldg> ewe wanna merge one more fornt end thing
+16:04:37cc<c&cc;/02/throughnothingg> eok
+16:04:40cc<c&cc;/02/throughnothingg> eMERGE
+16:04:44cc<c&cc;/02/throughnothingg> ei killed that build
+16:04:48cc<c&cc;/02/throughnothingg> eso lemme know when i can run another
+16:05:01cc<c&cc;/03/DelvarWorldg> e3…2….4....
+16:05:09cc<c&cc;/02/throughnothingg> e9…12…adium sucks
+16:05:43cc<c&cc;/0=/tiltbotg> e[Jenkins: Public-Site-PRs (9d14a0)] success http://107.23.70.121:8080/job/Public-Site-PRs/1649/
+16:05:59cc<c&cc;/03/DelvarWorldg> ethroughnothing:  GO
+16:06:45cc<c&cc;/02/throughnothingg> etiltbot: ci run Production-Deploy
+16:06:46cc<c&cc;/0=/tiltbotg> ethroughnothing: building Production-Deploy...
+16:07:59cc<c&cc;/0=/tiltbotg> e[Jenkins: API-Deploy (master)] success http://107.23.70.121:8080/job/API-Deploy/123/
+16:09:40cc<c&cc;/03/DelvarWorldg> eStoneSurface:  Forest Belton can you guys build jems fine?
+16:09:49cc<c&cc;/0=/tiltbotg> e[Jenkins: Public-Site-PRs (27e552)] success http://107.23.70.121:8080/job/Public-Site-PRs/1650/
+16:09:55cc<c&cc;/03/DelvarWorldg> egod dammit now the error is gone
+16:10:02cc<c&cc;/03/DelvarWorldg> eit was giving me line 510: unexpected end of input at /Users/DelvarWorld/perl5/perlbrew/perls/perl-5.14.2/lib/site_perl/5.14.2/Jemplate.pm line 379.
+16:10:20cc<c&cc;/02/throughnothingg> eDelvarWorld: gonna deploy
+16:10:24cc<c&cc;/0=/tiltbotg> eSuccessful Chef run with git deploy on node staging-database1
+16:10:28cc<c&cc;/03/DelvarWorldg> ethroughnothing:  do it
+16:10:33cc<c&cc;/03/DelvarWorldg> egonna emale 2?
+16:10:40cc<c&cc;/02/throughnothingg> euhhhh
+16:11:04cc<c&cc;/03/DelvarWorldg> eurrrrr

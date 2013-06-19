@@ -57,14 +57,16 @@ map ,, \\
 " Make Y consistent with C and D.  See :help Y.
 nnoremap Y y$
 
-
+" Functions Keys
+noremap <F2> :registers<CR>
+inoremap <F2> <esc>:registers<CR>
 
 " Splits
 noremap vv :vsplit<CR>
 noremap ss :split<CR>
 
 " Render Partial
-noremap <C-H> :Rextract 
+noremap <C-H> :Rextract
 	
 set showmode
 
@@ -74,12 +76,16 @@ set wrap
 noremap <C-t> :CtrlP<CR>
 noremap ,n :NERDTreeToggle<CR>
 
+" ======================= Script Runner ====================
+let g:script_runner_perl = "perl -Ilib -MData::Dumper -Mv5.10 -Mwarnings -MFile::Slurp"
+let g:script_runner_javascript = "node"
+
 " ====================== Edit   Vimrc ======================
 " source $MYVIMRC reloads the saved $MYVIMRC
 :nmap <Leader>s :source $MYVIMRC
 
 " opens $MYVIMRC for editing, or use :tabedit $MYVIMRC
-:nmap <Leader>v :e $MYVIMRC
+:nmap <Leader>e :e $MYVIMRC
 
 " ====================== Color Scheme ======================
 set background=dark
@@ -176,7 +182,7 @@ noremap L <C-w>l
 
 " ======================= Copy & Paste =====================
 " Requires MacVim
-" set clipboard+=unnamed  "" Sets all to clipboard
+set clipboard+=unnamed  "" Sets all to clipboard
 noremap <C-c> "+y " Copy to OS X Buffer
 
 " *note* Lets remap this to something else
@@ -194,7 +200,6 @@ set expandtab
 " Display tabs and trailing spaces visually
 set list listchars=tab:\ \ ,trail:·
 
-set nowrap       "Don't wrap lines
 set linebreak    "Wrap lines at convenient points
 
 " =================== Turn Off Swap Files ==================

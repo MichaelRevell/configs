@@ -1,0 +1,517 @@
+From metrics+bncBDE4XQUVQIORB7GXQ2HAKGQEJCRYK5Q@crowdtilt.com Wed Jun 19 06:02:54 2013
+Delivered-To: michael@crowdtilt.com
+Received: by 10.49.75.101 with SMTP id b5csp46526qew;
+        Wed, 19 Jun 2013 06:02:55 -0700 (PDT)
+X-Received: by 10.220.98.68 with SMTP id p4mr582569vcn.28.1371646974348;
+        Wed, 19 Jun 2013 06:02:54 -0700 (PDT)
+Return-Path: <metrics+bncBDE4XQUVQIORB7GXQ2HAKGQEJCRYK5Q@crowdtilt.com>
+Received: from mail-ve0-x245.google.com (mail-ve0-x245.google.com [2607:f8b0:400c:c01::245])
+        by mx.google.com with ESMTPS id ef7si6493017vdc.59.2013.06.19.06.02.53
+        for <michael@crowdtilt.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Wed, 19 Jun 2013 06:02:54 -0700 (PDT)
+Received-SPF: neutral (google.com: 54.240.8.59 is neither permitted nor denied by best guess record for domain of metrics+bncBDE4XQUVQIORB7GXQ2HAKGQEJCRYK5Q@crowdtilt.com) client-ip=54.240.8.59;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 54.240.8.59 is neither permitted nor denied by best guess record for domain of metrics+bncBDE4XQUVQIORB7GXQ2HAKGQEJCRYK5Q@crowdtilt.com) smtp.mail=metrics+bncBDE4XQUVQIORB7GXQ2HAKGQEJCRYK5Q@crowdtilt.com
+Received: by mail-ve0-f197.google.com with SMTP id d10sf7356313vea.8
+        for <michael@crowdtilt.com>; Wed, 19 Jun 2013 06:02:53 -0700 (PDT)
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=20120113;
+        h=x-beenthere:from:reply-to:to:subject:mime-version:date:message-id
+         :x-ses-outgoing:x-original-sender:x-original-authentication-results
+         :precedence:mailing-list:list-id:x-google-group-id:list-help
+         :content-type:content-transfer-encoding;
+        bh=JusxYAny3tB01BYizg6BxIUMsY/iz4qdKerv23o3xSQ=;
+        b=W5FfpR+Upe2ESsSgIqhIKbAES+NeGSzCqk0Yw+kvwv9r448k6irwhqfUTTyJh4kTZW
+         XM+ZRGOhXSfq8BE1F66gEay0nl1DsaZLcPBPfk6bZPbfHD2KJdF/CZf3Fgo0SryOrIlV
+         15TgV5j/dZ2H6UXLjmDIZSFTW97oBJTpl4Md9fHjt/kZYB0XyZMoKRwahPro4bWQr/V0
+         0ka3IyXq76WiMPQTFVNOJDnsaOb8V5RKJ17sHFLsxmFXtP2v79EmS1k7nTN6GeRtpdo/
+         WMjyZoHLMQOGEPKUhruCHZZXWV91UfPoPyxSa41HjVDSWTOyDRcXDZQp/DGIIFAhginw
+         yDZw==
+X-Received: by 10.236.124.165 with SMTP id x25mr1603302yhh.4.1371646973062;
+        Wed, 19 Jun 2013 06:02:53 -0700 (PDT)
+X-BeenThere: metrics@crowdtilt.com
+Received: by 10.49.88.99 with SMTP id bf3ls243465qeb.78.gmail; Wed, 19 Jun
+ 2013 06:02:52 -0700 (PDT)
+X-Received: by 10.49.131.36 with SMTP id oj4mr3214062qeb.51.1371646972731;
+        Wed, 19 Jun 2013 06:02:52 -0700 (PDT)
+Received: from a8-59.smtp-out.amazonses.com (a8-59.smtp-out.amazonses.com. [54.240.8.59])
+        by mx.google.com with ESMTP id w10si8292588qcv.16.2013.06.19.06.02.52
+        for <multiple recipients>;
+        Wed, 19 Jun 2013 06:02:52 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 0000013f5c87d051-ee6d0100-382a-4d84-a59b-1d5c3ea05dfe-000000@amazonses.com designates 54.240.8.59 as permitted sender) client-ip=54.240.8.59;
+From: Crowdtilt <noreply@crowdtilt.com>
+Reply-To: noreply@crowdtilt.com
+To: metrics@crowdtilt.com
+Subject: Crowdtilt Daily Stats
+MIME-Version: 1.0
+Date: Wed, 19 Jun 2013 13:02:52 +0000
+Message-ID: <0000013f5c87d051-ee6d0100-382a-4d84-a59b-1d5c3ea05dfe-000000@email.amazonses.com>
+X-SES-Outgoing: 2013.06.19-54.240.8.59
+X-Original-Sender: noreply@crowdtilt.com
+X-Original-Authentication-Results: mx.google.com;       spf=pass (google.com:
+ domain of 0000013f5c87d051-ee6d0100-382a-4d84-a59b-1d5c3ea05dfe-000000@amazonses.com
+ designates 54.240.8.59 as permitted sender) smtp.mail=0000013f5c87d051-ee6d0100-382a-4d84-a59b-1d5c3ea05dfe-000000@amazonses.com
+Precedence: list
+Mailing-list: list metrics@crowdtilt.com; contact metrics+owners@crowdtilt.com
+List-ID: <metrics.crowdtilt.com>
+X-Google-Group-Id: 831038263774
+List-Help: <http://support.google.com/a/crowdtilt.com/bin/topic.py&topic=25838>,
+ <mailto:metrics+help@crowdtilt.com>
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+Content-Length: 5762
+Lines: 451
+
+
+<h3>
+    ==> High Level Metrics
+</h3>
+<table>
+<tr style="text-align:center">
+ <th>Metric</th>
+
+   
+    <th> 06-18-2013</th>
+   
+ 
+   
+    <th> Weekly %Change</th>
+   
+ 
+   
+ 
+</tr>
+
+
+<tr style="text-align:right">
+  
+    <td style="text-align:left"><b>New Registrations</b></td>
+    
+      
+      <td style="text-align:right">
+         234
+      </td>
+      
+    
+      
+    
+      
+      <td style="text-align:right">
+         -38.49
+      </td>
+      
+    
+ 
+</tr>
+
+<tr style="text-align:right">
+  
+    <td style="text-align:left"><b>New Campaigns</b></td>
+    
+      
+      <td style="text-align:right">
+         86
+      </td>
+      
+    
+      
+    
+      
+      <td style="text-align:right">
+         -39.58
+      </td>
+      
+    
+ 
+</tr>
+
+<tr style="text-align:right">
+  
+    <td style="text-align:left"><b>First Time Contributors</b></td>
+    
+      
+      <td style="text-align:right">
+         186
+      </td>
+      
+    
+      
+    
+      
+      <td style="text-align:right">
+         -12.58
+      </td>
+      
+    
+ 
+</tr>
+
+</table>
+<hr />
+
+<h3>
+    ==> Daily Level Metrics
+</h3>
+<table>
+<tr style="text-align:center">
+ <th>Metric</th>
+
+   
+    <th> 06-18-2013</th>
+   
+ 
+   
+    <th> Weekly %Change</th>
+   
+ 
+   
+ 
+</tr>
+
+
+<tr style="text-align:right">
+  
+    <td style="text-align:left"><b>Daily Num Contributions</b></td>
+    
+      
+      <td style="text-align:right">
+         512
+      </td>
+      
+    
+      
+    
+      
+      <td style="text-align:right">
+         11.41
+      </td>
+      
+    
+ 
+</tr>
+
+<tr style="text-align:right">
+  
+    <td style="text-align:left"><b>Daily Charged Amt ($)</b></td>
+    
+      
+      <td style="text-align:right">
+         44,956
+      </td>
+      
+    
+      
+    
+      
+      <td style="text-align:right">
+         25.93
+      </td>
+      
+    
+ 
+</tr>
+
+<tr style="text-align:right">
+  
+    <td style="text-align:left"><b>Daily Contributions Amt ($)</b></td>
+    
+      
+      <td style="text-align:right">
+         60,512
+      </td>
+      
+    
+      
+    
+      
+      <td style="text-align:right">
+         43.54
+      </td>
+      
+    
+ 
+</tr>
+
+<tr style="text-align:right">
+  
+    <td style="text-align:left"><b>Daily Escrow Amt ($)</b></td>
+    
+      
+      <td style="text-align:right">
+         23
+      </td>
+      
+    
+      
+    
+      
+      <td style="text-align:right">
+         -43.44
+      </td>
+      
+    
+ 
+</tr>
+
+<tr style="text-align:right">
+  
+    <td style="text-align:left"><b>Active Campaigns</b></td>
+    
+      
+      <td style="text-align:right">
+         2,736
+      </td>
+      
+    
+      
+    
+      
+      <td style="text-align:right">
+         60.07
+      </td>
+      
+    
+ 
+</tr>
+
+</table>
+<hr />
+
+<h3>
+    ==> Monthly Goal Metrics
+</h3>
+<table>
+<tr style="text-align:center">
+ <th>Metric</th>
+
+   
+    <th> $</th>
+   
+ 
+   
+ 
+</tr>
+
+
+<tr style="text-align:right">
+  
+    <td style="text-align:left"><b>Last Months Charges</b></td>
+    
+      
+      <td style="text-align:right">
+         775,680
+      </td>
+      
+    
+      
+    
+ 
+</tr>
+
+<tr style="text-align:right">
+  
+    <td style="text-align:left"><b>This Months' Charges</b></td>
+    
+      
+      <td style="text-align:right">
+         552,279
+      </td>
+      
+    
+      
+    
+ 
+</tr>
+
+<tr style="text-align:right">
+  
+    <td style="text-align:left"><b>Daily Run rate needed</b></td>
+    
+      
+      <td style="text-align:right">
+         31,544
+      </td>
+      
+    
+      
+    
+ 
+</tr>
+
+<tr style="text-align:right">
+  
+    <td style="text-align:left"><b>Difference from Goal</b></td>
+    
+      
+      <td style="text-align:right">
+         378,537
+      </td>
+      
+    
+      
+    
+ 
+</tr>
+
+<tr style="text-align:right">
+  
+    <td style="text-align:left"><b>Expected Transaction Amt to date</b></td>
+    
+      
+      <td style="text-align:right">
+         558,489
+      </td>
+      
+    
+      
+    
+ 
+</tr>
+
+<tr style="text-align:right">
+  
+    <td style="text-align:left"><b>This Months' Goal</b></td>
+    
+      
+      <td style="text-align:right">
+         930,816
+      </td>
+      
+    
+      
+    
+ 
+</tr>
+
+</table>
+<hr />
+
+<h3>
+    ==> Cumulative Metrics
+</h3>
+<table>
+<tr style="text-align:center">
+ <th>Metric</th>
+
+   
+    <th> 06-18-2013</th>
+   
+ 
+   
+    <th> Weekly %Change</th>
+   
+ 
+   
+ 
+</tr>
+
+
+<tr style="text-align:right">
+  
+    <td style="text-align:left"><b>Total Contributions Amount ($)</b></td>
+    
+      
+      <td style="text-align:right">
+         4,648,083
+      </td>
+      
+    
+      
+    
+      
+      <td style="text-align:right">
+         5.64
+      </td>
+      
+    
+ 
+</tr>
+
+<tr style="text-align:right">
+  
+    <td style="text-align:left"><b>Total Charged Amount ($)</b></td>
+    
+      
+      <td style="text-align:right">
+         3,818,257
+      </td>
+      
+    
+      
+    
+      
+      <td style="text-align:right">
+         6.64
+      </td>
+      
+    
+ 
+</tr>
+
+<tr style="text-align:right">
+  
+    <td style="text-align:left"><b>Total Users</b></td>
+    
+      
+      <td style="text-align:right">
+         58,734
+      </td>
+      
+    
+      
+    
+      
+      <td style="text-align:right">
+         3.14
+      </td>
+      
+    
+ 
+</tr>
+
+<tr style="text-align:right">
+  
+    <td style="text-align:left"><b>Total Escrow Amount ($)</b></td>
+    
+      
+      <td style="text-align:right">
+         47,235
+      </td>
+      
+    
+      
+    
+      
+      <td style="text-align:right">
+         3.79
+      </td>
+      
+    
+ 
+</tr>
+
+<tr style="text-align:right">
+  
+    <td style="text-align:left"><b>Total Contributions</b></td>
+    
+      
+      <td style="text-align:right">
+         64,676
+      </td>
+      
+    
+      
+    
+      
+      <td style="text-align:right">
+         4.72
+      </td>
+      
+    
+ 
+</tr>
+
+</table>
+<hr />
+

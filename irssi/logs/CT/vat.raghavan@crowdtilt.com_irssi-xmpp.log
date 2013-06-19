@@ -94,3 +94,106 @@
 17:58:46cc</michael.revell  g ehttps://plus.google.com/109828394194059139561/posts/NiRiDkTcvS8
 18:00:02cc<;/vat.raghavan@crog> eneat
 --- Log closed Tue Jun 18 18:05:12 2013
+--- Log opened Wed Jun 19 13:13:50 2013
+13:13:50</:>/:?/:g cIrssi:c Starting query in cCTc with cvat.raghavan@crowdtilt.com/irssi-xmppc
+13:13:50cc<;/vat.raghavan@crog> etry this, tell me what it does (in mutt) ? -> http://does-not-exist.org/mail-archives/mutt-users/msg10090.html
+13:13:52cc</michael.revell  g efound.
+13:15:38cc<;/vat.raghavan@crog> ethere area  bunch of compile options for mutt in brew, you know what they do/are for? 
+13:15:56cc<;/vat.raghavan@crog> ethe --with-sidebar-patch seems to do what i want ;) 
+13:16:46cc</michael.revell  g eyea, I tried installing that
+13:16:55cc</michael.revell  g edidn't get it to work. lol
+13:17:54cc<;/vat.raghavan@crog> eoh. there's also --with-trash-patch , seems to be the Archive thing you wanted earlier? 
+--- Log closed Wed Jun 19 13:23:53 2013
+--- Log opened Wed Jun 19 13:25:47 2013
+13:25:47cc<;/vat.raghavan@crog> epango? 
+--- Log closed Wed Jun 19 13:30:53 2013
+--- Log opened Wed Jun 19 13:44:26 2013
+13:44:26cc</michael.revell  g eI also found labeling with gmail
+13:44:27cc</michael.revell  g ehttp://blitiri.com.ar/p/other/mutt-labels/
+13:44:31cc</michael.revell  g edo you use labels?
+13:44:41cc</michael.revell  g eAlso, Khaled seems to be a Mutt pro.
+13:45:02cc</michael.revell  g eI tried reinstalling with the sidebar patch last week and it still didn't work
+13:45:07cc</michael.revell  g eI might have done something wrong
+13:46:03cc<;/vat.raghavan@crog> ekhaled uses mutt? huh
+13:46:51cc<;/vat.raghavan@crog> ei use labels as if they were folders
+--- Log closed Wed Jun 19 13:51:53 2013
+--- Log opened Wed Jun 19 14:14:26 2013
+14:14:26cc</michael.revell  g eyea. i don't use labels
+14:14:30cc</michael.revell  g ebut i feel like i should
+14:14:38cc</michael.revell  g eand I'm always open to changing my ways
+14:14:50cc</michael.revell  g eunless someone tries to convince me to use emacs
+14:15:15cc</michael.revell  g ebut yea, i was shocked too. khaled has apearently been using mutt for a while
+14:19:10cc<;/vat.raghavan@crog> ehe doesn't use labels i thought. he said he just has everythign in inbox and searches
+14:20:08cc</michael.revell  g eyea i think he does
+14:20:15cc</michael.revell  g enot use labels
+14:20:23cc</michael.revell  g ethat was a confusing statement lol
+14:20:39cc</michael.revell  g eyou're right. he does not. i was just making an unrelated statement
+14:21:12cc</michael.revell  g ekhaled / labels. they were confusingly differently subjects lol
+14:21:36cc</michael.revell  g ealso I just found out that you can execute commands with :exec in mutt
+14:21:45cc</michael.revell  g eI tried just colon and it wasn't working. haha
+14:21:52cc</michael.revell  g ewas confusing me
+14:23:09cc<;/vat.raghavan@crog> eah
+14:23:52cc<;/vat.raghavan@crog> ei decided i'm gonna write a simple script so irssi can either get my passwords from my ssh-keys or from the keygen. cause as it stands it's stupid. the solution in #irssi is to either lockdown my confi so only i can read it.. or "go fuck yourself". 
+14:25:58cc</michael.revell  g eyes do that!
+14:26:11cc</michael.revell  g ealso this might help get you started for the mac key chain
+14:26:29cc</michael.revell  g esecurity find-generic-password -w -s mutt -a "michael@crowdtilt.com"
+14:26:40cc</michael.revell  g esure you know about that, but thought i'd throw it out there
+14:28:30cc<;/vat.raghavan@crog> eyah. you told me. but you can't do that w/ irssi >:(
+--- Log closed Wed Jun 19 14:33:53 2013
+--- Log opened Wed Jun 19 14:44:11 2013
+14:44:11cc</michael.revell  g eyea you can't
+14:44:26cc</michael.revell  g ebut it might be a starting point for your script or something :/
+14:46:14cc<;/vat.raghavan@crog> eyah. i'm looking into seeing if irssi has a on-server-connect event. or something, so i can 'inject' the password from my secure source
+14:46:56cc</michael.revell  g ealso you could always do it from a tmux.config
+14:47:11cc</michael.revell  g esend-keys
+14:47:24cc<;/vat.raghavan@crog> e? 
+14:47:36cc</michael.revell  g eon loading up tmux. but i guess that would suck if you wanted to exit irssi and come back
+14:48:18cc</michael.revell  g eyou can do a tmux send-keys "/connect vat `secureity blah blah blah vat@crowdtilt.com`"
+14:48:32cc<;/vat.raghavan@crog> eoh. good lord. that'd be .. ugh
+14:48:40cc</michael.revell  g ehahahaha
+14:48:46cc</michael.revell  g ei do that for /nicklist fifo
+14:48:56cc</michael.revell  g eso I don't have to set that up when i open up tmux
+14:49:06cc</michael.revell  g etmux send-keys 'cat ~/.irssi/nicklistfifo' 'Enter'
+14:49:26cc</michael.revell  g etmux send-keys 'cat ~/.irssi/nicklistfifo' 'Enter'
+14:49:47cc</michael.revell  g eand then in irssi i send this
+14:49:48cc</michael.revell  g etmux select-pane -t 0
+14:49:48cc</michael.revell  g etmux send-keys '/nicklist fifo' 'Enter'
+14:49:55cc<;/vat.raghavan@crog> eyah. i'd do that too, if could get tmuxinator layut working. 
+14:50:02cc<;/vat.raghavan@crog> erather i do that now.. 
+14:50:59cc</michael.revell  g eI actually kind of like doing a bash script for setting up tmux. it ends up being about the same amount of lines and you get way more control
+14:52:17cc<;/vat.raghavan@crog> e*shrugs*. to each his own :) 
+14:55:47cc</michael.revell  g e:-)
+--- Log closed Wed Jun 19 15:00:53 2013
+--- Log opened Wed Jun 19 15:57:40 2013
+15:57:40cc<;/vat.raghavan@crog> ewhat rocks? 
+15:59:09cc</michael.revell  g e?
+15:59:14cc</michael.revell  g evim-script-runner?
+16:00:42cc<;/vat.raghavan@crog> eyou said "it rocks' to will & naveed in chat, wondered what you were referring to
+16:01:01cc</michael.revell  g eah
+16:01:08cc</michael.revell  g evim script runner
+16:01:17cc</michael.revell  g ealso, why does my tmux think it's jun 06?
+16:01:30cc</michael.revell  g efor some reason I feel like this might be your fault lol
+16:01:50cc</michael.revell  g e`date` knows that it's Jun 19th :P
+16:02:14cc<;/vat.raghavan@crog> eyah. mine does as well.. 
+16:02:23cc<;/vat.raghavan@crog> enot sure why.. 
+16:03:33cc<;/vat.raghavan@crog> ethis is weird. 
+16:03:38cc<;/vat.raghavan@crog> eset -g status-right '#[fg=yellow][%a, %b %m %Y | #[fg=colour166]%r]#[default]'
+16:03:40cc<;/vat.raghavan@crog> eis the logic
+16:04:51cc</michael.revell  g esounds logical
+16:05:06cc</michael.revell  g eexcept I think you're doing the month yo
+16:05:08cc</michael.revell  g enot the date
+16:05:15cc</michael.revell  g e%m is XX formated date
+16:05:17cc</michael.revell  g e;)
+16:05:30cc</michael.revell  g eit should be %d or something probably
+16:05:58cc</michael.revell  g eyup
+16:06:02cc</michael.revell  g ethat does it :D
+16:06:13cc</michael.revell  g eI'm going to submit a pull request for you. hahahahaha
+16:07:00cc<;/vat.raghavan@crog> eah. $m is month
+16:07:03cc<;/vat.raghavan@crog> eer %m
+16:07:12cc<;/vat.raghavan@crog> egood catch :) 
+16:07:32cc</michael.revell  g epull pull pull :-)
+16:07:37cc</michael.revell  g epull my PR :D
+16:08:50cc<;/vat.raghavan@crog> edone
+16:10:09cc</michael.revell  g ewoot!
+16:10:59cc<;/vat.raghavan@crog> elol
+16:11:03cc</michael.revell  g ehaha

@@ -6,6 +6,8 @@
 bind index @ noop               # null out any folder specific keys
 # Generic key bindings
 # Lets do vim style bindings please?
+
+bind generic \cH  what-key
 bind generic  L   bottom-page
 bind generic  z\r   current-top
 bind generic  z.    current-middle
@@ -65,6 +67,7 @@ bind index  \cX   forget-passphrase
 bind index  f   forward-message
 bind index  \eG   group-reply
 bind index  ?   help
+bind index G   last-entry
 bind index  <end>   last-entry
 bind index  \cE   last-entry
 bind index  l   limit
