@@ -14,3 +14,83 @@
 13:04:07michael.revell   holy cow. I feel like I'm in the real world now.
 13:04:48<vat.raghavan@cro> lol
 13:05:23<vat.raghavan@cro> do a /alias and check out the aliases taht are there.. the /w* is stuff i added
+13:05:36<vat.raghavan@cro> so there's mainly /wg , /wn and /wnu iirc
+--- Log closed Mon Jun 17 13:11:31 2013
+--- Log opened Mon Jun 17 13:31:31 2013
+13:31:31michael.revell   oh sweet
+13:31:38<vat.raghavan@cro> ? 
+13:31:52michael.revell   I just noticed your alias instructions
+13:31:59<vat.raghavan@cro> ah
+13:32:07michael.revell   I feel like irssi should ping me when I get an update
+13:32:14<vat.raghavan@cro> btw, i found a bug in my config. you should change /set awl_maxlines 2
+13:32:53michael.revell   where do i set that at?
+13:33:05michael.revell   nvm
+13:33:06michael.revell   i see it
+13:33:10michael.revell   why 2?
+13:33:21michael.revell   boom. changed.
+13:33:23michael.revell   like a boss
+13:33:32<vat.raghavan@cro> cause atm it's 1, and if you have more than a certain # of windows, it doesn't set a scrollbar, or tell you that there aer more offscreen windows. 
+13:35:28<vat.raghavan@cro> http://www.reddit.com
+--- Log closed Mon Jun 17 13:38:30 2013
+--- Log opened Mon Jun 17 14:00:36 2013
+14:00:36::: Irssi: Starting query in CT with vat.raghavan@crowdtilt.com/irssi-xmpp
+--- Log closed Mon Jun 17 14:11:45 2013
+--- Log opened Mon Jun 17 14:12:53 2013
+14:12:53::: Irssi: Starting query in CT with vat.raghavan@crowdtilt.com/irssi-xmpp
+14:12:54michael.revell   hi
+14:12:56michael.revell   meow
+14:13:05michael.revell   how come it doesn't save the history
+14:13:06<vat.raghavan@cro> yo
+14:13:08michael.revell   yoyoyo
+14:13:10michael.revell   hohoho
+14:13:20<vat.raghavan@cro> it does. it just doesn't display it to you
+14:13:23<vat.raghavan@cro> it's logged
+14:13:32michael.revell   <slash> sad
+14:13:36michael.revell   *sad*
+14:14:59<vat.raghavan@cro> blah. can't find it now.. :| 
+--- Log closed Mon Jun 17 14:20:48 2013
+--- Log opened Mon Jun 17 14:26:23 2013
+14:26:23michael.revell   dude. tmux and irssi / mutt configs make my life amazing. :D
+14:26:29<vat.raghavan@cro> haha
+--- Log closed Mon Jun 17 14:31:48 2013
+--- Log opened Mon Jun 17 16:55:55 2013
+16:55:55::: Irssi: Starting query in CT with vat.raghavan@crowdtilt.com/irssi-xmpp
+16:55:55<vat.raghavan@cro> hahahaha
+--- Log closed Mon Jun 17 17:01:08 2013
+--- Log opened Mon Jun 17 17:02:42 2013
+17:02:42michael.revell   haha. what's up with the HAs?
+17:02:54<vat.raghavan@cro> oh. your /query stuff in chan :) 
+--- Log closed Mon Jun 17 17:08:08 2013
+--- Log opened Mon Jun 17 17:21:26 2013
+17:21:26michael.revell   I keep doing backslash!!
+17:21:27michael.revell   lol
+17:21:38michael.revell   I don't know what's wrong with me. :-(
+17:21:55<vat.raghavan@cro> lol yah :) 
+17:22:04michael.revell   also, how did you say you save window stuffs in irssi
+17:22:15<vat.raghavan@cro> you type /layout save
+17:22:24<vat.raghavan@cro> whereas /save saves your config
+--- Log closed Mon Jun 17 17:28:08 2013
+--- Log opened Tue Jun 18 11:07:59 2013
+11:07:59::: Irssi: Starting query in CT with vat.raghavan@crowdtilt.com/irssi-xmpp
+11:08:12michael.revell   Hey Vat. Is there a command to see the history of a chat?
+11:08:57<vat.raghavan@cro> yah. i haven't used it, but /lastlog
+11:13:09<vat.raghavan@cro> also, just downloaded it, but http://explodingferret.com/linux/irssi/logresume.pl
+--- Log closed Tue Jun 18 11:18:57 2013
+--- Log opened Tue Jun 18 11:39:52 2013
+11:39:52michael.revell   sweet. just downloaded it.
+11:40:02<vat.raghavan@cro> yah. handy :)
+--- Log closed Tue Jun 18 11:45:57 2013
+--- Log opened Tue Jun 18 14:33:11 2013
+14:33:11cc</michael.revell  g e:-(
+14:33:31cc</michael.revell  g eme neither :/
+14:34:16</:>/:?/:g cIrssi:c Starting query in cCTc with cvat.raghavan@crowdtilt.com/irssi-xmppc
+14:34:16cc<;/vat.raghavan@crog> etesting
+14:34:30cc<;/vat.raghavan@crog> etesting #2
+--- Log closed Tue Jun 18 14:40:05 2013
+--- Log opened Tue Jun 18 17:58:37 2013
+17:58:37</:>/:?/:g cIrssi:c Starting query in cCTc with cvat.raghavan@crowdtilt.com/irssi-xmppc
+17:58:43cc</michael.revell  g eCopy and Paste in tmux
+17:58:45cc</michael.revell  g eWoot!
+17:58:46cc</michael.revell  g ehttps://plus.google.com/109828394194059139561/posts/NiRiDkTcvS8
+18:00:02cc<;/vat.raghavan@crog> eneat
+--- Log closed Tue Jun 18 18:05:12 2013

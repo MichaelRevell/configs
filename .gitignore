@@ -1,3 +1,7 @@
 vim/backups/
 mutt/cache/
 mutt/certificates/
+mutt/tmp/
+irssi/config
+irssi/config.autosave
+irssi/logs/

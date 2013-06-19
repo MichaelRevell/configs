@@ -2,12 +2,18 @@ servers = (
   {
     address = "jabber.crowdtilt.com";
     chatnet = "CT";
-    password = "crowdtilt123";
+    password = "XXXXXX";
     autoconnect = "yes";
   },
-  { address = "eu.irc6.net"; chatnet = "IRCnet"; port = "6667"; },
+  {
+    address = "irc.freenode.net";
+    chatnet = "Freenode";
+    port = "6667";
+    use_ssl = "no";
+    ssl_verify = "no";
+    autoconnect = "yes";
+  },
   { address = "open.ircnet.net"; chatnet = "IRCnet"; port = "6667"; },
-  { address = "irc.efnet.org"; chatnet = "EFNet"; port = "6667"; },
   { 
     address = "irc.undernet.org";
     chatnet = "Undernet";
@@ -40,62 +46,20 @@ chatnets = {
     max_whois = "4";
     max_query_chans = "5";
   };
-  EFNet = {
+  Freenode = {
     type = "IRC";
-    max_kicks = "4";
-    max_msgs = "3";
-    max_whois = "1";
-    nick = "Mars";
-  };
-  Undernet = {
-    type = "IRC";
-    max_kicks = "1";
-    max_msgs = "3";
-    max_whois = "30";
-  };
-  DALnet = {
-    type = "IRC";
-    max_kicks = "4";
-    max_msgs = "3";
-    max_whois = "30";
-  };
-  QuakeNet = {
-    type = "IRC";
-    max_kicks = "1";
-    max_msgs = "3";
-    max_whois = "30";
-  };
-  OFTC = { 
-    type = "IRC";
-    max_kicks = "1";
-    max_msgs = "3";
-    max_whois = "30";
-  };
-  GameSurge = {
-    type = "IRC";
-    max_kicks = "1";
-    max_msgs = "3";
-    max_whois = "30";
-  };
-  WebChat = {
-    type = "IRC";
-    max_kicks = "1";
-    max_msgs = "3";
-    max_whois = "30";
-  };
-  Rizon = { 
-    type = "IRC";
-    max_kicks = "1";
-    max_msgs = "3";
-    max_whois = "30";
-  };
-  LinkNet = {
-    type = "IRC";
-    max_kicks = "1";
-    max_msgs = "3";
-    max_whois = "30";
+    nick = "MachinShin";
+    autosendcmd = "/msg NickServ identify ********; wait 2000";
   };
   SILC = { type = "SILC"; };
+  Undernet = { type = "IRC"; };
+  DALnet = { type = "IRC"; };
+  QuakeNet = { type = "IRC"; };
+  OFTC = { type = "IRC"; };
+  GameSurge = { type = "IRC"; };
+  WebChat = { type = "IRC"; };
+  Rizon = { type = "IRC"; };
+  LinkNet = { type = "IRC"; };
 };
 
 channels = (
@@ -306,7 +270,7 @@ settings = {
   "fe-common/core" = {
     use_status_window = "yes";
     autocreate_windows = "yes";
-    autoclose_windows = "yes";
+    autoclose_windows = "no";
     reuse_unused_windows = "yes";
     autocreate_own_query = "yes";
     window_history = "yes";
@@ -325,6 +289,7 @@ settings = {
     print_active_channel = "yes";
     window_auto_change = "yes";
     activity_msg_level = "PUBLIC MSGS DCCMSGS";
+    autolog_colors = "yes";
   };
   "irc/core" = { alternate_nick = "MachinShi"; skip_motd = "no"; };
   "xmpp/core" = {
@@ -335,13 +300,13 @@ settings = {
   "perl/core/scripts" = {
     awl_block = "80";
     awl_sbar_maxlength = "yes";
-    awl_maxlines = "5";
+    awl_maxlines = "6";
     awl_display_key = "$N$H$C$S";
     awl_display_nokey = "$N$H$C$S";
     awl_display_key_active = "%w%1%9$N$H$C$S%n";
     awl_display_nokey_active = "%w%1%9$N$H$C$S%n";
     awl_placement = "top";
-    awl_columns = "2";
+    awl_columns = "4";
     splitlong_line_start = "$";
     splitlong_line_end = "|";
     usercount_show_zero = "no";
@@ -353,7 +318,7 @@ settings = {
     url_command = "\"open -a Firefox __URL__\"";
     url_hilight = "yes";
     url_file = " ~/.irssi/url_list.html";
-    openurl_app_http = "open -g -a firefox \"$1\"";
+    openurl_app_http = " open -g -a Google\\ Chrome \"$1\"";
     neat_colorize = "yes";
     neat_left_actions = "yes";
     neat_left_messages = "yes";
@@ -427,16 +392,6 @@ windows = {
       }
     );
   };
-  4 = {
-    items = (
-      {
-        type = "CHANNEL";
-        chat_type = "IRC";
-        name = "#crowdtilt";
-        tag = "Freenode";
-      }
-    );
-  };
-  5 = { immortal = "yes"; name = "(status)"; level = "ALL"; };
+  4 = { immortal = "yes"; name = "(status)"; level = "ALL"; };
 };
-mainwindows = { 1 = { first_line = "2"; lines = "108"; }; };
+mainwindows = { 4 = { first_line = "2"; lines = "80"; }; };

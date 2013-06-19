@@ -1,0 +1,10 @@
+
+# Provide some "on-line" help.
+macro generic "\e?" "<shell-escape>less /usr/local/doc/mutt/manual.txt<enter>"
+macro index   "\e?" "<shell-escape>less /usr/local/doc/mutt/manual.txt<enter>"
+macro pager   "\e?" "<shell-escape>less /usr/local/doc/mutt/manual.txt<enter>"
+
+macro index "\Cu"    "<pipe-message>urlview<enter>"                       # URL viewer.
+macro pager "\Cu"    "<pipe-message>urlview<enter>"                       # URL viewer.
+macro pager "\eb"    "<pipe-message>lbdb-fetchaddr<enter>"                # Store address details in lbdb.
+macro pager "\ef"    "<pipe-message>view-x-face<enter>"                   # View the X-Face (if there is one).

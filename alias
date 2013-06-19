@@ -60,4 +60,4 @@ alias tl='tmux attach -t life'
 #alias tr='tmux attach -t rightscr'
 
 #irssi
-irssi='TERM=screen-256color irssi'
+alias irssi='TERM=screen-256color irssi'

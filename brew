@@ -18,3 +18,13 @@ brew install tmux-MacOSX-pasteboard
 brew install reattach-to-user-namespace
 brew install links
 brew install wget
+brew install urlview
+brew install mairix
+brew install mutt --sidebar-patch
+brew install tree
+brew install lbdb
+
+
+# Gems that need to be installed
+# This should be put in its own file
+gem install terminal-notifier

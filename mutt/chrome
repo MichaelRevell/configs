@@ -1,0 +1,62 @@
+#!/usr/bin/env perl
+
+use warnings;
+use strict;
+
+# SYNOPSIS
+#       mutt_browse file
+#
+# DESCRIPTION
+#       Runs a browser on a copy of a file, and sleeps for a while
+#       before deleting it. It solves the problem that mutt may delete
+#       the file too fast.
+# EXAMPLE
+#       To use a sensible browser to view HTML attachments from mutt, add the
+#       following line to the .mailcap file.
+#
+#       text/html;      /path/to/mutt_browse %s
+#
+# AUTHOR
+#       Luis Mochan <moc...@fis.unam.mx>
+#       Shamelessly adapted from mutt_netscape by
+#       Gary A. Johnson <garyj...@spk.agilent.com>
+# 
+# WARNING
+#       This program has been tested in a Debian system
+#       The temporal file is created in the /tmp directory
+#       
+
+############################
+# Variables to be customized
+#
+# template filename for temporal file
+my $template="muttXXXXX"; 
+
+# Path to desired browser. Under Debian sensible-browser defaults to
+# my prefered browser, but an explicit choice such as chrome,
+# iceweasel, etc. may be used here.
+my $browser="open -a Google\ Chrome"; 
+
+# Delay to give time for browser to read file before it is destroyed
+my $delay=3; #in seconds
+#
+# End of customizations
+############################
+
+use File::Temp qw(tempfile);
+
+die <<"EOF" unless @ARGV==1;
+Usage $0 file
+      to run a sensible-browser over copy of file
+EOF
+die "Can't read $ARGV[0]" unless -r $ARGV[0];
+my ($fh, $fname) = tempfile($template, DIR=>"/tmp", SUFFIX=>".html", 
+                            UNLINK=>1);
+open IN, "<", $ARGV[0];
+while(<IN>){
+    print $fh $_;
+}
+close $fh;
+system $browser, $fname;
+print "$browser $fname";
+sleep $delay; 

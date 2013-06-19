@@ -1,11 +1,3 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/Users/Mars/Projects/ct/crowdtilt-internal-api/emails'
-let g:netrw_dirhist_2='/Users/Mars/Projects/ct/vagrant/scripts'
-let g:netrw_dirhist_3='/private/etc/apache2'
-let g:netrw_dirhist_4='/Users/Mars/Projects/ct/vagrant'
-let g:netrw_dirhist_5='/Users/Mars/Projects/mr/kitten'
-let g:netrw_dirhist_6='/Users/Mars/bin/send/bin'
-let g:netrw_dirhist_7='/Users/Mars/.cpan'
-let g:netrw_dirhist_8='/Users/Mars/Projects/ct/crowdtilt-internal-admin-site/bin'
-let g:netrw_dirhist_9='/Users/Mars/configs'
+let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_1='/Users/Mars/configs/irssi'

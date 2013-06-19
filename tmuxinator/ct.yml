@@ -1,7 +1,7 @@
 #~/.tmuxinator/ct.yml
 # you can make as many tabs as you wish...
 
-project_name: Tmuxinator
+project_name: ct
 project_root: ~/Projects/ct
 pre: #vagrant up srv1
 tabs:
