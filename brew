@@ -20,7 +20,8 @@ brew install links
 brew install wget
 brew install urlview
 brew install mairix
-brew install mutt --sidebar-patch
+brew install slang lbdb urlview lynx
+brew install mutt –-sidebar-patch –-trash-patch -–with-slang
 brew install tree
 brew install lbdb
 
