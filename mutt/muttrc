@@ -77,6 +77,7 @@ set nosmart_wrap                          # Don't want smart wrapping.
 set nomarkers                             # Don't want any wrap markers.
 set mime_forward                          # Forward message as MIME attachments.
 set pager_context=3                       # Display 3 lines of context in pager.
+set pager_index_lines = 50                # Show me a preview of my email
 set nostrict_threads                      # Lets have some fuzzy threading.
 set fcc_clear                             # Keep fcc's clear of signatues and encryption.
 set nopipe_decode                         # Don't decode messages when piping.
@@ -108,7 +109,7 @@ source ~/.mutt/alias        # Load in my aliases.
 source ~/.mutt/bindings       # Define key bindings.
 source ~/.mutt/macros       # Define macros.
 #source ~/.mutt/colours        # Define colours.
-#source ~/.mutt/sidebar        # Define sidebar support (requires sidebar patch)
+source ~/.mutt/sidebar        # Define sidebar support (requires sidebar patch)
 ##source ~/.mutt/non-standard     # Support for mutt patches.
 
 # HTML is the last option.

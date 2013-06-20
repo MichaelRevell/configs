@@ -71,7 +71,7 @@ bind index G   last-entry
 bind index  <end>   last-entry
 bind index  \cE   last-entry
 bind index  l   limit
-bind index  R   list-reply
+bind index  \eR   list-reply
 bind index  m   mail
 bind index  \ckm    mail-key
 bind index  <pagedown>  next-page
@@ -134,9 +134,9 @@ bind pager  q   quit
 bind pager  Pe    extract-keys
 bind pager  F   flag-message
 bind pager  f   forward-message
-bind pager  \eg   group-reply
+bind pager  R   group-reply
 bind pager  ?   help
-bind pager  R   list-reply
+bind pager  \eR   list-reply
 bind pager  m   mail
 bind pager  Pk    mail-key
 bind pager  \r    next-line
