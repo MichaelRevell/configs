@@ -4,7 +4,7 @@
 #
 # $Id: sidebar 16 2007-03-09 19:52:41Z vdanen $
 
-set sidebar_width=26
+set sidebar_width=30
 set sidebar_visible=yes
 set sidebar_delim='|'
 

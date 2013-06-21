@@ -23,6 +23,7 @@ set hostname = gmail.com
 set mail_check = 120
 set timeout = 300
 set imap_keepalive = 300
+set alias_file="~/.mutt/aliases"
 set postponed = "+[GMail]/Drafts"
 set record = "+[GMail]/Sent Mail"
 set header_cache=~/.mutt/cache/headers
@@ -98,7 +99,7 @@ set to_chars=" +TCF "                     # Drop the "L".
 
 #source ~/.mutt/gpg.rc       # Use GPG
 #source ~/.mutt/auto_views     # Define auto_views.
-source ~/.mutt/alias        # Load in my aliases.
+source ~/.mutt/aliases        # Load in my aliases.
 #source ~/.mutt/subscriptions      # Define the list of subscribed mailing lists.
 #source ~/.mutt/mailboxes      # Define the list of folders that receive mail.
 #source ~/.mutt/headers        # Configure header display.
