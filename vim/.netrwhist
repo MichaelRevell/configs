@@ -1,3 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_cnt =7
 let g:netrw_dirhist_1='/Users/Mars/configs/irssi'
+let g:netrw_dirhist_2='/Users/Mars/Projects/Blog/source/_layouts'
+let g:netrw_dirhist_3='/Users/Mars/configs/mutt/cache/bodies/imaps:michael@crowdtilt.com@imap.gmail.com:993/[Gmail]/All Mail'
+let g:netrw_dirhist_4='/usr/local/Cellar/msmtp/1.4.31/share/man'
+let g:netrw_dirhist_5='/usr/local/Cellar/msmtp/1.4.31/share/man/man1'
+let g:netrw_dirhist_6='/Users/Mars/Projects/Clones/noranews'
+let g:netrw_dirhist_7='/Users/Mars/Projects/Clones/terminal-notifier/Ruby/bin'

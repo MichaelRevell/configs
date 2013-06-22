@@ -29,3 +29,4 @@ brew install lbdb
 # Gems that need to be installed
 # This should be put in its own file
 gem install terminal-notifier
+sudo gem install cheat

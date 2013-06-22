@@ -1,55 +1,45 @@
-# A basic .muttrc for use with Gmail
-# http://linsec.ca/Using_mutt_on_OS_X
+# Paths {{{
 
-# Change the following six lines to match your Gmail account details
+set alias_file       = ~/.mutt/aliases         # where to store aliases
+set header_cache     = ~/.mutt/cache/headers # where to store headers
+set message_cachedir = ~/.mutt/cache/bodies  # where to store bodies
+set certificate_file = ~/.mutt/certificates  # where to store certs
+set mailcap_path     = ~/.mailcap       # entries for filetypes
+set tmpdir           = ~/.mutt/tmp          # where to keep tmp files
+set signature        = ~/.mutt/sig           # my signature file
+
+# }}}
+# Contacts {{{
+
+# Query Addressbook
+set query_command="/usr/local/bin/lbdbq '%s'"
+# Use the OS X address book
+#set query_command = "contacts -Sf '%eTOKEN%n' '%s' | sed -e 's/TOKEN/\t/g'"
+#bind editor <Tab> complete-query
+#bind editor ^T    complete
+
+# }}}
+
+# Gmail Specific Options {{{
+
 set imap_user = "michael@crowdtilt.com"
 set imap_pass = `security find-generic-password -w -s mutt -a "michael@crowdtilt.com"`
 set smtp_url = "smtp://michael@crowdtilt.com@smtp.gmail.com:587/"
 set smtp_pass = `security find-generic-password -w -s mutt -a "michael@crowdtilt.com"`
-set from = "michael@crowdtilt.com"
-set realname = "Michael Revell"
-
-# Change the following line to a different editor you prefer.
-set editor = "vim +/\^$ ++0" # Open at the first blank line. Hack for zsh
-
-# Query Addressbook
-set query_command="/usr/local/bin/lbdbq '%s'"
-
-# Basic config, you can leave this as is
 set folder = "imaps://imap.gmail.com:993"
-set spoolfile = "+INBOX"
 set imap_check_subscribed
 set hostname = gmail.com
-set mail_check = 120
-set timeout = 300
 set imap_keepalive = 300
-set alias_file="~/.mutt/aliases"
+
+set spoolfile = "+INBOX"
 set postponed = "+[GMail]/Drafts"
 set record = "+[GMail]/Sent Mail"
-set header_cache=~/.mutt/cache/headers
-set message_cachedir=~/.mutt/cache/bodies
-set certificate_file=~/.mutt/certificates
-set move = no
-set sort = 'threads'
-set sort_aux = 'reverse-last-date-received'
-set auto_tag = yes
+
 ignore "Authentication-Results:"
 ignore "DomainKey-Signature:"
 ignore "DKIM-Signature:"
-hdr_order Date From To Cc
-auto_view text/html
-alternative_order text/plain text/enriched text/html *
-bind editor <Tab> complete-query
-bind editor ^T complete
-bind editor <space> noop 
-bind index "^" imap-fetch-mail
-#set 'index_format="%4C %Z %{%b %d} %-15.15L (%4l) %s"'
-set index_format="%3C %N %Z %{%b%d %H:%M } %-14.14L %s %> %8c"
 
 # Gmail-style keyboard shortcuts
-macro index,pager y "<enter-command>unset trash\n <delete-message>" "Gmail archive message"
-macro index,pager d "<enter-command>unset trash\n <delete-message>" "Gmail archive message"
-macro index,pager \cD "<enter-command>set trash=\"imaps://imap.googlemail.com/[GMail]/Bin\"\n <delete-message>" "Gmail delete message"
 macro index,pager gi "<change-folder>=INBOX<enter>" "Go to inbox"
 macro index,pager ga "<change-folder>=[Gmail]/All Mail<enter>" "Go to all mail"
 macro index,pager gs "<change-folder>=[Gmail]/Starred<enter>" "Go to starred messages"
@@ -59,7 +49,113 @@ macro index,pager gl "<change-folder>"
 macro index,pager gd "<change-folder>=[Gmail]/Drafts<enter>" "Go to drafts"
 macro index,pager gt "<change-folder>=[Gmail]/Sent Mail<enter>" "Go to sent mail"
 
-source ~/.mutt/mutt-colors-solarized-dark-256.muttrc
+#}}}
+
+## Basic Options {{{
+source ~/.mutt/test.colors
+set wait_key = no        # shut up, mutt
+set mbox_type = Maildir  # mailbox type
+#set folder = ~/.mail     # mailbox location
+set mail_check = 120
+set timeout = 300
+unset move               # gmail does that
+set delete               # don't ask, just do
+unset confirmappend      # don't ask, just do!
+set quit                 # don't ask, just do!!
+unset mark_old           # read/new is good enough for me
+set beep_new             # bell on new mails
+set pipe_decode          # strip headers and eval mimes when piping
+set thorough_search      # strip headers and eval mimes before searching
+# }}}
+# Sidebar Patch {{{
+
+set sidebar_delim   = '  │'
+set sidebar_visible = yes
+set sidebar_width   = 24
+bind index,pager <down>   sidebar-next
+bind index,pager <up>     sidebar-prev
+bind index,pager <right>  sidebar-open
+
+# }}}
+# Status Bar {{{
+
+set status_chars  = " *%A"
+set status_format = "───[ Folder: %f ]───[%r%m messages%?n? (%n new)?%?d? (%d to delete)?%?t? (%t tagged)? ]───%>─%?p?( %p postponed )?───"
+
+# }}}
+# Index View Options {{{
+set date_format = "%m/%d"
+set index_format = "[%Z]  %{%D %H:%M }  %-20.20F  %s %> %8c"
+set sort = threads                         # like gmail
+set sort_aux = reverse-last-date-received  # like gmail
+set uncollapse_jump                        # don't collapse on an unread message
+set sort_re                                # thread based on regex
+set reply_regexp = "^(([Rr][Ee]?(\[[0-9]+\])?: *)?(\[[^]]+\] *)?)*"
+# }}}
+# Compose View Options {{{
+set from = "michael@crowdtilt.com"
+set realname = "Michael Revell"
+
+# Change the following line to a different editor you prefer.
+set editor = "vim -c 'setlocal ft=mail' +/\^$ ++0" # Open at the first blank line. Hack for zsh
+
+set envelope_from                    # which from?
+set sig_dashes                       # dashes before sig
+set edit_headers                     # show headers when composing
+set fast_reply                       # skip to compose when replying
+set fcc_attach                       # save attachments with the body
+unset mime_forward                   # forward attachments as part of body
+set forward_format = "Fwd: %s"       # format of subject when forwarding
+set forward_decode                   # decode when forwarding
+set attribution = "On %d, %n wrote:" # format of quoting header
+set reply_to                         # reply to Reply to: field
+set reverse_name                     # reply as whomever it was to
+set include                          # include message in replies
+set forward_quote                    # include message in forwards
+# }}}
+# Attachment {{{
+
+# View, god dammit!
+bind attach <return> view-mailcap
+
+# }}}
+# Pager View Options {{{
+
+set pager_index_lines = 50 # number of index lines to show
+set pager_context = 3      # number of context lines to show
+set pager_stop             # don't go to next message automatically
+set menu_scroll            # scroll in menus
+set tilde                  # show tildes like in vim
+unset markers              # no ugly plus signs
+set quote_regexp = "^( {0,4}[>|:#%]| {0,4}[a-z0-9]+[>|]+)+"
+alternative_order text/plain text/enriched text/html
+
+#set display_filter = "clean_mail" # clean up shitty mail
+
+# }}}
+
+
+
+
+
+# Basic config, you can leave this as is
+set move = no
+set sort = 'threads'
+set sort_aux = 'reverse-last-date-received'
+set auto_tag = yes
+hdr_order Date From To Cc
+auto_view text/html
+alternative_order text/plain text/enriched text/html *
+bind editor <Tab> complete-query
+bind editor ^T complete
+bind editor <space> noop 
+bind index "^" imap-fetch-mail
+#set 'index_format="%4C %Z %{%b %d} %-15.15L (%4l) %s"'
+#set index_format="%3C %N %Z %{%b%d %h:%M } %-14.14L %s %> %8c"
+
+
+#source ~/.mutt/mutt-colors-solarized-dark-256.muttrc
+#source ~/.mutt/colors.muttrc
 
 set include                               # Include the message in replies.
 set meta_key=yes        # allow to use alt or ESC
@@ -84,7 +180,6 @@ set fcc_clear                             # Keep fcc's clear of signatues and en
 set nopipe_decode                         # Don't decode messages when piping.
 set text_flowed         # label messages as format-flowed
                                           # Print via a2ps
-#set print_command="a2ps -1gEmail --borders=no --strip=3" 
 set print_command="enscript --font=Times-Roman10 --pretty-print"
 set tilde                                 # Fill out messages with '~'.
 set read_inc=100                          # Read counter ticks every 100 msgs.
@@ -99,7 +194,7 @@ set to_chars=" +TCF "                     # Drop the "L".
 
 #source ~/.mutt/gpg.rc       # Use GPG
 #source ~/.mutt/auto_views     # Define auto_views.
-source ~/.mutt/aliases        # Load in my aliases.
+#source ~/.mutt/aliases        # Load in my aliases.
 #source ~/.mutt/subscriptions      # Define the list of subscribed mailing lists.
 #source ~/.mutt/mailboxes      # Define the list of folders that receive mail.
 #source ~/.mutt/headers        # Configure header display.
@@ -109,13 +204,98 @@ source ~/.mutt/aliases        # Load in my aliases.
 #source ~/.mutt/message-hooks      # Define message hooks.
 source ~/.mutt/bindings       # Define key bindings.
 source ~/.mutt/macros       # Define macros.
-#source ~/.mutt/colours        # Define colours.
-source ~/.mutt/sidebar        # Define sidebar support (requires sidebar patch)
-##source ~/.mutt/non-standard     # Support for mutt patches.
+#source ~/.mutt/sidebar        # Define sidebar support (requires sidebar patch)
 
-# HTML is the last option.
-#alternative_order text/enriched text/plain text/html 
+# }}}
+# Status Bar {{{
+
+set status_chars  = " *%A"
+set status_format = "───[ Folder: %f ]───[%r%m messages%?n? (%n new)?%?d? (%d to delete)?%?t? (%t tagged)? ]───%>─%?p?( %p postponed )?───"
+
+# }}}
+
+# }}}
+
+
+
+# }}}
+# "Open in Vim" {{{
+
+macro index,pager V "|vim -c 'setlocal ft=mail' -c 'setlocal buftype=nofile' -<enter>"              "open in vim"
+macro index,pager M "|mvim -c 'setlocal ft=mail' -c 'setlocal buftype=nofile' - >/dev/null<enter>"  "open in macvim"
+
+# }}}
+
 
 # Last, but not least, get mutt to display its version on startup.
 push <show-version>
+# Index {{{
 
+bind index \#       noop
+bind index R        group-reply
+bind index <tab>    sync-mailbox
+bind index k        previous-entry
+bind index j        next-entry
+bind index gg       first-entry
+bind index G        last-entry
+bind index p        recall-message
+bind index <space>  collapse-thread
+bind index N        search-opposite
+macro index s "<pipe-message>cat > ~/Desktop/"  "save message as"
+
+# Mark all as read
+macro index \Cr "T~U<enter><tag-prefix><clear-flag>N<untag-pattern>.<enter>" "mark all messages as read"
+
+# Sync email
+macro index O "<shell-escape>offlineimap<enter>"           "run offlineimap to sync all mail"
+macro index o "<shell-escape>offlineimap -qf INBOX<enter>" "run offlineimap to sync inbox"
+
+# Saner copy/move dialogs
+macro index C "<copy-message>?<toggle-mailboxes>" "copy a message to a mailbox"
+macro index M "<save-message>?<toggle-mailboxes>" "move a message to a mailbox"
+
+# Quickly change mailboxes
+macro index \' "<change-folder>+steve-stevelosh.com/INBOX<enter>"   "go to stevelosh/INBOX"
+macro index \" "<change-folder>+steve-stevelosh.com/archive<enter>" "go to stevelosh/archive"
+
+# Search with notmuch
+macro index S "<enter-command>unset wait_key<enter><shell-escape>mutt-notmuch-py -G ~/.mail/temporary/search<enter><change-folder-readonly>+temporary/search<enter>" "search mail (using notmuch)"
+
+# Unlimit (show [a]ll)
+macro index a "<limit>all\n" "show all messages (undo limit)"
+
+# }}}
+# Pager {{{
+
+bind pager \# noop
+bind pager gg top
+bind pager G  bottom
+
+bind pager R  group-reply
+bind pager N  search-opposite
+
+macro pager \Cu "|urlview<enter>" "call urlview to open links"
+macro pager s "<pipe-message>cat > ~/Desktop/"  "save message as"
+
+# Quickly change mailboxes
+macro pager \' "<exit><change-folder>+steve-stevelosh.com/INBOX<enter>"   "go to stevelosh/INBOX"
+macro pager \" "<exit><change-folder>+steve-stevelosh.com/archive<enter>" "go to stevelosh/archive"
+
+# }}}
+# Compose {{{
+
+bind compose p postpone-message
+
+# }}}
+# Attachment {{{
+
+# View, god dammit!
+bind attach <return> view-mailcap
+
+# }}}
+# "Open in Vim" {{{
+
+macro index,pager V "|vim -c 'setlocal ft=mail' -c 'setlocal buftype=nofile' -<enter>"              "open in vim"
+macro index,pager M "|mvim -c 'setlocal ft=mail' -c 'setlocal buftype=nofile' - >/dev/null<enter>"  "open in macvim"
+
+# }}}

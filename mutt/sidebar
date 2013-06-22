@@ -3,25 +3,29 @@
 # Sidebar settings for mutt.
 #
 # $Id: sidebar 16 2007-03-09 19:52:41Z vdanen $
+set sidebar_delim   = '  │'
+set sidebar_visible = yes
+set sidebar_width   = 24
+#color sidebar_new color221 color233
+bind index,pager <down>   sidebar-next
+bind index,pager <up>     sidebar-prev
+bind index,pager <right>  sidebar-open
 
-set sidebar_width=30
-set sidebar_visible=yes
-set sidebar_delim='|'
 
 # which mailboxes to list in the sidebar (list them all)
 #mailboxes =Inbox =Inbox-annvix
 
 # color of folders with new mail
-color sidebar_new yellow default
+# color sidebar_new yellow default
 
 # alt-n, alt-p to select next/prev folder
 # alt-o to open selected folder (doesn't seem to work??)
-bind index \ep  sidebar-prev
-bind index \en  sidebar-next
-bind index \eo  sidebar-open
-bind pager \ep  sidebar-prev
-bind pager \en  sidebar-next
-bind pager \eo  sidebar-open
+#bind index \ep  sidebar-prev
+#bind index \en  sidebar-next
+#bind index \eo  sidebar-open
+#bind pager \ep  sidebar-prev
+#bind pager \en  sidebar-next
+#bind pager \eo  sidebar-open
 
 # I don't need these.  just for documentation purposes.  See below.
 # sidebar-scroll-up

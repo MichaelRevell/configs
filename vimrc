@@ -67,7 +67,7 @@ noremap ss :split<CR>
 
 " Render Partial
 noremap <C-H> :Rextract
-	
+
 set showmode
 
 set wrap
@@ -354,4 +354,24 @@ endfunction
 
 inoremap <Tab> <C-R>=CleverTab()<CR>
 
+" Mail {{{
 
+augroup ft_mail
+    au!
+
+    au Filetype mail setlocal spell
+augroup END
+
+" }}}
+
+" Perl {{{
+
+augroup ft_mail
+    au!
+
+    au Filetype perl setlocal set shiftwidth=4
+    au Filetype perl setlocal set softtabstop=4 " Remove this if you want spaces
+    au Filetype perl setlocal set tabstop=4
+augroup END
+
+" }}}
