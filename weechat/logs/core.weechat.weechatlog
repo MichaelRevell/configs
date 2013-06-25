@@ -1,0 +1,304 @@
+2013-06-24 14:38:09		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-06-24 14:38:26	=!=	irc: command "join" must be executed on irc buffer (server or channel)
+2013-06-24 14:38:30	=!=	Error: unknown command "buffers" (type /help for help)
+2013-06-24 14:38:49	=!=	irc: command "join" must be executed on connected irc server
+2013-06-24 14:39:24		[core]
+2013-06-24 14:39:24		  away    bar     buffer  color   command cursor  debug   eval    filter  help    history input   key     layout  mouse   mute    plugin  proxy   quit    reload  repeat  save    set     unset   upgrade uptime  version wait    window 
+2013-06-24 14:39:24		[alias]
+2013-06-24 14:39:24		  alias   BYE     C       CHAT    CL      CLOSE   EXIT    IG      J       K       KB      LEAVE   M       MUB     N       Q       REDRAW  SAY     SIGNOFF T       UB      unalias V       W       WC      WI      WII     WW     
+2013-06-24 14:39:24		[charset]
+2013-06-24 14:39:24		  charset
+2013-06-24 14:39:24		[irc]
+2013-06-24 14:39:24		  admin      ban        cycle      deop       disconnect info       join       kill       lusers     mode       names      notify     part       query      reconnect  sajoin     sapart     service    squit      time       unban      version    wallops    whowas    
+2013-06-24 14:39:24		  allchan    connect    dcc        devoice    halfop     invite     kick       links      map        motd       nick       op         ping       quiet      rehash     samode     saquit     servlist   stats      topic      userhost   voice      who       
+2013-06-24 14:39:24		  allserv    ctcp       dehalfop   die        ignore     ison       kickban    list       me         msg        notice     oper       pong       quote      restart    sanick     server     squery     summon     trace      users      wallchops  whois     
+2013-06-24 14:39:24		[logger]
+2013-06-24 14:39:24		  logger
+2013-06-24 14:39:24		[relay]
+2013-06-24 14:39:24		  relay
+2013-06-24 14:39:24		[rmodifier]
+2013-06-24 14:39:24		  rmodifier
+2013-06-24 14:39:24		[script]
+2013-06-24 14:39:24		  script
+2013-06-24 14:39:24		[tcl]
+2013-06-24 14:39:24		  tcl
+2013-06-24 14:39:24		[xfer]
+2013-06-24 14:39:24		  me   xfer
+2013-06-24 14:57:01		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-06-24 14:57:08		Plugins loaded:
+2013-06-24 14:57:08		  alias: Alias commands
+2013-06-24 14:57:08		  charset: Charset conversions
+2013-06-24 14:57:08		  fifo: FIFO pipe for remote control
+2013-06-24 14:57:08		  irc: IRC (Internet Relay Chat) protocol
+2013-06-24 14:57:08		  logger: Log buffers to files
+2013-06-24 14:57:08		  relay: Relay WeeChat data to remote application (irc/weechat protocols)
+2013-06-24 14:57:08		  rmodifier: String modifier with regular expressions
+2013-06-24 14:57:08		  script: Scripts manager
+2013-06-24 14:57:08		  tcl: Support of tcl scripts
+2013-06-24 14:57:08		  xfer: DCC file transfer and direct chat
+2013-06-24 14:57:25		script: downloading list of scripts...
+2013-06-24 14:57:27		script: 244 scripts for WeeChat 0.4.1
+2013-06-24 14:57:27		script: script "buffers.pl" can not be installed because plugin "perl" is not loaded
+2013-06-24 14:57:37	=!=	Error: unable to load plugin "perl": dlopen(perl, 10): no suitable image found.  Did find:
+2013-06-24 14:57:37		perl: not a file
+2013-06-24 14:57:37	=!=	If you're trying to load a script and not a C plugin, try command to load scripts (/perl, /python, ...)
+2013-06-24 14:59:09	=!=	Error: unknown command "weeget" (type /help for help)
+2013-06-24 14:59:16		Plugins loaded:
+2013-06-24 14:59:16		  alias: Alias commands
+2013-06-24 14:59:16		  charset: Charset conversions
+2013-06-24 14:59:16		  fifo: FIFO pipe for remote control
+2013-06-24 14:59:16		  irc: IRC (Internet Relay Chat) protocol
+2013-06-24 14:59:16		  logger: Log buffers to files
+2013-06-24 14:59:16		  relay: Relay WeeChat data to remote application (irc/weechat protocols)
+2013-06-24 14:59:16		  rmodifier: String modifier with regular expressions
+2013-06-24 14:59:16		  script: Scripts manager
+2013-06-24 14:59:16		  tcl: Support of tcl scripts
+2013-06-24 14:59:16		  xfer: DCC file transfer and direct chat
+2013-06-24 14:59:19	=!=	Error: unknown option for "plugin" command
+2013-06-24 14:59:24		Plugins loaded:
+2013-06-24 14:59:24		  alias [v0.4.1]: Alias commands (/usr/local/Cellar/weechat/0.4.1/lib/weechat/plugins/alias.so)
+2013-06-24 14:59:24		  written by "Sebastien Helleu <flashcode@flashtux.org>", license: GPL3
+2013-06-24 14:59:24		    commands hooked:
+2013-06-24 14:59:24		      /alias (create an alias for a command)
+2013-06-24 14:59:24		      /BYE (quit)
+2013-06-24 14:59:24		      /C (buffer clear)
+2013-06-24 14:59:24		      /CHAT (dcc chat)
+2013-06-24 14:59:24		      /CL (buffer clear)
+2013-06-24 14:59:24		      /CLOSE (buffer close)
+2013-06-24 14:59:24		      /EXIT (quit)
+2013-06-24 14:59:24		      /IG (ignore)
+2013-06-24 14:59:24		      /J (join)
+2013-06-24 14:59:24		      /K (kick)
+2013-06-24 14:59:24		      /KB (kickban)
+2013-06-24 14:59:24		      /LEAVE (part)
+2013-06-24 14:59:24		      /M (msg)
+2013-06-24 14:59:24		      /MUB (unban *)
+2013-06-24 14:59:24		      /N (names)
+2013-06-24 14:59:24		      /Q (query)
+2013-06-24 14:59:24		      /REDRAW (window refresh)
+2013-06-24 14:59:24		      /SAY (msg *)
+2013-06-24 14:59:24		      /SIGNOFF (quit)
+2013-06-24 14:59:24		      /T (topic)
+2013-06-24 14:59:24		      /UB (unban)
+2013-06-24 14:59:24		      /unalias (remove aliases)
+2013-06-24 14:59:24		      /V (command core version)
+2013-06-24 14:59:24		      /W (who)
+2013-06-24 14:59:24		      /WC (window merge)
+2013-06-24 14:59:24		      /WI (whois)
+2013-06-24 14:59:24		      /WII (whois $1 $1)
+2013-06-24 14:59:24		      /WW (whowas)
+2013-06-24 14:59:24		    completions hooked:
+2013-06-24 14:59:24		        alias
+2013-06-24 14:59:24		        alias_value
+2013-06-24 14:59:24		  charset [v0.4.1]: Charset conversions (/usr/local/Cellar/weechat/0.4.1/lib/weechat/plugins/charset.so)
+2013-06-24 14:59:24		  written by "Sebastien Helleu <flashcode@flashtux.org>", license: GPL3
+2013-06-24 14:59:24		    commands hooked:
+2013-06-24 14:59:24		      /charset (change charset for current buffer)
+2013-06-24 14:59:24		    modifiers hooked:
+2013-06-24 14:59:24		        charset_decode
+2013-06-24 14:59:24		        charset_encode
+2013-06-24 14:59:24		  fifo [v0.4.1]: FIFO pipe for remote control (/usr/local/Cellar/weechat/0.4.1/lib/weechat/plugins/fifo.so)
+2013-06-24 14:59:24		  written by "Sebastien Helleu <flashcode@flashtux.org>", license: GPL3
+2013-06-24 14:59:24		    fd hooked:
+2013-06-24 14:59:24		      11 (flags: 0x1: read)
+2013-06-24 14:59:24		    configuration options hooked:
+2013-06-24 14:59:24		      plugins.var.fifo.fifo
+2013-06-24 14:59:24		  irc [v0.4.1]: IRC (Internet Relay Chat) protocol (/usr/local/Cellar/weechat/0.4.1/lib/weechat/plugins/irc.so)
+2013-06-24 14:59:24		  written by "Sebastien Helleu <flashcode@flashtux.org>", license: GPL3
+2013-06-24 14:59:24		    commands hooked:
+2013-06-24 14:59:24		      /admin (find information about the administrator of the server)
+2013-06-24 14:59:24		      /allchan (execute a command on all channels of all connected servers)
+2013-06-24 14:59:24		      /allserv (execute a command on all connected servers)
+2013-06-24 14:59:24		      /ban (ban nicks or hosts)
+2013-06-24 14:59:24		      /connect (connect to IRC server(s))
+2013-06-24 14:59:24		      /ctcp (send a CTCP message (Client-To-Client Protocol))
+2013-06-24 14:59:24		      /cycle (leave and rejoin a channel)
+2013-06-24 14:59:24		      /dcc (start a DCC (file transfer or direct chat))
+2013-06-24 14:59:24		      /dehalfop (remove channel half-operator status from nick(s))
+2013-06-24 14:59:24		      /deop (remove channel operator status from nick(s))
+2013-06-24 14:59:24		      /devoice (remove voice from nick(s))
+2013-06-24 14:59:24		      /die (shutdown the server)
+2013-06-24 14:59:24		      /disconnect (disconnect from one or all IRC servers)
+2013-06-24 14:59:24		      /halfop (give channel half-operator status to nick(s))
+2013-06-24 14:59:24		      /ignore (ignore nicks/hosts from servers or channels)
+2013-06-24 14:59:24		      /info (get information describing the server)
+2013-06-24 14:59:24		      /invite (invite a nick on a channel)
+2013-06-24 14:59:24		      /ison (check if a nick is currently on IRC)
+2013-06-24 14:59:24		      /join (join a channel)
+2013-06-24 14:59:24		      /kick (forcibly remove a user from a channel)
+2013-06-24 14:59:24		      /kickban (kicks and bans a nick from a channel)
+2013-06-24 14:59:24		      /kill (close client-server connection)
+2013-06-24 14:59:24		      /links (list all servernames which are known by the server answering the query)
+2013-06-24 14:59:24		      /list (list channels and their topic)
+2013-06-24 14:59:24		      /lusers (get statistics about the size of the IRC network)
+2013-06-24 14:59:24		      /map (show a graphical map of the IRC network)
+2013-06-24 14:59:24		      /me (send a CTCP action to the current channel)
+2013-06-24 14:59:24		      /mode (change channel or user mode)
+2013-06-24 14:59:24		      /motd (get the "Message Of The Day")
+2013-06-24 14:59:24		      /msg (send message to a nick or channel)
+2013-06-24 14:59:24		      /names (list nicks on channels)
+2013-06-24 14:59:24		      /nick (change current nick)
+2013-06-24 14:59:24		      /notice (send notice message to user)
+2013-06-24 14:59:24		      /notify (add a notification for presence or away status of nicks on servers)
+2013-06-24 14:59:24		      /op (give channel operator status to nick(s))
+2013-06-24 14:59:24		      /oper (get operator privileges)
+2013-06-24 14:59:24		      /part (leave a channel)
+2013-06-24 14:59:24		      /ping (send a ping to server)
+2013-06-24 14:59:24		      /pong (answer to a ping message)
+2013-06-24 14:59:24		      /query (send a private message to a nick)
+2013-06-24 14:59:24		      /quiet (quiet nicks or hosts)
+2013-06-24 14:59:24		      /quote (send raw data to server without parsing)
+2013-06-24 14:59:24		      /reconnect (reconnect to server(s))
+2013-06-24 14:59:24		      /rehash (tell the server to reload its config file)
+2013-06-24 14:59:24		      /restart (tell the server to restart itself)
+2013-06-24 14:59:24		      /sajoin (force a user to join channel(s))
+2013-06-24 14:59:24		      /samode (change mode on channel, without having operator status)
+2013-06-24 14:59:24		      /sanick (force a user to use another nick)
+2013-06-24 14:59:24		      /sapart (force a user to leave channel(s))
+2013-06-24 14:59:24		      /saquit (force a user to quit server with a reason)
+2013-06-24 14:59:24		      /server (list, add or remove IRC servers)
+2013-06-24 14:59:24		      /service (register a new service)
+2013-06-24 14:59:24		      /servlist (list services currently connected to the network)
+2013-06-24 14:59:24		      /squery (deliver a message to a service)
+2013-06-24 14:59:24		      /squit (disconnect server links)
+2013-06-24 14:59:24		      /stats (query statistics about server)
+2013-06-24 14:59:24		      /summon (give users who are on a host running an IRC server a message asking them to please join IRC)
+2013-06-24 14:59:24		      /time (query local time from server)
+2013-06-24 14:59:24		      /topic (get/set channel topic)
+2013-06-24 14:59:24		      /trace (find the route to specific server)
+2013-06-24 14:59:24		      /unban (unban nicks or hosts)
+2013-06-24 14:59:24		      /userhost (return a list of information about nicks)
+2013-06-24 14:59:24		      /users (list of users logged into the server)
+2013-06-24 14:59:24		      /version (give the version info of nick or server (current or specified))
+2013-06-24 14:59:24		      /voice (give voice to nick(s))
+2013-06-24 14:59:24		      /wallchops (send a notice to channel ops)
+2013-06-24 14:59:24		      /wallops (send a message to all currently connected users who have set the 'w' user mode for themselves)
+2013-06-24 14:59:24		      /who (generate a query which returns a list of information)
+2013-06-24 14:59:24		      /whois (query information about user(s))
+2013-06-24 14:59:24		      /whowas (ask for information about a nick which no longer exists)
+2013-06-24 14:59:24		    command_run hooked:
+2013-06-24 14:59:24		      /away
+2013-06-24 14:59:24		    timers hooked:
+2013-06-24 14:59:24		      60 seconds (no call limit)
+2013-06-24 14:59:24		      300 seconds (no call limit)
+2013-06-24 14:59:24		      1 seconds (no call limit)
+2013-06-24 14:59:24		    signals hooked:
+2013-06-24 14:59:24		      signal: debug_dump
+2013-06-24 14:59:24		      signal: quit
+2013-06-24 14:59:24		      signal: upgrade
+2013-06-24 14:59:24		      signal: xfer_send_ready
+2013-06-24 14:59:24		      signal: xfer_resume_ready
+2013-06-24 14:59:24		      signal: xfer_send_accept_resume
+2013-06-24 14:59:24		      signal: irc_input_send
+2013-06-24 14:59:24		      signal: buffer_switch
+2013-06-24 14:59:24		    configuration options hooked:
+2013-06-24 14:59:24		      weechat.color.chat_nick_colors
+2013-06-24 14:59:24		    completions hooked:
+2013-06-24 14:59:24		        irc_server
+2013-06-24 14:59:24		        irc_server_nick
+2013-06-24 14:59:24		        irc_server_channels
+2013-06-24 14:59:24		        irc_server_privates
+2013-06-24 14:59:24		        irc_server_nicks
+2013-06-24 14:59:24		        irc_servers
+2013-06-24 14:59:24		        irc_channel
+2013-06-24 14:59:24		        nick
+2013-06-24 14:59:24		        irc_channel_nicks_hosts
+2013-06-24 14:59:24		        irc_channel_topic
+2013-06-24 14:59:24		        irc_channels
+2013-06-24 14:59:24		        irc_privates
+2013-06-24 14:59:24		        irc_msg_part
+2013-06-24 14:59:24		        irc_ignores_numbers
+2013-06-24 14:59:24		        irc_notify_nicks
+2013-06-24 14:59:24		    modifiers hooked:
+2013-06-24 14:59:24		        irc_color_decode
+2013-06-24 14:59:24		        irc_color_encode
+2013-06-24 14:59:24		  logger [v0.4.1]: Log buffers to files (/usr/local/Cellar/weechat/0.4.1/lib/weechat/plugins/logger.so)
+2013-06-24 14:59:24		  written by "Sebastien Helleu <flashcode@flashtux.org>", license: GPL3
+2013-06-24 14:59:24		    commands hooked:
+2013-06-24 14:59:24		      /logger (logger plugin configuration)
+2013-06-24 14:59:24		    timers hooked:
+2013-06-24 14:59:24		      120 seconds (no call limit)
+2013-06-24 14:59:24		    prints hooked:
+2013-06-24 14:59:24		      message: "(none)"
+2013-06-24 14:59:24		    signals hooked:
+2013-06-24 14:59:24		      signal: buffer_opened
+2013-06-24 14:59:24		      signal: buffer_closing
+2013-06-24 14:59:24		      signal: buffer_renamed
+2013-06-24 14:59:24		      signal: logger_backlog
+2013-06-24 14:59:24		      signal: logger_start
+2013-06-24 14:59:24		      signal: logger_stop
+2013-06-24 14:59:24		      signal: day_changed
+2013-06-24 14:59:24		  relay [v0.4.1]: Relay WeeChat data to remote application (irc/weechat protocols) (/usr/local/Cellar/weechat/0.4.1/lib/weechat/plugins/relay.so)
+2013-06-24 14:59:24		  written by "Sebastien Helleu <flashcode@flashtux.org>", license: GPL3
+2013-06-24 14:59:24		    commands hooked:
+2013-06-24 14:59:24		      /relay (relay control)
+2013-06-24 14:59:24		    timers hooked:
+2013-06-24 14:59:24		      1 seconds (no call limit)
+2013-06-24 14:59:24		    signals hooked:
+2013-06-24 14:59:24		      signal: upgrade
+2013-06-24 14:59:24		      signal: debug_dump
+2013-06-24 14:59:24		    completions hooked:
+2013-06-24 14:59:24		        relay_protocol_name
+2013-06-24 14:59:24		        relay_relays
+2013-06-24 14:59:24		        relay_free_port
+2013-06-24 14:59:24		  rmodifier [v0.4.1]: String modifier with regular expressions (/usr/local/Cellar/weechat/0.4.1/lib/weechat/plugins/rmodifier.so)
+2013-06-24 14:59:24		  written by "Sebastien Helleu <flashcode@flashtux.org>", license: GPL3
+2013-06-24 14:59:24		    commands hooked:
+2013-06-24 14:59:24		      /rmodifier (alter modifier strings with regular expressions)
+2013-06-24 14:59:24		    signals hooked:
+2013-06-24 14:59:24		      signal: debug_dump
+2013-06-24 14:59:24		    completions hooked:
+2013-06-24 14:59:24		        rmodifier
+2013-06-24 14:59:24		    modifiers hooked:
+2013-06-24 14:59:24		        history_add
+2013-06-24 14:59:24		        input_text_display
+2013-06-24 14:59:24		        irc_command_auth
+2013-06-24 14:59:24		        irc_message_auth
+2013-06-24 14:59:24		        history_add
+2013-06-24 14:59:24		        input_text_display
+2013-06-24 14:59:24		        history_add
+2013-06-24 14:59:24		        input_text_display
+2013-06-24 14:59:24		        history_add
+2013-06-24 14:59:24		        input_text_display
+2013-06-24 14:59:24		        history_add
+2013-06-24 14:59:24		  script [v0.4.1]: Scripts manager (/usr/local/Cellar/weechat/0.4.1/lib/weechat/plugins/script.so)
+2013-06-24 14:59:24		  written by "Sebastien Helleu <flashcode@flashtux.org>", license: GPL3
+2013-06-24 14:59:24		    commands hooked:
+2013-06-24 14:59:24		      /script (WeeChat scripts manager)
+2013-06-24 14:59:24		    signals hooked:
+2013-06-24 14:59:24		      signal: debug_dump
+2013-06-24 14:59:24		      signal: window_scrolled
+2013-06-24 14:59:24		      signal: plugin_*
+2013-06-24 14:59:24		      signal: *_script_*
+2013-06-24 14:59:24		    completions hooked:
+2013-06-24 14:59:24		        script_scripts
+2013-06-24 14:59:24		        script_scripts_installed
+2013-06-24 14:59:24		        script_files
+2013-06-24 14:59:24		        script_tags
+2013-06-24 14:59:24		  tcl [v0.4.1]: Support of tcl scripts (/usr/local/Cellar/weechat/0.4.1/lib/weechat/plugins/tcl.so)
+2013-06-24 14:59:24		  written by "Dmitry Kobylin <fnfal@academ.tsc.ru>", license: GPL3
+2013-06-24 14:59:24		    commands hooked:
+2013-06-24 14:59:24		      /tcl (list/load/unload scripts)
+2013-06-24 14:59:24		    signals hooked:
+2013-06-24 14:59:24		      signal: debug_dump
+2013-06-24 14:59:24		      signal: buffer_closed
+2013-06-24 14:59:24		      signal: tcl_script_install
+2013-06-24 14:59:24		      signal: tcl_script_remove
+2013-06-24 14:59:24		      signal: tcl_script_autoload
+2013-06-24 14:59:24		    configuration options hooked:
+2013-06-24 14:59:24		      plugins.var.tcl.check_license
+2013-06-24 14:59:24		    completions hooked:
+2013-06-24 14:59:24		        tcl_script
+2013-06-24 14:59:24		  xfer [v0.4.1]: DCC file transfer and direct chat (/usr/local/Cellar/weechat/0.4.1/lib/weechat/plugins/xfer.so)
+2013-06-24 14:59:24		  written by "Sebastien Helleu <flashcode@flashtux.org>", license: GPL3
+2013-06-24 14:59:24		    commands hooked:
+2013-06-24 14:59:24		      /me (send a CTCP action to remote host)
+2013-06-24 14:59:24		      /xfer (xfer control)
+2013-06-24 14:59:24		    signals hooked:
+2013-06-24 14:59:24		      signal: upgrade
+2013-06-24 14:59:24		      signal: xfer_add
+2013-06-24 14:59:24		      signal: xfer_start_resume
+2013-06-24 14:59:24		      signal: xfer_accept_resume
+2013-06-24 14:59:24		      signal: debug_dump
+2013-06-24 14:59:24		    completions hooked:
+2013-06-24 14:59:24		        nick

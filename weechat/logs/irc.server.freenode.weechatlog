@@ -1,0 +1,79 @@
+2013-06-24 14:38:41	--	irc: connecting to server chat.freenode.net/6667...
+2013-06-24 14:38:41	--	irc: connected to chat.freenode.net/6667 (82.96.64.4)
+2013-06-24 14:38:41	--	kornbluth.freenode.net (kornbluth.freenode.net): *** Looking up your hostname...
+2013-06-24 14:38:41	--	kornbluth.freenode.net (kornbluth.freenode.net): *** Checking Ident
+2013-06-24 14:38:41	--	kornbluth.freenode.net (kornbluth.freenode.net): *** Found your hostname
+2013-06-24 14:38:50	--	kornbluth.freenode.net (kornbluth.freenode.net): *** No Ident response
+2013-06-24 14:38:50	--	irc: nickname "Mars" is already in use, trying nickname "Mars`"
+2013-06-24 14:38:50	--	Welcome to the freenode Internet Relay Chat Network Mars`
+2013-06-24 14:38:50	--	Your host is kornbluth.freenode.net[82.96.64.4/6667], running version ircd-seven-1.1.3
+2013-06-24 14:38:50	--	This server was created Mon Dec 31 2012 at 22:38:44 CET
+2013-06-24 14:38:50	--	kornbluth.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2013-06-24 14:38:50	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2013-06-24 14:38:50	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2013-06-24 14:38:50	--	EXTBAN=$,arxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2013-06-24 14:38:50	--	There are 199 users and 82354 invisible on 27 servers
+2013-06-24 14:38:50	--	37 :IRC Operators online
+2013-06-24 14:38:50	--	6 :unknown connection(s)
+2013-06-24 14:38:50	--	46031 :channels formed
+2013-06-24 14:38:50	--	I have 6308 clients and 1 servers
+2013-06-24 14:38:50	--	6308 7659 :Current local users 6308, max 7659
+2013-06-24 14:38:50	--	82553 92550 :Current global users 82553, max 92550
+2013-06-24 14:38:50	--	Highest connection count: 7670 (7659 clients) (1115287 connections received)
+2013-06-24 14:38:50	--	- kornbluth.freenode.net Message of the Day -
+2013-06-24 14:38:50	--	- Welcome to kornbluth.freenode.net in Frankfurt, DE, EU.
+2013-06-24 14:38:50	--	- Thanks to Probe Networks (www.probe-networks.de) for
+2013-06-24 14:38:50	--	- sponsoring this server!
+2013-06-24 14:38:50	--	-
+2013-06-24 14:38:50	--	- KORNBLUTH, CYRIL M. [1923-1958].  Born in New York City and
+2013-06-24 14:38:50	--	- an active member of the Futurians, Cyril Kornbluth sold his
+2013-06-24 14:38:50	--	- first story professionally at age 15.  By the 1940's his
+2013-06-24 14:38:50	--	- stories appeared widely under several pennames, including
+2013-06-24 14:38:50	--	- S.D. Gottesman and Cecil Corman.  He left his university
+2013-06-24 14:38:50	--	- studies in Chicago to serve in the Army in Europe during
+2013-06-24 14:38:50	--	- WWII, then returned to school and work in Chicago until he
+2013-06-24 14:38:50	--	- began writing full-time in 1951.  The author of The Marching
+2013-06-24 14:38:50	--	- Morons and the novels The Space Merchants (with Frederik
+2013-06-24 14:38:50	--	- Pohl) and The Syndic, he's best known for his biting social
+2013-06-24 14:38:50	--	- satire and his collaborations with Pohl and with Judith
+2013-06-24 14:38:50	--	- Merril.
+2013-06-24 14:38:50	--	- Welcome to freenode - supporting the free and open source
+2013-06-24 14:38:50	--	- software communities since 1998.
+2013-06-24 14:38:50	--	-
+2013-06-24 14:38:50	--	- By connecting to freenode you indicate that you have read and
+2013-06-24 14:38:50	--	- agree to adhere to our policies and procedures as per the
+2013-06-24 14:38:50	--	- website (http://freenode.net/).
+2013-06-24 14:38:50	--	-
+2013-06-24 14:38:50	--	- We would like to remind you that unauthorised public logging
+2013-06-24 14:38:50	--	- of channels on the network is prohibited. Public channel
+2013-06-24 14:38:50	--	- logging should only take place where the channel owner(s) has
+2013-06-24 14:38:50	--	- requested this and users of the channel are all made aware
+2013-06-24 14:38:50	--	- (if you are publically logging your channel, you may wish to
+2013-06-24 14:38:50	--	- keep a notice in the topic and perhaps as an on-join message).
+2013-06-24 14:38:50	--	-
+2013-06-24 14:38:50	--	- freenode runs an open proxy scanner. For details on freenode
+2013-06-24 14:38:50	--	- network policy, please take a look at our policy page
+2013-06-24 14:38:50	--	- (http://freenode.net/policy.shtml).  Your use of the network
+2013-06-24 14:38:50	--	- indicates your acceptance of this policy.
+2013-06-24 14:38:50	--	-
+2013-06-24 14:38:50	--	- Please join #freenode for any network-related questions or
+2013-06-24 14:38:50	--	- queries, there are numerous freenode volunteers and helpful
+2013-06-24 14:38:50	--	- users who would be happy to try answer any questions you might
+2013-06-24 14:38:50	--	- have.
+2013-06-24 14:38:50	--	-
+2013-06-24 14:38:50	--	- Check out www.fossevents.org to find out what is happening in
+2013-06-24 14:38:50	--	- your area, join us at FOSSCON (www.fosscon.org) for talks and
+2013-06-24 14:38:50	--	- real-life collaboration or bring a picnic and come join
+2013-06-24 14:38:50	--	- like-minded geeks for a geeknic (www.geeknic.org) somewhere
+2013-06-24 14:38:50	--	- close to you.
+2013-06-24 14:38:50	--	- Lastly, massive thanks to the OSU Open Source Lab
+2013-06-24 14:38:50	--	- (http://osuosl.org/) and Private Internet Access
+2013-06-24 14:38:50	--	- (https://www.privateinternetaccess.com/) for their sustained,
+2013-06-24 14:38:50	--	- long term support and dedication they show to the FOSS
+2013-06-24 14:38:50	--	- communities.
+2013-06-24 14:38:50	--	-
+2013-06-24 14:38:50	--	- ***************************************************************
+2013-06-24 14:38:50	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2013-06-24 14:38:50	--	- ***************************************************************
+2013-06-24 14:38:50	--	End of /MOTD command.
+2013-06-24 14:38:50	--	User mode [+i] by Mars`

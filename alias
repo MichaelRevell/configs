@@ -60,5 +60,8 @@ alias td='tmux detach'
 alias tl='tmux attach -t life'
 #alias tr='tmux attach -t rightscr'
 
+# mutt
+alias mutt-notmuch-py='~/.mutt/mutt-notmuch-py.py'
+
 #irssi
 alias irssi='TERM=screen-256color irssi'

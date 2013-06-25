@@ -182,7 +182,7 @@ noremap L <C-w>l
 
 " ======================= Copy & Paste =====================
 " Requires MacVim
-set clipboard+=unnamed  "" Sets all to clipboard
+" set clipboard+=unnamed  "" Sets all to clipboard
 noremap <C-c> "+y " Copy to OS X Buffer
 
 " *note* Lets remap this to something else
@@ -355,23 +355,15 @@ endfunction
 inoremap <Tab> <C-R>=CleverTab()<CR>
 
 " Mail {{{
-
-augroup ft_mail
-    au!
-
-    au Filetype mail setlocal spell
-augroup END
+autocmd Filetype mail setlocal spell
+autocmd Filetype mail setlocal nohlsearch
 
 " }}}
 
 " Perl {{{
 
-augroup ft_mail
-    au!
-
-    au Filetype perl setlocal set shiftwidth=4
-    au Filetype perl setlocal set softtabstop=4 " Remove this if you want spaces
-    au Filetype perl setlocal set tabstop=4
-augroup END
+autocmd Filetype perl setlocal shiftwidth=4
+autocmd Filetype perl setlocal softtabstop=4 " Remove this if you want spaces
+autocmd Filetype perl setlocal tabstop=4
 
 " }}}
