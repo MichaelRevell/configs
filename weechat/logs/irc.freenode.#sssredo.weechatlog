@@ -1,0 +1,1029 @@
+2013-06-24 21:17:39	-->	Mars` (~Mars`@208.70.28.121) has joined #sssredo
+2013-06-24 21:17:39	--	Nicks #sssredo: [@StoneCypher apples Mars`]
+2013-06-24 21:17:39	--	Channel #sssredo: 3 nicks (1 ops, 0 halfops, 0 voices, 2 normals)
+2013-06-24 21:17:41	--	Mode #sssredo [+ns]
+2013-06-24 21:17:41	--	Channel created on Mon, 24 Jun 2013 21:15:16
+2013-06-24 21:17:43	Mars`	what up
+2013-06-24 21:17:46	apples	yo
+2013-06-24 21:17:56	@StoneCypher	apples: agreed, i mean the arg and return notations
+2013-06-24 21:18:07	@StoneCypher	that there is just an lcomp over a single frame transform too
+2013-06-24 21:18:19	apples	i forget how easy dicts are in erlang
+2013-06-24 21:18:31	@StoneCypher	depends on if it can be the only dict that process uses or not
+2013-06-24 21:18:35	@StoneCypher	if so, use the process dictionary
+2013-06-24 21:18:41	apples	i mean the dict module
+2013-06-24 21:18:45	@StoneCypher	get(x), set(x,6), erase(x) -> 6
+2013-06-24 21:18:47	@StoneCypher	oh
+2013-06-24 21:18:53	@StoneCypher	they're easy enough but mildly hassleful
+2013-06-24 21:19:09	apples	[ {prop, Val} ] ?
+2013-06-24 21:19:14	@StoneCypher	i usually use ets instead but that's because i have it wrapped in scutil
+2013-06-24 21:19:22	@StoneCypher	that's called a proplist
+2013-06-24 21:19:23	apples	where prop is x, y, dx, dy, angle
+2013-06-24 21:19:29	@StoneCypher	that's a common metaphor and there's a support module for them
+2013-06-24 21:19:32	@StoneCypher	i use those frequently
+2013-06-24 21:19:36	apples	or a record
+2013-06-24 21:19:49	@StoneCypher	oh for the frame notation?
+2013-06-24 21:19:55	@StoneCypher	i already wrote the record, sorry, c/ping
+2013-06-24 21:19:59	apples	wait
+2013-06-24 21:20:06	apples	frame as in packet frame?
+2013-06-24 21:20:08	@StoneCypher	-record(player_state, {
+2013-06-24 21:20:08	@StoneCypher	ppid :: pid(),
+2013-06-24 21:20:08	@StoneCypher	x    :: float() = 0.5, y    :: float() = 0.5, r    :: float() = 0,
+2013-06-24 21:20:08	@StoneCypher	vx   :: float() = 0, vy   :: float() = 0
+2013-06-24 21:20:08	@StoneCypher	}).
+2013-06-24 21:20:13	apples	oh ok
+2013-06-24 21:20:14	@StoneCypher	fucking irc
+2013-06-24 21:20:34	@StoneCypher	seriously, how can irssi botch a plain text paste
+2013-06-24 21:20:37	@StoneCypher	the anus of my anus
+2013-06-24 21:20:55	apples	cool. so he takes one of those and gives one of those back, with the assertion that In#player_state.ppid =:= Out#player_state.ppid
+2013-06-24 21:21:01	@StoneCypher	imo yes
+2013-06-24 21:21:17	@StoneCypher	except not =:= 
+2013-06-24 21:21:19	@StoneCypher	that doesn't mean ne
+2013-06-24 21:21:22	@StoneCypher	that means typeful eq
+2013-06-24 21:21:26	apples	it shouldn't mean ne
+2013-06-24 21:21:27	@StoneCypher	you want =/=
+2013-06-24 21:21:31	@StoneCypher	wait
+2013-06-24 21:21:35	apples	the player pid shouldn't change over physics computation
+2013-06-24 21:21:45	@StoneCypher	oh because too much weed to notice .ppid
+2013-06-24 21:21:50	@StoneCypher	MORE WEED THEN
+2013-06-24 21:21:53	apples	yolo
+2013-06-24 21:22:04	@StoneCypher	i srsly thought you were asserting the whole frames to be deep-ne
+2013-06-24 21:22:08	apples	lul no
+2013-06-24 21:22:20	@StoneCypher	and then i was going to have to be all "what if they're not doing anything and have zero momentum mathfag"
+2013-06-24 21:22:27	@StoneCypher	WIYGN
+2013-06-24 21:22:43	apples	actually we need another field
+2013-06-24 21:22:46	apples	for angular velocity
+2013-06-24 21:22:51	@StoneCypher	straight to the fucking welsh-chamber for you if that but oh, no, you had to have a legitimate meaning instead
+2013-06-24 21:22:58	@StoneCypher	oh are we doing rotational inertia?
+2013-06-24 21:23:01	@StoneCypher	nobody does that
+2013-06-24 21:23:02	@StoneCypher	players hate that
+2013-06-24 21:23:04	@StoneCypher	oh
+2013-06-24 21:23:04	@StoneCypher	ai
+2013-06-24 21:23:05	apples	not inertia
+2013-06-24 21:23:12	@StoneCypher	momentum, whatever
+2013-06-24 21:23:15	apples	basically just an on-off switch for velocity
+2013-06-24 21:23:18	@StoneCypher	physics about which i give zero fucks
+2013-06-24 21:23:23	@StoneCypher	what is the label
+2013-06-24 21:23:29	@StoneCypher	momentum, inertia, sodomy
+2013-06-24 21:23:30	apples	vr
+2013-06-24 21:23:40	@StoneCypher	no the physics label
+2013-06-24 21:23:54	@StoneCypher	vr,in
+2013-06-24 21:24:03	apples	d phi/dt
+2013-06-24 21:24:16	@StoneCypher	also i guess we're gonna have to always override the x/y, so i should probably remove those defaults, huh
+2013-06-24 21:24:30	apples	we want to spawn them randomly i guess
+2013-06-24 21:24:34	@StoneCypher	d phi/dt is not an answer in the form "inertia or momentum or what"
+2013-06-24 21:24:45	@StoneCypher	the label, not the definition equation
+2013-06-24 21:24:46	@StoneCypher	you goon
+2013-06-24 21:24:52	apples	vr ??
+2013-06-24 21:24:57	apples	AM CONFUSE
+2013-06-24 21:24:59	@StoneCypher	it's like talking to brent spiner after an aneurysm on set
+2013-06-24 21:25:12	apples	lolol
+2013-06-24 21:25:26	@StoneCypher	stop using contractions so that it'll at least be amusing
+2013-06-24 21:25:31	@StoneCypher	what is the *word* you use for the concept
+2013-06-24 21:25:41	apples	velocity
+2013-06-24 21:25:51	@StoneCypher	and i give.
+2013-06-24 21:25:55	@StoneCypher	THIRD BASE
+2013-06-24 21:26:00	apples	http://en.wikipedia.org/wiki/Angular_velocity#Particle_in_two_dimensions
+2013-06-24 21:26:07	@StoneCypher	angular velocity.
+2013-06-24 21:26:08	@StoneCypher	there we go.
+2013-06-24 21:26:18	apples	our physics simulation is going to be both inertia and momentum agnostic
+2013-06-24 21:26:35	apples	i wouldn't even worry about acceleration for now
+2013-06-24 21:26:35	@StoneCypher	E_JOKE_TOO_STEREOTYPICAL_OF_ME
+2013-06-24 21:26:43	Mars`	are we on a special branch?
+2013-06-24 21:26:45	apples	on switches and off switches
+2013-06-24 21:26:49	@StoneCypher	Mars`: nope.
+2013-06-24 21:27:22	@StoneCypher	Mars`: pull master, go into the new %/erl, install rebar, copy the rebar bin to the erl directory, ./rebar get-deps, tell me when you're done
+2013-06-24 21:27:26	Mars`	I have a bunch of beam files in my erl folder for somereason
+2013-06-24 21:27:32	@StoneCypher	lol
+2013-06-24 21:27:32	apples	wut
+2013-06-24 21:27:35	@StoneCypher	apples put binaries in the repo M<3
+2013-06-24 21:27:36	apples	those should not have been committed
+2013-06-24 21:27:39	apples	no way
+2013-06-24 21:27:45	@StoneCypher	Mars`: go ahead and remove them
+2013-06-24 21:27:53	@StoneCypher	apples: i haven't commited to new-erl yet <3
+2013-06-24 21:27:59	@StoneCypher	apples: there is no other explanation
+2013-06-24 21:28:05	apples	yes there is
+2013-06-24 21:28:09	apples	left over from saturday
+2013-06-24 21:28:12	@StoneCypher	oh.
+2013-06-24 21:28:21	@StoneCypher	no you deleted the whole directory didn't you?
+2013-06-24 21:28:22	@StoneCypher	i mean
+2013-06-24 21:28:31	apples	no
+2013-06-24 21:28:35	apples	git doesn't understand directories
+2013-06-24 21:28:36	@StoneCypher	loooooooooool
+2013-06-24 21:28:42	apples	i deleted the files inside of it
+2013-06-24 21:28:43	@StoneCypher	git understands rm
+2013-06-24 21:28:50	@StoneCypher	apparently you missed a few
+2013-06-24 21:28:58	@StoneCypher	wonder who committed them in the first place
+2013-06-24 21:29:00	apples	https://github.com/forestbelton/spaceshit/tree/master/erl
+2013-06-24 21:29:04	@StoneCypher	might have been me, might have been vat
+2013-06-24 21:29:15	@StoneCypher	Mars`: g'head and erase them, is the bottom line
+2013-06-24 21:29:16	apples	they ain't there now
+2013-06-24 21:31:04	Mars`	got deps
+2013-06-24 21:31:22	Mars`	StoneCypher: ie done
+2013-06-24 21:32:09	@StoneCypher	oh, health
+2013-06-24 21:32:16	@StoneCypher	or are we one hit kill?
+2013-06-24 21:32:20	apples	one hit
+2013-06-24 21:32:22	apples	(for now)
+2013-06-24 21:32:29	@StoneCypher	k i'm just gonna call alive health then
+2013-06-24 21:32:32	@StoneCypher	and make it 1 initially.
+2013-06-24 21:32:34	@StoneCypher	huhuhuhuh
+2013-06-24 21:32:38	apples	works 4 me
+2013-06-24 21:33:02	@StoneCypher	and if health < 1, dead
+2013-06-24 21:33:42	apples	is prepend or append preferred in erlang? prepend, right?
+2013-06-24 21:34:40	Mars`	what's the difference between spaceshit.app.erl and spaceshit_app.erl?
+2013-06-24 21:34:53	apples	i dunno lol
+2013-06-24 21:35:56	@StoneCypher	uh
+2013-06-24 21:35:58	@StoneCypher	generally prepend
+2013-06-24 21:36:07	@StoneCypher	they're singly linked lists ending in a cons cell
+2013-06-24 21:36:18	apples	kk
+2013-06-24 21:36:40	@StoneCypher	Mars`: one is the actual source, the other is a datastructure describing the meta-structure of the app
+2013-06-24 21:36:47	@StoneCypher	Mars`: they're both generated by rebar
+2013-06-24 21:37:00	Mars`	makes sense.
+2013-06-24 21:37:03	@StoneCypher	Mars`: if you open them in an editor you'll see they're actually quite different
+2013-06-24 21:37:12	@StoneCypher	.app.src is the datastructure
+2013-06-24 21:37:31	@StoneCypher	it describes folder layout, module dependencies, start points, restart strategies, that kind of shit
+2013-06-24 21:37:52	@StoneCypher	by hoary metaphor, if the makefile is for the compiler, this is kind of the runfile for the vm?
+2013-06-24 21:37:57	@StoneCypher	but that's me going way out on a limb
+2013-06-24 21:38:28	@StoneCypher	so
+2013-06-24 21:38:36	@StoneCypher	apples: other than adding health, that record good for you?
+2013-06-24 21:38:43	apples	and vr
+2013-06-24 21:38:46	apples	ya
+2013-06-24 21:38:51	@StoneCypher	yeah that too
+2013-06-24 21:38:53	@StoneCypher	k pasting
+2013-06-24 21:39:02	@StoneCypher	Mars`: we're gonna run a better ship this time
+2013-06-24 21:39:07	@StoneCypher	Mars`: i'm giving you a record definition
+2013-06-24 21:39:16	apples	the only thing i'm actually sending out is x,y,r
+2013-06-24 21:39:26	@StoneCypher	Mars`: if you use a list of this for both your input and output, then your physics should just snap right in
+2013-06-24 21:39:31	@StoneCypher	Mars`: that cool?
+2013-06-24 21:40:00	apples	i can do Games = receive .. end, right?
+2013-06-24 21:40:03	Mars`	StoneCypher: sounds good
+2013-06-24 21:41:15	Mars`	what module is handling everything?
+2013-06-24 21:41:24	apples	spaceshit
+2013-06-24 21:41:25	Mars`	i want to run it in my vm
+2013-06-24 21:41:28	@StoneCypher	apples: you can; consider whether to add a timeout clause
+2013-06-24 21:41:28	Mars`	ok sweet
+2013-06-24 21:41:30	apples	it doesn't run
+2013-06-24 21:41:40	@StoneCypher	apples: everything (with certain exceptions like hard_exit()) returns
+2013-06-24 21:41:43	apples	StoneCypher: the matchmaker never needs to do anything else
+2013-06-24 21:41:45	@StoneCypher	Mars`: we're not that far yet 
+2013-06-24 21:41:53	apples	so a timeout isn't necessary
+2013-06-24 21:41:54	Mars`	i knowi know it's a spaceshit. it should fly. not run
+2013-06-24 21:41:55	@StoneCypher	Mars`: we got started like ten minutes before you showed up
+2013-06-24 21:42:18	Mars`	StoneCypher: I have good timing then. :P
+2013-06-24 21:42:21	@StoneCypher	apples: okay cool, then yes.  (it can interfere with tail recursion, if you aren't careful, and as such is often eschewed.)
+2013-06-24 21:42:33	@StoneCypher	you won't make those mistakes though <3
+2013-06-24 21:44:02	apples	werd
+2013-06-24 21:44:18	apples	i wrote the manager
+2013-06-24 21:44:37	apples	it calls user:new(ManagerPid, Socket)
+2013-06-24 21:45:26	apples	after a new user is created (i.e. a handshake is done via the JOIN command)
+2013-06-24 21:45:37	apples	it's send a {new_user, User} where User is a pid representing that user
+2013-06-24 21:45:43	apples	sent
+2013-06-24 21:45:58	@StoneCypher	k word
+2013-06-24 21:46:08	@StoneCypher	game state is p.straightforward
+2013-06-24 21:46:12	@StoneCypher	should i write the timer 
+2013-06-24 21:46:18	@StoneCypher	there's some inobvious timing things
+2013-06-24 21:46:30	@StoneCypher	wait there might be a timer module
+2013-06-24 21:46:30	@StoneCypher	sec
+2013-06-24 21:46:36	@StoneCypher	yeah there is, it's timer:
+2013-06-24 21:46:57	@StoneCypher	uh
+2013-06-24 21:47:04	@StoneCypher	i kind of want the timer to live above the individual game
+2013-06-24 21:47:09	@StoneCypher	so that not every game has its own timer
+2013-06-24 21:47:10	@StoneCypher	y/n
+2013-06-24 21:47:24	@StoneCypher	well
+2013-06-24 21:47:32	@StoneCypher	actually i guess that has bad behavior during overload though
+2013-06-24 21:47:51	@StoneCypher	well not if i just mailbox the initial fire
+2013-06-24 21:47:54	@StoneCypher	then it'll best-avail
+2013-06-24 21:48:02	@StoneCypher	ok yeah i still want the timer to be above the individual game
+2013-06-24 21:48:06	@StoneCypher	y/n
+2013-06-24 21:48:16	apples	why?
+2013-06-24 21:48:50	@StoneCypher	one, fair cpu access; two, least variance per-game; three, i don't know how well this timer module performs if there's 10k of them
+2013-06-24 21:48:54	@StoneCypher	but
+2013-06-24 21:48:55	@StoneCypher	maybe fuck it.
+2013-06-24 21:49:13	@StoneCypher	we're not gonna have a thousand competing on the server, that's stupid.
+2013-06-24 21:49:19	@StoneCypher	more weed; fuck it was declared.
+2013-06-24 21:49:42	apples	i mean that means pulling the timer into the manager module
+2013-06-24 21:49:52	apples	then on tick broadcasting an event to all games
+2013-06-24 21:49:58	@StoneCypher	what actual speed are we working in, given that most client languages will think in msec, and msec doesn't like 1/30 or 1/60
+2013-06-24 21:50:13	@StoneCypher	am i just delaying 2ms per 60 frames?  are we ignoring the disparity?
+2013-06-24 21:50:22	@StoneCypher	are they just message driven?
+2013-06-24 21:50:30	@StoneCypher	if so it's moot
+2013-06-24 21:50:44	apples	tick every 33 frames
+2013-06-24 21:50:46	apples	er
+2013-06-24 21:50:46	apples	ms
+2013-06-24 21:50:50	@StoneCypher	k
+2013-06-24 21:51:06	@StoneCypher	i missed a lot of definition on sunday, sry
+2013-06-24 21:51:07	apples	i don't care about remainder
+2013-06-24 21:51:12	apples	this wasn't defined then
+2013-06-24 21:51:15	@StoneCypher	oh.
+2013-06-24 21:51:16	@StoneCypher	lol.
+2013-06-24 21:51:23	@StoneCypher	are the clients time-driven or message-driven
+2013-06-24 21:51:23	apples	i have no idea how they were doing it either
+2013-06-24 21:51:29	apples	message
+2013-06-24 21:51:35	@StoneCypher	k then it matters zero
+2013-06-24 21:51:52	apples	my display client will automatically correct itself to render at 30fps no matter what
+2013-06-24 21:52:02	@StoneCypher	rAF?
+2013-06-24 21:52:11	apples	ya
+2013-06-24 21:52:14	@StoneCypher	k
+2013-06-24 21:52:16	apples	w/ shim fallback
+2013-06-24 21:52:22	@StoneCypher	's the right way to go 
+2013-06-24 21:53:04	apples	yeah, i'm pretty happy with how the display turned out
+2013-06-24 21:53:55	@StoneCypher	oh
+2013-06-24 21:54:04	@StoneCypher	Mars`: forest defined a flow earlier, and we're using it
+2013-06-24 21:54:16	@StoneCypher	network -> manager -> user -> matchmaker -> game -> physics
+2013-06-24 21:54:25	apples	it's a tree more than a line, but i was via text so w/e
+2013-06-24 21:55:31	Mars`	looks good
+2013-06-24 21:55:43	Mars`	and app and sub
+2013-06-24 21:55:46	Mars`	are jsut rebar?
+2013-06-24 21:55:52	apples	ya
+2013-06-24 21:55:54	@StoneCypher	p.much
+2013-06-24 21:56:02	Mars`	ok so they don't really play into our flow
+2013-06-24 21:56:30	Mars`	makes sense
+2013-06-24 21:56:38	@StoneCypher	apples: so like, what if i add a type field to this, then make it an arbitrary list of records, and that way we get extra players and hazards for free
+2013-06-24 21:56:58	@StoneCypher	or, "kind," so it's less confusing
+2013-06-24 21:57:17	Mars`	where does spaceshit.erl come into play?
+2013-06-24 21:57:19	Mars`	is that rebar too?
+2013-06-24 21:57:24	apples	type's already part of the current network spec
+2013-06-24 21:57:38	apples	i just didn't mention it for simplicity's sake (everything currently has type "spaceshit")
+2013-06-24 21:57:38	@StoneCypher	apples: ok cool, so it's natural and going in, then
+2013-06-24 21:57:51	@StoneCypher	well it'll make adding asteroids etc easier.
+2013-06-24 21:57:54	apples	yeah
+2013-06-24 21:58:01	apples	Mars`: that's the entry point
+2013-06-24 21:58:09	@StoneCypher	also i was thinking about it. planets are stupidly scaled.  the gravity sources should be quantum blackholes in the theme.
+2013-06-24 21:58:31	@StoneCypher	gets the right gravity field and it's a point source that we can add lolgfx to without need for explanation
+2013-06-24 21:58:46	@StoneCypher	back to coad
+2013-06-24 21:59:03	apples	http://ironcreek.net/phpsyntaxtree/stgraph.png.php?
+2013-06-24 21:59:19	@StoneCypher	image fail
+2013-06-24 21:59:22	apples	figured
+2013-06-24 21:59:38	@StoneCypher	what's the phrase
+2013-06-24 21:59:48	apples	http://i.imgur.com/4TRdEDZ.png
+2013-06-24 21:59:58	@StoneCypher	or that
+2013-06-24 22:00:20	@StoneCypher	red for leaves or is there another meaning
+2013-06-24 22:00:31	@StoneCypher	game doesn't need to link or supervise physics so it ain't that
+2013-06-24 22:00:32	apples	i couldn't control the colors
+2013-06-24 22:00:35	@StoneCypher	oh.
+2013-06-24 22:00:37	@StoneCypher	lololol
+2013-06-24 22:00:44	apples	that's just the general hierarchy
+2013-06-24 22:00:51	apples	i mean honestly i can move network under User too
+2013-06-24 22:00:57	apples	(except for socket handling)
+2013-06-24 22:00:58	@StoneCypher	works for me either way
+2013-06-24 22:01:04	Mars`	showld game not be under matchmaker?
+2013-06-24 22:01:09	apples	it's just to give a general idea of how this is working under my head
+2013-06-24 22:01:13	@StoneCypher	put timer in
+2013-06-24 22:01:23	@StoneCypher	that's just a facet of game, isn't it
+2013-06-24 22:01:24	apples	Mars`: matchmaker spawns a game and gives it to the manager
+2013-06-24 22:01:34	Mars`	ah. got it
+2013-06-24 22:02:01	apples	and yeah, timer will be a child of game
+2013-06-24 22:02:26	@StoneCypher	apples: happy with this as an entrypoint for game?
+2013-06-24 22:02:29	@StoneCypher	new(PlayerList) ->
+2013-06-24 22:02:29	@StoneCypher	spawn(fun() -> initstate(PlayerList) end).
+2013-06-24 22:02:32	@StoneCypher	FUCKING IRC.
+2013-06-24 22:02:40	@StoneCypher	HOW HARD IS INDENT YOU DIGITAL CUNT.
+2013-06-24 22:02:42	apples	doesn't matter to me
+2013-06-24 22:02:45	@StoneCypher	i cannot believe i'm actually pining for mirc
+2013-06-24 22:02:51	@StoneCypher	there should be a law
+2013-06-24 22:02:51	apples	just send me a new_game event after you make one
+2013-06-24 22:03:03	apples	oh
+2013-06-24 22:03:06	@StoneCypher	oh ok, i'll take the pid in new then
+2013-06-24 22:03:07	apples	i guess i have to call that as a matchmaker
+2013-06-24 22:03:11	apples	poop
+2013-06-24 22:03:19	apples	yeah that's fine
+2013-06-24 22:03:44	@StoneCypher	new(NotifyPid, PlayerList) ->
+2013-06-24 22:03:45	@StoneCypher	NotifyPid ! { new_game, spawn(fun() -> initstate(PlayerList) end) }.
+2013-06-24 22:04:10	apples	werd
+2013-06-24 22:06:23	@StoneCypher	record syntax :|
+2013-06-24 22:06:30	apples	yeah
+2013-06-24 22:07:39	@StoneCypher	apples: do you want me to send the next frames upstream to the player pids?
+2013-06-24 22:07:43	@StoneCypher	as messages?
+2013-06-24 22:07:50	@StoneCypher	who's doing player, me or you
+2013-06-24 22:07:53	apples	you
+2013-06-24 22:07:56	@StoneCypher	k nevermind
+2013-06-24 22:08:02	apples	i'm doing manager, matchmaker, network
+2013-06-24 22:08:07	@StoneCypher	k
+2013-06-24 22:09:44	Mars`	what do you we me to do?
+2013-06-24 22:10:10	apples	the physics module
+2013-06-24 22:10:28	apples	a game will hand you an object (using the record john gave above)
+2013-06-24 22:10:34	apples	and you have to compute its new position
+2013-06-24 22:10:38	apples	and give it back
+2013-06-24 22:10:46	@StoneCypher	wait i thought you were already doing that
+2013-06-24 22:10:58	Mars`	who me?
+2013-06-24 22:11:04	@StoneCypher	yeah
+2013-06-24 22:11:14	Mars`	yea, but I thought we were discussing.
+2013-06-24 22:11:14	@StoneCypher	ok cool
+2013-06-24 22:11:31	Mars`	what varibles do I know?
+2013-06-24 22:11:33	@StoneCypher	oh we got your discussion nailed down a while ago, i thought you started, my bad
+2013-06-24 22:11:34	Mars`	do we have gravity?
+2013-06-24 22:11:39	apples	nope
+2013-06-24 22:11:42	@StoneCypher	not yet
+2013-06-24 22:11:48	@StoneCypher	you will receive a list of that record from earlier
+2013-06-24 22:12:01	Mars`	ok, so you give me x and y and that's it?
+2013-06-24 22:12:03	@StoneCypher	you should produce a new list of that record from earlier, where the positions are updated and the order and PIDs have not changed
+2013-06-24 22:12:06	@StoneCypher	well
+2013-06-24 22:12:10	@StoneCypher	it's more fields than that but basically that's the idea
+2013-06-24 22:12:21	@StoneCypher	you get x y vx vy r vr
+2013-06-24 22:12:32	@StoneCypher	and then some other stuff like the pid, the name, the kind
+2013-06-24 22:12:40	@StoneCypher	that doesn't matter for physics but should be kept intact
+2013-06-24 22:12:40	Mars`	ok perfect
+2013-06-24 22:12:56	@StoneCypher	so i apologize, i thought i said that earlier, i need to learn to be clearer, that's my bad
+2013-06-24 22:13:02	@StoneCypher	lemme get you the actual record
+2013-06-24 22:13:03	@StoneCypher	sec
+2013-06-24 22:14:18	@StoneCypher	http://davr.org/p/PMcVA122.html
+2013-06-24 22:14:31	@StoneCypher	oh
+2013-06-24 22:14:34	@StoneCypher	i was going to rename that
+2013-06-24 22:14:34	@StoneCypher	uh
+2013-06-24 22:14:39	@StoneCypher	object_state now?  or
+2013-06-24 22:14:41	@StoneCypher	yeah
+2013-06-24 22:14:59	@StoneCypher	Mars`: so change that thing's name to object_state
+2013-06-24 22:15:13	@StoneCypher	then use a list of it as your input, and a list of it as your output, subject to the following constraints
+2013-06-24 22:15:20	@StoneCypher	1) the input order has to be the same as the output order
+2013-06-24 22:15:23	apples	bullet is also a type
+2013-06-24 22:15:24	@StoneCypher	2) the pids must not change
+2013-06-24 22:15:33	@StoneCypher	3) no field that isn't about physics can change actually
+2013-06-24 22:15:44	@StoneCypher	4) the fields about physics are x y r vx vy vr
+2013-06-24 22:15:54	apples	vx vy vr won't change either
+2013-06-24 22:15:59	@StoneCypher	what?
+2013-06-24 22:16:04	@StoneCypher	yes they will
+2013-06-24 22:16:07	apples	how?
+2013-06-24 22:16:12	@StoneCypher	uh when they hit the gas?
+2013-06-24 22:16:22	@StoneCypher	HI, ROCKETS?
+2013-06-24 22:16:43	apples	but that's not determined by this method
+2013-06-24 22:16:59	@StoneCypher	oh
+2013-06-24 22:17:04	apples	vx and vy are only updated when THRUST or TURN is issued
+2013-06-24 22:17:10	@StoneCypher	right, that's control state, set upstream of me, let alone him
+2013-06-24 22:17:12	@StoneCypher	my mistake
+2013-06-24 22:17:16	@StoneCypher	forest is correct
+2013-06-24 22:17:16	apples	vr is only updated when TURN is issued
+2013-06-24 22:17:44	Mars`	what about friction or collisions?
+2013-06-24 22:17:48	apples	ignore em
+2013-06-24 22:17:51	Mars`	k
+2013-06-24 22:18:00	@StoneCypher	Mars`: you're calculating their results, not their presence.  upstream does that.
+2013-06-24 22:18:14	@StoneCypher	Mars`: just do x y r for now, then we'll put more up
+2013-06-24 22:18:38	apples	forgot about a module
+2013-06-24 22:18:48	Mars`	and we want physics to be it's own process? just like we've been doing with everything else?
+2013-06-24 22:18:59	apples	nah
+2013-06-24 22:19:05	apples	physics will be fast and non-blocking
+2013-06-24 22:19:50	@StoneCypher	oh lol i have to replace that record
+2013-06-24 22:19:57	@StoneCypher	it's name = def :: type, not name :: type = def
+2013-06-24 22:20:04	@StoneCypher	fucking erlang i swear to god, i hate loving this language
+2013-06-24 22:20:12	apples	i don't think we're ever going to get to the point where we need to offload physics to its own procs / nodes
+2013-06-24 22:21:04	@StoneCypher	agreed, pure functional
+2013-06-24 22:21:20	@StoneCypher	honestly i might do the same for player as a function of game state, still undecided
+2013-06-24 22:22:10	@StoneCypher	well i guess that depends a little on how network works
+2013-06-24 22:22:15	@StoneCypher	maybe i'll postpone the decision
+2013-06-24 22:22:47	@StoneCypher	Mars`: fixed record: http://davr.org/p/uPxqiM20.html
+2013-06-24 22:23:11	Mars`	I also need to know delta time
+2013-06-24 22:23:17	Mars`	like how much time has passed
+2013-06-24 22:23:34	@StoneCypher	it's always one frame
+2013-06-24 22:23:47	Mars`	ok so I just add vx to x then?
+2013-06-24 22:23:50	@StoneCypher	so, it's invariant, and you can quantize that however you like in your head
+2013-06-24 22:24:25	@StoneCypher	subject to rotational velocity
+2013-06-24 22:24:55	@StoneCypher	well i guess rotational velocity doesn't actually matter unless the gas is on, and if the gas is on, then vx vy are already modifid
+2013-06-24 22:25:02	@StoneCypher	apples: you're doing upstream, answer him
+2013-06-24 22:25:13	apples	yes
+2013-06-24 22:26:04	Mars`	yea, it doesn't matter what way it's rotated then. just what the volocity vector is
+2013-06-24 22:26:19	apples	yup
+2013-06-24 22:26:32	Mars`	and am i changing rotation?
+2013-06-24 22:26:47	apples	hm
+2013-06-24 22:27:00	apples	StoneCypher: should the TURN bubble all the way down to physics?
+2013-06-24 22:27:10	apples	seems more forward compatible
+2013-06-24 22:27:17	@StoneCypher	the counter id?
+2013-06-24 22:27:24	apples	wut
+2013-06-24 22:27:26	@StoneCypher	or the notif message
+2013-06-24 22:27:28	apples	no, the packet TURN
+2013-06-24 22:27:37	apples	should it translate to a physics call
+2013-06-24 22:27:50	@StoneCypher	i don't think so, no, let's just keep physics pure function
+2013-06-24 22:27:50	@StoneCypher	al
+2013-06-24 22:27:54	@StoneCypher	f(state) -> state
+2013-06-24 22:28:05	apples	this doesn't remove purity
+2013-06-24 22:28:08	@StoneCypher	if the player is already handling the turn, no need for the physics to
+2013-06-24 22:28:16	@StoneCypher	sure, but it adds work unnecessarily
+2013-06-24 22:28:36	@StoneCypher	the only reason i'm keeping player distinct from game state tbh is so that something else can be brought in cleanly alongside it
+2013-06-24 22:28:40	apples	but in the future we're not going to just be able to turn immediately
+2013-06-24 22:28:41	@StoneCypher	no need for a player pid
+2013-06-24 22:28:45	@StoneCypher	k?
+2013-06-24 22:28:53	@StoneCypher	i may be missing a crux reason for the need
+2013-06-24 22:29:01	@StoneCypher	*oh*
+2013-06-24 22:29:03	@StoneCypher	turn as in rotate
+2013-06-24 22:29:07	@StoneCypher	not turn as in game phase
+2013-06-24 22:29:08	@StoneCypher	christ.
+2013-06-24 22:29:09	apples	yes
+2013-06-24 22:29:13	apples	let's use tick for that
+2013-06-24 22:29:23	@StoneCypher	yeah, that's what it says in my code right now actually
+2013-06-24 22:29:42	@StoneCypher	uh
+2013-06-24 22:29:59	@StoneCypher	i still think "no, it's unnecessary now, we can add it later if it becomes necessary" but i'm flexible
+2013-06-24 22:30:16	@StoneCypher	part of the heel in ground is i don't see why it matters
+2013-06-24 22:30:27	apples	so a client sends TURN
+2013-06-24 22:30:29	@StoneCypher	which is not to say it doesn't so much as "dur, whyfor"
+2013-06-24 22:30:41	apples	it's picked up when the network reads the next packet
+2013-06-24 22:30:53	apples	parsed and sent to the user, let's say as {turn, 'cw'}
+2013-06-24 22:31:02	apples	user informs game he wants to turn
+2013-06-24 22:31:12	apples	game calls physics to recompute user state, adjusting vr or something
+2013-06-24 22:31:33	@StoneCypher	ok i thought vr was sent in top-down, if that's still a function of physics then yes, we need to
+2013-06-24 22:31:40	@StoneCypher	that's why originally i said "subject to rotation" :|
+2013-06-24 22:31:41	@StoneCypher	huhuhuhuh
+2013-06-24 22:31:58	apples	nah, it's more bottom-up'y
+2013-06-24 22:32:26	@StoneCypher	so then vx and vy can change too, when it sends accelerate.  
+2013-06-24 22:32:29	@StoneCypher	goon.
+2013-06-24 22:32:40	@StoneCypher	why is accelerate handled at the top and rotation at the bottom
+2013-06-24 22:32:48	apples	no they're handled at the same place
+2013-06-24 22:32:53	apples	but there is no acceleration right now was my point
+2013-06-24 22:32:57	apples	it's just going to be
+2013-06-24 22:33:05	apples	constant velocity in one direction
+2013-06-24 22:33:16	@StoneCypher	watch irssi botch this again
+2013-06-24 22:33:43	@StoneCypher	22:15 < apples> vx vy vr won't change either
+2013-06-24 22:33:44	@StoneCypher	22:15 <@StoneCypher> what?
+2013-06-24 22:33:44	@StoneCypher	22:16 <@StoneCypher> yes they will
+2013-06-24 22:33:44	@StoneCypher	22:16 < apples> how?
+2013-06-24 22:33:44	@StoneCypher	22:16 <@StoneCypher> uh when they hit the gas?
+2013-06-24 22:33:46	@StoneCypher	22:16 <@StoneCypher> HI, ROCKETS?
+2013-06-24 22:33:49	@StoneCypher	22:16 < apples> but that's not determined by this method
+2013-06-24 22:33:53	@StoneCypher	lel
+2013-06-24 22:33:58	apples	they won't change either as of what we will have at v1
+2013-06-24 22:34:09	@StoneCypher	yeah that's what you said :D <3
+2013-06-24 22:34:17	apples	*in that method*
+2013-06-24 22:34:24	@StoneCypher	jungle.
+2013-06-24 22:34:33	apples	vx and vy will be recomputed in a physics:thrust(Dir) or something
+2013-06-24 22:34:45	@StoneCypher	p.sure taht's up to michael
+2013-06-24 22:34:45	apples	vx, vy, and vr will be recomputed in a physics:turn(Dir) or something
+2013-06-24 22:34:57	apples	it is
+2013-06-24 22:35:05	@StoneCypher	so you've welshed on "here's a list, give us a list back"
+2013-06-24 22:35:16	@StoneCypher	:D
+2013-06-24 22:35:43	@StoneCypher	this is srsly simpler pure functional one-entry
+2013-06-24 22:35:51	@StoneCypher	and then let him figure out what's behind it
+2013-06-24 22:36:09	@StoneCypher	if you want, we can add thrust and rotate to that
+2013-06-24 22:36:11	@StoneCypher	would that work?
+2013-06-24 22:36:25	apples	no, we'll just do it upstream for now then
+2013-06-24 22:36:44	@StoneCypher	well that way it's all handled in the same place like you want, and there just isn't a bunch of extra messaging infrastructure
+2013-06-24 22:37:07	Mars`	shouldn't thrust and turn be handled by physics?
+2013-06-24 22:37:29	apples	i don't want to extend the record, and adding boolean arguments feels hacky
+2013-06-24 22:37:39	@StoneCypher	those aren't boolean
+2013-06-24 22:37:48	apples	ternary
+2013-06-24 22:37:51	@StoneCypher	rotation can't be, it's bare minimum trinary
+2013-06-24 22:37:53	apples	tertiary
+2013-06-24 22:37:55	apples	trinary
+2013-06-24 22:37:56	apples	whatever the fuck
+2013-06-24 22:37:58	apples	t..y
+2013-06-24 22:38:05	@StoneCypher	territory, got it
+2013-06-24 22:38:12	apples	titty
+2013-06-24 22:38:22	@StoneCypher	+1 :thumb:
+2013-06-24 22:38:35	Mars`	ok. so what functions does game want to call on physics?
+2013-06-24 22:38:52	@StoneCypher	apples: why does adding arguments to physics to do the physics stuff feel hacky again
+2013-06-24 22:39:00	@StoneCypher	all the other arguments are there; i am confuse
+2013-06-24 22:39:09	apples	because i think it should be a different method
+2013-06-24 22:39:16	@StoneCypher	well
+2013-06-24 22:39:18	apples	you're not asking it to recompute state
+2013-06-24 22:39:19	@StoneCypher	you and Mars` talk it out
+2013-06-24 22:39:26	apples	you're telling it that something happened
+2013-06-24 22:39:34	@StoneCypher	ok
+2013-06-24 22:39:34	apples	recomputing state just happens as a result
+2013-06-24 22:39:38	apples	it's a getter vs setter thing
+2013-06-24 22:39:58	Mars`	hey apples. what methods do you want?
+2013-06-24 22:40:17	Mars`	err.. functions rather :P
+2013-06-24 22:40:20	@StoneCypher	well you should be asking me that, but then i have to ask him that
+2013-06-24 22:40:29	@StoneCypher	do you want a messaging interface or a functional interface
+2013-06-24 22:40:42	apples	messaging doesn't make sense if it's not its own proc
+2013-06-24 22:40:50	@StoneCypher	agreed
+2013-06-24 22:40:57	@StoneCypher	the game state is its own proc
+2013-06-24 22:41:05	Mars`	so functional it is then
+2013-06-24 22:41:06	@StoneCypher	that's what you're connecting to, yes?
+2013-06-24 22:41:14	@StoneCypher	well hold on
+2013-06-24 22:41:16	apples	physics:next(State :: object_state), physics:turn(State :: object_state, Dir :: atom), physics::thrust(State :: object_state, Dir :: atom)
+2013-06-24 22:41:24	@StoneCypher	k.
+2013-06-24 22:41:31	apples	all three return object_state
+2013-06-24 22:41:38	apples	Dir can be cw or ccw
+2013-06-24 22:41:43	apples	(for turn)
+2013-06-24 22:41:47	Mars`	dude weechat keeps fucking my screen up (maybe it's just ncurses) but I keep having to do crt-l every 2 seconds
+2013-06-24 22:41:53	apples	Dir can be forward or off for thrust
+2013-06-24 22:42:10	Mars`	yea we don't need to pass that do we?
+2013-06-24 22:42:22	Mars`	thrust inatly means thrust forward
+2013-06-24 22:42:27	apples	they can turn off thrusters
+2013-06-24 22:42:33	@StoneCypher	:: object_state() i think
+2013-06-24 22:42:44	apples	whatever erlang sez
+2013-06-24 22:42:48	@StoneCypher	and then for the atoms, if they're enumerations, let's make them types, lemme grab the notation
+2013-06-24 22:43:41	@StoneCypher	-type rot_dir() :: ccw | none | cw.
+2013-06-24 22:43:43	apples	data Dir = Forward | None ; data Rotation = CW | CCW | none
+2013-06-24 22:44:01	@StoneCypher	is the notation for declaring in erlang what amounts to an enumeration
+2013-06-24 22:44:09	apples	ic
+2013-06-24 22:44:38	@StoneCypher	then you can -export_type([ rotdir/1 ]).  if you want
+2013-06-24 22:44:52	Mars`	me?
+2013-06-24 22:45:20	@StoneCypher	Mars`: yeah you should do that, so that we can rely on the types you define, rather than redefining them
+2013-06-24 22:45:26	@StoneCypher	it's best for the leaves to do that
+2013-06-24 22:45:34	@StoneCypher	when possible
+2013-06-24 22:45:43	Mars`	sounds good.
+2013-06-24 22:45:59	Mars`	i'm still a little lost as to what functions I should be building
+2013-06-24 22:46:09	Mars`	am i doing thrust and turn or is that upstreaM
+2013-06-24 22:46:42	@StoneCypher	22:41 < apples> physics:next(State :: object_state), physics:turn(State :: object_state, Dir :: atom), physics::thrust(State :: object_state, Dir :: atom)
+2013-06-24 22:46:45	@StoneCypher	that.
+2013-06-24 22:47:02	@StoneCypher	ostensibly they'll have to be called in the reverse order of that.
+2013-06-24 22:47:17	Mars`	ok awesome.
+2013-06-24 22:49:09	@StoneCypher	hm
+2013-06-24 22:49:17	@StoneCypher	maybe we should have a standalone module which defines the types
+2013-06-24 22:49:26	@StoneCypher	less up/down hassle re: types, no need to deal with .hrl
+2013-06-24 22:49:43	@StoneCypher	well, but then you don't get the record syntax for access.
+2013-06-24 22:49:46	@StoneCypher	ok nevermind.
+2013-06-24 22:54:05	@StoneCypher	ack wrong window
+2013-06-24 22:54:16	@StoneCypher	so what's the message notation to gamestate for turn and thrust
+2013-06-24 22:54:34	@StoneCypher	i guess players are processes then
+2013-06-24 22:55:35	@StoneCypher	also, do you want the next physics states stored at gamestate or sent upstream
+2013-06-24 22:55:36	Mars`	am I pushing to master or server?
+2013-06-24 22:55:42	@StoneCypher	Mars`: master
+2013-06-24 22:55:46	@StoneCypher	Mars`: server is dead
+2013-06-24 22:56:12	@StoneCypher	apples: ^^^
+2013-06-24 22:56:22	apples	ya
+2013-06-24 22:56:35	apples	physics does not escape game
+2013-06-24 22:57:00	@StoneCypher	ok, what's the message notation to gamestate for turn and thrust, just { turn, pid, newstate }, { thrust, pid, newstate } ?
+2013-06-24 22:57:36	apples	you can define it
+2013-06-24 22:57:39	apples	it's sent from user to game
+2013-06-24 22:57:56	apples	the network just evals to {turn, dir}
+2013-06-24 22:58:09	apples	user calls network:try_read
+2013-06-24 22:58:44	apples	old but still lol: http://i.imgur.com/nBOY1ts.png
+2013-06-24 22:59:38	@StoneCypher	well throw the pid in too so i know to whom to apply it
+2013-06-24 22:59:49	apples	i'm not creating user
+2013-06-24 23:00:05	@StoneCypher	oh is user player?
+2013-06-24 23:00:08	apples	yeah
+2013-06-24 23:00:10	Mars`	State#player_state.x
+2013-06-24 23:00:19	Mars`	is that how i pull a variable out of a record?
+2013-06-24 23:00:19	apples	State#object_state.x
+2013-06-24 23:00:25	apples	but ya
+2013-06-24 23:00:30	@StoneCypher	well then same thing up a layer, what's the message format to player :|
+2013-06-24 23:00:43	apples	no message is sent, because it's not a separate process
+2013-06-24 23:01:04	apples	that's why it's try_read - it gives up
+2013-06-24 23:01:09	@StoneCypher	so you want a functional interface?
+2013-06-24 23:01:22	apples	that's what i was planning on
+2013-06-24 23:01:29	@StoneCypher	lololololol
+2013-06-24 23:01:45	@StoneCypher	k
+2013-06-24 23:02:00	@StoneCypher	turn(pid, newdir) / thrust(pid, newthrust) ?
+2013-06-24 23:02:22	apples	wut
+2013-06-24 23:02:43	@StoneCypher	if you are planning on a functional interface, what are the entrypoints you want
+2013-06-24 23:03:00	apples	no
+2013-06-24 23:03:07	apples	ok, so you have a player
+2013-06-24 23:03:07	@StoneCypher	wait you don't mean inbound?
+2013-06-24 23:03:10	apples	the player is looping
+2013-06-24 23:03:21	apples	as part of the loop, the player calls network:try_read(MyDirtySock)
+2013-06-24 23:03:32	@StoneCypher	you might have mentioned this.
+2013-06-24 23:03:33	apples	if he matches against {just, Packet} then he has received a new packet
+2013-06-24 23:03:42	@StoneCypher	oy veyt.
+2013-06-24 23:03:44	apples	he then handles it however he pleases
+2013-06-24 23:03:49	@StoneCypher	i thought i was being driven, not that i was driving.
+2013-06-24 23:03:49	@StoneCypher	okay.
+2013-06-24 23:04:25	apples	i mean, i can do that
+2013-06-24 23:04:25	@StoneCypher	can try_read return multiple packets
+2013-06-24 23:04:29	apples	it doesn't really matter to me
+2013-06-24 23:04:30	apples	no
+2013-06-24 23:04:35	@StoneCypher	no i can do it that way, now that it's been brought up
+2013-06-24 23:04:47	@StoneCypher	do i need to hit try_read until it stops returning packets
+2013-06-24 23:05:16	apples	you can if you want
+2013-06-24 23:05:32	@StoneCypher	well what's the expected usage for someone both turning and rotating at the same time
+2013-06-24 23:05:44	@StoneCypher	read until fail?
+2013-06-24 23:06:06	apples	read, handle, loop, read, handle, loop, ...
+2013-06-24 23:06:07	@StoneCypher	also should there be one of these for shoot?
+2013-06-24 23:06:14	apples	yes
+2013-06-24 23:06:20	apples	it's called fire
+2013-06-24 23:06:23	@StoneCypher	k
+2013-06-24 23:06:40	Mars`	State#object_state{[x, NewX], [y, NewY]}.
+2013-06-24 23:06:46	@StoneCypher	you've called player both player and user, which one do you actually expect
+2013-06-24 23:06:50	apples	user
+2013-06-24 23:06:56	apples	but we can change it to player
+2013-06-24 23:06:56	apples	idc
+2013-06-24 23:07:00	@StoneCypher	Mars`: x=NewX, ...
+2013-06-24 23:07:10	@StoneCypher	apples: user is fine, just needed a choice
+2013-06-24 23:07:22	apples	i can send you messages instead
+2013-06-24 23:07:30	apples	that way you only need one loop
+2013-06-24 23:07:34	apples	it will be easier for you
+2013-06-24 23:07:39	Mars`	State#object_state{x=NewX, y=NewY}.
+2013-06-24 23:07:50	@StoneCypher	apples: whichever (shrugs) makes no real difference to me
+2013-06-24 23:07:55	@StoneCypher	apples: pretty easy either way
+2013-06-24 23:07:57	apples	let's do messages
+2013-06-24 23:08:50	apples	instead of passing you a socket i'll pass you a pid
+2013-06-24 23:08:59	apples	ugh
+2013-06-24 23:09:04	apples	yeah that'll be ok
+2013-06-24 23:09:18	apples	when the user starts up, send a message to that pid with the user's pid
+2013-06-24 23:09:33	apples	so i know who to broadcast to
+2013-06-24 23:09:46	@StoneCypher	k
+2013-06-24 23:09:47	apples	alternatively
+2013-06-24 23:09:50	apples	you could send me two pids
+2013-06-24 23:09:52	apples	user and game
+2013-06-24 23:09:57	apples	wait no, user is created before game
+2013-06-24 23:09:59	apples	that won't work
+2013-06-24 23:10:36	@StoneCypher	so, pass me an upstream pid in new(), and i'll message it on creation with { new_user, self() }
+2013-06-24 23:10:41	apples	werd
+2013-06-24 23:10:48	@StoneCypher	then when the game is created i'll also pass that pid to it
+2013-06-24 23:11:04	@StoneCypher	and the game will message the upstream { new_game, self() }
+2013-06-24 23:11:09	@StoneCypher	possibly with a list of player pids if you want
+2013-06-24 23:11:22	@StoneCypher	cover your needs?
+2013-06-24 23:11:23	apples	i'm not interested in player pids atm
+2013-06-24 23:11:26	apples	but
+2013-06-24 23:11:40	apples	so you want me to broadcast packets to both the user pid and the game pid, then?
+2013-06-24 23:11:57	apples	or what
+2013-06-24 23:11:58	@StoneCypher	no, i'd prefer they go as few places as sensible
+2013-06-24 23:12:04	apples	i don't need the game pid then
+2013-06-24 23:12:09	@StoneCypher	okay.
+2013-06-24 23:12:35	@StoneCypher	so you'll message turn, thrust, and fire to the player directly. 
+2013-06-24 23:12:41	apples	yup
+2013-06-24 23:12:46	@StoneCypher	k working.
+2013-06-24 23:13:17	@StoneCypher	what's the actual identity of the upstream pid i'm getting?
+2013-06-24 23:13:23	@StoneCypher	it doesn't seem likely to be the network
+2013-06-24 23:13:38	apples	it is a network proc, not main one though
+2013-06-24 23:13:44	@StoneCypher	k
+2013-06-24 23:15:12	@StoneCypher	what do you want to happen to a game if a player terminates?  should the game survive or terminate
+2013-06-24 23:15:23	@StoneCypher	and if it survives, does it pause
+2013-06-24 23:16:06	Mars`	do we want a max velocity?
+2013-06-24 23:16:17	Mars`	and max rotation?
+2013-06-24 23:16:35	apples	let's kill off the game
+2013-06-24 23:16:55	apples	there are only two values for velocities atm, 0 and some constant c
+2013-06-24 23:17:07	@StoneCypher	apples: no, it's a useful collation point for behaviors of lots of agents
+2013-06-24 23:17:11	apples	no max for rotation is necessary
+2013-06-24 23:17:15	@StoneCypher	apples: eg many players, eg bullets
+2013-06-24 23:17:22	@StoneCypher	apples: i'm going to survive the game
+2013-06-24 23:17:24	apples	ok
+2013-06-24 23:17:33	@StoneCypher	apples: i'll have it watch for all-players-drop
+2013-06-24 23:17:37	@StoneCypher	and it'll self terminate if-f
+2013-06-24 23:18:01	@StoneCypher	fire doesn't take any params, does it
+2013-06-24 23:18:06	apples	no
+2013-06-24 23:18:39	apples	the network needs to be sent a message after the game completes a tick
+2013-06-24 23:18:48	apples	one for each object in the game
+2013-06-24 23:18:58	apples	containing its new positional data
+2013-06-24 23:20:01	@StoneCypher	oh
+2013-06-24 23:20:06	@StoneCypher	you don't just all want it as a pile?
+2013-06-24 23:20:25	@StoneCypher	well i guess ordering doesn't really matter if they're just sprite paints, does it
+2013-06-24 23:20:25	apples	i can
+2013-06-24 23:20:36	@StoneCypher	no that's fine, then game is no longer useful
+2013-06-24 23:21:00	apples	so user will have to give game its network, or serve as a middle man
+2013-06-24 23:21:04	@StoneCypher	well
+2013-06-24 23:21:11	@StoneCypher	i guess it still matters for the timer though
+2013-06-24 23:21:12	apples	doesn't matter to me
+2013-06-24 23:21:49	@StoneCypher	is each user posessed of a different network?  assuming yes
+2013-06-24 23:22:01	apples	yup
+2013-06-24 23:22:09	apples	a network proc represents a socket, basically
+2013-06-24 23:23:02	@StoneCypher	sure.
+2013-06-24 23:23:34	@StoneCypher	i'm going back to my belief that users are mostly ancillary btw
+2013-06-24 23:23:48	apples	yup
+2013-06-24 23:24:01	apples	honestly, a user may not even be necessary
+2013-06-24 23:24:05	apples	since the network needs to talk directly to the game
+2013-06-24 23:24:06	apples	lol
+2013-06-24 23:24:34	apples	the game is just a collection of objects, some of which may have a network attached
+2013-06-24 23:24:43	@StoneCypher	which is what i said originally, lol
+2013-06-24 23:25:01	@StoneCypher	yay fp
+2013-06-24 23:25:01	apples	well we can do that if you want
+2013-06-24 23:25:12	@StoneCypher	no it shouldn't keep changing
+2013-06-24 23:25:19	apples	i tend to make way more procs than necessary
+2013-06-24 23:25:27	@StoneCypher	i agree
+2013-06-24 23:25:33	@StoneCypher	mostly i just want the ground to be stable.
+2013-06-24 23:25:36	@StoneCypher	so we can finish.
+2013-06-24 23:25:40	@StoneCypher	so
+2013-06-24 23:25:48	@StoneCypher	if you want to make that change i'm for it, if you don't want to i'm for that too
+2013-06-24 23:25:53	@StoneCypher	but let it be done once that's chosen?
+2013-06-24 23:26:16	@StoneCypher	i'm not against the new position; it's my original one
+2013-06-24 23:26:19	@StoneCypher	i just want a position :)
+2013-06-24 23:26:23	apples	the reason i initially made user was to distinguish between spectator and player
+2013-06-24 23:26:58	@StoneCypher	is that still a valid concern, given game?
+2013-06-24 23:27:23	apples	well, the question is: if we switch, how will a spectator figure out what game to go to?
+2013-06-24 23:27:36	apples	let's just not switch
+2013-06-24 23:27:39	apples	so we can finish
+2013-06-24 23:27:42	apples	we can change it later
+2013-06-24 23:27:43	@StoneCypher	ok.
+2013-06-24 23:27:46	@StoneCypher	good call.
+2013-06-24 23:28:07	@StoneCypher	'cause i go in before 9 :D
+2013-06-24 23:28:28	apples	anyways i'm done after i finish network -> message
+2013-06-24 23:29:26	@StoneCypher	i think i'm mostly done but i'm still not 100% my interfaces are in the most recent design
+2013-06-24 23:29:40	@StoneCypher	p simple code though
+2013-06-24 23:30:01	apples	yeah
+2013-06-24 23:30:37	Mars`	do i have to add -record in physics or is that defined somewhere else?
+2013-06-24 23:31:35	apples	how do i create a new game, again? game:new([Players])?
+2013-06-24 23:31:56	@StoneCypher	(NotifyPid, Players)
+2013-06-24 23:31:57	@StoneCypher	oh wait
+2013-06-24 23:32:02	@StoneCypher	you don't want notification of games anymore
+2013-06-24 23:32:04	@StoneCypher	then yes
+2013-06-24 23:32:08	apples	well i want a process back
+2013-06-24 23:32:19	@StoneCypher	done
+2013-06-24 23:32:32	@StoneCypher	also it's gamestate, not game
+2013-06-24 23:32:36	apples	kk
+2013-06-24 23:32:41	@StoneCypher	need that changed?
+2013-06-24 23:33:27	apples	no
+2013-06-24 23:33:29	apples	it's just on one line
+2013-06-24 23:33:35	@StoneCypher	k
+2013-06-24 23:34:44	Mars`	where do we define the object_state record?
+2013-06-24 23:35:04	apples	dunno
+2013-06-24 23:35:23	@StoneCypher	easiest option is a .hrl
+2013-06-24 23:35:27	@StoneCypher	which is roughly a .h from c
+2013-06-24 23:35:33	apples	poop mutual dependency
+2013-06-24 23:35:37	@StoneCypher	alternately we could define it as a formal type and export it from a module
+2013-06-24 23:35:48	Mars`	so i don't define it in physics?
+2013-06-24 23:35:59	@StoneCypher	Mars`: used to.  structure changed.
+2013-06-24 23:36:05	@StoneCypher	apples: .hrl ?
+2013-06-24 23:36:09	apples	sure
+2013-06-24 23:36:17	@StoneCypher	Mars`: sec
+2013-06-24 23:37:24	@StoneCypher	k
+2013-06-24 23:37:31	@StoneCypher	create a file called types.hrl
+2013-06-24 23:37:42	@StoneCypher	actually
+2013-06-24 23:37:43	Mars`	also is this wrong?
+2013-06-24 23:37:43	Mars`	State#object_state{v=(NewV > 0) ? NewV : 0}.
+2013-06-24 23:38:21	@StoneCypher	i dunno, looks okay.  if it doesn't compile you could also use the value returned from if or case
+2013-06-24 23:38:32	@StoneCypher	unless you're asking about the actual behavior
+2013-06-24 23:39:18	Mars`	just syntax
+2013-06-24 23:39:35	Mars`	vim says "undefined macro 'NewV'"
+2013-06-24 23:39:41	Mars`	i've deffinitely defined the thing
+2013-06-24 23:39:51	@StoneCypher	macros are ?NewV
+2013-06-24 23:40:01	@StoneCypher	why are you defining macros
+2013-06-24 23:40:34	apples	ternary is no go in erlang
+2013-06-24 23:40:45	Mars`	ahhhh
+2013-06-24 23:40:46	@StoneCypher	what?
+2013-06-24 23:40:50	Mars`	that makes sense haha
+2013-06-24 23:40:50	@StoneCypher	well then if it is
+2013-06-24 23:41:12	@StoneCypher	State#object_state{ v = if NewV > 0 -> NewV; true -> 0 end }.
+2013-06-24 23:42:58	@StoneCypher	apples: what's the notification notation to the socket for the new physics?  { new_physics, NP } ?
+2013-06-24 23:43:03	@StoneCypher	do you need self()
+2013-06-24 23:43:08	apples	wut
+2013-06-24 23:43:20	apples	we don't have a physics proc
+2013-06-24 23:43:28	@StoneCypher	you said you wanted a message when something had a new physics state, didn't you?
+2013-06-24 23:43:32	apples	nope
+2013-06-24 23:43:59	@StoneCypher	< apples> the network needs to be sent a message after the game completes a tick
+2013-06-24 23:44:02	@StoneCypher	23:18 < apples> one for each object in the game
+2013-06-24 23:44:04	@StoneCypher	23:18 < apples> containing its new positional data
+2013-06-24 23:44:18	apples	i was assuming that would be performed by gamestate after it calls physics:next on everything
+2013-06-24 23:44:31	@StoneCypher	... riiiiight
+2013-06-24 23:44:37	@StoneCypher	which is why i'm asking what the notation is?
+2013-06-24 23:44:47	@StoneCypher	also actually the user is doing it
+2013-06-24 23:45:20	apples	oh
+2013-06-24 23:45:32	apples	{object_info, State}
+2013-06-24 23:45:44	@StoneCypher	oh you just want the record raw?
+2013-06-24 23:46:04	apples	you can convert it to json if you want
+2013-06-24 23:46:12	Mars`	just pushed physics
+2013-06-24 23:46:25	Mars`	i can't really test it since i don't have the record
+2013-06-24 23:46:28	@StoneCypher	apples: wtf
+2013-06-24 23:46:31	@StoneCypher	lol no
+2013-06-24 23:46:35	apples	so give me the record then
+2013-06-24 23:46:41	@StoneCypher	k
+2013-06-24 23:46:48	@StoneCypher	        tick ->
+2013-06-24 23:46:48	@StoneCypher	            loop(UpstreamPid, GamePid, UpstreamPid ! physics:next(PhysicsState)),
+2013-06-24 23:46:51	@StoneCypher	lol
+2013-06-24 23:47:35	@StoneCypher	Mars`: so invent one
+2013-06-24 23:47:51	apples	?
+2013-06-24 23:47:52	@StoneCypher	then run the calc on it and see if the right numbers come out.
+2013-06-24 23:47:59	apples	shouldn't that be a map over the objects
+2013-06-24 23:48:10	@StoneCypher	apples: the user's sending the message, not the game state
+2013-06-24 23:48:14	@StoneCypher	simpler that way
+2013-06-24 23:48:16	apples	oh that's in user
+2013-06-24 23:48:27	apples	wait i'm still confused
+2013-06-24 23:48:33	apples	user calls physics?
+2013-06-24 23:48:34	@StoneCypher	yeah the game state is basically a broadcast timer
+2013-06-24 23:49:18	@StoneCypher	you describeda physics interface for single objects
+2013-06-24 23:49:27	Mars`	this isn't erlang syntax right?
+2013-06-24 23:49:28	Mars`	http://davr.org/p/PMcVA122.html
+2013-06-24 23:49:38	apples	yeah, then i figured gamestate would map over each of hte objects in teh game
+2013-06-24 23:49:49	apples	and then send a message to each user for each object
+2013-06-24 23:50:14	@StoneCypher	which is why i wanted to eliminate user, but you said it needed to exist for observers, for which the meaningful distinction is loss of physics
+2013-06-24 23:50:31	apples	which is why physics:next shouldn't be called in user
+2013-06-24 23:50:58	@StoneCypher	because a user replacement wouldn't call physics?
+2013-06-24 23:51:17	@StoneCypher	waitaminute
+2013-06-24 23:51:21	@StoneCypher	when you wrote the tree
+2013-06-24 23:51:31	apples	when i wrote the tree i was wrong
+2013-06-24 23:51:33	@StoneCypher	is it the leaves always driving in your head?
+2013-06-24 23:51:37	@StoneCypher	well
+2013-06-24 23:51:43	@StoneCypher	when were you going to mention that
+2013-06-24 23:51:46	@StoneCypher	huhhuhuhu
+2013-06-24 23:51:47	@StoneCypher	ok
+2013-06-24 23:51:49	apples	sorry, i thought we covered it
+2013-06-24 23:51:54	@StoneCypher	back to my original design
+2013-06-24 23:51:59	@StoneCypher	luckily i still have it, commented out
+2013-06-24 23:52:01	apples	i think that only game state should call physics
+2013-06-24 23:52:13	apples	and user is a thin proxy over a network
+2013-06-24 23:52:22	@StoneCypher	that's what i was originally doing.  which is why i didn't understand the purpose of the user module, and why i wanted a pid with the request.  :D
+2013-06-24 23:52:37	apples	right
+2013-06-24 23:52:50	@StoneCypher	looooooool.
+2013-06-24 23:53:04	apples	but we still need the player/observer distinction
+2013-06-24 23:53:07	apples	and for now that will live in user
+2013-06-24 23:53:22	@StoneCypher	comedy of errors in this piece :D
+2013-06-24 23:53:30	@StoneCypher	uh
+2013-06-24 23:53:45	@StoneCypher	Mars`: yes,it is
+2013-06-24 23:53:47	@StoneCypher	oh
+2013-06-24 23:53:51	@StoneCypher	that's the one that got replaced
+2013-06-24 23:54:08	@StoneCypher	this is the corrected version: http://davr.org/p/uPxqiM20.html
+2013-06-24 23:54:09	apples	so are we in agreement?
+2013-06-24 23:54:27	@StoneCypher	apples: you appear to agree with my original position; let me restate it to make sure
+2013-06-24 23:54:30	@StoneCypher	apples: currently
+2013-06-24 23:54:39	@StoneCypher	apples: there is a game pid and a user pid
+2013-06-24 23:54:55	apples	i've agreed with your original position for a while, but we agreed on keeping user around for the sake of speed
+2013-06-24 23:54:56	@StoneCypher	apples: the user pid intercepts control requests from a network pid as messages
+2013-06-24 23:55:36	@StoneCypher	apples: the game pid handles ticks, and dispatches new physics states to the network pid as discrete messages, but all at once otherwise (can we just make this a list of, for efficiency's sake)
+2013-06-24 23:55:51	@StoneCypher	putting a bunch of messages in the mbox is silly
+2013-06-24 23:56:03	@StoneCypher	unless it serves you a purpose
+2013-06-24 23:56:16	apples	it does not
+2013-06-24 23:56:46	apples	so the game is infact dispatching the new states to the network, and not the user
+2013-06-24 23:56:54	apples	s/infact/in fact/
+2013-06-24 23:57:34	@StoneCypher	ok
+2013-06-24 23:57:46	@StoneCypher	then let's ditch user
+2013-06-24 23:58:00	apples	well, now we go back to the question i was originally postponing
+2013-06-24 23:58:09	@StoneCypher	which is?
+2013-06-24 23:58:26	@StoneCypher	oh, observers?
+2013-06-24 23:58:31	apples	yeah
+2013-06-24 23:58:41	@StoneCypher	define an object kind 'observer' with no rendering 
+2013-06-24 23:58:46	@StoneCypher	hax.
+2013-06-24 23:58:59	apples	but we don't know whether they are an observer or player until post-handshake
+2013-06-24 23:59:13	@StoneCypher	oh
+2013-06-24 23:59:27	@StoneCypher	how do we model pre-match users w/o user
+2013-06-24 23:59:31	@StoneCypher	is that handled already?
+2013-06-24 23:59:54	apples	i'm not sure what you mean
+2013-06-25 00:00:04	@StoneCypher	so game is created with a player list
+2013-06-25 00:00:19	apples	correct
+2013-06-25 00:00:25	apples	https://github.com/forestbelton/spaceshit/blob/master/erl/src/matchmaker.erl
+2013-06-25 00:00:30	@StoneCypher	do you already have a mechanism for handling pre-match idling users, because i had assumed the users would get generated immediately and handle their own idling
+2013-06-25 00:00:40	Mars`	apples: NewVx = OldVx + cos(Rotation).
+2013-06-25 00:00:56	Mars`	apples: i suck at math. is that in the right ballpark?
+2013-06-25 00:01:33	apples	is this for physics:next ?
+2013-06-25 00:01:59	Mars`	no
+2013-06-25 00:02:00	apples	StoneCypher: the matchmaker handles pre-match idling users
+2013-06-25 00:02:01	Mars`	thrust
+2013-06-25 00:02:05	@StoneCypher	apples: k
+2013-06-25 00:02:19	@StoneCypher	apples: you want to just slap the response pid in every announcement then?
+2013-06-25 00:03:27	apples	StoneCypher: actually, i need to revise the constructor of user. it needs 3 arguments
+2013-06-25 00:03:41	apples	user:new(Manager, Matchmaker, Network)
+2013-06-25 00:03:52	apples	send {new_user, Pid} to Matchmaker if it's a player
+2013-06-25 00:04:07	apples	send {new_watcher, Pid} to Manager if it's a watcher
+2013-06-25 00:04:22	apples	Mars`: sec
+2013-06-25 00:05:29	@StoneCypher	k
+2013-06-25 00:06:03	@StoneCypher	pushed code of old mindset, now making revisions
+2013-06-25 00:06:26	apples	the first message Network will send to a User is what type of player it is
+2013-06-25 00:06:31	apples	s/player/client/
+2013-06-25 00:06:39	@StoneCypher	can games take joins while already running?
+2013-06-25 00:06:43	apples	either {join, player} or {join, watcher}
+2013-06-25 00:06:47	apples	no
+2013-06-25 00:07:04	apples	a malformed client can do that, but let's not worry about that for now
+2013-06-25 00:09:58	Mars`	apples: hm.. NewVx = State#object_state.vx + 
+2013-06-25 00:09:59	Mars`	            math:cos(State#object_state.r);
+2013-06-25 00:10:30	apples	Mars`: it should be dx' = c cos(r), dy' = c sin(r)
+2013-06-25 00:10:45	Mars`	what's c mean?
+2013-06-25 00:10:57	apples	our constant velocity value (or 0 if they aren't moving)
+2013-06-25 00:11:37	Mars`	but i'm computing velocity in thrust, right?
+2013-06-25 00:11:40	Mars`	not position
+2013-06-25 00:11:48	Mars`	next updates position
+2013-06-25 00:11:52	apples	yup
+2013-06-25 00:12:04	Mars`	ah that's what ' means. duh
+2013-06-25 00:12:15	apples	i'm not using erlang syntax
+2013-06-25 00:12:18	@StoneCypher	why are you updating the constructor of user if we removed it
+2013-06-25 00:12:23	apples	i just mean dx' to be the next vx
+2013-06-25 00:12:56	Mars`	yea yea derivative of delta x
+2013-06-25 00:13:01	Mars`	i just had a brain fart
+2013-06-25 00:13:16	apples	http://upload.wikimedia.org/wikipedia/commons/8/8f/Unit_circle.svg
+2013-06-25 00:13:28	apples	we're just computing that value and scaling it according to the velocity we're going
+2013-06-25 00:14:04	Mars`	speaking of that i might pass out soon. I haven't had much sleep in the past few days.
+2013-06-25 00:15:00	@StoneCypher	k
+2013-06-25 00:17:29	Mars`	should we have rebar in version control?
+2013-06-25 00:17:33	@StoneCypher	n
+2013-06-25 00:18:20	Mars`	i think you might have accidently commited it
+2013-06-25 00:18:42	@StoneCypher	maybe
+2013-06-25 00:18:44	@StoneCypher	checking
+2013-06-25 00:19:48	@StoneCypher	fixing
+2013-06-25 00:20:46	apples	ALL
+2013-06-25 00:20:47	apples	UR Fault
+2013-06-25 00:20:58	@StoneCypher	Mars`: fixed, thanks
+2013-06-25 00:21:16	@StoneCypher	also it appears that i am ceasing to suck at git
+2013-06-25 00:21:20	@StoneCypher	i had to look zero of that up
+2013-06-25 00:21:35	apples	too bad you committed it in the first place nigga
+2013-06-25 00:21:49	@StoneCypher	adding to ignore
+2013-06-25 00:21:52	@StoneCypher	both rebar and forest
+2013-06-25 00:21:55	apples	lul
+2013-06-25 00:22:01	Mars`	hahahaha
+2013-06-25 00:22:45	@StoneCypher	apples: go listen to glitch mob fgt
+2013-06-25 00:23:13	@StoneCypher	weirdly i actually kind of like glitch mob
+2013-06-25 00:23:19	apples	i have no opinion
+2013-06-25 00:23:26	@StoneCypher	unknown or uncared
+2013-06-25 00:23:45	@StoneCypher	drink the sea.  http://www.youtube.com/watch?v=tVqPx5mUj0g
+2013-06-25 00:23:45	apples	latter
+2013-06-25 00:23:49	@StoneCypher	ah
+2013-06-25 00:23:50	apples	i'm watching GoT atm
+2013-06-25 00:24:44	Mars`	alright. so I'm going to pass out.
+2013-06-25 00:24:47	apples	seeya
+2013-06-25 00:24:48	@StoneCypher	night mike
+2013-06-25 00:24:52	@StoneCypher	git push first
+2013-06-25 00:24:54	Mars`	when I wake up hopefully i'll suck less at erl
+2013-06-25 00:24:55	@StoneCypher	pls
+2013-06-25 00:24:59	Mars`	pushed
+2013-06-25 00:25:02	@StoneCypher	win
+2013-06-25 00:25:04	@StoneCypher	good stuff
+2013-06-25 00:25:09	Mars`	night guys
+2013-06-25 00:25:15	@StoneCypher	and hey, you're doing p.well for being so new
+2013-06-25 00:25:18	@StoneCypher	night :)
+2013-06-25 00:25:20	apples	n8
+2013-06-25 00:25:43	@StoneCypher	apples: thread bump: why are you updating user:new when user is no more
+2013-06-25 00:25:50	apples	um
+2013-06-25 00:25:55	apples	i thought we were keeping user
+2013-06-25 00:26:00	@StoneCypher	>:(
+2013-06-25 00:26:01	@StoneCypher	n
+2013-06-25 00:26:10	apples	apples
+2013-06-25 00:26:10	apples	StoneCypher: actually, i need to revise the constructor of user. it needs 3 arguments
+2013-06-25 00:26:10	apples	12:03 AM
+2013-06-25 00:26:10	apples	user:new(Manager, Matchmaker, Network)
+2013-06-25 00:26:10	apples	12:03 AM
+2013-06-25 00:26:10	apples	send {new_user, Pid} to Matchmaker if it's a player
+2013-06-25 00:26:10	apples	12:04 AM
+2013-06-25 00:26:11	apples	send {new_watcher, Pid} to Manager if it's a watcher
+2013-06-25 00:26:12	apples	12:04 AM
+2013-06-25 00:26:12	apples	Mars`: sec
+2013-06-25 00:26:20	apples	12:05 AM StoneCypher
+2013-06-25 00:26:21	apples	k
+2013-06-25 00:26:22	apples	U SAID K
+2013-06-25 00:26:32	@StoneCypher	yeah then keep readin
+2013-06-25 00:26:41	@StoneCypher	it took me a second to notice because drugs, drugs, tired, and drugs
+2013-06-25 00:26:43	@StoneCypher	in that order
+2013-06-25 00:27:06	@StoneCypher	user am gone
+2013-06-25 00:27:08	@StoneCypher	so
+2013-06-25 00:27:32	@StoneCypher	send the message to game { joined, Manager, Matchmaker, Network, UserIsObserver } ?
+2013-06-25 00:28:10	@StoneCypher	or joining i guess
+2013-06-25 00:28:31	@StoneCypher	or you could pass them in in game:new() if you still wanted to do it that way
+2013-06-25 00:28:37	apples	let me pull
+2013-06-25 00:28:40	@StoneCypher	k
+2013-06-25 00:28:44	@StoneCypher	i haven't deleted user yet
+2013-06-25 00:29:00	@StoneCypher	because i'm still copy pastaing pieces out into what's now game
+2013-06-25 00:29:19	@StoneCypher	they're both trivial because we've spent the whole night vascillating on what this actually does
+2013-06-25 00:29:30	apples	lolol
+2013-06-25 00:30:06	@StoneCypher	look, right now, just pick.
+2013-06-25 00:30:09	@StoneCypher	user in or out.
+2013-06-25 00:30:17	@StoneCypher	AND THIS IS FUCKING FINAL and it's the same amount of work either direction
+2013-06-25 00:30:20	@StoneCypher	so make the right choice 
+2013-06-25 00:30:28	apples	user out
+2013-06-25 00:30:49	@StoneCypher	okay. is it more convenient for you to send the above message on game creation, on :new, or as a function call
+2013-06-25 00:30:53	apples	i thought i've said twice already that we are keeping it for speed's sake but this is no longer being speedy so let's just get rid of it
+2013-06-25 00:31:30	apples	you don't need the matchmaker
+2013-06-25 00:31:50	@StoneCypher	yp.
+2013-06-25 00:31:51	apples	here's what we will do
+2013-06-25 00:31:52	@StoneCypher	yep*
+2013-06-25 00:31:58	@StoneCypher	it's also ready for mid-game joins.
+2013-06-25 00:31:58	apples	let's forget about observers
+2013-06-25 00:32:04	@StoneCypher	k
+2013-06-25 00:32:18	@StoneCypher	you just gonna make a kind observer, with no render?
+2013-06-25 00:32:20	@StoneCypher	then say hax?  :D
+2013-06-25 00:32:30	apples	no
+2013-06-25 00:32:34	@StoneCypher	aw.
+2013-06-25 00:32:36	apples	i'm going to forget about them until later
+2013-06-25 00:32:38	@StoneCypher	k
+2013-06-25 00:32:48	apples	it's complicating our thought process too much
+2013-06-25 00:32:54	@StoneCypher	i think it's fine
+2013-06-25 00:32:58	@StoneCypher	if you just answer my question 
+2013-06-25 00:33:12	@StoneCypher	editing for clarity
+2013-06-25 00:33:13	apples	when i create a game
+2013-06-25 00:33:16	@StoneCypher	k
+2013-06-25 00:33:28	apples	i'm going to pass you two Networks
+2013-06-25 00:33:34	apples	(since user is gone)
+2013-06-25 00:33:41	@StoneCypher	okay awesome.  in :new() then?
+2013-06-25 00:33:44	apples	yep
+2013-06-25 00:33:50	apples	i will also give you the Manager
+2013-06-25 00:33:50	@StoneCypher	please make it one list of networks
+2013-06-25 00:33:53	apples	yup
+2013-06-25 00:33:55	@StoneCypher	that you happen to put two into
+2013-06-25 00:34:06	apples	gamestate:new(Manager, [Network])
+2013-06-25 00:34:15	apples	you'll give me back a pid
+2013-06-25 00:34:16	@StoneCypher	no matchmaker?
+2013-06-25 00:34:28	apples	you don't need one
+2013-06-25 00:34:31	@StoneCypher	k
+2013-06-25 00:34:32	apples	i'm already doing the matchmaking
+2013-06-25 00:34:37	@StoneCypher	pushing
+2013-06-25 00:35:05	apples	you edited perl shit?
+2013-06-25 00:35:08	@StoneCypher	now consolidating around that style
+2013-06-25 00:35:09	@StoneCypher	what
+2013-06-25 00:35:09	@StoneCypher	no
+2013-06-25 00:35:16	@StoneCypher	what?
+2013-06-25 00:35:16	apples	https://github.com/forestbelton/spaceshit/blob/master/perl/match.pl
+2013-06-25 00:35:19	apples	lul
+2013-06-25 00:35:48	@StoneCypher	what.
+2013-06-25 00:35:56	apples	must've been from yesterday
+2013-06-25 00:36:29	@StoneCypher	that's the one i was just starting to write before vat finally answered what he wanted me to write
+2013-06-25 00:36:32	@StoneCypher	lame
+2013-06-25 00:36:45	@StoneCypher	other shit got in too
+2013-06-25 00:36:46	@StoneCypher	lame
+2013-06-25 00:42:19	apples	hm
+2013-06-25 00:43:03	@StoneCypher	wat
+2013-06-25 00:43:21	@StoneCypher	so what's the new notation for fire, say
+2013-06-25 00:43:29	@StoneCypher	{ fire, Manager } ?
+2013-06-25 00:43:36	apples	no
+2013-06-25 00:43:39	apples	fire
+2013-06-25 00:43:47	apples	i'm not sure why Manager would be needed there
+2013-06-25 00:44:02	apples	it's not coming through a Manager
+2013-06-25 00:44:05	@StoneCypher	oh, because i'm being retarded, ignore what i just said
+2013-06-25 00:44:09	@StoneCypher	wait what?
+2013-06-25 00:44:13	@StoneCypher	oh right
+2013-06-25 00:44:15	@StoneCypher	polling the network
+2013-06-25 00:44:16	apples	it's coming from the Network
+2013-06-25 00:45:12	@StoneCypher	is the Socket in question the Manager I'm passed?
+2013-06-25 00:45:47	apples	gamestate:new(Manager, [Network1, Network2])
+2013-06-25 00:46:07	apples	does that not answer yoru Q?
+2013-06-25 00:46:16	@StoneCypher	oh the networks are sockets, not pids of network processes?
+2013-06-25 00:46:21	apples	no, the networks are pids
+2013-06-25 00:46:34	apples	you need to send a message to them saying you want messages
+2013-06-25 00:46:35	@StoneCypher	try_read(Socket)
+2013-06-25 00:46:40	apples	network code is old
+2013-06-25 00:46:41	apples	let me push
+2013-06-25 00:46:44	@StoneCypher	oh.
+2013-06-25 00:46:50	@StoneCypher	i was trying to figure out what to do from code.
+2013-06-25 00:46:52	@StoneCypher	lol
+2013-06-25 00:47:11	apples	pushed
+2013-06-25 00:49:36	@StoneCypher	so i don't poll anymore?
+2013-06-25 00:49:40	apples	no
+2013-06-25 00:49:44	apples	i thought we agreed on that?
+2013-06-25 00:49:51	apples	no thought, we agreed on that
+2013-06-25 00:49:57	@StoneCypher	yes, that's fine.
+2013-06-25 00:50:14	@StoneCypher	so then how do i know to which user the message applies
+2013-06-25 11:11:58	--	irc: disconnected from server
+2013-06-25 11:12:44	-->	Mars` (~Mars`@c-67-180-209-52.hsd1.ca.comcast.net) has joined #sssredo
+2013-06-25 11:12:44	--	Nicks #sssredo: [apples Mars` StoneCypher]
+2013-06-25 11:12:44	--	Channel #sssredo: 3 nicks (0 ops, 0 halfops, 0 voices, 3 normals)
+2013-06-25 11:12:47	--	Mode #sssredo [+nps]
+2013-06-25 11:12:47	--	Channel created on Mon, 24 Jun 2013 21:15:16

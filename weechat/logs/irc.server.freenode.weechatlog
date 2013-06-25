@@ -77,3 +77,239 @@
 2013-06-24 14:38:50	--	- ***************************************************************
 2013-06-24 14:38:50	--	End of /MOTD command.
 2013-06-24 14:38:50	--	User mode [+i] by Mars`
+2013-06-24 19:57:37	--	irc: connecting to server chat.freenode.net/6667...
+2013-06-24 19:57:37	--	irc: connected to chat.freenode.net/6667 (78.40.125.4)
+2013-06-24 19:57:37	--	barjavel.freenode.net (barjavel.freenode.net): *** Looking up your hostname...
+2013-06-24 19:57:37	--	barjavel.freenode.net (barjavel.freenode.net): *** Checking Ident
+2013-06-24 19:57:38	--	barjavel.freenode.net (barjavel.freenode.net): *** Found your hostname
+2013-06-24 19:57:43	--	barjavel.freenode.net (barjavel.freenode.net): *** No Ident response
+2013-06-24 19:57:44	--	irc: nickname "Mars" is already in use, trying nickname "Mars`"
+2013-06-24 19:57:44	--	Welcome to the freenode Internet Relay Chat Network Mars`
+2013-06-24 19:57:44	--	Your host is barjavel.freenode.net[78.40.125.4/6667], running version ircd-seven-1.1.3
+2013-06-24 19:57:44	--	This server was created Mon Dec 31 2012 at 22:37:42 CET
+2013-06-24 19:57:44	--	barjavel.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2013-06-24 19:57:44	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2013-06-24 19:57:44	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2013-06-24 19:57:44	--	EXTBAN=$,arxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2013-06-24 19:57:44	--	There are 183 users and 74238 invisible on 27 servers
+2013-06-24 19:57:44	--	37 :IRC Operators online
+2013-06-24 19:57:44	--	3 :unknown connection(s)
+2013-06-24 19:57:44	--	45305 :channels formed
+2013-06-24 19:57:44	--	I have 5729 clients and 1 servers
+2013-06-24 19:57:44	--	5729 9889 :Current local users 5729, max 9889
+2013-06-24 19:57:44	--	74421 92550 :Current global users 74421, max 92550
+2013-06-24 19:57:44	--	Highest connection count: 9890 (9889 clients) (1070434 connections received)
+2013-06-24 19:57:44	--	- barjavel.freenode.net Message of the Day -
+2013-06-24 19:57:44	--	- Welcome to barjavel.freenode.net in Paris, FR, EU.
+2013-06-24 19:57:44	--	- Thanks to Bearstech (www.bearstech.com) for sponsoring
+2013-06-24 19:57:44	--	- this server!
+2013-06-24 19:57:44	--	-
+2013-06-24 19:57:44	--	- BARJAVEL, RENE [1911-1985].  Born in Nyons, he was a
+2013-06-24 19:57:44	--	- science-fiction author, a journalist and a critic. He is
+2013-06-24 19:57:44	--	- credited with having written the first novel to introduce
+2013-06-24 19:57:44	--	- the Grandfather Paradox in time travel, in his 1943 work
+2013-06-24 19:57:44	--	- 'Le Voyageur imprudent'.
+2013-06-24 19:57:44	--	-
+2013-06-24 19:57:44	--	- Welcome to freenode - supporting the free and open source
+2013-06-24 19:57:44	--	- software communities since 1998.
+2013-06-24 19:57:44	--	-
+2013-06-24 19:57:44	--	- By connecting to freenode you indicate that you have read and
+2013-06-24 19:57:44	--	- agree to adhere to our policies and procedures as per the
+2013-06-24 19:57:44	--	- website (http://freenode.net/).
+2013-06-24 19:57:44	--	-
+2013-06-24 19:57:44	--	- We would like to remind you that unauthorised public logging
+2013-06-24 19:57:44	--	- of channels on the network is prohibited. Public channel
+2013-06-24 19:57:44	--	- logging should only take place where the channel owner(s) has
+2013-06-24 19:57:44	--	- requested this and users of the channel are all made aware
+2013-06-24 19:57:44	--	- (if you are publically logging your channel, you may wish to
+2013-06-24 19:57:44	--	- keep a notice in the topic and perhaps as an on-join message).
+2013-06-24 19:57:44	--	-
+2013-06-24 19:57:44	--	- freenode runs an open proxy scanner. For details on freenode
+2013-06-24 19:57:44	--	- network policy, please take a look at our policy page
+2013-06-24 19:57:44	--	- (http://freenode.net/policy.shtml).  Your use of the network
+2013-06-24 19:57:44	--	- indicates your acceptance of this policy.
+2013-06-24 19:57:44	--	-
+2013-06-24 19:57:44	--	- Please join #freenode for any network-related questions or
+2013-06-24 19:57:44	--	- queries, there are numerous freenode volunteers and helpful
+2013-06-24 19:57:44	--	- users who would be happy to try answer any questions you might
+2013-06-24 19:57:44	--	- have.
+2013-06-24 19:57:44	--	-
+2013-06-24 19:57:44	--	- Check out www.fossevents.org to find out what is happening in
+2013-06-24 19:57:44	--	- your area, join us at FOSSCON (www.fosscon.org) for talks and
+2013-06-24 19:57:44	--	- real-life collaboration or bring a picnic and come join
+2013-06-24 19:57:44	--	- like-minded geeks for a geeknic (www.geeknic.org) somewhere
+2013-06-24 19:57:44	--	- close to you.
+2013-06-24 19:57:44	--	- Lastly, massive thanks to the OSU Open Source Lab
+2013-06-24 19:57:44	--	- (http://osuosl.org/) and Private Internet Access
+2013-06-24 19:57:44	--	- (https://www.privateinternetaccess.com/) for their sustained,
+2013-06-24 19:57:44	--	- long term support and dedication they show to the FOSS
+2013-06-24 19:57:44	--	- communities.
+2013-06-24 19:57:44	--	-
+2013-06-24 19:57:44	--	- ***************************************************************
+2013-06-24 19:57:44	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2013-06-24 19:57:44	--	- ***************************************************************
+2013-06-24 19:57:44	--	End of /MOTD command.
+2013-06-24 19:57:44	--	User mode [+i] by Mars`
+2013-06-24 20:57:56	=!=	irc: reading data on socket: error 54 Connection reset by peer
+2013-06-24 20:57:56	--	irc: disconnecting from server...
+2013-06-24 20:57:56	--	irc: disconnected from server
+2013-06-24 20:57:56	--	irc: reconnecting to server in 30 seconds
+2013-06-24 21:14:26	--	irc: reconnecting to server...
+2013-06-24 21:14:26	--	irc: connecting to server chat.freenode.net/6667...
+2013-06-24 21:14:26	=!=	irc: address "chat.freenode.net" not found
+2013-06-24 21:14:26	=!=	irc: error: nodename nor servname provided, or not known
+2013-06-24 21:14:26	--	irc: reconnecting to server in 1 minutes
+2013-06-24 21:15:26	--	irc: reconnecting to server...
+2013-06-24 21:15:26	--	irc: connecting to server chat.freenode.net/6667...
+2013-06-24 21:15:26	=!=	irc: address "chat.freenode.net" not found
+2013-06-24 21:15:26	=!=	irc: error: nodename nor servname provided, or not known
+2013-06-24 21:15:26	--	irc: reconnecting to server in 2 minutes
+2013-06-24 21:16:56	--	irc: connecting to server chat.freenode.net/6667...
+2013-06-24 21:16:56	--	irc: connected to chat.freenode.net/6667 (78.40.125.4)
+2013-06-24 21:16:56	--	barjavel.freenode.net (barjavel.freenode.net): *** Looking up your hostname...
+2013-06-24 21:16:56	--	barjavel.freenode.net (barjavel.freenode.net): *** Checking Ident
+2013-06-24 21:16:56	--	barjavel.freenode.net (barjavel.freenode.net): *** No Ident response
+2013-06-24 21:16:56	--	barjavel.freenode.net (barjavel.freenode.net): *** Your forward and reverse DNS do not match, ignoring hostname
+2013-06-24 21:16:56	--	Welcome to the freenode Internet Relay Chat Network Mars`
+2013-06-24 21:16:56	--	Your host is barjavel.freenode.net[78.40.125.4/6667], running version ircd-seven-1.1.3
+2013-06-24 21:16:56	--	This server was created Mon Dec 31 2012 at 22:37:42 CET
+2013-06-24 21:16:56	--	barjavel.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2013-06-24 21:16:56	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2013-06-24 21:16:56	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2013-06-24 21:16:56	--	EXTBAN=$,arxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2013-06-24 21:16:56	--	There are 182 users and 73545 invisible on 27 servers
+2013-06-24 21:16:56	--	37 :IRC Operators online
+2013-06-24 21:16:56	--	3 :unknown connection(s)
+2013-06-24 21:16:56	--	45231 :channels formed
+2013-06-24 21:16:56	--	I have 5690 clients and 1 servers
+2013-06-24 21:16:56	--	5690 9889 :Current local users 5690, max 9889
+2013-06-24 21:16:56	--	73727 92550 :Current global users 73727, max 92550
+2013-06-24 21:16:56	--	Highest connection count: 9890 (9889 clients) (1071140 connections received)
+2013-06-24 21:16:56	--	- barjavel.freenode.net Message of the Day -
+2013-06-24 21:16:56	--	- Welcome to barjavel.freenode.net in Paris, FR, EU.
+2013-06-24 21:16:56	--	- Thanks to Bearstech (www.bearstech.com) for sponsoring
+2013-06-24 21:16:56	--	- this server!
+2013-06-24 21:16:56	--	-
+2013-06-24 21:16:56	--	- BARJAVEL, RENE [1911-1985].  Born in Nyons, he was a
+2013-06-24 21:16:56	--	- science-fiction author, a journalist and a critic. He is
+2013-06-24 21:16:56	--	- credited with having written the first novel to introduce
+2013-06-24 21:16:56	--	- the Grandfather Paradox in time travel, in his 1943 work
+2013-06-24 21:16:56	--	- 'Le Voyageur imprudent'.
+2013-06-24 21:16:56	--	-
+2013-06-24 21:16:56	--	- Welcome to freenode - supporting the free and open source
+2013-06-24 21:16:56	--	- software communities since 1998.
+2013-06-24 21:16:56	--	-
+2013-06-24 21:16:56	--	- By connecting to freenode you indicate that you have read and
+2013-06-24 21:16:56	--	- agree to adhere to our policies and procedures as per the
+2013-06-24 21:16:56	--	- website (http://freenode.net/).
+2013-06-24 21:16:56	--	-
+2013-06-24 21:16:56	--	- We would like to remind you that unauthorised public logging
+2013-06-24 21:16:56	--	- of channels on the network is prohibited. Public channel
+2013-06-24 21:16:56	--	- logging should only take place where the channel owner(s) has
+2013-06-24 21:16:56	--	- requested this and users of the channel are all made aware
+2013-06-24 21:16:56	--	- (if you are publically logging your channel, you may wish to
+2013-06-24 21:16:56	--	- keep a notice in the topic and perhaps as an on-join message).
+2013-06-24 21:16:56	--	-
+2013-06-24 21:16:56	--	- freenode runs an open proxy scanner. For details on freenode
+2013-06-24 21:16:56	--	- network policy, please take a look at our policy page
+2013-06-24 21:16:56	--	- (http://freenode.net/policy.shtml).  Your use of the network
+2013-06-24 21:16:56	--	- indicates your acceptance of this policy.
+2013-06-24 21:16:56	--	-
+2013-06-24 21:16:56	--	- Please join #freenode for any network-related questions or
+2013-06-24 21:16:56	--	- queries, there are numerous freenode volunteers and helpful
+2013-06-24 21:16:56	--	- users who would be happy to try answer any questions you might
+2013-06-24 21:16:57	--	- have.
+2013-06-24 21:16:57	--	-
+2013-06-24 21:16:57	--	- Check out www.fossevents.org to find out what is happening in
+2013-06-24 21:16:57	--	- your area, join us at FOSSCON (www.fosscon.org) for talks and
+2013-06-24 21:16:57	--	- real-life collaboration or bring a picnic and come join
+2013-06-24 21:16:57	--	- like-minded geeks for a geeknic (www.geeknic.org) somewhere
+2013-06-24 21:16:57	--	- close to you.
+2013-06-24 21:16:57	--	- Lastly, massive thanks to the OSU Open Source Lab
+2013-06-24 21:16:57	--	- (http://osuosl.org/) and Private Internet Access
+2013-06-24 21:16:57	--	- (https://www.privateinternetaccess.com/) for their sustained,
+2013-06-24 21:16:57	--	- long term support and dedication they show to the FOSS
+2013-06-24 21:16:57	--	- communities.
+2013-06-24 21:16:57	--	-
+2013-06-24 21:16:57	--	- ***************************************************************
+2013-06-24 21:16:57	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2013-06-24 21:16:57	--	- ***************************************************************
+2013-06-24 21:16:57	--	End of /MOTD command.
+2013-06-24 21:16:57	--	User mode [+i] by Mars`
+2013-06-25 11:11:58	=!=	irc: reading data on socket: error 60 Operation timed out
+2013-06-25 11:11:58	--	irc: disconnecting from server...
+2013-06-25 11:11:58	--	irc: disconnected from server
+2013-06-25 11:11:58	--	irc: reconnecting to server in 30 seconds
+2013-06-25 11:12:28	--	irc: reconnecting to server...
+2013-06-25 11:12:28	--	irc: connecting to server chat.freenode.net/6667...
+2013-06-25 11:12:29	--	irc: connected to chat.freenode.net/6667 (193.219.128.49)
+2013-06-25 11:12:29	--	sendak.freenode.net (sendak.freenode.net): *** Looking up your hostname...
+2013-06-25 11:12:29	--	sendak.freenode.net (sendak.freenode.net): *** Checking Ident
+2013-06-25 11:12:29	--	sendak.freenode.net (sendak.freenode.net): *** Found your hostname
+2013-06-25 11:12:38	--	sendak.freenode.net (sendak.freenode.net): *** No Ident response
+2013-06-25 11:12:38	--	Welcome to the freenode Internet Relay Chat Network Mars`
+2013-06-25 11:12:38	--	Your host is sendak.freenode.net[193.219.128.49/6667], running version ircd-seven-1.1.3
+2013-06-25 11:12:38	--	This server was created Mon Dec 31 2012 at 23:37:24 EET
+2013-06-25 11:12:38	--	sendak.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2013-06-25 11:12:38	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2013-06-25 11:12:38	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2013-06-25 11:12:38	--	EXTBAN=$,arxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2013-06-25 11:12:38	--	There are 195 users and 84347 invisible on 25 servers
+2013-06-25 11:12:38	--	32 :IRC Operators online
+2013-06-25 11:12:38	--	8 :unknown connection(s)
+2013-06-25 11:12:38	--	46171 :channels formed
+2013-06-25 11:12:38	--	I have 6746 clients and 1 servers
+2013-06-25 11:12:38	--	6746 6762 :Current local users 6746, max 6762
+2013-06-25 11:12:38	--	84542 92550 :Current global users 84542, max 92550
+2013-06-25 11:12:38	--	Highest connection count: 6763 (6762 clients) (511301 connections received)
+2013-06-25 11:12:38	--	- sendak.freenode.net Message of the Day -
+2013-06-25 11:12:38	--	- Welcome to sendak.freenode.net in Vilnius, Lithuania, EU.
+2013-06-25 11:12:38	--	- Thanks to Microlink Lietuva (http://www.microlink.lt) for providing this
+2013-06-25 11:12:38	--	- server!
+2013-06-25 11:12:38	--	-
+2013-06-25 11:12:38	--	- SENDAK, MAURICE [1928-2012].  The author of Seven Little
+2013-06-25 11:12:38	--	- Monsters and Where the Wild Things Are, Maurice Sendak was
+2013-06-25 11:12:38	--	- born in Brooklyn, NY, US, to a family of poor Polish
+2013-06-25 11:12:38	--	- immigrants who moved to the US before World War II.  He
+2013-06-25 11:12:38	--	- became an illustrator while in high school.
+2013-06-25 11:12:38	--	-
+2013-06-25 11:12:38	--	- Welcome to freenode - supporting the free and open source
+2013-06-25 11:12:38	--	- software communities since 1998.
+2013-06-25 11:12:38	--	-
+2013-06-25 11:12:38	--	- By connecting to freenode you indicate that you have read and
+2013-06-25 11:12:38	--	- agree to adhere to our policies and procedures as per the
+2013-06-25 11:12:38	--	- website (http://freenode.net/).
+2013-06-25 11:12:38	--	-
+2013-06-25 11:12:38	--	- We would like to remind you that unauthorised public logging
+2013-06-25 11:12:38	--	- of channels on the network is prohibited. Public channel
+2013-06-25 11:12:38	--	- logging should only take place where the channel owner(s) has
+2013-06-25 11:12:38	--	- requested this and users of the channel are all made aware
+2013-06-25 11:12:38	--	- (if you are publically logging your channel, you may wish to
+2013-06-25 11:12:38	--	- keep a notice in the topic and perhaps as an on-join message).
+2013-06-25 11:12:38	--	-
+2013-06-25 11:12:38	--	- freenode runs an open proxy scanner. For details on freenode
+2013-06-25 11:12:38	--	- network policy, please take a look at our policy page
+2013-06-25 11:12:38	--	- (http://freenode.net/policy.shtml).  Your use of the network
+2013-06-25 11:12:38	--	- indicates your acceptance of this policy.
+2013-06-25 11:12:38	--	-
+2013-06-25 11:12:38	--	- Please join #freenode for any network-related questions or
+2013-06-25 11:12:38	--	- queries, there are numerous freenode volunteers and helpful
+2013-06-25 11:12:38	--	- users who would be happy to try answer any questions you might
+2013-06-25 11:12:38	--	- have.
+2013-06-25 11:12:38	--	-
+2013-06-25 11:12:38	--	- Check out www.fossevents.org to find out what is happening in
+2013-06-25 11:12:38	--	- your area, join us at FOSSCON (www.fosscon.org) for talks and
+2013-06-25 11:12:38	--	- real-life collaboration or bring a picnic and come join
+2013-06-25 11:12:38	--	- like-minded geeks for a geeknic (www.geeknic.org) somewhere
+2013-06-25 11:12:38	--	- close to you.
+2013-06-25 11:12:38	--	- Lastly, massive thanks to the OSU Open Source Lab
+2013-06-25 11:12:38	--	- (http://osuosl.org/) and Private Internet Access
+2013-06-25 11:12:38	--	- (https://www.privateinternetaccess.com/) for their sustained,
+2013-06-25 11:12:38	--	- long term support and dedication they show to the FOSS
+2013-06-25 11:12:38	--	- communities.
+2013-06-25 11:12:38	--	-
+2013-06-25 11:12:38	--	- ***************************************************************
+2013-06-25 11:12:38	--	- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+2013-06-25 11:12:38	--	- ***************************************************************
+2013-06-25 11:12:38	--	End of /MOTD command.
+2013-06-25 11:12:38	--	User mode [+i] by Mars`

@@ -21,7 +21,7 @@ mailboxes +crowdtilt/INBOX \
           +crowdtilt/archive \
           +crowdtilt/sent \
           +crowdtilt/drafts \
-set mbox = "+crowdtilt/archive"
+#set mbox = "+crowdtilt/archive"
 set postponed = "+crowdtilt/drafts"
 set mbox_type=Maildir
 
@@ -40,7 +40,6 @@ set delete               # don't ask, just do
 set meta_key=yes        # allow to use alt or ESC
 set fcc_clear                             # Keep fcc's clear of signatues and encryption.
 set mail_check = 0
-set mbox_type = Maildir  # mailbox type
 set mime_forward                          # Forward message as MIME attachments.
 set move = no
 set nobeep                                # We don't need no beeping software.
@@ -189,7 +188,6 @@ push <show-version>
 
 bind index \#       noop
 bind index R        group-reply
-bind index <tab>    sync-mailbox
 bind index k        previous-entry
 bind index j        next-entry
 bind index gg       first-entry

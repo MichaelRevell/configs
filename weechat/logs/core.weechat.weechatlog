@@ -302,3 +302,6 @@
 2013-06-24 14:59:24		      signal: debug_dump
 2013-06-24 14:59:24		    completions hooked:
 2013-06-24 14:59:24		        nick
+2013-06-24 19:57:27		script: downloading list of scripts...
+2013-06-24 19:57:27		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-06-24 19:57:30		script: 244 scripts for WeeChat 0.4.1
