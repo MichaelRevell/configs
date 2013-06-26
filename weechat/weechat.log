@@ -14,3 +14,14 @@
 [2013-06-24 21:15:26] irc: connecting to server chat.freenode.net/6667...
 [2013-06-24 21:16:56] irc: connecting to server chat.freenode.net/6667...
 [2013-06-25 11:12:28] irc: connecting to server chat.freenode.net/6667...
+[2013-06-25 14:46:37] Terminal lost, exiting WeeChat...
+[2013-06-25 14:46:37] Writing configuration file plugins.conf 
+[2013-06-25 14:46:37] Writing configuration file xfer.conf 
+[2013-06-25 14:46:37] Writing configuration file script.conf 
+[2013-06-25 14:46:37] Writing configuration file rmodifier.conf 
+[2013-06-25 14:46:37] Writing configuration file relay.conf 
+[2013-06-25 14:46:37] Writing configuration file logger.conf 
+[2013-06-25 14:46:37] Writing configuration file irc.conf 
+[2013-06-25 14:46:37] Writing configuration file charset.conf 
+[2013-06-25 14:46:37] Writing configuration file alias.conf 
+[2013-06-25 14:46:37] Writing configuration file weechat.conf 
