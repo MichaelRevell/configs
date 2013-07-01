@@ -305,3 +305,7 @@
 2013-06-24 19:57:27		script: downloading list of scripts...
 2013-06-24 19:57:27		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
 2013-06-24 19:57:30		script: 244 scripts for WeeChat 0.4.1
+2013-06-27 14:32:07		script: downloading list of scripts...
+2013-06-27 14:32:07		Plugins loaded: alias, charset, fifo, irc, logger, relay, rmodifier, script, tcl, xfer
+2013-06-27 14:32:09		script: 244 scripts for WeeChat 0.4.1
+2013-06-27 14:32:17	=!=	irc: command "join" must be executed on connected irc server

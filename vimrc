@@ -76,6 +76,17 @@ set wrap
 noremap <C-t> :CtrlP<CR>
 noremap ,n :NERDTreeToggle<CR>
 
+" Highlight files nicely
+au BufRead,BufNewFile *.tt2 setf html
+au BufRead,BufNewFile *.tt setf html
+au BufRead,BufNewFile *.js.tt set filetype=javascript
+ 
+" Make CtrlP ignore things
+let g:ctrlp_custom_ignore = {
+    \ 'dir': '\.git$\|\.hg$\|\.svn$\|target$\|built$\|.build$\|node_modules\|\.sass-cache',
+    \ 'file': '\.ttc$',
+    \ }
+
 " ======================= Script Runner ====================
 let g:script_runner_perl = "perl -Ilib -MData::Dumper -Mv5.10 -Mwarnings -MFile::Slurp"
 let g:script_runner_javascript = "node"

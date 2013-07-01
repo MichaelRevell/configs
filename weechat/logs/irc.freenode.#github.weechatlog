@@ -1,0 +1,1088 @@
+2013-06-27 14:32:46	-->	Mars` (~Mars`@c-67-180-209-52.hsd1.ca.comcast.net) has joined #github
+2013-06-27 14:32:46	--	Topic for #github is "Need help? http://github.com/contact | Service status updates at http://status.github.com/ and http://twitter.com/github | How-to guides at http://help.github.com"
+2013-06-27 14:32:46	--	Topic set by tekkub (~tekkub@WoWUIDev/WoWI/Featured/Dongle/GitHub/Tekkub) on Thu, 05 May 2011 01:46:09
+2013-06-27 14:32:46	--	Nicks #github: [@VxJasonxV @zerowidth [-jon-] [krisbulman] _br_ _SaCu_ `Kevin aaearon AaronMT aboudreault achiu1 adhawkins-away adnap AdrienBrault afx_hero Aim airborn akoumjian albel727 Alenah AlexMax alexwhitman algesten Alina-malina AllStruck AmberJ_ Amrykid anaconda anildigital AnimeCYC arielserafini arnihr asksol aslak asuka Atlas autumn bacilla badboy_ barneybook basic` bdavenport BeanDip_ beawesomeinstead ben_alman bengl_ bish0p_ BJfreeman bobmcw brainproxy breakingthings brennanMKE bret brian-mann brianloveswords Bry8Star bryanl Caelum Caius calmyournerves canton7 carl_ Catie caveat- cbloss cgbystrom__ chadi cheese1756 Chillax chilversc chol chris_99 ChrisAnn chrisdickinson chrisirc_ chrismear chuckharmston classix clayball closer009 cmuller13 CodeShark cofeineSunshine Conjuro Contex_ cooper Cork crankyadmin csalazar cxreg cyberix cypher23 D3Vito D4RK-PH0ENiX dabear DanKnox danlentz danmackay darjeeling DarthGandalf Davai davidboy dbussink DEADB33F decotii defunctzombie devdazed dideler djbkd djn DKnox dkpi dleverton dmlloyd dmyers dna DonRichie DonVitoCorleone drager drags Dreamer3 dreww_ ebouchut ec_ EdGruberman elliotf emmanuelux enhance EnTeQuAk epta erikfrerejean ErKa esc EToS eventualbuddha EvilAww Exio faulkner ffio Fira firewyre Fli-c foca_ freeformz Freeyorp Frymaster FunnyLookinHat garr gde33 gencha george2 ggherdov ghoti gitinfo gkatsev glennpratt goncalo_ graphitemaster Griwes GSpotAssassin Guest36897 guilleiguaran__ guilty_spark haarg habanany hacfi HardDisk_WP hatchetation heath heatxsink hekman_ heptal heroux herzi hexa2k9 heytrav HighBit Hunner im0b imarcusthis- Industrial infernix Infininight infogulch interactionjaxsn invisiblek ivan\ ivey jab416171 jaeckel jaimef jakehow jalcine jamesfry- jarib jasonrm JBreit jbub jds jefferai jeremyb jesseproulx_ jfinn jhford jinie_ jkyle joernchen johng johnlcox joki jonsowman joschi JPeterson jpfuentes2 jpnurmi jrdn jrgifford_ js_ JSharp jsmith_ JStoker jtbt jwollert jwollert- Kabaka kaictl kaitlyn Kaltiz Kamal_ kanzure kapowaz karnowski Karql Katafalkas kevinfagan khaase khaase_ kisielk kortti kossy krazyj kwbock lahwran Learath2 leepa_ leptonix liato Liothen Lord_DeathMatch Lorn_ lukaszr Luke-Jr luminous luto Mackwerk madduck madprops Mamoru markvandenborre marlinc Mars` martinjlowm MattJoyce_ mattyohe md_5 mdd mdwright_ mencito merrihew MetalMatze Mez mgc___ mh` milk milki minerale mithro mitz_ mmitchell monokrome mrapple nbouscal NChief ndim nDuff Nemo7 nephyrin Neptu Nevik Nexen nicedice_ nick_h nicksloan niftylettuce NimeshNeema nitrix Noldorin notbrent___ nz ocut offby1 offbyone ohcibi olegp Orphis p3lim Parnic passcod PaulCapestany paulproteus pcarrier Peej Pengoo percival petisnnake petteyg phantomcircuit PhilK phuzion pigoz poutine primalmotion prismatictrail Proditor Protux przemoc Ragnor randym_ Raynos rbuels rcrowley redrocket rnsanchez rockfruit rodjek rofl____ rom1504 rovak rush2end RyanD s-h s0enke s_e safsdas sakkemo saml SamWhited sayakb sayd sbryant ScottE scottrowe_ scrogson SebastianFlyte segy sent_hil_ sente sethe Seveas SeySayux sgkim126t shabble shentino shtirlic SicoWork Sigma SimonVT SirCmpwn sirdancealot SirFunk sitaktif skalnik skilledone slicky smkelly sn0wb1rdz sonOfRa soulcake spiffxp Spockz sshirokov ssx staniel25 stephan_ strax strictlyb Striki stutter stwalkerster svaksha swebb synergye t_kjaergaard tallest_red TeckniX tfnico_ thedaniel thelamest TheMoonMaster thomasvs timeless timfernando tklun tlipcon_ TML tobias- toin0u tolland tomaw tomb_ TomyLobo ToothlessGear torjus trevor tvale Twey twisted` txdv tystr tyteen4a03 unreal Villadelfia Vinnie_win vivekrai_ WALoeIII wcarss webdestroya weeb1e wereHams1er whit537 whoami willwhit_ Will| Winslow_ Woet wycats_ wykydtron xhoy xoebus xrogaan Y_Ichiro yano yibe___ yosafbridge z z1mme Zackio Zauberfisch-idle Zeelot zerok Ziber zibri Zooklubba zorzar]
+2013-06-27 14:32:46	--	Channel #github: 454 nicks (2 ops, 0 halfops, 0 voices, 452 normals)
+2013-06-27 14:32:48	--	Mode #github [+nt]
+2013-06-27 14:32:48	--	Channel created on Sun, 10 Feb 2008 19:00:20
+2013-06-27 14:34:15	<--	s-h (~s-h@ip-178-200-137-171.unitymediagroup.de) has quit (Quit: Leaving)
+2013-06-27 14:34:59	<--	rovak (~rovak@188.142.3.79) has quit (Quit: Konversation terminated!)
+2013-06-27 14:36:39	-->	lb_ (~lb@unaffiliated/lb) has joined #github
+2013-06-27 14:44:04	--	lb_ is now known as lb1a
+2013-06-27 14:46:22	<--	jakehow (~jakehow@207.239.71.19) has quit (Ping timeout: 276 seconds)
+2013-06-27 14:46:53	<--	skalnik (mikesznc@192.157.215.2) has quit (Changing host)
+2013-06-27 14:46:53	-->	skalnik (mikesznc@unaffiliated/skalnik) has joined #github
+2013-06-27 14:48:35	<--	lb1a (~lb@unaffiliated/lb) has quit (Ping timeout: 252 seconds)
+2013-06-27 14:48:45	<--	jpfuentes2 (~jacques@pool-96-253-119-87.rcmdva.fios.verizon.net) has quit (Quit: Computer has gone to sleep.)
+2013-06-27 14:52:00	-->	hareth (~kapit@2a01:e34:ec0d:f6d0:2899:400:7c7f:e212) has joined #github
+2013-06-27 14:56:23	<--	interactionjaxsn (~interacti@107-1-171-14-ip-static.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2013-06-27 14:56:38	-->	loglaunch (~loglaunch@89.101.8.170) has joined #github
+2013-06-27 14:56:55	-->	interactionjaxsn (~interacti@107-1-171-14-ip-static.hfc.comcastbusiness.net) has joined #github
+2013-06-27 14:58:31	-->	Es0teric (~Es0teric@cpe-74-72-239-113.nyc.res.rr.com) has joined #github
+2013-06-27 15:00:29	-->	hakunin (~hakunin@173-165-58-253-Illinois.hfc.comcastbusiness.net) has joined #github
+2013-06-27 15:01:31	<--	interactionjaxsn (~interacti@107-1-171-14-ip-static.hfc.comcastbusiness.net) has quit (Ping timeout: 268 seconds)
+2013-06-27 15:02:46	<--	breakingthings (~no@173-12-78-237-miami.hfc.comcastbusiness.net) has quit (Quit: breakingthings)
+2013-06-27 15:05:56	<--	saml (~sam@adfb12c6.cst.lightpath.net) has quit (Quit: Leaving)
+2013-06-27 15:06:40	<--	TeckniX (~TeckniX@cpe-65-185-1-28.cinci.res.rr.com) has quit (Quit: TeckniX)
+2013-06-27 15:08:42	<--	Protux (~Protux@abo-57-129-68.bdx.modulonet.fr) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-06-27 15:16:14	<--	dkpi (~maxime@mla78-1-82-240-16-5.fbx.proxad.net) has quit (Ping timeout: 256 seconds)
+2013-06-27 15:19:07	<--	erikfrerejean (~erikfrere@unaffiliated/erikfrerejean) has quit (Quit: erikfrerejean)
+2013-06-27 15:21:25	<--	habanany (~lazaro@cpe-108-182-46-170.nyc.res.rr.com) has quit (Ping timeout: 248 seconds)
+2013-06-27 15:24:34	<--	brian-mann (~brian-man@50-192-58-234-static.hfc.comcastbusiness.net) has quit (Quit: Computer has gone to sleep.)
+2013-06-27 15:26:24	<--	cmuller13 (~cmuller13@40.61.69.86.rev.sfr.net) has quit (Quit: Leaving)
+2013-06-27 15:28:27	<--	tvale (~tvale@pa5-84-91-152-207.netvisao.pt) has quit (Quit: WeeChat 0.4.1)
+2013-06-27 15:28:56	-->	tvale (~tvale@pa5-84-91-152-207.netvisao.pt) has joined #github
+2013-06-27 15:29:10	<--	tvale (~tvale@pa5-84-91-152-207.netvisao.pt) has left #github
+2013-06-27 15:29:24	-->	XAMPP_8 (~XAMPP8@199.254.116.104) has joined #github
+2013-06-27 15:29:37	<--	redrocket (~redrocket@unaffiliated/redrocket) has quit (Quit: redrocket)
+2013-06-27 15:30:38	-->	tvale (~tvale@pa5-84-91-152-207.netvisao.pt) has joined #github
+2013-06-27 15:32:05	-->	nitestryker (~nitestryk@c-50-152-240-51.hsd1.ca.comcast.net) has joined #github
+2013-06-27 15:33:27	<--	ErKa (keryell@173-228-124-189.dsl.dynamic.sonic.net) has quit (Ping timeout: 256 seconds)
+2013-06-27 15:34:13	-->	vedant (~vedant@223.223.146.219) has joined #github
+2013-06-27 15:34:28	<--	XAMPP_8 (~XAMPP8@199.254.116.104) has quit (Ping timeout: 276 seconds)
+2013-06-27 15:35:18	-->	jakehow (~jakehow@user-160v08k.cable.mindspring.com) has joined #github
+2013-06-27 15:36:32	<--	tvale (~tvale@pa5-84-91-152-207.netvisao.pt) has quit (Quit: WeeChat 0.4.1)
+2013-06-27 15:36:59	-->	tvale (~tvale@pa5-84-91-152-207.netvisao.pt) has joined #github
+2013-06-27 15:39:40	<--	p3lim (~quassel@77.36.34.95.customer.cdi.no) has quit (Ping timeout: 276 seconds)
+2013-06-27 15:40:23	<--	jalcine (~jacky@unaffiliated/webjadmin) has quit (Excess Flood)
+2013-06-27 15:40:34	<--	ffio (~fire@unaffiliated/security) has quit (Quit: WeeChat 0.4.1)
+2013-06-27 15:42:00	-->	jalcine (~jacky@unaffiliated/webjadmin) has joined #github
+2013-06-27 15:42:03	<--	tvale (~tvale@pa5-84-91-152-207.netvisao.pt) has quit (Quit: WeeChat 0.4.1)
+2013-06-27 15:42:30	-->	R1KRDO (~Thunderbi@181.177.2.215) has joined #github
+2013-06-27 15:42:34	<--	milki (~milki@milki.ircmylife.com) has quit (Ping timeout: 246 seconds)
+2013-06-27 15:42:36	-->	tvale (~tvale@pa5-84-91-152-207.netvisao.pt) has joined #github
+2013-06-27 15:43:05	-->	erichynds (~ehynds@pool-173-76-135-79.bstnma.fios.verizon.net) has joined #github
+2013-06-27 15:43:38	-->	milki (~milki@milki.ircmylife.com) has joined #github
+2013-06-27 15:43:51	<--	FunnyLookinHat (~funnylook@ubuntu/member/funnylookinhat) has quit (Quit: Leaving)
+2013-06-27 15:43:57	--	erichynds is now known as ehynds
+2013-06-27 15:45:43	-->	LNDN (~LNDN@adsl-108-196-184-35.dsl.lsan03.sbcglobal.net) has joined #github
+2013-06-27 15:47:11	<--	jakehow (~jakehow@user-160v08k.cable.mindspring.com) has quit (Ping timeout: 256 seconds)
+2013-06-27 15:48:33	<--	vedant (~vedant@223.223.146.219) has quit (Ping timeout: 248 seconds)
+2013-06-27 15:49:42	<--	hareth (~kapit@2a01:e34:ec0d:f6d0:2899:400:7c7f:e212) has quit (Quit: hareth)
+2013-06-27 15:55:47	<--	bish0p_ (~bish0p@137.229.19.249) has quit (Ping timeout: 268 seconds)
+2013-06-27 15:56:28	-->	mloskot (~mloskot@osgeo/member/mloskot) has joined #github
+2013-06-27 15:56:38	-->	one_zero (blah@ip68-5-235-194.oc.oc.cox.net) has joined #github
+2013-06-27 15:57:15	-->	bish0p (~bish0p@soy.gina.alaska.edu) has joined #github
+2013-06-27 15:57:16	<--	bish0p (~bish0p@soy.gina.alaska.edu) has quit (Changing host)
+2013-06-27 15:57:16	-->	bish0p (~bish0p@pdpc/supporter/sustaining/bish0p) has joined #github
+2013-06-27 15:59:22	<--	R1KRDO (~Thunderbi@181.177.2.215) has quit (Ping timeout: 246 seconds)
+2013-06-27 15:59:25	<--	decotii (~decotii@hq.croscon.com) has quit (Quit: Leaving)
+2013-06-27 16:00:49	-->	R1KRDO (~Thunderbi@181.177.2.215) has joined #github
+2013-06-27 16:03:08	<--	djbkd (~djbkd@64.202.161.177) has quit (Quit: Leaving)
+2013-06-27 16:15:17	<--	AnimeCYC (~animecyc@50-73-128-190-ip-static.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2013-06-27 16:15:48	<--	chris_99 (~chris_99@unaffiliated/chris-99/x-3062929) has quit (Quit: Leaving)
+2013-06-27 16:20:27	<--	AmberJ_ (amberj@unaffiliated/amberj) has quit (Ping timeout: 268 seconds)
+2013-06-27 16:20:38	-->	dkpi (~maxime@mla78-1-82-240-16-5.fbx.proxad.net) has joined #github
+2013-06-27 16:21:26	-->	jcromartie (~textual@c-76-100-141-78.hsd1.md.comcast.net) has joined #github
+2013-06-27 16:24:11	<--	nitestryker (~nitestryk@c-50-152-240-51.hsd1.ca.comcast.net) has quit (Remote host closed the connection)
+2013-06-27 16:26:28	<--	Griwes (~griwes@unaffiliated/griwes) has quit (Ping timeout: 276 seconds)
+2013-06-27 16:27:32	-->	AmberJ (amberj@unaffiliated/amberj) has joined #github
+2013-06-27 16:28:18	<--	R1KRDO (~Thunderbi@181.177.2.215) has quit (Ping timeout: 240 seconds)
+2013-06-27 16:30:21	<--	thedaniel (~thedaniel@rrcs-24-43-3-77.west.biz.rr.com) has quit (Remote host closed the connection)
+2013-06-27 16:32:02	-->	redrocket (~redrocket@unaffiliated/redrocket) has joined #github
+2013-06-27 16:35:37	<--	loglaunch (~loglaunch@89.101.8.170) has quit (Quit: loglaunch)
+2013-06-27 16:35:57	<--	djn (~danieln@141.70.120.143) has quit (Quit: leaving)
+2013-06-27 16:37:41	-->	R1KRDO (~Thunderbi@181.177.2.215) has joined #github
+2013-06-27 16:37:49	--	[krisbulman] is now known as krisbulman
+2013-06-27 16:38:06	--	krisbulman is now known as [krisbulman]
+2013-06-27 16:41:13	-->	jxriddle (~jxriddle@74-132-175-208.dhcp.insightbb.com) has joined #github
+2013-06-27 16:43:12	-->	hbar (d5d8f65b@gateway/web/freenode/ip.213.216.246.91) has joined #github
+2013-06-27 16:44:08	<--	trevor (~trevor@gradient/cofounder/trevor) has quit (Quit: Computer has gone to sleep.)
+2013-06-27 16:44:15	hbar	I'm having some trouble using the Gist API and wonder if some of you could maybe help
+2013-06-27 16:45:00	hbar	Namely I have problems escaping some characters correctly
+2013-06-27 16:45:26	<--	ehynds (~ehynds@pool-173-76-135-79.bstnma.fios.verizon.net) has quit (Quit: ehynds)
+2013-06-27 16:45:41	<--	WALoeIII (~WALoeIII@66.171.181.62) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-06-27 16:45:54	hbar	For example escaping single quotes with \' fails but replacing them with \" works just fine
+2013-06-27 16:46:09	-->	ErKa (~keryell@c-76-102-14-97.hsd1.ca.comcast.net) has joined #github
+2013-06-27 16:49:12	--	DanKnox is now known as DanKnox_away
+2013-06-27 16:49:44	-->	GT4066 (~Miranda@177.42.132.50) has joined #github
+2013-06-27 16:52:18	-->	bytephilia (~bytephili@213.190.120.48) has joined #github
+2013-06-27 16:53:58	-->	djbkd (~djbkd@64.202.160.233) has joined #github
+2013-06-27 16:54:59	<--	R1KRDO (~Thunderbi@181.177.2.215) has quit (Ping timeout: 268 seconds)
+2013-06-27 16:55:52	-->	R1KRDO (~Thunderbi@181.177.2.215) has joined #github
+2013-06-27 16:58:18	<--	darjeeling (~darjeelin@183.96.56.25) has quit (Remote host closed the connection)
+2013-06-27 16:58:27	-->	bish0p_ (~bish0p@soy.gina.alaska.edu) has joined #github
+2013-06-27 17:00:32	<--	R1KRDO (~Thunderbi@181.177.2.215) has quit (Ping timeout: 268 seconds)
+2013-06-27 17:01:14	<--	rcrowley (~rcrowley@209.49.110.163) has quit (Quit: Computer has gone to sleep.)
+2013-06-27 17:01:25	-->	R1KRDO (~Thunderbi@181.177.2.215) has joined #github
+2013-06-27 17:01:55	<--	bish0p (~bish0p@pdpc/supporter/sustaining/bish0p) has quit (Ping timeout: 256 seconds)
+2013-06-27 17:06:08	-->	alisha (~alisha@app10.chatmosphere.org) has joined #github
+2013-06-27 17:06:19	<--	MetalMatze (~metalmatz@91-64-129-15-dynip.superkabel.de) has quit (Quit: Verlassend)
+2013-06-27 17:06:38	<--	alisha (~alisha@app10.chatmosphere.org) has quit (Client Quit)
+2013-06-27 18:19:16	--	irc: disconnected from server
+2013-06-27 18:20:00	-->	Mars` (~Mars`@c-67-180-209-52.hsd1.ca.comcast.net) has joined #github
+2013-06-27 18:20:00	--	Topic for #github is "Need help? http://github.com/contact | Service status updates at http://status.github.com/ and http://twitter.com/github | How-to guides at http://help.github.com"
+2013-06-27 18:20:00	--	Topic set by tekkub (~tekkub@WoWUIDev/WoWI/Featured/Dongle/GitHub/Tekkub) on Thu, 05 May 2011 01:46:09
+2013-06-27 18:20:01	--	Nicks #github: [@VxJasonxV @zerowidth [-jon-] [krisbulman] _br_ _SaCu_ `Kevin aaearon AaronMT aboudreault achiu1 adhawkins-away adnap AdrienBrault afx_hero Aim airborn akoumjian albel727 Alenah AlexMax alexwhitman algesten AllStruck AmberJ Amrykid anaconda anildigital arielserafini arnihr asksol aslak asuka Atlas autumn bacilla badboy_ barneybook basic` bdavenport BeanDip_ beawesomeinstead ben_alman bengl_ bish0p_ bobmcw brainproxy brennanMKE bret brianloveswords Bry8Star bryanl bytephilia Caelum Caius calmyournerves canton7 carl_ Catie caveat- cbloss cgbystrom__ chadi cheese1756 Chillax chilversc chol ChrisAnn chrisdickinson chrisirc_ chrismear chuckharmston classix clayball closer009 CodeShark cofeineSunshine Conjuro Contex_ cooper Cork crankyadmin csalazar cxreg cyberix cypher23 D3Vito D4RK-PH0ENiX dabear DanKnox_away danlentz danmackay DarthGandalf Davai davidboy dbussink DEADB33F defunctzombie devdazed dideler djbkd DKnox dkpi dleverton dmlloyd dmyers dna DonRichie DonVitoCorleone Dougie187 drager drags Dreamer3 dreww_ ebouchut ec_ EdGruberman elliotf enhance EnTeQuAk epta ErKa Es0teric esc EToS eventualbuddha EvilAww Exio faulkner Fira firewyre Fli-c foca_ freeformz Freeyorp Frymaster garr gencha george2 ggherdov ghoti gitinfo gkatsev glennpratt goncalo_ graphitemaster GSpotAssassin Guest36897 guilleiguaran__ guilty_spark haarg hacfi hakunin HardDisk_WP hatchetation heath heatxsink hekman_ heptal heroux herzi hexa2k9 heytrav HighBit Hunner im0b imarcusthis- Industrial infernix Infininight infogulch invisiblek ivan\ ivey jab416171 jaeckel jaimef jalcine jamesfry- jarib jasonrm JBreit jbub jcromartie jds jefferai jeremyb jesseproulx_ jfinn jhford jinie_ jkyle joernchen johng johnlcox joki jonsowman joschi JosephSilber JPeterson jpfuentes2 jpnurmi jrdn jrgifford_ js_ JSharp jsmith_ JStoker jtbt jwollert jwollert- jxriddle Kabaka kaictl kaitlyn Kaltiz Kamal_ kanzure kapowaz karnowski Karql Katafalkas kevinfagan khaase khaase_ kisielk kortti kossy krazyj kwbock lahwran Learath2 Leeol leepa_ leptonix liato Liothen LNDN lojak Lord_DeathMatch Lorn_ lukaszr Luke-Jr luminous luto Mackwerk madduck madprops Mamoru markvandenborre marlinc Mars` martinjlowm MattJoyce_ mattyohe md_5 mdd mdwright_ mencito merrihew Mez mgc___ mh` milk milki minerale mithro monokrome mrapple NChief ndim nDuff Nemo7 nephyrin Neptu Nevik Nexen nick_h nicksloan niftylettuce NimeshNeema nitrix Noldorin notbrent___ nz ocut offby1 offbyone ohcibi olegp one_zero Orphis Parnic passcod PaulCapestany paulproteus pcarrier Peej Pengoo percival petisnnake petteyg phantomcircuit PhilK phuzion pigoz pirho poutine primalmotion prismatictrail Proditor przemoc R1KRDO Ragnor randym_ Raynos rbuels redrocket rnsanchez rockfruit rodjek rofl____ rom1504 rush2end RyanD s0enke s_e safsdas sakkemo SamWhited sayakb sayd sbryant ScottE scottrowe_ scrogson SebastianFlyte segy sent_hil_ sente sethe Seveas SeySayux sgkim126t shabble shentino shtirlic SicoWork Sigma SimonVT SirCmpwn sirdancealot SirFunk sitaktif skalnik skilledone slicky smkelly sn0wb1rdz sonOfRa soulcake spiffxp Spockz sshirokov ssx staniel25 stephan_ strax strictlyb Striki stutter stwalkerster svaksha swebb synergye t_kjaergaard tallest_red tfnico_ thelamest TheMoonMaster thomasvs timeless timfernando tklun tlipcon_ TML tobias- toin0u tolland tomaw tomb_ TomyLobo ToothlessGear torjus tvale Twey twisted` txdv tystr tyteen4a03 unreal Villadelfia Vinnie_win vivekrai_ wcarss webdestroya weeb1e wereHams1er whit537 whoami willwhite Will| Winslow_ Woet wycats_ wykydtron xhoy xoebus xrogaan Y_Ichiro yano yibe___ yosafbridge z z1mme Zackio Zauberfisch-idle Zeelot zerok Ziber zibri Zooklubba zorzar]
+2013-06-27 18:20:01	--	Channel #github: 433 nicks (2 ops, 0 halfops, 0 voices, 431 normals)
+2013-06-27 18:20:05	--	Mode #github [+nt]
+2013-06-27 18:20:05	--	Channel created on Sun, 10 Feb 2008 19:00:20
+2013-06-27 18:20:25	<--	jalcine (~jacky@unaffiliated/webjadmin) has quit (Excess Flood)
+2013-06-27 18:20:30	<--	AaronMT (~AaronMT@CPE705681ac7b87-CM602ad0738a5c.cpe.net.cable.rogers.com) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-06-27 18:31:30	--	irc: disconnected from server
+2013-06-27 18:32:15	-->	Mars` (~Mars`@c-67-180-209-52.hsd1.ca.comcast.net) has joined #github
+2013-06-27 18:32:15	--	Topic for #github is "Need help? http://github.com/contact | Service status updates at http://status.github.com/ and http://twitter.com/github | How-to guides at http://help.github.com"
+2013-06-27 18:32:15	--	Topic set by tekkub (~tekkub@WoWUIDev/WoWI/Featured/Dongle/GitHub/Tekkub) on Thu, 05 May 2011 01:46:09
+2013-06-27 18:32:15	--	Nicks #github: [@VxJasonxV @zerowidth [-jon-] [krisbulman] _br_ _SaCu_ `Kevin aaearon aboudreault achiu1 adhawkins-away adnap AdrienBrault afx_hero Aim airborn akoumjian albel727 Alenah AlexMax alexwhitman algesten AllStruck AmberJ Amrykid anaconda anildigital arielserafini arnihr asksol aslak asuka Atlas autumn bacilla badboy_ barneybook basic` bdavenport BeanDip_ beawesomeinstead ben_alman bengl_ bish0p_ bobmcw brainproxy brennanMKE bret brianloveswords Bry8Star bryanl bytephilia Caelum Caius calmyournerves canton7 carl_ Catie caveat- cbloss cgbystrom__ chadi cheese1756 Chillax chilversc chol ChrisAnn chrisdickinson chrisirc_ chrismear chuckharmston classix clayball closer009 CodeShark cofeineSunshine Conjuro Contex_ cooper Cork crankyadmin csalazar cxreg cyberix cypher23 D3Vito D4RK-PH0ENiX dabear DanKnox_away danlentz danmackay DarthGandalf Davai davidboy dbussink DEADB33F defunctzombie devdazed dideler djbkd dkpi dleverton dmlloyd dmyers dna DonRichie DonVitoCorleone Dougie187 drager drags Dreamer3 dreww_ ebouchut ec_ EdGruberman elliotf enhance EnTeQuAk epta ErKa Es0teric esc EToS eventualbuddha EvilAww Exio faulkner Fira firewyre Fli-c foca_ freeformz Freeyorp Frymaster garr gencha george2 ggherdov ghoti gitinfo gkatsev glennpratt goncalo_ graphitemaster GSpotAssassin Guest36897 guilleiguaran__ guilty_spark haarg hacfi hakunin HardDisk_WP hatchetation heath heatxsink hekman_ heptal heroux herzi hexa2k9 heytrav HighBit Hunner im0b imarcusthis- Industrial infernix Infininight infogulch invisiblek ivan\ ivey jab416171 jaeckel jaimef jamesfry- jarib jasonrm JBreit jbub jcromartie jds jefferai jeremyb jesseproulx_ jfinn jhford jinie_ jkyle joernchen johng johnlcox joki jonsowman joschi JosephSilber JPeterson jpfuentes2 jpnurmi jrdn jrgifford_ js_ JSharp jsmith_ JStoker jtbt jwollert jwollert- jxriddle Kabaka kaictl kaitlyn Kaltiz Kamal_ kanzure kapowaz karnowski Karql Katafalkas kevinfagan khaase khaase_ kisielk kortti kossy krazyj kwbock lahwran Learath2 Leeol leepa_ leptonix liato Liothen LNDN lojak Lord_DeathMatch Lorn_ lukaszr Luke-Jr luminous luto Mackwerk madduck madprops Mamoru markvandenborre marlinc Mars` martinjlowm MattJoyce_ mattyohe md_5 mdd mdwright_ mencito merrihew Mez mgc___ mh` milk milki minerale mithro monokrome mrapple NChief ndim nDuff Nemo7 nephyrin Neptu Nevik Nexen nicedice nick_h nicksloan niftylettuce NimeshNeema nitrix Noldorin notbrent___ nz ocut offby1 offbyone ohcibi olegp one_zero Orphis Parnic parx passcod PaulCapestany paulproteus pcarrier Peej Pengoo percival petisnnake petteyg phantomcircuit PhilK phuzion pigoz pirho poutine primalmotion prismatictrail Proditor przemoc R1KRDO Ragnor randym_ Raynos rbuels redrocket rnsanchez rockfruit rodjek rofl____ rom1504 rush2end RyanD s0enke s_e safsdas sakkemo SamWhited sayakb sayd sbryant ScottE scottrowe_ scrogson SebastianFlyte segy sent_hil_ sente sethe Seveas SeySayux sgkim126t shabble shentino shtirlic SicoWork Sigma SimonVT SirCmpwn sirdancealot SirFunk sitaktif skalnik skilledone slicky smkelly sn0wb1rdz sonOfRa soulcake spiffxp Spockz sshirokov ssx staniel25 stephan_ strax strictlyb Striki stutter stwalkerster svaksha swebb synergye t_kjaergaard tallest_red tfnico_ thelamest TheMoonMaster thomasvs timeless timfernando tklun tlipcon_ TML tobias- toin0u tolland tomaw tomb_ TomyLobo ToothlessGear torjus tvale Twey twisted` txdv tystr tyteen4a03 unreal Villadelfia Vinnie_win vivekrai_ wcarss webdestroya weeb1e wereHams1er whit537 whoami Will| Winslow_ Woet wycats_ wykydtron xhoy xoebus xrogaan Y_Ichiro yano yibe___ yosafbridge z z1mme Zackio Zauberfisch-idle Zeelot zerok Ziber zibri Zooklubba zorzar]
+2013-06-27 18:32:15	--	Channel #github: 431 nicks (2 ops, 0 halfops, 0 voices, 429 normals)
+2013-06-27 18:32:21	--	Mode #github [+nt]
+2013-06-27 18:32:21	--	Channel created on Sun, 10 Feb 2008 19:00:20
+2013-06-27 18:33:26	-->	rfoust (~rfoust@cpe-098-026-007-087.nc.res.rr.com) has joined #github
+2013-06-27 18:36:23	-->	Repelex (~STRESSADO@187.113.46.21) has joined #github
+2013-06-27 18:41:58	<--	graphitemaster (~graphitem@unaffiliated/graphitemaster) has quit (Ping timeout: 248 seconds)
+2013-06-27 18:42:26	<--	pirho (~pirho@124-150-79-1.dyn.iinet.net.au) has quit (Remote host closed the connection)
+2013-06-27 18:42:56	<--	D4RK-PH0ENiX (~D4RK-PH0E@73.199.192.61.east.global.crust-r.net) has quit (Remote host closed the connection)
+2013-06-27 18:45:13	<--	jxriddle (~jxriddle@74-132-175-208.dhcp.insightbb.com) has quit (Quit: jxriddle)
+2013-06-27 18:46:46	<--	barneybook (~kvirc@114-44-196-90.dynamic.hinet.net) has quit (Read error: Connection reset by peer)
+2013-06-27 18:48:37	-->	pirho (~pirho@124-150-79-1.dyn.iinet.net.au) has joined #github
+2013-06-27 18:54:53	-->	Scathenc^C (~scathenC@CPE-60-226-56-177.qld.bigpond.net.au) has joined #github
+2013-06-27 18:54:59	-->	willwhite (~willwhite@c-71-206-49-7.hsd1.md.comcast.net) has joined #github
+2013-06-27 18:55:09	-->	thedaniel (~thedaniel@cpe-75-85-15-227.socal.res.rr.com) has joined #github
+2013-06-27 18:55:57	-->	Soulfire86 (~Soulfire8@adsl-98-84-116-143.gsp.bellsouth.net) has joined #github
+2013-06-27 18:57:04	<--	Soulfire86 (~Soulfire8@adsl-98-84-116-143.gsp.bellsouth.net) has left #github
+2013-06-27 18:57:22	-->	wlonk (~kit@c-68-46-142-29.hsd1.nj.comcast.net) has joined #github
+2013-06-27 18:58:51	-->	D4RK-PH0ENiX (~D4RK-PH0E@129.134.232.202.bf.2iij.net) has joined #github
+2013-06-27 18:59:37	Scathenc^C	hey anyone able to help? Started my first private repo, all works well. Added a collaborator. They downloaded github for windows and logged i fine. Now every time they try and sync the repo they get 'authentication failed: your credentials may be out of date'. Tried logging in/out, rebooting, reinstalling, etc. no luck. any ideas?
+2013-06-27 19:06:28	-->	luc_ (~luc@124.205.66.195) has joined #github
+2013-06-27 19:07:41	<--	Es0teric (~Es0teric@cpe-74-72-239-113.nyc.res.rr.com) has quit (Quit: Computer has gone to sleep.)
+2013-06-27 19:09:17	<--	wlonk (~kit@c-68-46-142-29.hsd1.nj.comcast.net) has quit (Remote host closed the connection)
+2013-06-27 19:10:10	<--	staniel25 (~textual@wsip-70-167-195-77.ph.ph.cox.net) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-06-27 19:12:44	--	DanKnox_away is now known as DanKnox
+2013-06-27 19:15:33	<--	Sigma (~yann@unaffiliated/sigma) has quit (Ping timeout: 245 seconds)
+2013-06-27 19:16:24	<--	ErKa (~keryell@c-76-102-14-97.hsd1.ca.comcast.net) has quit (Ping timeout: 252 seconds)
+2013-06-27 19:17:30	-->	Alina-malina (Alina-mali@46.162.216.216) has joined #github
+2013-06-27 19:19:12	<--	jtbt (~kanibe@LCaen-151-93-21-117.w80-13.abo.wanadoo.fr) has quit (Ping timeout: 252 seconds)
+2013-06-27 19:19:12	<--	R1KRDO (~Thunderbi@181.177.2.215) has quit (Quit: Saludos!!)
+2013-06-27 19:24:32	-->	XAMPP (~XAMPP@199.254.116.102) has joined #github
+2013-06-27 19:24:33	<--	XAMPP (~XAMPP@199.254.116.102) has quit (Changing host)
+2013-06-27 19:24:33	-->	XAMPP (~XAMPP@botters/xampp) has joined #github
+2013-06-27 19:27:17	<--	lojak (~lojack@cpe-174-100-142-2.neo.res.rr.com) has quit (Quit: leaving)
+2013-06-27 19:27:18	-->	rhyselsmore (~textual@60-240-5-72.tpgi.com.au) has joined #github
+2013-06-27 19:34:55	--	irc: disconnected from server
+2013-06-27 21:03:23	-->	Mars` (~Mars`@c-67-180-209-52.hsd1.ca.comcast.net) has joined #github
+2013-06-27 21:03:23	--	Topic for #github is "Need help? http://github.com/contact | Service status updates at http://status.github.com/ and http://twitter.com/github | How-to guides at http://help.github.com"
+2013-06-27 21:03:23	--	Topic set by tekkub (~tekkub@WoWUIDev/WoWI/Featured/Dongle/GitHub/Tekkub) on Thu, 05 May 2011 01:46:09
+2013-06-27 21:03:23	--	Nicks #github: [@VxJasonxV @zerowidth [-jon-] [krisbulman] _br_ _SaCu_ `Kevin aaearon aboudreault achiu1 adhawkins-away adnap afx_hero Aim airborn akoumjian albel727 Alenah AlexMax alexwhitman algesten Alina-malina AllStruck AmberJ Amrykid anaconda anildigital arielserafini arnihr asksol aslak asuka Atlas autumn bacilla badboy_ barneybook basic` bdavenport BeanDip_ beawesomeinstead ben_alman bengl_ bish0p_ bobmcw brainproxy brennanMKE bret brianloveswords brunoro Bry8Star bryanl Caelum Caius calmyournerves canton7 carl_ Catie caveat- cbloss cgbystrom__ chadi cheese1756 Chillax chilversc chol ChrisAnn chrisdickinson chrisirc_ chrismear chuckharmston classix clayball closer009 CodeShark cofeineSunshine Conjuro Contex_ cooper Cork crankyadmin csalazar cxreg cyberix cypher23 D3Vito D4RK-PH0ENiX dabear DanKnox_away danlentz danmackay darjeeling DarthGandalf Davai davidboy dbussink DEADB33F defunctzombie_zz devdazed dideler djbkd dkpi dleverton dmlloyd dmyers dna DonRichie DonVitoCorleone Dougie187 drager drags Dreamer3 dreww_ ebouchut ec_ EdGruberman elliotf enhance EnTeQuAk epta esc EToS eventualbuddha EvilAww Exio faulkner Fira firewyre Fli-c foca_ freeformz Freeyorp Frymaster garr gencha george2 ggherdov ghoti gitinfo gkatsev glennpratt goncalo_ GSpotAssassin Guest36897 guilleiguaran__ guilty_spark haarg hacfi hakunin HardDisk_WP hatchetation heath heatxsink hekman_ heptal heroux herzi hexa2k9 heytrav HighBit Hunner hush im0b imarcusthis- Industrial infernix Infininight infogulch invisiblek ivan\ ivey jab416171 jaeckel jaimef jamesfry- jarib jasonrm JBreit jbub jcromartie jds jefferai jeremyb jesseproulx_ jfinn jhford jinie_ jkyle joernchen johng johnlcox joki jonsowman joschi JosephSilber JPeterson jpnurmi jrdn jrgifford_ js_ JSharp jsmith_ JStoker jwollert jwollert- Kabaka kaictl kaitlyn Kaltiz Kamal_ kanzure kapowaz karnowski Karql kcj kevinfagan khaase khaase_ kisielk kortti kossy krazyj kwbock lahwran Learath2 Leeol leepa_ leptonix liato Liothen LNDN Lord_DeathMatch Lorn_ luc_ lukaszr Luke-Jr luminous luto Mackwerk madduck madprops Mamoru markvandenborre marlinc Mars` martinjlowm MattJoyce_ mattyohe md_5 mdd mdwright_ mencito merrihew Mez mgc___ mh` mikepack milk milki minerale mithro mitz_ monokrome mrapple NChief ndim nDuff Nemo7 nephyrin Neptu Nevik Nexen nicedice nick_h nicksloan niftylettuce NimeshNeema nitrix notbrent___ nz ocut offby1 offbyone ohcibi olegp Orphis Parnic parx passcod PaulCapestany paulproteus pcarrier Peej Pengoo percival petisnnake petteyg phantomcircuit PhilK phuzion pigoz pirho poutine primalmotion prismatictrail Proditor przemoc Ragnor randym_ Raynos rbuels redrocket Repelex rfoust rhyselsmore rockfruit rodjek rofl____ rom1504 rush2end RyanD s0enke s_e safsdas sakkemo sayakb sayd sbryant Scathenc^C ScottE scottrowe_ scrogson SebastianFlyte segy sent_hil_ sente sethe Seveas SeySayux sgkim126t shabble shentino shtirlic SicoWork SimonVT SirCmpwn sirdancealot SirFunk sitaktif skalnik skilledone slicky smkelly sn0wb1rdz sonOfRa soulcake spiffxp Spockz sshirokov ssx stephan_ strax strictlyb Striki stutter stwalkerster svaksha swebb synergye t_kjaergaard tallest_red tfnico_ thelamest TheMoonMaster thomasvs timeless timfernando tklun tlipcon_ TML tobias- toin0u tolland tomaw tomb_ TomyLobo ToothlessGear torjus trevor tvale Twey twisted` txdv tystr tyteen4a03 unreal Villadelfia Vinnie_win vivekrai_ warren wcarss webdestroya weeb1e wereHams1er whoami willwhite Will| Winslow_ Woet wycats_ wykydtron XAMPP xhoy xoebus xrogaan Y_Ichiro yano yibe___ yosafbridge z z1mme Zackio zacts Zauberfisch-idle Zeelot zerok Ziber zibri Zooklubba zorzar]
+2013-06-27 21:03:23	--	Channel #github: 430 nicks (2 ops, 0 halfops, 0 voices, 428 normals)
+2013-06-27 21:03:29	--	Mode #github [+nt]
+2013-06-27 21:03:29	--	Channel created on Sun, 10 Feb 2008 19:00:20
+2013-06-27 21:03:33	-->	XAMPP-8 (~XAMPP8@199.254.116.104) has joined #github
+2013-06-27 21:04:06	<--	TomyLobo (~TomyLobo@91-65-210-133-dynip.superkabel.de) has quit (Quit: Standby mode...)
+2013-06-27 21:05:41	<--	brunoro (~brunoro@177.182.101.160) has quit (Quit: WeeChat 0.3.8)
+2013-06-27 21:06:01	<--	Repelex (~STRESSADO@187.113.46.21) has quit (Quit: ;))
+2013-06-27 21:07:14	-->	Repelex (~STRESSADO@187.113.46.21) has joined #github
+2013-06-27 21:09:43	-->	sayan (~sayanchow@fedora/sayan) has joined #github
+2013-06-27 21:10:49	-->	nug700 (~nug700@174-26-148-22.phnx.qwest.net) has joined #github
+2013-06-27 21:14:29	-->	Katafalkas (~Katafalka@88-119-150-24.static.zebra.lt) has joined #github
+2013-06-27 21:15:24	<--	joki (~joki@p54864FF8.dip0.t-ipconnect.de) has quit (Ping timeout: 240 seconds)
+2013-06-27 21:15:33	<--	arielserafini (~arielsera@unaffiliated/arielserafini) has quit (Ping timeout: 245 seconds)
+2013-06-27 21:16:01	<--	sayan (~sayanchow@fedora/sayan) has quit (Ping timeout: 248 seconds)
+2013-06-27 21:17:07	<--	mikepack (~mikepack@c-67-176-73-117.hsd1.co.comcast.net) has quit (Remote host closed the connection)
+2013-06-27 21:17:32	-->	mikepack (~mikepack@c-67-176-73-117.hsd1.co.comcast.net) has joined #github
+2013-06-27 21:18:15	-->	ayudh (~ayudh@117.239.212.66) has joined #github
+2013-06-27 21:20:08	-->	joki (~joki@p5486522A.dip0.t-ipconnect.de) has joined #github
+2013-06-27 21:21:51	<--	mikepack (~mikepack@c-67-176-73-117.hsd1.co.comcast.net) has quit (Ping timeout: 252 seconds)
+2013-06-27 21:24:22	<--	barneybook (~kvirc@220-136-40-59.dynamic.hinet.net) has quit (Ping timeout: 256 seconds)
+2013-06-27 21:25:35	-->	arielserafini (~arielsera@unaffiliated/arielserafini) has joined #github
+2013-06-28 10:43:09	--	irc: disconnected from server
+2013-06-28 10:46:57	-->	Mars` (~Mars`@c-67-180-209-52.hsd1.ca.comcast.net) has joined #github
+2013-06-28 10:46:57	--	Topic for #github is "Need help? http://github.com/contact | Service status updates at http://status.github.com/ and http://twitter.com/github | How-to guides at http://help.github.com"
+2013-06-28 10:46:57	--	Topic set by tekkub (~tekkub@WoWUIDev/WoWI/Featured/Dongle/GitHub/Tekkub) on Thu, 05 May 2011 01:46:09
+2013-06-28 10:46:57	--	Nicks #github: [@VxJasonxV @zerowidth [-jon-] _br_ _ffio_ _SaCu_ `Kevin aaearon AaronMT aboudreault achiu1 adhawkins-away adnap Aim airborn akoumjian albel727 Alenah AlexMax alexwhitman algesten Alina-malina AllStruck AmberJ Amrykid anaconda anildigital AnimeCYC arielserafini arnatal arnihr asksol aslak asuka Atlas autumn ave_ axl_ bacilla badboy_ barneybook basic` bdavenport BeanDip_ beawesomeinstead ben_alman bengl_ bish0p_ BJfreeman bobmcw brainproxy breakingthings brian-mann brianloveswords Bry8Star bryanl bytephilia Caelum Caius calmyournerves canton7 carl_ Catie caveat- cbloss cgbystrom__ chadi cheese1756 Chillax chilversc chol ChrisAnn chrisdickinson chrisirc chrismear chuckharmston classix closer009 cofeineSunshine Conjuro Contex_ cooper copumpkin Cork crankyadmin csalazar cxreg cyberix cyogesh cypher23 D3Vito dabear DanKnox_away danlentz danmackay darjeeling DarthGandalf Davai Davey davidboy dbussink DEADB33F decotii defunctzombie devdazed djn DKnox dleverton dmlloyd dna DonRichie DonVitoCorleone Dougie187 drager drags Dreamer3 dreww_ ebouchut ec_ EdGruberman elliotf enhance EnTeQuAk epta erichynds ErKa esc EToS eventualbuddha EVILAWW Exio exoon faulkner Fira firewyre Fli-c foca_ freeformz Freeyorp FrobinRobin Frymaster FunnyLookinHat garr gencha george2 ggherdov ghoti gitinfo gkatsev glennpratt goncalo_ Griwes GSpotAssassin Guest36897 guilleiguaran__ guilty_spark gyre007 haarg habanany hacfi hakunin HardDisk_WP hatchetation heath heatxsink hekman_ HenningJ heptal heroux herzi hexa2k9 heytrav HIGHBIT Hunner im0b imarcusthis- Industrial infernix Infininight infogulch interactionjaxsn invisiblek IrishPrime ivan\ ivey jab416171 jaeckel jaimef jakehow jamesfry- jan____ jarib jasonrm JBreit jbub jcromartie jds jedimind jefferai jeremyb jesseproulx_ jfinn jhford jinie_ jkyle joernchen johng johnlcox joki jonsowman joschi JosephSilber jpadilla JPeterson jpfuentes2 jpnurmi jrdn jrgifford_ js_ JSharp jsmith_ JStoker jwollert jwollert- jxriddle Kabaka kaictl kaitlyn Kaltiz Kamal_ kanzure kapowaz karnowski Karql Katafalkas kenperkins kevinfagan khaase khaase_ kisielk kleinweby kortti kossy krazyj krisbulman kwbock lahwran lb Learath2 Leeol leepa_ leptonix liato Liothen Lord_DeathMatch Lorn_ Luke-Jr luminous luto madduck madprops Mamoru markvandenborre marlinc Mars` martinjlowm MattJoyce_ mattyohe mbrochh md_5 mdd mdwright_ mencito merrihew Mez mgc___ mh` milk milki minerale mithro mitz_ mloskot monokrome Morrolan mrapple nbouscal NChief ndim nDuff Nemo7 nephyrin Neptu Nevik Nexen nick_h nicksloan niftylettuce NimeshNeema nitrix Noldorin notbrent___ nz ocut offby1 offbyone ohcibi olegp Orphis Parnic passcod PaulCapestany paulproteus pcarrier Peej Pengoo percival petisnnake petteyg phantomcircuit PhilK phuzion pigoz poutine primalmotion prismatictrail Proditor przemoc Ragnor randym_ Rarrikins Raynos rbuels redrocket rfoust Rickster rnsanchez rockfruit rodjek rofl____ rom1504 rush2end rustymyers RyanD RyanD_ s-h s0enke s_e safsdas sakkemo SamWhited sayakb sayan sayd sbryant ScottE scottrowe_ scrogson SebastianFlyte SecretFire segy sent_hil_ sente sethe Seveas SeySayux sgkim126t shabble shentino shtirlic SicoWork SimonVT SirCmpwn SirFunk sitaktif skalnik skilledone slicky smkelly sn0wb1rdz sonOfRa soulcake spiffxp Spockz sshirokov ssx stephanmg strax strictlyb Striki stutter stwalkerster svaksha swebb synergye t_kjaergaard tallest_red TeckniX tfnico_ thedaniel thelamest TheMoonMaster thomasvs timeless tklun tlipcon_ TML tnisonoff tobias- toin0u tolland tomaw tomb_ TomyLobo ToothlessGear torjus trevor tsdh Twey twisted` txdv tystr tyteen4a03 unreal Villadelfia Vinnie_win vivekrai_ wcarss webdestroya weeb1e wereHams1er whit537 whoami willwhite Will| Winslow_ Woet wycats_ wykydtron XAMPP xhoy xoebus xrogaan Y_Ichiro YANO yassine yibe___ yosafbridge z z1mme Zackio Zauberfisch-idle Zeelot zerok Ziber zibri Zooklubba zorzar]
+2013-06-28 10:46:57	--	Channel #github: 458 nicks (2 ops, 0 halfops, 0 voices, 456 normals)
+2013-06-28 10:47:03	--	Mode #github [+nt]
+2013-06-28 10:47:03	--	Channel created on Sun, 10 Feb 2008 19:00:20
+2013-06-28 10:47:57	<--	Dougie187 (~douglasj@2607:8400:220e:4:59e4:ed84:e161:c2a0) has left #github
+2013-06-28 10:51:43	<--	SecretFire (~secretfir@c-67-168-220-193.hsd1.wa.comcast.net) has quit (Read error: Connection reset by peer)
+2013-06-28 10:54:13	<--	sayan (~sayanchow@fedora/sayan) has quit (Read error: Connection reset by peer)
+2013-06-28 10:55:11	-->	tplaner (~textual@pool-173-54-57-24.nwrknj.fios.verizon.net) has joined #github
+2013-06-28 10:55:33	<--	kenperkins (~textual@137.164.119.209) has quit (Quit: Computer has gone to sleep.)
+2013-06-28 10:56:05	-->	williamcotton (~williamco@173-13-169-18-sfba.hfc.comcastbusiness.net) has joined #github
+2013-06-28 10:56:14	<--	exoon (~exoon@p4FC3FF72.dip0.t-ipconnect.de) has quit (Remote host closed the connection)
+2013-06-28 10:56:50	-->	rovak (~rovak@188.142.3.79) has joined #github
+2013-06-28 10:57:46	<--	Davey (~Davey@orchestra/staff/Davey) has quit (Quit: Computer has gone to sleep.)
+2013-06-28 10:58:49	esc	anyone else having weird layout issues with github?
+2013-06-28 11:00:25	-->	cfoellmann (~cfoellman@ip-176-198-87-139.unitymediagroup.de) has joined #github
+2013-06-28 11:00:41	-->	kenperkins (~textual@137.164.119.209) has joined #github
+2013-06-28 11:01:22	nDuff	esc: I've seen requests for CSS occasionally fail
+2013-06-28 11:01:35	--	tlipcon_ is now known as tlipcon
+2013-06-28 11:01:44	<--	kenperkins (~textual@137.164.119.209) has quit (Max SendQ exceeded)
+2013-06-28 11:01:49	nDuff	esc: ...in which case a browser refresh ought to work.
+2013-06-28 11:01:53	<--	tlipcon (~todd@65.50.196.150) has quit (Changing host)
+2013-06-28 11:01:53	-->	tlipcon (~todd@apache/committer/todd) has joined #github
+2013-06-28 11:01:58	esc	http://imgdump.zetatech.org/github-foo.png
+2013-06-28 11:02:04	Nevik	funny how browsers dont cache the css for fallback
+2013-06-28 11:02:22	Nevik	esc: that looks like it's failing to load the font
+2013-06-28 11:02:24	-->	kenperkins (~textual@137.164.119.209) has joined #github
+2013-06-28 11:02:30	esc	and a browser relaod does not seem to help
+2013-06-28 11:02:46	Nevik	which browser?
+2013-06-28 11:02:49	Nevik	looks like IE6 :P
+2013-06-28 11:03:34	<--	kenperkins (~textual@137.164.119.209) has quit (Max SendQ exceeded)
+2013-06-28 11:03:52	<--	Alenah (~kp@95.140.34.206) has quit (Ping timeout: 246 seconds)
+2013-06-28 11:03:54	cfoellmann	try ctrl + F5
+2013-06-28 11:04:26	esc	thanks
+2013-06-28 11:04:26	<--	breakingthings (~no@50-73-135-237-ip-static.hfc.comcastbusiness.net) has quit (Quit: breakingthings)
+2013-06-28 11:04:28	esc	firefox
+2013-06-28 11:04:45	<--	tnisonoff (~tnisonoff@72.5.115.169) has quit (Ping timeout: 264 seconds)
+2013-06-28 11:04:51	<--	kanzure (~kanzure@131.252.130.248) has quit (Ping timeout: 248 seconds)
+2013-06-28 11:05:12	<--	merrihew (~merrihew@c-71-56-122-158.hsd1.ga.comcast.net) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-06-28 11:05:22	cfoellmann	firefox rulez!!
+2013-06-28 11:05:30	<--	gyre007 (~gyre007@128.127.31.17) has quit (Read error: Operation timed out)
+2013-06-28 11:05:33	-->	Alenah (~kp@95.140.34.206) has joined #github
+2013-06-28 11:05:44	-->	kanzure (~kanzure@131.252.130.248) has joined #github
+2013-06-28 11:05:55	Nevik	needs moar !!!1!1!1!111!!!111one
+2013-06-28 11:07:09	<--	JosephSilber (~Joseph@ool-44c3e80a.static.optonline.net) has quit (Ping timeout: 264 seconds)
+2013-06-28 11:07:20	-->	alaing (~chatzilla@unaffiliated/funkymonk) has joined #github
+2013-06-28 11:07:36	tomb_	and more chrome
+2013-06-28 11:07:38	alaing	hi, I'm new to git/github
+2013-06-28 11:07:51	alaing	i've created a repo and forked cdnjs repo
+2013-06-28 11:08:40	alaing	I know a whole oad of chanegs were done last night on the main cdnjs repo. how do I sync my cloned repo
+2013-06-28 11:08:58	alaing	I'm using the windows GitHub GUI tool
+2013-06-28 11:09:00	<--	ave_ (5ee0b5c0@gateway/web/freenode/ip.94.224.181.192) has quit (Quit: Page closed)
+2013-06-28 11:09:01	<--	mbrochh (uid3052@pdpc/supporter/professional/mbrochh) has left #github
+2013-06-28 11:09:05	Nevik	alaing: https://help.github.com/articles/syncing-a-fork
+2013-06-28 11:09:14	Nevik	google + github help are your friends ;)
+2013-06-28 11:10:04	alaing	thanks guys....really loving github just trying to get my head around it
+2013-06-28 11:10:33	alaing	do you know if its possible to do this from the gui tool?
+2013-06-28 11:11:16	Nevik	i dont think gh4w does multiple remotes yet
+2013-06-28 11:11:25	Nevik	i recommend learning to use the CLI anyway
+2013-06-28 11:11:35	Nevik	any GUI will present you with a subset of git's features
+2013-06-28 11:11:39	-->	chetna (75c58b97@gateway/web/freenode/ip.117.197.139.151) has joined #github
+2013-06-28 11:11:45	Nevik	and if you want anything less than git, why bother with git in the first place ;)
+2013-06-28 11:12:01	alaing	true
+2013-06-28 11:12:17	alaing	I wished we used it at work so it would force me to use it
+2013-06-28 11:12:25	Nevik	heh
+2013-06-28 11:12:31	alaing	I'm just trying to learn it in my own time and as a hobby
+2013-06-28 11:12:33	Nevik	there's lots of material to help you with it
+2013-06-28 11:12:46	Nevik	alaing: some !talks should give you a headstart
+2013-06-28 11:12:46	gitinfo	alaing: Some good video talks about Git: [yt] http://goo.gl/z72s (Linus Torvalds: History&Concepts); [yt] http://goo.gl/R9H2q (Scott Chacon: Git basics, live examples); http://vimeo.com/35778382 (Randal Schwartz: Git basics, descriptional); http://vimeo.com/46010208 (Jesica Kerr: Git basics, descriptional)
+2013-06-28 11:12:55	Nevik	and the !starting points will keep you going after that
+2013-06-28 11:12:55	gitinfo	[!starting_point] Good starting points for getting to know Git are: official website http://git-scm.com/ (esp. "Documentation"), http://stackoverflow.com/tags/git/info, GitHub's TryGit http://try.github.com, the Official Git Wiki https://git.wiki.kernel.org/index.php/Main_Page and the Simple Git Guide http://rogerdudler.github.io/git-guide/
+2013-06-28 11:13:09	 *	nDuff tends to agree -- the whole thing that distinguishes git from other DSCMs is exposing users directly to its underlying data model without abstraction.
+2013-06-28 11:13:09	nDuff	That approach has its faults as well as its benefits, but it's core to what git is.
+2013-06-28 11:13:22	alaing	Thanks.....yeah I watched the Linus history and concepts one
+2013-06-28 11:13:23	chetna	how can we merge two branches without actually changing any of the two, but by adding all the changes to a new branch ?
+2013-06-28 11:13:24	<--	Griwes (~griwes@unaffiliated/griwes) has quit (Read error: Connection reset by peer)
+2013-06-28 11:13:48	Nevik	chetna: make a new branch in the location of either one, then merge the other one into that
+2013-06-28 11:14:32	chetna	something like git checkout -b new branch1 ; followed by git merge new branch2 right ?
+2013-06-28 11:15:18	Nevik	"git merge branch2" while having "new" checked out, yes
+2013-06-28 11:15:20	alaing	thansk for the support Nevik....I'm off to go learn some more git. might be back a bit later with more questions
+2013-06-28 11:15:27	Nevik	merge doesnt have a 4-word variant
+2013-06-28 11:15:41	Nevik	alaing: if it's not github-specific, #git is the better place to ask ;)
+2013-06-28 11:15:42	-->	Griwes (~griwes@unaffiliated/griwes) has joined #github
+2013-06-28 11:15:53	cfoellmann	alaing: have a look at tortoisegit
+2013-06-28 11:16:10	alaing	cfoellmann: GUI?
+2013-06-28 11:16:48	-->	brennanMKE (~brennanMK@rrcs-98-103-241-30.central.biz.rr.com) has joined #github
+2013-06-28 11:16:51	chetna	yups that helps, thanks Nevik !
+2013-06-28 11:17:01	Nevik	chetna: sure, no worries ;)
+2013-06-28 11:17:46	-->	sayan (~sayanchow@fedora/sayan) has joined #github
+2013-06-28 11:18:11	<--	tsdh (~user@91-67-9-30-dynip.superkabel.de) has quit (Quit: Goodbye guys!)
+2013-06-28 11:24:18	-->	kenperkins (~textual@137.164.119.209) has joined #github
+2013-06-28 11:25:56	-->	dmyers (dmyers@gateway/shell/bnc4free/x-hosvjkrnkbmzqzbu) has joined #github
+2013-06-28 11:26:03	<--	tomb_ (~tombell@188-220-216-182.zone11.bethere.co.uk) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-06-28 11:29:14	<--	kenperkins (~textual@137.164.119.209) has quit (Ping timeout: 256 seconds)
+2013-06-28 11:31:20	--	DanKnox_away is now known as DanKnox
+2013-06-28 11:33:42	<--	bytephilia (~bytephili@e4-354.gardur.hi.is) has quit (Quit: Leaving...)
+2013-06-28 11:33:53	<--	jpfuentes2 (~jacques@static-71-251-230-114.rcmdva.fios.verizon.net) has quit (Quit: Computer has gone to sleep.)
+2013-06-28 11:35:12	<--	rovak (~rovak@188.142.3.79) has quit (Quit: Konversation terminated!)
+2013-06-28 11:35:24	-->	_BJFreeman (~bjfree@130.sub-75-233-2.myvzw.com) has joined #github
+2013-06-28 11:36:11	<--	BJfreeman (~bjfree@225.sub-75-196-83.myvzw.com) has quit (Ping timeout: 252 seconds)
+2013-06-28 11:36:23	--	_BJFreeman is now known as BJfreeman
+2013-06-28 11:36:33	<--	przemoc (~przemoc@unaffiliated/przemoc) has quit (Ping timeout: 264 seconds)
+2013-06-28 11:36:58	<--	scottrowe_ (uid7177@gateway/web/irccloud.com/x-jlmdnmevodtvdnks) has quit (Ping timeout: 260 seconds)
+2013-06-28 11:37:10	<--	djn (~danieln@djn.nat.selfnet.de) has quit (Ping timeout: 256 seconds)
+2013-06-28 11:37:39	-->	przemoc (~przemoc@89-74-38-183.dynamic.chello.pl) has joined #github
+2013-06-28 11:37:39	<--	przemoc (~przemoc@89-74-38-183.dynamic.chello.pl) has quit (Changing host)
+2013-06-28 11:37:39	-->	przemoc (~przemoc@unaffiliated/przemoc) has joined #github
+2013-06-28 11:37:47	-->	sirdancealo2 (~sirdancea@98.82.broadband5.iol.cz) has joined #github
+2013-06-28 11:39:46	-->	dankest (~dankest@wsip-70-182-130-90.sb.sd.cox.net) has joined #github
+2013-06-28 11:41:48	<--	asksol (~asksol@phlebotinum.org) has quit (Excess Flood)
+2013-06-28 11:42:40	-->	jpfuentes2 (~jacques@static-71-251-230-114.rcmdva.fios.verizon.net) has joined #github
+2013-06-28 11:47:21	<--	Peej (~patrick.m@cpc5-croy20-2-0-cust145.croy.cable.virginmedia.com) has quit (Ping timeout: 264 seconds)
+2013-06-28 11:47:50	-->	JosephSilber (~Joseph@ool-44c3e80a.static.optonline.net) has joined #github
+2013-06-28 11:47:55	<--	thedaniel (~thedaniel@cpe-75-85-15-227.socal.res.rr.com) has quit (Remote host closed the connection)
+2013-06-28 11:49:20	-->	kenperkins (~textual@137.164.119.209) has joined #github
+2013-06-28 11:49:26	<--	cfoellmann (~cfoellman@ip-176-198-87-139.unitymediagroup.de) has quit (Quit: Mango IRC for iOS and OS X, http://mediaware.sk/mango)
+2013-06-28 11:50:08	<--	kenperkins (~textual@137.164.119.209) has quit (Client Quit)
+2013-06-28 11:51:40	-->	djn (~danieln@141.70.120.143) has joined #github
+2013-06-28 11:51:47	<--	FrobinRobin (~IceChat7@cpc2-lewi15-2-0-cust181.2-4.cable.virginmedia.com) has quit (Quit: On the other hand, you have different fingers.)
+2013-06-28 11:54:26	-->	asksol (~asksol@phlebotinum.org) has joined #github
+2013-06-28 11:56:14	-->	AdrienBrault (~AdrienBra@log77-1-82-241-87-59.fbx.proxad.net) has joined #github
+2013-06-28 11:58:51	-->	emmanuelux (~emmanuelu@192.123.25.109.rev.sfr.net) has joined #github
+2013-06-28 11:59:33	<--	djn (~danieln@141.70.120.143) has quit (Quit: leaving)
+2013-06-28 12:01:27	<--	brennanMKE (~brennanMK@rrcs-98-103-241-30.central.biz.rr.com) has quit (Remote host closed the connection)
+2013-06-28 12:04:07	<--	sayan (~sayanchow@fedora/sayan) has quit (Ping timeout: 246 seconds)
+2013-06-28 12:04:13	-->	dranov (~dranov@92.80.242.89) has joined #github
+2013-06-28 12:05:31	<--	anaconda (~anaconda@unaffiliated/anaconda) has quit (Ping timeout: 246 seconds)
+2013-06-28 12:11:52	-->	breakingthings (~no@173-12-78-237-miami.hfc.comcastbusiness.net) has joined #github
+2013-06-28 12:12:10	-->	anaconda (~anaconda@unaffiliated/anaconda) has joined #github
+2013-06-28 12:12:47	-->	maslowbeer (~maslowbee@50.9.135.245) has joined #github
+2013-06-28 12:13:53	-->	djn (~danieln@141.70.120.143) has joined #github
+2013-06-28 12:14:22	-->	tomb_ (~tombell@188-220-216-182.zone11.bethere.co.uk) has joined #github
+2013-06-28 12:17:15	<--	BJfreeman (~bjfree@130.sub-75-233-2.myvzw.com) has quit (Ping timeout: 252 seconds)
+2013-06-28 12:17:29	<--	jpadilla (~jpadilla@199.1.159.15) has quit (Quit: Leaving...)
+2013-06-28 12:17:55	-->	D4RK-PH0ENiX (~D4RK-PH0E@129.134.232.202.bf.2iij.net) has joined #github
+2013-06-28 12:18:10	-->	Sigma (~yann@unaffiliated/sigma) has joined #github
+2013-06-28 12:18:34	<--	willwhite (~willwhite@50-198-132-58-static.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2013-06-28 12:19:21	<--	D4RK-PH0ENiX (~D4RK-PH0E@129.134.232.202.bf.2iij.net) has quit (Remote host closed the connection)
+2013-06-28 12:19:51	-->	bytephilia (~bytephili@eduroam.hir.is) has joined #github
+2013-06-28 12:20:27	-->	willwhite (~willwhite@50-198-132-58-static.hfc.comcastbusiness.net) has joined #github
+2013-06-28 12:21:17	<--	JosephSilber (~Joseph@ool-44c3e80a.static.optonline.net) has quit (Ping timeout: 252 seconds)
+2013-06-28 12:21:28	<--	Noldorin (~noldorin@unaffiliated/noldorin) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-06-28 12:21:43	-->	Noldorin (~noldorin@unaffiliated/noldorin) has joined #github
+2013-06-28 12:22:35	<--	IrishPrime (~Irish@64.53.12.162) has quit (Read error: Connection reset by peer)
+2013-06-28 12:23:20	-->	nicedice (~nicedice@92.243.172.99) has joined #github
+2013-06-28 12:23:47	-->	IrishPrime (~Irish@64.53.12.162) has joined #github
+2013-06-28 12:23:54	-->	_BJFreeman (~bjfree@71.sub-75-196-54.myvzw.com) has joined #github
+2013-06-28 12:24:26	--	defunctzombie is now known as defunctzombie_zz
+2013-06-28 12:25:24	--	mdwright_ is now known as mdwright
+2013-06-28 12:25:31	-->	odraencode (~odra@177.138.175.251) has joined #github
+2013-06-28 12:25:35	odraencode	Hey there ;D
+2013-06-28 12:25:45	-->	LNDN (~LNDN@adsl-108-89-192-146.dsl.lsan03.sbcglobal.net) has joined #github
+2013-06-28 12:25:45	<--	IrishPrime (~Irish@64.53.12.162) has quit (Read error: Connection reset by peer)
+2013-06-28 12:26:06	alaing	Nevik: any ideas why this is failing?
+2013-06-28 12:26:16	<--	Sigma (~yann@unaffiliated/sigma) has quit (Quit: WeeChat 0.3.9.2)
+2013-06-28 12:26:19	alaing	http://pastebin.com/2rDZS8y8
+2013-06-28 12:26:26	alaing	line 18
+2013-06-28 12:26:28	<--	soulcake (~soulcake@unaffiliated/soulcake) has quit (Read error: Connection reset by peer)
+2013-06-28 12:26:43	odraencode	Do you think I should try to fix my repo old commits so they are not "invalid email address"?
+2013-06-28 12:27:07	-->	IrishPrime (~Irish@64.53.12.162) has joined #github
+2013-06-28 12:27:10	Nevik	alaing: because gh4w's portable git has a ridiculously stupid default setting.
+2013-06-28 12:27:29	<--	dranov (~dranov@92.80.242.89) has quit (Remote host closed the connection)
+2013-06-28 12:27:29	Nevik	alaing: do you want to keep using powershell? or would you also use bash?
+2013-06-28 12:27:45	Nevik	odraencode: just add that email to your account?
+2013-06-28 12:27:58	odraencode	Nevik: It is not an e-mail.
+2013-06-28 12:28:10	odraencode	It's an invalid e-mail.
+2013-06-28 12:28:17	Nevik	lawl :D
+2013-06-28 12:28:36	alaing	Nevik: diont mind really I dont enough enough yet to have a preference
+2013-06-28 12:28:43	odraencode	I don't think I ever set the e-mail field in mercurial so when I moved it became like this :p
+2013-06-28 12:28:52	alaing	^ enough =know
+2013-06-28 12:28:57	-->	HenningJ_ (~HenningJ@xdsl-87-79-137-112.netcologne.de) has joined #github
+2013-06-28 12:29:03	Nevik	odraencode: well, it's really up to you
+2013-06-28 12:29:04	--	_BJFreeman is now known as BJfreeman
+2013-06-28 12:29:08	odraencode	At first I thought "meh, nevermind I'll just leave it like this"
+2013-06-28 12:29:09	Nevik	odraencode: mind !rewrite though
+2013-06-28 12:29:09	gitinfo	odraencode: [!rewriting_public_history] Rewriting public history is usually bad. Everyone who has pulled the old history have to do work (and you'll have to tell them to). If you must, you can use `git push -f` to force (and the remote may reject that, anyway). See http://goo.gl/waqum
+2013-06-28 12:29:34	Nevik	alaing: you can install "Git for Windows", which brings bash and git with sensible defaults
+2013-06-28 12:29:52	odraencode	Nevik: I guess it's alright then since nobody pulled it so far?
+2013-06-28 12:29:59	Nevik	you *could* fix gh4w's portable git installation, but i dont know if that wont get overwritten when gh4w next updates
+2013-06-28 12:30:02	alaing	then cd into to my repo?
+2013-06-28 12:30:07	Nevik	odraencode: yeah that's fine
+2013-06-28 12:30:23	Nevik	alaing: ?
+2013-06-28 12:30:23	odraencode	Nevik: I'm worried exactly because once someone pulls it, it will become a nightmare to fix.
+2013-06-28 12:30:38	Nevik	odraencode: well, then do it right now :P
+2013-06-28 12:30:44	Nevik	and hope no one important has pulled it yet
+2013-06-28 12:30:49	<--	brian-mann (~brian-man@c-24-131-42-101.hsd1.ga.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2013-06-28 12:30:53	alaing	use the bash from Git for Windows and cd into my direcotry where my repo is?
+2013-06-28 12:30:54	odraencode	No one pulled it yet.
+2013-06-28 12:31:07	Nevik	odraencode: you cant know that ;)
+2013-06-28 12:31:14	Nevik	alaing: yes
+2013-06-28 12:31:15	<--	HenningJ (~HenningJ@xdsl-87-79-165-94.netcologne.de) has quit (Ping timeout: 248 seconds)
+2013-06-28 12:31:16	--	HenningJ_ is now known as HenningJ
+2013-06-28 12:31:21	odraencode	It says no forks here :u
+2013-06-28 12:31:28	alaing	gotcha, thanks
+2013-06-28 12:31:33	odraencode	What is the difference between a fork and a pull?
+2013-06-28 12:31:42	Nevik	odraencode: forks = on github. you have no way of tracking clones though
+2013-06-28 12:32:01	odraencode	I'm going to guess nobody ever pulled it.
+2013-06-28 12:32:14	odraencode	And if they did they probably didn't code anything.
+2013-06-28 12:32:19	Nevik	as i said, the sooner the better :P
+2013-06-28 12:32:42	odraencode	Yeah I'll fix this once I finish this branch... :)
+2013-06-28 12:32:51	-->	Sigma (~yann@unaffiliated/sigma) has joined #github
+2013-06-28 12:32:54	Nevik	and now, it's time for me to go off free-support duty :>
+2013-06-28 12:33:01	Nevik	and hit the hay \o/
+2013-06-28 12:33:28	Nevik	i'll see y'all when i see y'all
+2013-06-28 12:34:19	alaing	Nevik: shoudl i use OpenSSH?
+2013-06-28 12:34:25	alaing	Bash only?
+2013-06-28 12:34:29	-->	scottrowe_ (uid7177@gateway/web/irccloud.com/x-pmcjckrsnmdgadoo) has joined #github
+2013-06-28 12:35:05	-->	soulcake (~soulcake@unaffiliated/soulcake) has joined #github
+2013-06-28 12:35:43	--	defunctzombie_zz is now known as defunctzombie
+2013-06-28 12:39:33	-->	thedaniel (~thedaniel@rrcs-24-43-3-77.west.biz.rr.com) has joined #github
+2013-06-28 12:40:45	<--	phuzion (~phuzion@ipv6.irc.teh-server.com) has quit (Remote host closed the connection)
+2013-06-28 12:42:43	-->	nug700 (~nug700@174-26-148-22.phnx.qwest.net) has joined #github
+2013-06-28 12:42:53	-->	brunoro (~brunoro@177.182.101.160) has joined #github
+2013-06-28 12:42:54	<--	cyogesh (~cyogesh@123.201.199.22) has quit (Ping timeout: 256 seconds)
+2013-06-28 12:43:37	-->	edoop (~user3023@host38-164-dynamic.51-82-r.retail.telecomitalia.it) has joined #github
+2013-06-28 12:46:13	<--	IrishPrime (~Irish@64.53.12.162) has quit (Read error: Connection reset by peer)
+2013-06-28 12:46:13	<--	ErKa (keryell@173-228-124-106.dsl.dynamic.sonic.net) has quit (Ping timeout: 256 seconds)
+2013-06-28 12:47:16	-->	IrishPrime (~Irish@64.53.12.162) has joined #github
+2013-06-28 12:50:11	-->	CodeShark (~CodeShark@cpe-72-130-129-115.san.res.rr.com) has joined #github
+2013-06-28 12:50:29	<--	CodeShark (~CodeShark@cpe-72-130-129-115.san.res.rr.com) has quit (Client Quit)
+2013-06-28 12:50:50	-->	CodeShark (~CodeShark@cpe-72-130-129-115.san.res.rr.com) has joined #github
+2013-06-28 12:51:21	<--	IrishPrime (~Irish@64.53.12.162) has quit (Read error: Connection reset by peer)
+2013-06-28 12:51:27	<--	RyanD_ (~ryand@dulleslh.ext.drangrid.com) has quit (Remote host closed the connection)
+2013-06-28 12:52:53	-->	IrishPrime (~Irish@64.53.12.162) has joined #github
+2013-06-28 12:54:08	<--	habanany (~lazaro@cpe-108-182-46-170.nyc.res.rr.com) has quit (Ping timeout: 252 seconds)
+2013-06-28 12:54:31	--	krisbulman is now known as [krisbulman]
+2013-06-28 12:57:48	<--	erichynds (~ehynds@64.206.121.41) has quit (Quit: erichynds)
+2013-06-28 12:58:57	<--	bytephilia (~bytephili@eduroam.hir.is) has quit (Quit: Linkinus - http://linkinus.com)
+2013-06-28 13:00:14	<--	IrishPrime (~Irish@64.53.12.162) has quit (Read error: Connection reset by peer)
+2013-06-28 13:01:35	-->	vedant (~vedant@223.223.130.15) has joined #github
+2013-06-28 13:02:08	-->	IrishPrime (~Irish@64.53.12.162) has joined #github
+2013-06-28 13:02:46	<--	IrishPrime (~Irish@64.53.12.162) has quit (Client Quit)
+2013-06-28 13:04:55	<--	rnsanchez (~rnsanchez@201.37.172.140) has quit (Ping timeout: 268 seconds)
+2013-06-28 13:05:18	-->	D4RK-PH0ENiX (~D4RK-PH0E@73.199.192.61.east.global.crust-r.net) has joined #github
+2013-06-28 13:06:03	-->	rnsanchez (~rnsanchez@201.37.172.140) has joined #github
+2013-06-28 13:08:09	-->	bytephilia (~bytephili@eduroam.hir.is) has joined #github
+2013-06-28 13:15:36	<--	Griwes (~griwes@unaffiliated/griwes) has quit (Remote host closed the connection)
+2013-06-28 13:17:32	-->	Griwes (~griwes@unaffiliated/griwes) has joined #github
+2013-06-28 13:17:58	<--	alaing (~chatzilla@unaffiliated/funkymonk) has quit (Ping timeout: 246 seconds)
+2013-06-28 13:19:34	<--	edoop (~user3023@host38-164-dynamic.51-82-r.retail.telecomitalia.it) has quit (Quit: This computer has gone to sleep)
+2013-06-28 13:20:17	<--	rustymyers (~rustymyer@mackenster.tlt.psu.edu) has quit (Quit: Later all!)
+2013-06-28 13:23:16	-->	brian-mann (~brian-man@c-24-131-42-101.hsd1.ga.comcast.net) has joined #github
+2013-06-28 13:27:01	--	[krisbulman] is now known as krisbulman
+2013-06-28 13:31:14	-->	ErKa (~keryell@c-76-102-14-97.hsd1.ca.comcast.net) has joined #github
+2013-06-28 13:31:31	-->	Fouppy_ (~Fouppy@151.25.92.79.rev.sfr.net) has joined #github
+2013-06-28 13:33:55	<--	kleinweby (~textual@unaffiliated/kleinweby) has quit (Quit: Computer has gone to sleep.)
+2013-06-28 13:36:28	--	krisbulman is now known as [krisbulman]
+2013-06-28 13:36:46	<--	Fouppy_ (~Fouppy@151.25.92.79.rev.sfr.net) has quit (Quit: Leaving)
+2013-06-28 13:40:07	-->	Fouppy (~Fouppy@151.25.92.79.rev.sfr.net) has joined #github
+2013-06-28 13:42:30	<--	willwhite (~willwhite@50-198-132-58-static.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2013-06-28 13:43:23	-->	willwhite (~willwhite@50-198-132-58-static.hfc.comcastbusiness.net) has joined #github
+2013-06-28 13:43:30	<--	brian-mann (~brian-man@c-24-131-42-101.hsd1.ga.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2013-06-28 13:44:06	<--	Atlas (atlas@unaffiliated/atlas-) has quit (Ping timeout: 256 seconds)
+2013-06-28 13:44:19	<--	autumn (~autumn@unaffiliated/autumn) has quit (Ping timeout: 248 seconds)
+2013-06-28 13:45:27	-->	autumn (~autumn@unaffiliated/autumn) has joined #github
+2013-06-28 13:46:31	-->	Atlas (atlas@unaffiliated/atlas-) has joined #github
+2013-06-28 13:47:00	-->	brian-mann (~brian-man@c-24-131-42-101.hsd1.ga.comcast.net) has joined #github
+2013-06-28 13:51:44	<--	willwhite (~willwhite@50-198-132-58-static.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2013-06-28 13:54:20	-->	kenperkins (~textual@137.164.119.209) has joined #github
+2013-06-28 13:54:40	<--	axl_ (~axl_@65-128-201-142.mpls.qwest.net) has quit (Ping timeout: 246 seconds)
+2013-06-28 13:55:28	<--	kenperkins (~textual@137.164.119.209) has quit (Max SendQ exceeded)
+2013-06-28 13:56:09	-->	kenperkins (~textual@137.164.119.209) has joined #github
+2013-06-28 13:57:13	<--	kenperkins (~textual@137.164.119.209) has quit (Max SendQ exceeded)
+2013-06-28 13:57:34	-->	axl_ (~axl_@184.sub-70-197-194.myvzw.com) has joined #github
+2013-06-28 13:57:59	-->	kenperkins (~textual@137.164.119.209) has joined #github
+2013-06-28 14:04:30	-->	loops (~sean@unaffiliated/loops) has joined #github
+2013-06-28 14:05:16	-->	willwhite (~willwhite@50-198-132-58-static.hfc.comcastbusiness.net) has joined #github
+2013-06-28 14:08:00	<--	brian-mann (~brian-man@c-24-131-42-101.hsd1.ga.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2013-06-28 14:09:24	loops	Why is the git:// protocol not offered in clone URL selection any more?  Must have missed the shift away from the git protocol.
+2013-06-28 14:10:37	<--	arnatal (~arnatal@dync-35-161.ac.upc.es) has quit (Remote host closed the connection)
+2013-06-28 14:11:10	<--	chetna (75c58b97@gateway/web/freenode/ip.117.197.139.151) has quit (Quit: Page closed)
+2013-06-28 14:11:13	<--	SamWhited (~sam@fedora/SamWhited) has quit (Quit: leaving)
+2013-06-28 14:12:17	-->	GT4066 (~Miranda@177.42.181.112) has joined #github
+2013-06-28 14:13:05	<--	LNDN (~LNDN@adsl-108-89-192-146.dsl.lsan03.sbcglobal.net) has quit (Ping timeout: 256 seconds)
+2013-06-28 14:13:44	<--	jpfuentes2 (~jacques@static-71-251-230-114.rcmdva.fios.verizon.net) has quit (Quit: Computer has gone to sleep.)
+2013-06-28 14:17:20	<--	jedimind (~pud@unaffiliated/jedimind) has quit (Quit: My iMac has gone to sleep. ZZZzzz…)
+2013-06-28 14:18:25	-->	jedimind (~pud@unaffiliated/jedimind) has joined #github
+2013-06-28 14:18:42	<--	jedimind (~pud@unaffiliated/jedimind) has quit (Client Quit)
+2013-06-28 14:20:37	-->	mwarning (~mwarning@ip-78-94-115-206.unitymediagroup.de) has joined #github
+2013-06-28 14:21:08	@zerowidth	loops: https works better through proxies/firewalls, and is also easier to load balance &c
+2013-06-28 14:21:40	mwarning	hi, I have a problem using the github markdown syntax. How can I add a newline in an list element?
+2013-06-28 14:24:12	-->	gasbakid (~gasbakid@41.96.37.97) has joined #github
+2013-06-28 14:24:12	tomb_	https://gist.github.com/tombell/5888252
+2013-06-28 14:24:14	tomb_	like this?
+2013-06-28 14:24:19	 *	mwarning looks
+2013-06-28 14:24:29	<--	interactionjaxsn (~interacti@107-1-171-14-ip-static.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2013-06-28 14:24:31	mwarning	yup :)
+2013-06-28 14:24:49	tomb_	add 2 spaces after the line you're breaking
+2013-06-28 14:25:03	-->	interactionjaxsn (~interacti@107-1-171-14-ip-static.hfc.comcastbusiness.net) has joined #github
+2013-06-28 14:25:06	tomb_	* foo<space><space>
+2013-06-28 14:25:26	mwarning	ahh :D
+2013-06-28 14:25:54	mwarning	thanks a lot!
+2013-06-28 14:26:32	tomb_	no probs
+2013-06-28 14:27:00	<--	axl_ (~axl_@184.sub-70-197-194.myvzw.com) has quit (Ping timeout: 240 seconds)
+2013-06-28 14:28:14	-->	brian-mann (~brian-man@c-24-131-42-101.hsd1.ga.comcast.net) has joined #github
+2013-06-28 14:29:26	<--	interactionjaxsn (~interacti@107-1-171-14-ip-static.hfc.comcastbusiness.net) has quit (Ping timeout: 256 seconds)
+2013-06-28 14:31:29	loops	zerowidth: sure.. I just missed any announcement, didn't know that github had instituted such a policy change
+2013-06-28 14:32:58	@zerowidth	loops: git:// will still work
+2013-06-28 14:33:54	loops	zerowidth: yeah, figured so, since all my old clones are still using it.
+2013-06-28 14:34:39	loops	zerowidth: was just taken aback since i was checking out the new UI changes and became puzzled trying to clone a new repo.
+2013-06-28 14:36:07	<--	willwhite (~willwhite@50-198-132-58-static.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2013-06-28 14:36:15	-->	rovak (~rovak@188.142.3.79) has joined #github
+2013-06-28 14:39:18	<--	brian-mann (~brian-man@c-24-131-42-101.hsd1.ga.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2013-06-28 14:41:37	<--	HenningJ (~HenningJ@xdsl-87-79-137-112.netcologne.de) has quit (Quit: HenningJ)
+2013-06-28 14:43:41	-->	kleinweby (~textual@unaffiliated/kleinweby) has joined #github
+2013-06-28 14:46:17	-->	staniel25 (~textual@wsip-70-167-195-77.ph.ph.cox.net) has joined #github
+2013-06-28 14:47:31	-->	willwhite (~willwhite@50-198-132-58-static.hfc.comcastbusiness.net) has joined #github
+2013-06-28 14:52:23	<--	mitz_ (~mitz@KHP222227247006.ppp-bb.dion.ne.jp) has quit (Ping timeout: 252 seconds)
+2013-06-28 14:56:20	<--	kenperkins (~textual@137.164.119.209) has quit (Quit: Computer has gone to sleep.)
+2013-06-28 14:56:47	-->	brian-mann (~brian-man@c-24-131-42-101.hsd1.ga.comcast.net) has joined #github
+2013-06-28 15:00:03	<--	jakehow (~jakehow@207.239.71.19) has quit (Ping timeout: 248 seconds)
+2013-06-28 15:00:20	-->	bytephili (~bytephili@hr-guest.hir.is) has joined #github
+2013-06-28 15:00:53	<--	breakingthings (~no@173-12-78-237-miami.hfc.comcastbusiness.net) has quit (Quit: breakingthings)
+2013-06-28 15:03:05	<--	AaronMT (~AaronMT@CPE705681ac7b87-CM602ad0738a5c.cpe.net.cable.rogers.com) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-06-28 15:03:22	-->	kenperkins (~textual@137.164.119.209) has joined #github
+2013-06-28 15:04:05	<--	bytephilia (~bytephili@eduroam.hir.is) has quit (Ping timeout: 256 seconds)
+2013-06-28 15:04:29	<--	rovak (~rovak@188.142.3.79) has quit (Quit: Konversation terminated!)
+2013-06-28 15:08:38	<--	mwarning (~mwarning@ip-78-94-115-206.unitymediagroup.de) has quit (Quit: Leaving)
+2013-06-28 15:09:28	-->	bret (~boot@50.7.8.106) has joined #github
+2013-06-28 15:10:37	-->	p3lim (~quassel@77.36.34.95.customer.cdi.no) has joined #github
+2013-06-28 15:14:55	<--	willwhite (~willwhite@50-198-132-58-static.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2013-06-28 15:19:09	-->	Peej (~patrick.m@cpc5-croy20-2-0-cust145.croy.cable.virginmedia.com) has joined #github
+2013-06-28 15:19:46	<--	trevor (~trevor@gradient/cofounder/trevor) has quit (Ping timeout: 246 seconds)
+2013-06-28 15:20:07	<--	kenperkins (~textual@137.164.119.209) has quit (Ping timeout: 246 seconds)
+2013-06-28 15:21:30	<--	Luke-Jr (~luke-jr@unaffiliated/luke-jr) has quit (Excess Flood)
+2013-06-28 15:22:20	-->	Luke-Jr (~luke-jr@unaffiliated/luke-jr) has joined #github
+2013-06-28 15:26:46	<--	FunnyLookinHat (~funnylook@ubuntu/member/funnylookinhat) has quit (Ping timeout: 246 seconds)
+2013-06-28 15:29:10	-->	cmmagid (~cmagid@38.97.79.146) has joined #github
+2013-06-28 15:30:18	<--	Luke-Jr (~luke-jr@unaffiliated/luke-jr) has quit (Ping timeout: 260 seconds)
+2013-06-28 15:30:19	-->	FunnyLookinHat (~funnylook@ubuntu/member/funnylookinhat) has joined #github
+2013-06-28 15:30:22	<--	vedant (~vedant@223.223.130.15) has quit (Ping timeout: 241 seconds)
+2013-06-28 15:30:50	-->	phuzion (~phuzion@ipv6.irc.teh-server.com) has joined #github
+2013-06-28 15:31:08	<--	TeckniX (~TeckniX@cpe-71-67-121-6.cinci.res.rr.com) has quit (Quit: TeckniX)
+2013-06-28 15:34:55	<--	dankest (~dankest@wsip-70-182-130-90.sb.sd.cox.net) has quit (Quit: Leaving...)
+2013-06-28 15:35:59	<--	bytephili (~bytephili@hr-guest.hir.is) has quit (Quit: Linkinus - http://linkinus.com)
+2013-06-28 15:36:17	-->	bytephilia (~bytephili@hr-guest.hir.is) has joined #github
+2013-06-28 15:36:42	-->	dankest (~dankest@wsip-70-182-130-90.sb.sd.cox.net) has joined #github
+2013-06-28 15:38:13	<--	decotii (~decotii@hq.croscon.com) has quit (Quit: Leaving)
+2013-06-28 15:40:53	-->	rafaqueque (~qq@bl11-93-4.dsl.telepac.pt) has joined #github
+2013-06-28 15:41:08	-->	kenperkins (~textual@137.164.119.209) has joined #github
+2013-06-28 15:42:07	<--	JBreit (~Trip@72.25.47.132) has quit (Read error: Connection reset by peer)
+2013-06-28 15:42:43	<--	kenperkins (~textual@137.164.119.209) has quit (Max SendQ exceeded)
+2013-06-28 15:43:27	-->	kenperkins (~textual@137.164.119.209) has joined #github
+2013-06-28 15:44:57	<--	rafaqueque (~qq@bl11-93-4.dsl.telepac.pt) has quit (Remote host closed the connection)
+2013-06-28 15:44:58	-->	jpadilla (~jpadilla@adsl-64-237-236-215.prtc.net) has joined #github
+2013-06-28 15:45:37	-->	jakehow (~jakehow@user-160v08k.cable.mindspring.com) has joined #github
+2013-06-28 15:49:15	-->	JBreit (~Trip@h107.16.25.72.dynamic.ip.windstream.net) has joined #github
+2013-06-28 15:49:15	<--	ErKa (~keryell@c-76-102-14-97.hsd1.ca.comcast.net) has quit (Ping timeout: 256 seconds)
+2013-06-28 15:51:47	-->	one_zero (blah@ip68-5-235-194.oc.oc.cox.net) has joined #github
+2013-06-28 15:52:43	<--	bret (~boot@50.7.8.106) has quit (Ping timeout: 240 seconds)
+2013-06-28 15:55:04	-->	zacts (~zacts@unaffiliated/zacts) has joined #github
+2013-06-28 15:55:16	<--	dankest (~dankest@wsip-70-182-130-90.sb.sd.cox.net) has quit (Quit: Leaving...)
+2013-06-28 15:55:31	<--	_ffio_ (~fire@unaffiliated/security) has quit (Ping timeout: 248 seconds)
+2013-06-28 15:55:32	-->	ffio (~fire@unaffiliated/security) has joined #github
+2013-06-28 15:55:36	<--	kenperkins (~textual@137.164.119.209) has quit (Quit: Computer has gone to sleep.)
+2013-06-28 15:55:58	-->	dankest (~dankest@wsip-70-182-130-90.sb.sd.cox.net) has joined #github
+2013-06-28 15:56:35	<--	nbouscal (~nbouscal@c-67-185-201-65.hsd1.wa.comcast.net) has quit (Quit: Computer has commenced electric sheep tracking protocol.)
+2013-06-28 15:57:01	--	[krisbulman] is now known as krisbulman
+2013-06-28 15:58:21	--	krisbulman is now known as [krisbulman]
+2013-06-28 15:59:14	<--	Nexen (~Nexen@AClermont-Ferrand-753-1-22-19.w86-200.abo.wanadoo.fr) has quit (Ping timeout: 256 seconds)
+2013-06-28 15:59:21	--	[krisbulman] is now known as krisbulman
+2013-06-28 16:00:10	<--	brian-mann (~brian-man@c-24-131-42-101.hsd1.ga.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2013-06-28 16:01:09	<--	mithro (~mithro--@2001:44b8:31dc:8d00:8d58:bfd:4bd4:4cf8) has quit (Ping timeout: 264 seconds)
+2013-06-28 16:02:28	-->	kenperkins (~textual@137.164.119.209) has joined #github
+2013-06-28 16:03:36	<--	kenperkins (~textual@137.164.119.209) has quit (Max SendQ exceeded)
+2013-06-28 16:03:38	<--	jpadilla (~jpadilla@adsl-64-237-236-215.prtc.net) has quit (Quit: Linkinus - http://linkinus.com)
+2013-06-28 16:04:18	-->	kenperkins (~textual@137.164.119.209) has joined #github
+2013-06-28 16:06:01	<--	FunnyLookinHat (~funnylook@ubuntu/member/funnylookinhat) has quit (Quit: Leaving)
+2013-06-28 16:08:34	<--	rnsanchez (~rnsanchez@201.37.172.140) has quit (Quit: Exit 1)
+2013-06-28 16:11:29	-->	Nexen (~Nexen@AClermont-Ferrand-753-1-17-74.w86-200.abo.wanadoo.fr) has joined #github
+2013-06-28 16:13:41	<--	s-h (~s-h@ip-178-200-137-171.unitymediagroup.de) has quit (Quit: Leaving)
+2013-06-28 16:15:05	-->	brian-mann (~brian-man@c-24-131-42-101.hsd1.ga.comcast.net) has joined #github
+2013-06-28 16:16:08	-->	ErKa (keryell@173-228-124-106.dsl.dynamic.sonic.net) has joined #github
+2013-06-28 16:20:35	-->	skillz (~skillz@pool-108-18-101-197.washdc.fios.verizon.net) has joined #github
+2013-06-28 16:23:26	<--	skilledone (~skillz@pool-108-18-101-197.washdc.fios.verizon.net) has quit (Ping timeout: 240 seconds)
+2013-06-28 16:27:57	--	krisbulman is now known as [krisbulman]
+2013-06-28 16:29:46	<--	kleinweby (~textual@unaffiliated/kleinweby) has quit (Quit: Computer has gone to sleep.)
+2013-06-28 16:31:36	-->	kleinweby (~textual@unaffiliated/kleinweby) has joined #github
+2013-06-28 16:31:40	<--	kleinweby (~textual@unaffiliated/kleinweby) has quit (Client Quit)
+2013-06-28 16:34:06	<--	dankest (~dankest@wsip-70-182-130-90.sb.sd.cox.net) has quit (Ping timeout: 256 seconds)
+2013-06-28 16:34:32	<--	Fouppy (~Fouppy@151.25.92.79.rev.sfr.net) has quit (Read error: Connection reset by peer)
+2013-06-28 16:35:06	<--	aaearon (aaearon@gateway/shell/xzibition.com/x-usfkgrpimljvackp) has quit (Read error: Operation timed out)
+2013-06-28 16:36:06	--	[krisbulman] is now known as krisbulman
+2013-06-28 16:39:14	-->	aaearon (aaearon@gateway/shell/xzibition.com/x-bjmthesxikwvkufd) has joined #github
+2013-06-28 16:42:19	-->	DrHouse|MBP (~drhouse@71-95-39-124.dhcp.rvsd.ca.charter.com) has joined #github
+2013-06-28 16:43:11	-->	dankest (~dankest@wsip-70-182-130-90.sb.sd.cox.net) has joined #github
+2013-06-28 16:43:26	-->	crankyadmin_ (~crankyadm@199.38.86.54) has joined #github
+2013-06-28 16:43:36	<--	crankyadmin (~crankyadm@its.hackerti.me) has quit (Read error: Connection reset by peer)
+2013-06-28 16:44:44	-->	jalcine (~jacky@unaffiliated/webjadmin) has joined #github
+2013-06-28 16:45:00	-->	mithro (~mithro--@pa49-176-66-12.pa.nsw.optusnet.com.au) has joined #github
+2013-06-28 16:49:39	<--	gasbakid (~gasbakid@41.96.37.97) has quit (Remote host closed the connection)
+2013-06-28 16:50:18	<--	mithro (~mithro--@pa49-176-66-12.pa.nsw.optusnet.com.au) has quit (Ping timeout: 276 seconds)
+2013-06-28 16:54:24	<--	kenperkins (~textual@137.164.119.209) has quit (Quit: Computer has gone to sleep.)
+2013-06-28 16:58:57	-->	kenperkins (~textual@137.164.119.209) has joined #github
+2013-06-28 17:00:42	<--	Griwes (~griwes@unaffiliated/griwes) has quit (Ping timeout: 276 seconds)
+2013-06-28 17:00:50	<--	williamcotton (~williamco@173-13-169-18-sfba.hfc.comcastbusiness.net) has quit (Quit: williamcotton)
+2013-06-28 17:04:06	<--	kenperkins (~textual@137.164.119.209) has quit (Ping timeout: 260 seconds)
+2013-06-28 17:04:11	<--	AnimeCYC (~animecyc@50-73-128-190-ip-static.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2013-06-28 17:04:17	<--	cmmagid (~cmagid@38.97.79.146) has quit (Quit: cmmagid)
+2013-06-28 17:06:15	-->	nbouscal (~nbouscal@c-67-168-113-48.hsd1.wa.comcast.net) has joined #github
+2013-06-28 17:08:43	-->	zer0rez (~Z@cpe-108-183-218-225.twcny.res.rr.com) has joined #github
+2013-06-28 17:11:38	-->	Es0teric (~Es0teric@cpe-74-72-239-113.nyc.res.rr.com) has joined #github
+2013-06-28 17:11:50	<--	Es0teric (~Es0teric@cpe-74-72-239-113.nyc.res.rr.com) has quit (Client Quit)
+2013-06-28 17:13:58	<--	zer0rez (~Z@cpe-108-183-218-225.twcny.res.rr.com) has quit (Quit: ZZZzzzzz...)
+2013-06-28 17:24:07	<--	tomb_ (~tombell@188-220-216-182.zone11.bethere.co.uk) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-06-28 17:24:19	<--	aaearon (aaearon@gateway/shell/xzibition.com/x-bjmthesxikwvkufd) has quit (Ping timeout: 246 seconds)
+2013-06-28 17:25:19	--	krisbulman is now known as [krisbulman]
+2013-06-28 17:26:58	-->	aaearon (aaearon@gateway/shell/xzibition.com/x-svsdmqcxfrvinfya) has joined #github
+2013-06-28 17:27:47	-->	marcostoledo (~marcostol@108.61.50.107) has joined #github
+2013-06-28 17:29:31	<--	DrHouse|MBP (~drhouse@71-95-39-124.dhcp.rvsd.ca.charter.com) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-06-28 17:30:03	-->	DrHouse|MBP (~drhouse@71-95-39-124.dhcp.rvsd.ca.charter.com) has joined #github
+2013-06-28 17:30:20	<--	DrHouse|MBP (~drhouse@71-95-39-124.dhcp.rvsd.ca.charter.com) has quit (Max SendQ exceeded)
+2013-06-28 17:30:49	-->	DrHouse|MBP (~drhouse@71-95-39-124.dhcp.rvsd.ca.charter.com) has joined #github
+2013-06-28 17:30:50	<--	Noldorin (~noldorin@unaffiliated/noldorin) has quit (Remote host closed the connection)
+2013-06-28 17:31:31	-->	Noldorin (~noldorin@unaffiliated/noldorin) has joined #github
+2013-06-28 17:31:32	<--	Kabaka (~Kabaka@botters/kabaka) has quit (Ping timeout: 240 seconds)
+2013-06-28 17:32:12	<--	Bry8Star (~Bry8Star@gateway/tor-sasl/bry8star) has quit (Ping timeout: 240 seconds)
+2013-06-28 17:34:16	-->	Kabaka (~Kabaka@botters/kabaka) has joined #github
+2013-06-28 17:34:25	<--	jakehow (~jakehow@user-160v08k.cable.mindspring.com) has quit (Ping timeout: 240 seconds)
+2013-06-28 17:39:34	<--	zacts (~zacts@unaffiliated/zacts) has quit (Ping timeout: 260 seconds)
+2013-06-28 17:42:08	-->	hush (~att@188.122.93.147) has joined #github
+2013-06-28 17:42:40	-->	jpfuentes2 (~jacques@pool-96-253-119-87.rcmdva.fios.verizon.net) has joined #github
+2013-06-28 17:46:52	-->	Bry8Star (~Bry8Star@gateway/tor-sasl/bry8star) has joined #github
+2013-06-28 17:49:43	<--	sgkim126t (~sgkim126@58.143.233.97) has quit (Ping timeout: 248 seconds)
+2013-06-28 17:52:22	<--	DonRichie (~DonRichie@dslb-178-004-192-253.pools.arcor-ip.net) has quit (Ping timeout: 246 seconds)
+2013-06-28 17:52:32	-->	kenperkins (~textual@137.164.119.209) has joined #github
+2013-06-28 17:53:00	-->	DonRichie (~DonRichie@dslb-094-219-176-251.pools.arcor-ip.net) has joined #github
+2013-06-28 17:53:13	<--	dankest (~dankest@wsip-70-182-130-90.sb.sd.cox.net) has quit (Quit: Leaving...)
+2013-06-28 17:53:14	<--	kenperkins (~textual@137.164.119.209) has quit (Client Quit)
+2013-06-28 17:53:51	<--	brian-mann (~brian-man@c-24-131-42-101.hsd1.ga.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2013-06-28 17:56:23	<--	garr (~garrappac@asiotec/regen2/developer/garr) has quit (Read error: Connection reset by peer)
+2013-06-28 17:56:39	-->	sgkim126t (~sgkim126@58.143.233.97) has joined #github
+2013-06-28 17:57:25	<--	bytephilia (~bytephili@hr-guest.hir.is) has quit (Quit: Leaving...)
+2013-06-28 17:59:53	<--	DrHouse|MBP (~drhouse@71-95-39-124.dhcp.rvsd.ca.charter.com) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-06-28 18:00:43	<--	barneybook (~kvirc@114-44-196-90.dynamic.hinet.net) has quit (Ping timeout: 246 seconds)
+2013-06-28 18:01:32	<--	tplaner (~textual@pool-173-54-57-24.nwrknj.fios.verizon.net) has quit (Quit: Computer has gone to sleep.)
+2013-06-28 18:01:35	-->	garr (~garrappac@asiotec/regen2/developer/garr) has joined #github
+2013-06-28 18:02:52	<--	Atlas (atlas@unaffiliated/atlas-) has quit (Ping timeout: 246 seconds)
+2013-06-28 18:04:34	<--	AdrienBrault (~AdrienBra@log77-1-82-241-87-59.fbx.proxad.net) has quit (Read error: Operation timed out)
+2013-06-28 18:04:40	-->	Atlas (atlas@unaffiliated/atlas-) has joined #github
+2013-06-28 18:05:16	-->	Repelex (~STRESSADO@186.213.229.93) has joined #github
+2013-06-28 18:07:15	-->	bonelabs (~u291187@MW-ESR1-72-49-43-152.fuse.net) has joined #github
+2013-06-28 18:07:21	<--	bonelabs (~u291187@MW-ESR1-72-49-43-152.fuse.net) has quit (Remote host closed the connection)
+2013-06-28 18:08:50	-->	AdrienBrault (~AdrienBra@log77-1-82-241-87-59.fbx.proxad.net) has joined #github
+2013-06-28 18:09:41	-->	brian-mann (~brian-man@c-24-131-42-101.hsd1.ga.comcast.net) has joined #github
+2013-06-28 18:10:55	<--	djn (~danieln@141.70.120.143) has quit (Ping timeout: 246 seconds)
+2013-06-28 18:11:02	<--	jpfuentes2 (~jacques@pool-96-253-119-87.rcmdva.fios.verizon.net) has quit (Quit: Computer has gone to sleep.)
+2013-06-28 18:15:19	<--	mloskot (~mloskot@osgeo/member/mloskot) has quit (Quit: Leaving)
+2013-06-28 18:16:17	-->	jpfuentes2 (~jacques@pool-96-253-119-87.rcmdva.fios.verizon.net) has joined #github
+2013-06-28 18:17:51	<--	Katafalkas (~Katafalka@78.60.170.249) has quit (Remote host closed the connection)
+2013-06-28 18:23:43	-->	LNDN (~LNDN@ip-64-134-234-56.public.wayport.net) has joined #github
+2013-06-28 18:27:55	<--	ErKa (keryell@173-228-124-106.dsl.dynamic.sonic.net) has quit (Ping timeout: 256 seconds)
+2013-06-28 18:30:00	--	DanKnox is now known as DanKnox_away
+2013-06-28 18:31:29	<--	jpfuentes2 (~jacques@pool-96-253-119-87.rcmdva.fios.verizon.net) has quit (Quit: Computer has gone to sleep.)
+2013-06-28 18:33:23	-->	habanany (~lazaro@cpe-108-182-46-170.nyc.res.rr.com) has joined #github
+2013-06-28 18:33:39	-->	jpfuentes2 (~jacques@pool-96-253-119-87.rcmdva.fios.verizon.net) has joined #github
+2013-06-28 18:36:08	<--	staniel25 (~textual@wsip-70-167-195-77.ph.ph.cox.net) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-06-28 18:36:09	-->	bret (~boot@50.7.8.106) has joined #github
+2013-06-28 18:39:09	<--	bish0p_ (~bish0p@soy.gina.alaska.edu) has quit (Ping timeout: 268 seconds)
+2013-06-28 18:39:24	--	[krisbulman] is now known as krisbulman
+2013-06-28 18:39:24	-->	bish0p (~bish0p@soy.gina.alaska.edu) has joined #github
+2013-06-28 18:39:24	<--	bish0p (~bish0p@soy.gina.alaska.edu) has quit (Changing host)
+2013-06-28 18:39:24	-->	bish0p (~bish0p@pdpc/supporter/sustaining/bish0p) has joined #github
+2013-06-28 18:42:30	-->	barneybook (~kvirc@114-44-196-90.dynamic.hinet.net) has joined #github
+2013-06-28 18:44:34	--	ivey is now known as ivey_off
+2013-06-28 18:44:38	-->	tinygeo (~Adium@c-76-21-46-176.hsd1.ca.comcast.net) has joined #github
+2013-06-28 18:45:37	<--	tinygeo (~Adium@c-76-21-46-176.hsd1.ca.comcast.net) has quit (Client Quit)
+2013-06-28 18:45:38	--	ivey_off is now known as ivey
+2013-06-28 18:45:40	<--	nbouscal (~nbouscal@c-67-168-113-48.hsd1.wa.comcast.net) has quit (Quit: Computer has commenced electric sheep tracking protocol.)
+2013-06-28 18:51:26	<--	AdrienBrault (~AdrienBra@log77-1-82-241-87-59.fbx.proxad.net) has quit (Quit: Computer has gone to sleep.)
+2013-06-28 18:55:48	<--	emmanuelux (~emmanuelu@192.123.25.109.rev.sfr.net) has quit (Remote host closed the connection)
+2013-06-28 18:55:58	<--	jpfuentes2 (~jacques@pool-96-253-119-87.rcmdva.fios.verizon.net) has quit (Quit: Computer has gone to sleep.)
+2013-06-28 18:57:16	<--	habanany (~lazaro@cpe-108-182-46-170.nyc.res.rr.com) has quit (Remote host closed the connection)
+2013-06-28 18:58:20	-->	pierre1 (~pierre1@179.218.154.208) has joined #github
+2013-06-28 18:59:39	<--	pierre1 (~pierre1@179.218.154.208) has quit (Max SendQ exceeded)
+2013-06-28 19:00:37	-->	pierre1 (~pierre1@179.218.154.208) has joined #github
+2013-06-28 19:01:40	<--	brian-mann (~brian-man@c-24-131-42-101.hsd1.ga.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2013-06-28 19:02:55	-->	brian-mann (~brian-man@c-24-131-42-101.hsd1.ga.comcast.net) has joined #github
+2013-06-28 19:05:30	<--	pierre1 (~pierre1@179.218.154.208) has quit (Quit: Leaving)
+2013-06-28 19:05:50	-->	pierre1 (~pierre1@179.218.154.208) has joined #github
+2013-06-28 19:06:15	-->	jpfuentes2 (~jacques@pool-96-253-119-87.rcmdva.fios.verizon.net) has joined #github
+2013-06-28 19:10:02	--	defunctzombie is now known as defunctzombie_zz
+2013-06-28 19:12:57	<--	Repelex (~STRESSADO@186.213.229.93) has quit (Quit: ;))
+2013-06-28 19:14:34	<--	Sigma (~yann@unaffiliated/sigma) has quit (Ping timeout: 246 seconds)
+2013-06-28 19:14:59	-->	Davey (~Davey@orchestra/staff/Davey) has joined #github
+2013-06-28 19:15:19	<--	brian-mann (~brian-man@c-24-131-42-101.hsd1.ga.comcast.net) has quit (Quit: Computer has gone to sleep.)
+2013-06-28 19:20:43	<--	shentino (~shentino@gentoo/contributor/shentino) has quit (Remote host closed the connection)
+2013-06-28 19:21:09	-->	brian-mann (~brian-man@c-24-131-42-101.hsd1.ga.comcast.net) has joined #github
+2013-06-28 19:21:54	<--	Davey (~Davey@orchestra/staff/Davey) has quit (Quit: Computer has gone to sleep.)
+2013-06-28 19:23:21	--	DanKnox_away is now known as DanKnox
+2013-06-28 19:24:07	-->	shentino (~shentino@66.191.9.216) has joined #github
+2013-06-28 19:24:07	<--	shentino (~shentino@66.191.9.216) has quit (Changing host)
+2013-06-28 19:24:07	-->	shentino (~shentino@gentoo/contributor/shentino) has joined #github
+2013-06-28 19:35:21	-->	negative273 (~negative2@108-233-126-107.lightspeed.sntcca.sbcglobal.net) has joined #github
+2013-06-28 19:40:36	--	krisbulman is now known as [krisbulman]
+2013-06-28 19:41:26	<--	pierre1 (~pierre1@179.218.154.208) has quit (Ping timeout: 268 seconds)
+2013-06-28 19:41:39	-->	Leeol2 (~Lee@71-215-186-102.eugn.qwest.net) has joined #github
+2013-06-28 19:42:36	-->	Es0teric (~Es0teric@cpe-74-72-239-113.nyc.res.rr.com) has joined #github
+2013-06-28 19:44:59	<--	Leeol (~Lee@63-155-137-166.eugn.qwest.net) has quit (Ping timeout: 252 seconds)
+2013-06-28 19:47:36	--	DanKnox is now known as DanKnox_away
+2013-06-28 19:47:43	-->	Repelex (~STRESSADO@186.213.229.93) has joined #github
+2013-06-28 19:48:14	<--	PaulCapestany (~PaulCapes@204.28.124.82) has quit (Quit: Computer has gone to sleep.)
+2013-06-28 19:51:04	--	EVILAWW is now known as EvilAww
+2013-06-28 19:53:32	<--	marcostoledo (~marcostol@108.61.50.107) has quit (Quit: Leaving...)
+2013-06-28 20:10:45	-->	R1KRDO (~Thunderbi@host156.190-137-67.telecom.net.ar) has joined #github
+2013-06-28 20:10:59	--	defunctzombie_zz is now known as defunctzombie
+2013-06-28 20:12:21	-->	pierre1 (~pierre1@179.218.154.208) has joined #github
+2013-06-28 20:13:39	<--	LNDN (~LNDN@ip-64-134-234-56.public.wayport.net) has quit (Quit: Leaving)
+2013-06-28 20:15:17	-->	nbouscal (~nbouscal@c-67-168-113-48.hsd1.wa.comcast.net) has joined #github
+2013-06-28 20:16:19	<--	negative273 (~negative2@108-233-126-107.lightspeed.sntcca.sbcglobal.net) has quit (Ping timeout: 248 seconds)
+2013-06-28 20:16:48	<--	R1KRDO (~Thunderbi@host156.190-137-67.telecom.net.ar) has quit (Quit: Saludos!!)
+2013-06-28 20:17:19	--	[krisbulman] is now known as krisbulman
+2013-06-28 20:20:28	--	defunctzombie is now known as defunctzombie_zz
+2013-06-28 20:22:05	<--	thedaniel (~thedaniel@rrcs-24-43-3-77.west.biz.rr.com) has quit (Remote host closed the connection)
+2013-06-28 20:22:24	<--	odraencode (~odra@177.138.175.251) has quit (Remote host closed the connection)
+2013-06-28 20:23:45	<--	barneybook (~kvirc@114-44-196-90.dynamic.hinet.net) has quit (Read error: Connection reset by peer)
+2013-06-28 20:29:09	-->	barneybook (~kvirc@114-44-196-90.dynamic.hinet.net) has joined #github
+2013-06-28 20:31:04	<--	nbouscal (~nbouscal@c-67-168-113-48.hsd1.wa.comcast.net) has quit (Quit: Computer has commenced electric sheep tracking protocol.)
+2013-06-28 20:33:28	<--	jpfuentes2 (~jacques@pool-96-253-119-87.rcmdva.fios.verizon.net) has quit (Quit: Computer has gone to sleep.)
+2013-06-28 20:34:39	-->	ErKa (keryell@173-228-124-207.dsl.dynamic.sonic.net) has joined #github
+2013-06-28 20:43:22	<--	barneybook (~kvirc@114-44-196-90.dynamic.hinet.net) has quit (Read error: Connection reset by peer)
+2013-06-28 20:43:30	-->	rickharrison (~rickharri@c-71-202-120-251.hsd1.ca.comcast.net) has joined #github
+2013-06-28 20:44:52	--	krisbulman is now known as [krisbulman]
+2013-06-28 20:45:00	<--	BJfreeman (~bjfree@71.sub-75-196-54.myvzw.com) has quit (Quit: had a good time)
+2013-06-28 20:47:09	-->	thedaniel (~thedaniel@cpe-75-85-15-227.socal.res.rr.com) has joined #github
+2013-06-28 20:48:28	-->	barneybook (~kvirc@114-44-196-90.dynamic.hinet.net) has joined #github
+2013-06-28 20:59:46	<--	redrocket (~redrocket@unaffiliated/redrocket) has quit (Quit: redrocket)
+2013-06-28 21:04:33	--	ivey is now known as ivey_off
+2013-06-28 21:16:52	-->	StarOnD (~ashim@59.178.197.254) has joined #github
+2013-06-28 21:17:52	<--	joki (~joki@p5486522A.dip0.t-ipconnect.de) has quit (Ping timeout: 240 seconds)
+2013-06-28 21:19:20	<--	thedaniel (~thedaniel@cpe-75-85-15-227.socal.res.rr.com) has quit (Remote host closed the connection)
+2013-06-28 21:19:26	<--	Noldorin (~noldorin@unaffiliated/noldorin) has quit (Quit: Computer has gone to sleep.)
+2013-06-28 21:19:55	-->	PaulCapestany (~PaulCapes@204.28.124.82) has joined #github
+2013-06-28 21:22:52	-->	joki (~joki@p548639A7.dip0.t-ipconnect.de) has joined #github
+2013-06-28 21:28:33	<--	whit537 (~whit537@pool-74-98-50-195.pitbpa.east.verizon.net) has quit (Ping timeout: 240 seconds)
+2013-06-28 21:37:02	-->	thedaniel (~thedaniel@cpe-75-85-15-227.socal.res.rr.com) has joined #github
+2013-06-28 21:47:36	-->	sayan (~sayanchow@fedora/sayan) has joined #github
+2013-06-28 21:55:34	<--	rickharrison (~rickharri@c-71-202-120-251.hsd1.ca.comcast.net) has quit (Quit: rickharrison)
+2013-06-28 22:01:40	-->	willwhite (~willwhite@c-71-206-49-7.hsd1.md.comcast.net) has joined #github
+2013-06-28 22:02:46	-->	kcj (~casey@unaffiliated/kcj) has joined #github
+2013-06-28 22:02:52	<--	danlentz (~danlentz@c-68-37-70-235.hsd1.nj.comcast.net) has quit (Remote host closed the connection)
+2013-06-28 22:04:25	-->	pierre1_ (~pierre1@179.218.154.208) has joined #github
+2013-06-28 22:04:48	<--	pierre1_ (~pierre1@179.218.154.208) has quit (Client Quit)
+2013-06-28 22:06:34	<--	Es0teric (~Es0teric@cpe-74-72-239-113.nyc.res.rr.com) has quit (Quit: Computer has gone to sleep.)
+2013-06-28 22:07:44	<--	GT4066 (~Miranda@177.42.181.112) has quit (Read error: Connection reset by peer)
+2013-06-28 22:08:55	<--	sayan (~sayanchow@fedora/sayan) has quit (Ping timeout: 246 seconds)
+2013-06-28 22:10:35	-->	redrocket (~redrocket@unaffiliated/redrocket) has joined #github
+2013-06-28 22:16:19	-->	tinygeo (~Adium@c-76-21-46-176.hsd1.ca.comcast.net) has joined #github
+2013-06-28 22:18:30	-->	mikepack (~mikepack@c-67-176-73-117.hsd1.co.comcast.net) has joined #github
+2013-06-28 22:20:06	-->	imbrandon (~imbrandon@ubuntu/member/imbrandon) has joined #github
+2013-06-28 22:20:06	<--	imbrandon (~imbrandon@ubuntu/member/imbrandon) has quit (Client Quit)
+2013-06-28 22:20:09	<--	mikepack (~mikepack@c-67-176-73-117.hsd1.co.comcast.net) has quit (Remote host closed the connection)
+2013-06-28 22:20:39	-->	mikepack (~mikepack@c-67-176-73-117.hsd1.co.comcast.net) has joined #github
+2013-06-28 22:23:18	<--	brunoro (~brunoro@177.182.101.160) has quit (Quit: WeeChat 0.3.8)
+2013-06-28 22:24:54	<--	mikepack (~mikepack@c-67-176-73-117.hsd1.co.comcast.net) has quit (Ping timeout: 240 seconds)
+2013-06-28 22:25:10	<--	tinygeo (~Adium@c-76-21-46-176.hsd1.ca.comcast.net) has quit (Quit: Leaving.)
+2013-06-28 22:26:15	<--	barneybook (~kvirc@114-44-196-90.dynamic.hinet.net) has quit (Read error: Connection reset by peer)
+2013-06-28 22:29:39	-->	DrHouse|MBP (~drhouse@71-95-39-124.dhcp.rvsd.ca.charter.com) has joined #github
+2013-06-28 22:29:44	-->	barneybook (~kvirc@114-44-196-90.dynamic.hinet.net) has joined #github
+2013-06-28 22:31:13	<--	achiu1 (~achiu@ip68-5-32-106.oc.oc.cox.net) has quit (Quit: WeeChat 0.4.1)
+2013-06-28 22:31:40	<--	bdavenport (~davenport@raspberrypi.mindlesstux.com) has quit (Ping timeout: 256 seconds)
+2013-06-28 22:32:23	-->	achiu (~achiu@ip68-5-32-106.oc.oc.cox.net) has joined #github
+2013-06-28 22:32:23	--	Mode #github [+o achiu] by ChanServ
+2013-06-28 22:53:26	-->	bdavenpor (~davenport@raspberrypi.mindlesstux.com) has joined #github
+2013-06-28 22:58:45	<--	bdavenpor (~davenport@raspberrypi.mindlesstux.com) has quit (Ping timeout: 264 seconds)
+2013-06-28 23:04:04	<--	willwhite (~willwhite@c-71-206-49-7.hsd1.md.comcast.net) has quit (Remote host closed the connection)
+2013-06-28 23:10:22	-->	rickharrison (~rickharri@c-76-126-32-143.hsd1.ca.comcast.net) has joined #github
+2013-06-28 23:10:53	<--	rickharrison (~rickharri@c-76-126-32-143.hsd1.ca.comcast.net) has quit (Client Quit)
+2013-06-28 23:11:19	-->	sayan (~sayanchow@fedora/sayan) has joined #github
+2013-06-28 23:15:08	<--	D4RK-PH0ENiX (~D4RK-PH0E@73.199.192.61.east.global.crust-r.net) has quit (Remote host closed the connection)
+2013-06-29 00:06:32	--	irc: disconnected from server
+2013-06-29 00:07:16	-->	Mars` (~Mars`@c-67-180-10-135.hsd1.ca.comcast.net) has joined #github
+2013-06-29 00:07:16	--	Topic for #github is "Need help? http://github.com/contact | Service status updates at http://status.github.com/ and http://twitter.com/github | How-to guides at http://help.github.com"
+2013-06-29 00:07:16	--	Topic set by tekkub (~tekkub@WoWUIDev/WoWI/Featured/Dongle/GitHub/Tekkub) on Thu, 05 May 2011 01:46:09
+2013-06-29 00:07:16	--	Nicks #github: [@achiu @VxJasonxV @zerowidth [-jon-] [krisbulman] _br_ _SaCu_ `Kevin aaearon aboudreault adhawkins-away adnap Aim airborn akoumjian albel727 Alenah AlexMax alexwhitman algesten Alina-malina AllStruck AmberJ Amrykid anaconda anildigital arielserafini arnihr asksol aslak asuka Atlas autumn bacilla badboy_ barneybook basic` bdavenport BeanDip_ beawesomeinstead ben_alman bengl_ bish0p bobmcw brainproxy bret brian-mann brianloveswords Bry8Star bryanl Caelum Caius calmyournerves canton7 carl_ Catie caveat- cbloss cgbystrom__ chadi cheese1756 Chillax chilversc chol ChrisAnn chrisdickinson chrisirc chrismear chuckharmston classix closer009 CodeShark cofeineSunshine Conjuro Contex_ cooper copumpkin Cork crankyadmin_ csalazar cxreg cyberix cypher23 D3Vito dabear DanKnox_away danmackay darjeeling DarthGandalf Davai davidboy dbussink DEADB33F defunctzombie devdazed DKnox dleverton dmlloyd dmyers dna DonRichie DonVitoCorleone drager drags Dreamer3 dreww_ DrHouse|MBP ebouchut ec_ EdGruberman elliotf enhance EnTeQuAk epta esc EToS eventualbuddha EvilAww Exio faulkner ffio_ Fira firewyre Fli-c foca_ freeformz Freeyorp Frymaster garr gencha george2 ggherdov ghoti gitinfo gkatsev glennpratt goncalo_ GSpotAssassin Guest36897 guilleiguaran__ guilty_spark haarg hacfi hakunin HardDisk_WP hatchetation heath heatxsink hekman_ heptal heroux herzi hexa2k9 heytrav HIGHBIT Hunner hush im0b imarcusthis- Industrial infernix Infininight infogulch invisiblek ivan\ ivey_off jab416171 jaeckel jaimef jalcine jamesfry- jan____ jarib jasonrm JBreit jbub jcromartie jds jefferai jeremyb jesseproulx_ jfinn jhford jinie_ jkyle joernchen johng johnlcox joki jonsowman joschi JPeterson jpnurmi jrdn jrgifford_ js_ JSharp jsmith_ JStoker jwollert jwollert- jxriddle Kabaka kaictl kaitlyn Kaltiz Kamal_ kanzure kapowaz karnowski Karql kcj kevinfagan khaase khaase_ kisielk kortti kossy krazyj kwbock lahwran lb Learath2 Leeol2 leepa_ leptonix liato Liothen loops Lord_DeathMatch Lorn_ luminous luto madduck madprops Mamoru markvandenborre marlinc Mars` martinjlowm maslowbeer MattJoyce_ mattyohe md_5 mdd mdwright mencito Mez mgc___ mh` milk milki minerale monokrome Morrolan mrapple NChief ndim nDuff Nemo7 nephyrin Neptu Nevik Nexen nicedice nick_h nicksloan niftylettuce NimeshNeema nitrix notbrent___ nug700 nz ocut offby1 offbyone ohcibi olegp one_zero Orphis p3lim Parnic passcod paulproteus pcarrier Peej Pengoo percival petisnnake petteyg phantomcircuit PhilK phuzion pierre1 pigoz pirho poutine primalmotion prismatictrail Proditor Protux przemoc Ragnor randym_ Rarrikins Raynos rbuels redrocket rfoust rickharrison Rickster rockfruit rodjek rofl____ rom1504 rush2end RyanD s0enke s_e safsdas sakkemo sayakb sayd sbryant ScottE scottrowe_ scrogson SebastianFlyte segy sent_hil_ sente sethe Seveas SeySayux sgkim126t shabble shentino shtirlic SicoWork SimonVT SirCmpwn SirFunk sitaktif skalnik skillz slicky smkelly sn0wb1rdz sonOfRa soulcake spiffxp Spockz sshirokov ssx StarOnD stephanmg strax strictlyb Striki stutter stwalkerster svaksha swebb synergye t_kjaergaard tallest_red tfnico_ thedaniel thelamest TheMoonMaster thirdknife thomasvs timeless tklun tlipcon TML tobias- toin0u tolland tomaw TomyLobo ToothlessGear torjus Twey twisted` txdv tystr tyteen4a03 unreal Villadelfia Vinnie_win vivekrai_ wcarss webdestroya weeb1e wereHams1er whoami Will| Winslow_ Woet wycats_ wykydtron XAMPP xhoy xoebus xrogaan Y_Ichiro YANO yassine yibe___ yosafbridge z z1mme Zackio Zauberfisch-idle Zeelot zerok Ziber zibri Zooklubba zorzar]
+2013-06-29 00:07:16	--	Channel #github: 421 nicks (3 ops, 0 halfops, 0 voices, 418 normals)
+2013-06-29 00:07:16	--	Notice(moorcock.freenode.net): [freenode-info] why register and identify? your IRC nick is how people know you. http://freenode.net/faq.shtml#nicksetup
+2013-06-29 00:07:23	--	Mode #github [+nt]
+2013-06-29 00:07:23	--	Channel created on Sun, 10 Feb 2008 19:00:20
+2013-06-29 00:09:03	-->	sirdancealo2 (~sirdancea@98.82.broadband5.iol.cz) has joined #github
+2013-06-29 00:09:29	-->	Davey (~Davey@orchestra/staff/Davey) has joined #github
+2013-06-29 00:11:50	--	defunctzombie is now known as defunctzombie_zz
+2013-06-29 00:13:37	<--	Davey (~Davey@orchestra/staff/Davey) has quit (Max SendQ exceeded)
+2013-06-29 00:13:53	-->	edoop (~user3023@host38-164-dynamic.51-82-r.retail.telecomitalia.it) has joined #github
+2013-06-29 00:14:03	-->	thedanie_ (~thedaniel@cpe-75-85-15-227.socal.res.rr.com) has joined #github
+2013-06-29 00:14:12	-->	HD|Laptop (~marco@stella.vm-dg.de) has joined #github
+2013-06-29 00:14:12	<--	HD|Laptop (~marco@stella.vm-dg.de) has quit (Changing host)
+2013-06-29 00:14:12	-->	HD|Laptop (~marco@wikipedia/harddisk) has joined #github
+2013-06-29 00:14:36	-->	Davey (~Davey@orchestra/staff/Davey) has joined #github
+2013-06-29 00:14:38	-->	ghoti_ (~paul@scratch.it.ca) has joined #github
+2013-06-29 00:17:11	--	irc: disconnected from server
+2013-06-29 00:20:07	-->	Mars` (~Mars`@c-67-180-10-135.hsd1.ca.comcast.net) has joined #github
+2013-06-29 00:20:07	--	Topic for #github is "Need help? http://github.com/contact | Service status updates at http://status.github.com/ and http://twitter.com/github | How-to guides at http://help.github.com"
+2013-06-29 00:20:07	--	Topic set by tekkub (~tekkub@WoWUIDev/WoWI/Featured/Dongle/GitHub/Tekkub) on Thu, 05 May 2011 01:46:09
+2013-06-29 00:20:07	--	Nicks #github: [@achiu @VxJasonxV @zerowidth [-jon-] [krisbulman] _br_ _SaCu_ `Kevin aaearon aboudreault adhawkins-away adnap Aim airborn akoumjian albel727 Alenah AlexMax alexwhitman algesten Alina-malina AllStruck AmberJ Amrykid anaconda anildigital arielserafini arnihr asksol aslak asuka_ Atlas bacilla badboy_ barneybook basic` bdavenport BeanDip_ beawesomeinstead ben_alman bengl_ bish0p bobmcw brainproxy bret brian-mann brianloveswords Bry8Star bryanl_ Caelum Caius calmyournerves carl_ Catie caveat- cbloss cgbystrom__ chadi cheese1756 Chillax chilversc chol chrisdickinson chrisirc chrismear chuckharmston classix closer009 CodeShark cofeineSunshine Conjuro Contexual- cooper copumpkin Cork crankyadmin_ csalazar_ cxreg cyberix cypher23 D3Vito dabear DanKnox_away danmackay darjeeling DarthGandalf Davai Davey davidboy dbussink DEADB33F defunctzombie_zz devdazed DKnox dleverton dmlloyd dna DonRichie DonVitoCorleone drager_ drags_ Dreamer3 dreww_ DrHouse|MBP ebouchut ec_ EdGruberman elliotf enhance EnTeQuAk epta esc EToS eventualbuddha EvilAww Exio faulkner ffio_ Fira firewyre Fli-c foca freeformz Freeyorp Frymaster garr gencha george2 ggherdov ghoti_ gitinfo gkatsev glennpratt goncalo_ GSpotAssassin Guest36897 guilleiguaran__ guilty_spark haarg hacfi hakunin HardDisk_WP hatchetation heath heatxsink hekman_ heptal heroux herzi hexa2k9 heytrav HIGHBIT Hunner hush im0b imarcusthis- Industrial infernix Infininight infogulch invisiblek ivan\ ivey_off jab416171 jaeckel jaimef jalcine jamesfry- jan____ jarib jasonrm JBreit jbub jcromartie jds jefferai jeremyb jesseproulx_ jfinn jhford jinie_ jkyle joernchen johng johnlcox joki jonsowman joschi JPeterson jpnurmi jrgifford_ js_ JSharp jsmith_ JStoker jstout24 jwollert jwollert- jxriddle Kabaka kaictl kaitlyn Kaltiz Kamal_ kanzure kapowaz karnowski Karql kcj kevinfagan khaase khaase_ kisielk kleinweby kortti_ kossy krazyj kwbock lahwran lb Learath2 Leeol2 leepa_ leptonix liato Liothen loops Lord_DeathMatch Lorn_ luminous luto madduck madprops Mamoru markvandenborre marlinc Mars` martinjlowm maslowbeer MattJoyce_ mattyohe md_5 mdd mdwright mencito Mez mgc___ mh` milk milki Milossh_ minerale monokrome Morrolan mrapple NChief ndim nDuff Nemo7 nephyrin Neptu Nevik Nexen nicedice nick_h nicksloan niftylettuce NimeshNeema nitrix notbrent___ noxgirl nug700 nz ocut offby1 offbyone ohcibi olegp one_zero Orphis p3lim Parnic passcod paulproteus pcarrier Peej Pengoo percival petisnnake petteyg phantomcircuit PhilK phuzion pierre1 pigoz pirho poutine primalmotion prismatictrail Proditor Protux przemoc Ragnor randym_ Rarrikins Raynos rbuels redrocket rfoust rickharrison Rickster rockfruit rodjek rofl____ rom1504 rush2end RyanD s0enke s_e safsdas sakkemo sayakb sayd sbryant ScottE scottrowe_ scrogson SebastianFlyte segy sent_hil_ sente sethe Seveas SeySayux sgkim126t shabble shentino shtirlic SicoWork SimonVT SirCmpwn sirdancealo2 SirFunk sitaktif skalnik skillz slicky smkelly sn0wb1rdz sonOfRa soulcake spiffxp_ Spockz sshirokov ssx StarOnD stephanmg strax strictlyb Striki stutter stwalkerster svaksha swebb synergye t_kjaergaard tallest_red tfnico_ thedanie_ thelamest TheMoonMaster thirdknife thomasvs timeless tklun tlipcon TML tobias- toin0u tolland tomaw TomyLobo ToothlessGear torjus Twey twisted` txdv tystr tyteen4a03 unreal Villadelfia Vinnie_win vivekrai_ wcarss webdestroya weeb1e wereHams1er whoami Will| Winslow_ Woet wycats_ wykydtron XAMPP xhoy xoebus xrogaan Y_Ichiro YANO yassine yibe___ yosafbridge z z1mme Zackio Zauberfisch-idle Zeelot zerok Ziber zibri Zooklubba zorzar]
+2013-06-29 00:20:07	--	Channel #github: 422 nicks (3 ops, 0 halfops, 0 voices, 419 normals)
+2013-06-29 00:20:12	--	Mode #github [+nt]
+2013-06-29 00:20:12	--	Channel created on Sun, 10 Feb 2008 19:00:20
+2013-06-29 00:20:15	-->	coderboy (~coderboy@sociotechnical.ischool.drexel.edu) has joined #github
+2013-06-29 00:20:23	<--	ghoti_ (~paul@scratch.it.ca) has quit (Ping timeout: 264 seconds)
+2013-06-29 00:20:57	<--	coderboy (~coderboy@sociotechnical.ischool.drexel.edu) has quit (Excess Flood)
+2013-06-29 00:21:43	-->	ghoti (~paul@scratch.it.ca) has joined #github
+2013-06-29 00:23:18	-->	dmyers (dmyers@gateway/shell/bnc4free/x-etzxshdcdvhqqipi) has joined #github
+2013-06-29 00:24:27	<--	przemoc (~przemoc@unaffiliated/przemoc) has quit (Ping timeout: 256 seconds)
+2013-06-29 00:27:09	<--	Davey (~Davey@orchestra/staff/Davey) has quit (Ping timeout: 246 seconds)
+2013-06-29 00:27:16	<--	ghoti (~paul@scratch.it.ca) has quit (Ping timeout: 276 seconds)
+2013-06-29 00:27:37	-->	przemoc (~przemoc@unaffiliated/przemoc) has joined #github
+2013-06-29 00:28:00	-->	ghoti (~paul@scratch.it.ca) has joined #github
+2013-06-29 00:29:36	<--	maslowbeer (~maslowbee@50.9.135.245) has quit (Remote host closed the connection)
+2013-06-29 00:32:32	madduck	can I sort issues to have the latest issues at the top?
+2013-06-29 00:33:03	madduck	of course i can, but i mean: can i set it as default?
+2013-06-29 00:33:03	<--	ghoti (~paul@scratch.it.ca) has quit (Ping timeout: 260 seconds)
+2013-06-29 00:33:36	<--	pirho (~pirho@124-150-79-1.dyn.iinet.net.au) has quit (Remote host closed the connection)
+2013-06-29 00:33:57	-->	ghoti (~paul@scratch.it.ca) has joined #github
+2013-06-29 00:35:46	-->	Davey (~Davey@orchestra/staff/Davey) has joined #github
+2013-06-29 00:37:16	<--	kleinweby (~textual@unaffiliated/kleinweby) has quit (Quit: Computer has gone to sleep.)
+2013-06-29 00:39:16	<--	ghoti (~paul@scratch.it.ca) has quit (Ping timeout: 248 seconds)
+2013-06-29 00:40:13	-->	ghoti (~paul@scratch.it.ca) has joined #github
+2013-06-29 00:45:31	<--	ghoti (~paul@scratch.it.ca) has quit (Ping timeout: 256 seconds)
+2013-06-29 00:45:37	<--	DrHouse|MBP (~drhouse@71-95-39-124.dhcp.rvsd.ca.charter.com) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-06-29 00:46:15	-->	ghoti (~paul@scratch.it.ca) has joined #github
+2013-06-29 01:01:33	<--	alexwhitman (~alexwhitm@87-194-159-116.bethere.co.uk) has quit (Read error: Operation timed out)
+2013-06-29 01:07:03	<--	aaearon (aaearon@gateway/shell/xzibition.com/x-svsdmqcxfrvinfya) has quit (Ping timeout: 246 seconds)
+2013-06-29 01:07:46	-->	flashpixx (~Adium@p4FC62079.dip0.t-ipconnect.de) has joined #github
+2013-06-29 01:08:16	<--	flashpixx (~Adium@p4FC62079.dip0.t-ipconnect.de) has left #github
+2013-06-29 01:08:50	<--	StarOnD (~ashim@59.178.197.254) has quit (Ping timeout: 246 seconds)
+2013-06-29 01:09:03	-->	alexwhitman (~alexwhitm@87-194-159-116.bethere.co.uk) has joined #github
+2013-06-29 01:11:44	-->	pirho (~pirho@124-150-79-1.dyn.iinet.net.au) has joined #github
+2013-06-29 01:12:47	--	defunctzombie_zz is now known as defunctzombie
+2013-06-29 01:13:43	<--	pierre1 (~pierre1@179.218.154.208) has quit (Quit: Leaving)
+2013-06-29 01:17:57	-->	aaearon (aaearon@gateway/shell/xzibition.com/x-xcljsdbofsfbxmsp) has joined #github
+2013-06-29 01:20:08	-->	sayan (~sayanchow@fedora/sayan) has joined #github
+2013-06-29 01:22:40	-->	StarOnD (~ashim@59.178.192.238) has joined #github
+2013-06-29 01:22:52	--	defunctzombie is now known as defunctzombie_zz
+2013-06-29 01:23:58	<--	Davey (~Davey@orchestra/staff/Davey) has quit (Quit: Computer has gone to sleep.)
+2013-06-29 01:25:11	<--	Nemo7 (~nemo@unaffiliated/nemo7) has quit (Ping timeout: 264 seconds)
+2013-06-29 01:31:05	-->	Nemo7 (~nemo@unaffiliated/nemo7) has joined #github
+2013-06-29 01:31:12	<--	aaearon (aaearon@gateway/shell/xzibition.com/x-xcljsdbofsfbxmsp) has quit (Quit: ZNC - http://znc.in)
+2013-06-29 01:31:51	-->	aaearon (aaearon@gateway/shell/xzibition.com/x-ucbuikhnbnbohwvu) has joined #github
+2013-06-29 01:32:26	--	ffio_ is now known as ffio
+2013-06-29 01:32:49	-->	Es0teric (~Es0teric@cpe-74-72-239-113.nyc.res.rr.com) has joined #github
+2013-06-29 01:32:49	<--	Es0teric (~Es0teric@cpe-74-72-239-113.nyc.res.rr.com) has quit (Client Quit)
+2013-06-29 01:32:57	<--	pirho (~pirho@124-150-79-1.dyn.iinet.net.au) has quit (Remote host closed the connection)
+2013-06-29 02:43:34	--	irc: disconnected from server
+2013-06-29 14:34:04	--	irc: disconnected from server
+2013-06-29 14:34:50	-->	Mars` (~Mars`@c-67-180-10-135.hsd1.ca.comcast.net) has joined #github
+2013-06-29 14:34:50	--	Topic for #github is "Need help? http://github.com/contact | Service status updates at http://status.github.com/ and http://twitter.com/github | How-to guides at http://help.github.com"
+2013-06-29 14:34:50	--	Topic set by tekkub (~tekkub@WoWUIDev/WoWI/Featured/Dongle/GitHub/Tekkub) on Thu, 05 May 2011 01:46:09
+2013-06-29 14:34:50	--	Nicks #github: [@achiu @VxJasonxV @zerowidth [krisbulman] _br_ _SaCu_ `Kevin aaearon aboudreault adhawkins-away adnap Aim airborn akoumjian albel727 Alenah AlexMax alexwhitman algesten Alina-malina AllStruck AmberJ Amrykid anaconda anildigital arielserafini arnihr asksol aslak asuka_ Atlas bacilla badboy_ barneybook basic` bdavenport BeanDip_ beawesomeinstead ben_alman bengl_ bish0p BJfreeman bobmcw brainproxy bret brian-mann brianloveswords bryanl_ Caelum Caius calmyournerves canton7 carl_ Catie caveat- cbloss cgbystrom__ chadi cheese1756 Chillax chilversc chol ChrisAnn chrisdickinson chrisirc chrismear chuckharmston classix closer009 CodeShark cofeineSunshine Conjuro Contex_ cooper copumpkin Cork crankyadmin_ csalazar_ cxreg cypher23 D3Vito D4RK-PH0ENiX dabear dankest DanKnox_away danlentz danmackay darjeeling DarthGandalf Davai davidboy dbussink DEADB33F defunctzombie_zz devdazed DKnox dleverton dmlloyd dmyers dna DonRichie DonVitoCorleone drager_ drags_ dreww_ ebouchut ec_ EdGruberman elliotf emmanuelux enhance EnTeQuAk epta esc EToS eventualbuddha EvilAww Exio faulkner ffio Fira firewyre Fli-c foca freeformz Freeyorp Frymaster garr gencha george2 ggherdov ghoti gitinfo gkatsev glennpratt goncalo_ Griwes GSpotAssassin Guest36897 guilleiguaran_ guilty_spark haarg hacfi hakunin HardDisk_WP hareth hatchetation heath heatxsink hekman_ HenningJ heptal heroux herzi hexa2k9 heytrav HIGHBIT Hunner hush im0b imarcusthis- Industrial infernix Infininight infogulch invisiblek ivan\ ivey_off jab416171 jaeckel jaimef jalcine- jamesfry- jan____ jarib jasonrm Jayflux JBreit jbub jcromartie jds jefferai jeremyb jesseproulx_ jfinn jhford jinie_ jkyle joernchen johng johnlcox joki jonsowman joschi JPeterson jpnurmi jrgifford_ js_ JSharp jsmith_ JStoker jstout24 jwollert jwollert- jxriddle Kabaka kaictl kaitlyn Kaltiz Kamal_ kanzure kapowaz karnowski Karql kevinfagan khaase khaase_ kisielk kleinweby kortti_ kossy krazyj kwbock lahwran lb lb1a Learath2 Leeol2 leepa_ leptonix liato loops Lord_DeathMatch Lorn_ luminous luto madduck madprops Mamoru markvandenborre marlinc Mars` martinjlowm mattyohe md_5 mdd mdwright Mez mgc___ mh` milk milki minerale mloskot monokrome Morrolan mrapple NChief ndim nDuff Nemo7 nephyrin Neptu Nevik Nexen nicedice nick_h nicksloan niftylettuce NimeshNeema nitrix Noldorin notbrent___ noxgirl nug700 nz ocut offby1 offbyone ohcibi olegp Orphis p3lim Parnic passcod paulproteus pcarrier Pengoo percival petisnnake petteyg phantomcircuit PhilK phuzion pigoz poutine prettyrobots primalmotion prismatictrail Proditor przemoc Ragnor randym_ Rarrikins Raynos rbuels redrocket rfoust Rickster rockfruit rodjek rofl____ rom1504 rush2end RyanD s-h s0enke s_e safsdas sakkemo SamWhited sayakb sayd sbryant ScottE scottrowe_ scrogson SebastianFlyte segy sent_hil_ sente sethe Seveas SeySayux sgkim126t shabble shentino shtirlic SicoWork Sigma SimonVT SirCmpwn sirdancealo2 SirFunk sitaktif skalnik skillz slicky smkelly sn0wb1rdz sonOfRa soulcake spiffxp_ Spockz sshirokov ssx stephanmg sticky|away strax strictlyb Striki stutter stwalkerster svaksha swebb synergye t_kjaergaard tallest_red tfnico_ thedaniel thelamest TheMoonMaster thomasvs timeless tklun tlipcon TML tobias- toin0u tolland tomaw TomyLobo ToothlessGear torjus tplaner trevor Twey twisted` txdv tystr tyteen4a03 unreal Villadelfia Vinnie_win vivekrai_ wcarss webdestroya weeb1e wereHams1er whit537 whoami Will| Winslow_ Woet wycats_ wykydtron XAMPP Xano xhoy xoebus xrogaan Y_Ichiro yano yibe___ yosafbridge z z1mme Zackio Zauberfisch-idle Zeelot zerok Ziber zibri Zooklubba zorzar]
+2013-06-29 14:34:50	--	Channel #github: 425 nicks (3 ops, 0 halfops, 0 voices, 422 normals)
+2013-06-29 14:34:56	--	Mode #github [+nt]
+2013-06-29 14:34:56	--	Channel created on Sun, 10 Feb 2008 19:00:20
+2013-06-29 14:37:20	--	EvilAww is now known as Aww
+2013-06-29 14:37:59	--	Aww is now known as EvilAww
+2013-06-29 14:38:13	-->	yassine (~yassine@unaffiliated/yassine) has joined #github
+2013-06-29 14:40:18	-->	tomb_ (~tombell@host86-151-171-27.range86-151.btcentralplus.com) has joined #github
+2013-06-29 14:43:57	-->	justinmburrous (~justinmbu@moloch.espn.com) has joined #github
+2013-06-29 14:48:54	<--	nicedice (~nicedice@92.243.172.99) has quit (Quit: Leaving)
+2013-06-29 14:52:17	-->	negative273 (~negative2@108-233-126-107.lightspeed.sntcca.sbcglobal.net) has joined #github
+2013-06-29 14:54:05	-->	rovak (~rovak@188.142.3.79) has joined #github
+2013-06-29 14:58:02	-->	coderboy (~coderboy@sociotechnical.ischool.drexel.edu) has joined #github
+2013-06-29 14:58:03	<--	coderboy (~coderboy@sociotechnical.ischool.drexel.edu) has quit (Excess Flood)
+2013-06-29 15:00:26	-->	nbouscal (~nbouscal@75.106.62.19) has joined #github
+2013-06-29 15:02:51	<--	ffio (~fire@unaffiliated/security) has quit (Read error: Operation timed out)
+2013-06-29 15:02:53	-->	rickruby (~rickruby@c-76-27-115-117.hsd1.ut.comcast.net) has joined #github
+2013-06-29 15:04:18	-->	ffio_ (~fire@unaffiliated/security) has joined #github
+2013-06-29 15:04:56	<--	rickruby (~rickruby@c-76-27-115-117.hsd1.ut.comcast.net) has quit (Remote host closed the connection)
+2013-06-29 15:06:14	-->	rickruby (~rickruby@c-76-27-115-117.hsd1.ut.comcast.net) has joined #github
+2013-06-29 15:09:30	<--	skalnik (~skalnik@192.157.215.2) has quit (Changing host)
+2013-06-29 15:09:30	-->	skalnik (~skalnik@unaffiliated/skalnik) has joined #github
+2013-06-29 15:09:34	<--	kleinweby (~textual@unaffiliated/kleinweby) has quit (Quit: Computer has gone to sleep.)
+2013-06-29 15:10:20	-->	nicedice (~nicedice@92.243.172.99) has joined #github
+2013-06-29 15:20:50	<--	thedaniel (~thedaniel@cpe-75-85-15-227.socal.res.rr.com) has quit (Remote host closed the connection)
+2013-06-29 15:26:05	-->	rafaqueque (~qq@bl13-139-130.dsl.telepac.pt) has joined #github
+2013-06-29 15:28:56	<--	rickruby (~rickruby@c-76-27-115-117.hsd1.ut.comcast.net) has quit (Remote host closed the connection)
+2013-06-29 15:32:50	<--	lb1a (~lb@unaffiliated/lb) has quit (Quit: Verlassend)
+2013-06-29 15:32:58	<--	sirdancealo2 (~sirdancea@98.82.broadband5.iol.cz) has quit (Ping timeout: 240 seconds)
+2013-06-29 15:33:05	<--	whit537 (~whit537@pool-108-39-171-120.pitbpa.east.verizon.net) has quit (Read error: Connection reset by peer)
+2013-06-29 16:54:31	--	irc: disconnected from server
+2013-06-29 18:35:10	--	irc: disconnected from server
+2013-06-29 18:35:54	-->	Mars` (~Mars`@c-67-180-10-135.hsd1.ca.comcast.net) has joined #github
+2013-06-29 18:35:54	--	Topic for #github is "Need help? http://github.com/contact | Service status updates at http://status.github.com/ and http://twitter.com/github | How-to guides at http://help.github.com"
+2013-06-29 18:35:54	--	Topic set by tekkub (~tekkub@WoWUIDev/WoWI/Featured/Dongle/GitHub/Tekkub) on Thu, 05 May 2011 01:46:09
+2013-06-29 18:35:54	--	Nicks #github: [@achiu @VxJasonxV @zerowidth _br_ _SaCu_ `Kevin aaearon aboudreault adhawkins-away adnap Aim airborn akoumjian albel727 Alenah AlexMax alexwhitman algesten Alina-malina AllStruck AmberJ Amrykid anaconda anildigital arielserafini arnihr asksol aslak asuka_ Atlas autumn bacilla badboy_ barneybook basic` bdavenport BeanDip_ beawesomeinstead ben_alman bengl_ bish0p bobmcw brainproxy bret brian-mann brianloveswords Bry8Star bryanl_ Caelum Caius calmyournerves canton7 carl_ Catie caveat- cbloss cgbystrom__ chadi cheese1756 Chillax chilversc chol ChrisAnn chrisdickinson chrisirc chrismear chuckharmston classix closer009 CodeShark cofeineSunshine Conjuro Contex_ cooper Cork crankyadmin_ csalazar_ cxreg cypher23 D3Vito D4RK-PH0ENiX dabear dankest DanKnox_away danlentz danmackay darjeeling DarthGandalf Davai davidboy dbussink DEADB33F defunctzombie_zz devdazed DKnox dleverton dmlloyd dmyers dna DonRichie DonVitoCorleone drager_ drags dreww_ ebouchut ec_ EdGruberman elliotf emmanuelux enhance EnTeQuAk epta esc EToS eventualbuddha EvilAww Exio faulkner ffio_ Fira firewyre Fli-c foca freeformz Freeyorp Frymaster garr gencha george2 ghoti gitinfo gkatsev glennpratt goncalo_ Griwes GSpotAssassin Guest36897 guilleiguaran_ guilty_spark haarg hacfi hakunin HardDisk_WP hareth hatchetation heath heatxsink hekman_ heptal heroux herzi hexa2k9 heytrav HIGHBIT Hunner hush im0b imarcusthis- Industrial infernix Infininight infogulch introom invisiblek ivan\ ivey_off jab416171 jaeckel jaimef jamesfry- jan____ jarib jasonrm Jayflux JBreit jbub jcromartie jds jefferai jeremyb jesseproulx_ jfinn jhford jinie_ jkyle joernchen johng johnlcox joki jonsowman joschi JPeterson jpnurmi jrgifford_ js_ JSharp jsmith_ JStoker jstout24 justinmburrous jwollert jwollert- jxriddle Kabaka kaictl kaitlyn Kaltiz Kamal_ kanzure kapowaz karnowski Karql kevinfagan khaase khaase_ kisielk kortti_ kossy krazyj krisbulman kwbock lahwran lb Learath2 Leeol2 leepa_ leptonix liato Liothen loops Lord_DeathMatch Lorn_ luminous luto madduck madprops Mamoru markvandenborre marlinc Mars` martinjlowm mattyohe md_5 mdd mdwright Mez mgc___ mh` mikepack_ milk milki minerale monokrome Morrolan mrapple NChief ndim nDuff negative273 Nemo7 nephyrin Neptu Nevik Nexen nicedice nick_h nicksloan niftylettuce NimeshNeema nitrix Noldorin notbrent___ nug700 nz ocut offby1 offbyone ohcibi olegp Orphis p3lim Parnic passcod paulproteus pcarrier Peej Pengoo percival petisnnake petteyg phantomcircuit PhilK phuzion pigoz poutine prettyrobots primalmotion prismatictrail Proditor przemoc rafaqueque Ragnor randym_ Rarrikins Raynos rbuels redrocket Repelex rfoust rickruby Rickster rockfruit rodjek rofl____ rom1504 rush2end RyanD s0enke s_e safsdas sakkemo SamWhited sayakb sayd sbryant ScottE scottrowe_ scrogson SebastianFlyte segy sent_hil_ sente sethe Seveas SeySayux sgkim126t shabble shentino shtirlic SicoWork SimonVT SirCmpwn SirFunk sitaktif skalnik skillz slicky smkelly sn0wb1rdz sonOfRa soulcake spiffxp_ Spockz sshirokov ssx stephanmg sticky|away strictlyb Striki stutter stwalkerster svaksha swebb synergye t_kjaergaard tallest_red Tectonic tfnico_ thelamest TheMoonMaster thomasvs thot_ Tickle timeless tklun tlipcon TML tobias- toin0u tolland tomaw tomb_ ToothlessGear torjus tplaner trevor Twey twisted` txdv tystr tyteen4a03 unreal Villadelfia Vinnie_win vivekrai_ wcarss webdestroya weeb1e wereHams1er whoami willwhite Will| Winslow_ Woet wycats_ wykydtron XAMPP xhoy xoebus xrogaan Y_Ichiro yano yibe___ yosafbridge z z1mme Zackio zacts Zauberfisch-idle Zeelot zerok Ziber zibri Zooklubba zorzar]
+2013-06-29 18:35:54	--	Channel #github: 425 nicks (3 ops, 0 halfops, 0 voices, 422 normals)
+2013-06-29 18:36:01	--	Mode #github [+nt]
+2013-06-29 18:36:01	--	Channel created on Sun, 10 Feb 2008 19:00:20
+2013-06-29 18:42:38	--	defunctzombie_zz is now known as defunctzombie
+2013-06-29 18:46:45	-->	Leeol3 (~Lee@63-155-165-67.eugn.qwest.net) has joined #github
+2013-06-29 18:46:46	-->	staniel25 (~textual@wsip-70-167-195-77.ph.ph.cox.net) has joined #github
+2013-06-29 19:57:15	--	irc: disconnected from server
+2013-06-29 19:58:02	-->	Mars` (~Mars`@c-67-180-10-135.hsd1.ca.comcast.net) has joined #github
+2013-06-29 19:58:02	--	Topic for #github is "Need help? http://github.com/contact | Service status updates at http://status.github.com/ and http://twitter.com/github | How-to guides at http://help.github.com"
+2013-06-29 19:58:02	--	Topic set by tekkub (~tekkub@WoWUIDev/WoWI/Featured/Dongle/GitHub/Tekkub) on Thu, 05 May 2011 01:46:09
+2013-06-29 19:58:03	--	Nicks #github: [@achiu @VxJasonxV @zerowidth [krisbulman] _br_ _SaCu_ `Kevin aaearon aboudreault adhawkins-away adnap Aim airborn akoumjian albel727 Alenah AlexMax alexwhitman algesten Alina-malina AllStruck AmberJ Amrykid anaconda anildigital arielserafini arnihr asksol aslak asuka_ Atlas autumn bacilla badboy_ barneybook basic` bdavenport BeanDip_ beawesomeinstead ben_alman bengl_ bish0p BJfreeman bobmcw brainproxy bret brian-mann brianloveswords Bry8Star bryanl_ Caelum Caius calmyournerves canton7 carl_ Catie caveat- cbloss cgbystrom__ chadi cheese1756 Chillax chilversc chol ChrisAnn chrisdickinson chrisirc chrismear chuckharmston classix closer009 CodeShark cofeineSunshine Conjuro Contex_ cooper Cork crankyadmin_ csalazar_ cxreg cypher23 D3Vito D4RK-PH0ENiX dabear dankest DanKnox_away danlentz danmackay darjeeling DarthGandalf Davai davidboy dbussink DEADB33F defunctzombie_zz devdazed DKnox dleverton dmlloyd dmyers dna DonRichie DonVitoCorleone drager_ drags dreww_ ebouchut ec_ EdGruberman elliotf emmanuelux enhance EnTeQuAk epta esc EToS eventualbuddha EvilAww Exio faulkner ffio_ Fira firewyre Fli-c foca freeformz Freeyorp Frymaster garr gencha george2 ghoti gitinfo gkatsev glennpratt goncalo_ Griwes GSpotAssassin Guest36897 guilleiguaran_ guilty_spark haarg hacfi hakunin HardDisk_WP hareth hatchetation heath heatxsink hekman_ heptal heroux herzi hexa2k9 heytrav HIGHBIT Hunner hush im0b imarcusthis- Industrial infernix Infininight infogulch introom invisiblek ivan\ ivey_off jab416171 jaeckel jaimef jalcine jamesfry- jan____ jarib jasonrm Jayflux JBreit jbub jds jefferai jeremyb jesseproulx_ jfinn jhford jinie_ jkyle joernchen johng johnlcox joki jonsowman joschi JPeterson jpfuentes2 jpnurmi jrgifford_ js_ JSharp jsmith_ JStoker jstout24 justinmburrous jwollert jwollert- jxriddle Kabaka kaictl kaitlyn Kaltiz Kamal_ kanzure kapowaz karnowski Karql kevinfagan khaase khaase_ kisielk kortti_ kossy krazyj kwbock lahwran lb Learath2 Leeol3 leepa_ leptonix liato loops Lord_DeathMatch Lorn_ luminous luto madduck madprops Mamoru markvandenborre marlinc Mars` martinjlowm mattyohe md_5 mdd mdwright Mez mgc___ mh` mikepack_ milk milki minerale monokrome Morrolan mrapple NChief ndim nDuff negative273 Nemo7 nephyrin Neptu Nevik Nexen nicedice nick_h nicksloan niftylettuce NimeshNeema nitrix Noldorin notbrent___ nug700 nz ocut offby1 offbyone ohcibi olegp Orphis p3lim Parnic passcod PaulCapestany paulproteus pcarrier Peej Pengoo percival petisnnake petteyg phantomcircuit PhilK phuzion pigoz poutine prettyrobots primalmotion prismatictrail Proditor przemoc rafaqueque Ragnor randym_ Rarrikins Raynos rbuels redrocket Repelex rfoust rickruby Rickster rockfruit rodjek rofl____ rom1504 rush2end RyanD s0enke s_e safsdas sakkemo sayakb sayd sbryant ScottE scottrowe_ scrogson SebastianFlyte segy sent_hil_ sente sethe Seveas SeySayux sgkim126t shabble shentino shtirlic SicoWork SimonVT SirCmpwn SirFunk sitaktif skalnik skillz slicky smkelly sn0wb1rdz sonOfRa soulcake spiffxp_ Spockz sshirokov ssx stephanmg sticky|away strictlyb Striki stutter stwalkerster svaksha swebb synergye t_kjaergaard tallest_red Tectonic tfnico_ thedaniel thelamest TheMoonMaster thomasvs thot_ Tickle timeless tklun tlipcon TML tobias- toin0u tolland tomaw tomb_ ToothlessGear torjus trevor Twey twisted` txdv tystr tyteen4a03 unreal Villadelfia Vinnie_win vivekrai_ wcarss webdestroya weeb1e wereHams1er whoami Will| Winslow_ Woet wycats_ wykydtron XAMPP xhoy xoebus xrogaan Y_Ichiro yano yibe___ yosafbridge z z1mme Zackio Zauberfisch-idle Zeelot zerok Ziber zibri Zooklubba zorzar]
+2013-06-29 19:58:03	--	Channel #github: 424 nicks (3 ops, 0 halfops, 0 voices, 421 normals)
+2013-06-29 19:58:07	--	Mode #github [+nt]
+2013-06-29 19:58:08	--	Channel created on Sun, 10 Feb 2008 19:00:20
+2013-06-29 19:59:42	--	[krisbulman] is now known as krisbulman
+2013-06-29 20:00:21	<--	rafaqueque (~qq@bl13-139-130.dsl.telepac.pt) has quit (Remote host closed the connection)
+2013-06-29 20:19:40	--	irc: disconnected from server
+2013-06-29 20:20:26	-->	Mars` (~Mars`@c-67-180-10-135.hsd1.ca.comcast.net) has joined #github
+2013-06-29 20:20:26	--	Topic for #github is "Need help? http://github.com/contact | Service status updates at http://status.github.com/ and http://twitter.com/github | How-to guides at http://help.github.com"
+2013-06-29 20:20:26	--	Topic set by tekkub (~tekkub@WoWUIDev/WoWI/Featured/Dongle/GitHub/Tekkub) on Thu, 05 May 2011 01:46:09
+2013-06-29 20:20:26	--	Nicks #github: [@achiu @VxJasonxV @zerowidth _br_ _SaCu_ `Kevin aaearon aboudreault adhawkins-away adnap Aim airborn akoumjian albel727 Alenah AlexMax alexwhitman algesten Alina-malina AllStruck AmberJ Amrykid anaconda anildigital arielserafini arnihr asksol aslak asuka_ Atlas autumn bacilla badboy_ barneybook basic` bdavenport BeanDip_ beawesomeinstead ben_alman bengl_ bish0p BJfreeman bobmcw brainproxy brian-mann brianloveswords brunoro Bry8Star bryanl_ Caelum Caius calmyournerves canton7 carl_ Catie caveat- cbloss cgbystrom__ chadi cheese1756 Chillax chilversc chol ChrisAnn chrisdickinson chrisirc chrismear chuckharmston classix closer009 CodeShark cofeineSunshine Conjuro Contex_ cooper Cork crankyadmin_ csalazar_ cxreg cypher23 D3Vito D4RK-PH0ENiX dabear dankest DanKnox_away danlentz danmackay darjeeling DarthGandalf Davai davidboy dbussink DEADB33F defunctzombie_zz devdazed DKnox dleverton dmlloyd dmyers dna DonRichie DonVitoCorleone drager_ drags dreww_ ebouchut ec_ EdGruberman elliotf emmanuelux enhance EnTeQuAk epta esc EToS eventualbuddha EvilAww Exio faulkner ffio_ Fira firewyre Fli-c foca freeformz Freeyorp Frymaster garr gencha george2 ggherdov ghoti gitinfo gkatsev glennpratt goncalo_ Griwes GSpotAssassin Guest36897 guilleiguaran_ guilty_spark haarg hacfi hakunin HardDisk_WP hareth hatchetation heath heatxsink hekman_ heptal heroux herzi hexa2k9 heytrav HIGHBIT Hunner hush im0b imarcusthis- Industrial infernix Infininight infogulch introom invisiblek ivan\ ivey_off jab416171 jaeckel jaimef jalcine jamesfry- jan____ jarib jasonrm Jayflux JBreit jbub jds jefferai jeremyb jesseproulx_ jfinn jhford jinie_ jkyle joernchen johng johnlcox joki jonsowman joschi JPeterson jpfuentes2 jpnurmi jrgifford_ js_ JSharp jsmith_ JStoker jstout24 justinmburrous jwollert jwollert- jxriddle Kabaka kaictl kaitlyn Kaltiz Kamal_ kanzure kapowaz karnowski Karql kevinfagan khaase khaase_ kisielk kortti_ kossy krazyj krisbulman kwbock lahwran lb Learath2 Leeol3 leepa_ leptonix liato loops Lord_DeathMatch Lorn_ luminous luto madduck madprops Mamoru markvandenborre marlinc Mars` martinjlowm mattyohe md_5 mdd mdwright Mez mgc___ mh` mikepack_ milk milki minerale monokrome Morrolan mrapple NChief ndim nDuff Nemo7 nephyrin Neptu Nevik Nexen nicedice nick_h nicksloan niftylettuce NimeshNeema nitrix notbrent___ nug700 nz ocut odraencode offby1 offbyone ohcibi olegp Orphis p3lim Parnic passcod PaulCapestany paulproteus pcarrier Peej Pengoo percival petisnnake petteyg phantomcircuit PhilK phuzion pigoz poutine prettyrobots primalmotion prismatictrail Proditor przemoc Ragnor randym_ Rarrikins Raynos rbuels redrocket Repelex rfoust rickruby Rickster rockfruit rodjek rofl____ rom1504 rush2end RyanD s0enke s_e safsdas sakkemo sayakb sayd sbryant ScottE scottrowe_ scrogson SebastianFlyte segy sent_hil_ sente sethe Seveas SeySayux sgkim126t shabble shentino shtirlic SicoWork SimonVT SirCmpwn SirFunk sitaktif skalnik skillz slicky sn0wb1rdz sonOfRa soulcake spiffxp_ Spockz sshirokov ssx stephanmg sticky|away strax strictlyb Striki stutter stwalkerster svaksha swebb synergye t_kjaergaard tallest_red tfnico_ thedaniel thelamest TheMoonMaster thomasvs thot_ Tickle timeless tklun tlipcon TML tobias- toin0u tolland tomaw tomb_ ToothlessGear torjus trevor Twey twisted` txdv tystr tyteen4a03 unreal Villadelfia Vinnie_win vivekrai_ wcarss webdestroya weeb1e wereHams1er whoami Will| Winslow_ Woet wycats_ wykydtron XAMPP xhoy xoebus xrogaan Y_Ichiro yano yibe___ yosafbridge z z1mme Zackio Zauberfisch-idle Zeelot zerok Ziber zibri Zooklubba zorzar]
+2013-06-29 20:20:26	--	Channel #github: 422 nicks (3 ops, 0 halfops, 0 voices, 419 normals)
+2013-06-29 20:20:26	--	Notice(banks.freenode.net): [freenode-info] if you're at a conference and other people are having trouble connecting, please mention it to staff: http://freenode.net/faq.shtml#gettinghelp
+2013-06-29 20:20:32	--	Mode #github [+nt]
+2013-06-29 20:20:32	--	Channel created on Sun, 10 Feb 2008 19:00:20
+2013-06-29 20:21:43	-->	bret (~boot@50.7.8.106) has joined #github
+2013-06-29 20:23:14	 *	odraencode has been completely abandoned
+2013-06-29 20:24:46	-->	willwhite (~willwhite@c-71-206-49-7.hsd1.md.comcast.net) has joined #github
+2013-06-29 20:27:36	<--	Tickle (~hunter@c-98-253-186-186.hsd1.in.comcast.net) has quit (Quit: Tickle)
+2013-06-29 20:29:53	<--	mikepack_ (~mikepack@c-67-176-73-117.hsd1.co.comcast.net) has quit (Remote host closed the connection)
+2013-06-29 20:30:21	-->	mikepack (~mikepack@c-67-176-73-117.hsd1.co.comcast.net) has joined #github
+2013-06-29 20:30:59	-->	skilledone (~skillz@pool-108-18-101-197.washdc.fios.verizon.net) has joined #github
+2013-06-29 20:32:56	<--	skillz (~skillz@pool-108-18-101-197.washdc.fios.verizon.net) has quit (Ping timeout: 246 seconds)
+2013-06-29 20:33:56	odraencode	Hmm
+2013-06-29 20:34:01	odraencode	I can't push
+2013-06-29 20:34:23	odraencode	Since i obliterated my history and it doesn't match anything in the remote repo anymore it doesn't want to push :(
+2013-06-29 20:35:39	<--	mikepack (~mikepack@c-67-176-73-117.hsd1.co.comcast.net) has quit (Ping timeout: 276 seconds)
+2013-06-29 20:37:12	<--	tomb_ (~tombell@188-220-216-182.zone11.bethere.co.uk) has quit (Quit: My MacBook Pro has gone to sleep. ZZZzzz…)
+2013-06-29 20:40:34	--	krisbulman is now known as [krisbulman]
+2013-06-29 20:43:29	-->	mikepack (~mikepack@c-67-176-73-117.hsd1.co.comcast.net) has joined #github
+2013-06-29 20:56:30	--	irc: disconnected from server
+2013-06-29 20:57:16	-->	Mars` (~Mars`@c-67-180-10-135.hsd1.ca.comcast.net) has joined #github
+2013-06-29 20:57:16	--	Topic for #github is "Need help? http://github.com/contact | Service status updates at http://status.github.com/ and http://twitter.com/github | How-to guides at http://help.github.com"
+2013-06-29 20:57:16	--	Topic set by tekkub (~tekkub@WoWUIDev/WoWI/Featured/Dongle/GitHub/Tekkub) on Thu, 05 May 2011 01:46:09
+2013-06-29 20:57:16	--	Nicks #github: [@achiu @VxJasonxV @zerowidth [krisbulman] _br_ _SaCu_ `Kevin aaearon aboudreault adhawkins-away adnap Aim airborn akoumjian albel727 Alenah AlexMax alexwhitman algesten Alina-malina AllStruck AmberJ Amrykid anaconda anildigital arielserafini arnihr asksol aslak asuka_ Atlas autumn bacilla badboy_ barneybook basic` bdavenport BeanDip_ beawesomeinstead ben_alman bengl_ bish0p BJfreeman bobmcw brainproxy bret brian-mann brianloveswords brunoro Bry8Star bryanl_ Caelum Caius calmyournerves canton7 carl_ Catie caveat- cbloss cgbystrom__ chadi cheese1756 Chillax chilversc chol ChrisAnn chrisdickinson chrisirc chrismear chuckharmston classix closer009 CodeShark cofeineSunshine Conjuro Contex_ cooper Cork crankyadmin_ csalazar_ cxreg cypher23 D3Vito D4RK-PH0ENiX dabear dankest DanKnox_away danlentz danmackay darjeeling DarthGandalf Davai davidboy dbussink DEADB33F defunctzombie_zz devdazed DKnox dleverton dmlloyd dmyers dna DonRichie DonVitoCorleone drager_ drags dreww_ ebouchut ec_ EdGruberman elliotf emmanuelux enhance EnTeQuAk epta esc EToS eventualbuddha EvilAww Exio faulkner ffio_ Fira firewyre Fli-c foca freeformz Freeyorp Frymaster garr gencha george2 ggherdov ghoti gitinfo gkatsev glennpratt goncalo_ Griwes GSpotAssassin Guest36897 guilleiguaran_ guilty_spark haarg hacfi hakunin HardDisk_WP hareth hatchetation heath heatxsink hekman_ heptal heroux herzi hexa2k9 heytrav HIGHBIT Hunner hush im0b imarcusthis- Industrial infernix Infininight infogulch introom invisiblek ivan\ ivey_off jab416171 jaeckel jaimef jalcine jamesfry- jan____ jarib jasonrm Jayflux JBreit jbub jds jefferai jeremyb jesseproulx_ jfinn jhford jinie_ jkyle joernchen johng johnlcox joki jonsowman joschi JPeterson jpnurmi jrgifford_ js_ JSharp jsmith_ JStoker jstout24 justinmburrous jwollert jwollert- jxriddle Kabaka kaictl kaitlyn Kaltiz Kamal_ kanzure kapowaz karnowski Karql kevinfagan khaase khaase_ kisielk kortti_ kossy krazyj kwbock lahwran lb Learath2 Leeol3 leepa_ leptonix liato loops Lord_DeathMatch Lorn_ luminous luto madduck madprops Mamoru markvandenborre marlinc Mars` martinjlowm mattyohe md_5 mdd mdwright Mez mgc___ mh` mikepack milk milki minerale monokrome Morrolan mrapple NChief ndim nDuff Nemo7 nephyrin Neptu Nevik Nexen nicedice nick_h nicksloan niftylettuce NimeshNeema nitrix notbrent___ nug700 nz ocut odraencode offby1 offbyone ohcibi olegp Orphis p3lim Parnic passcod PaulCapestany paulproteus pcarrier Peej Pengoo percival petisnnake petteyg phantomcircuit PhilK phuzion pigoz poutine prettyrobots primalmotion prismatictrail Proditor przemoc Ragnor randym_ Rarrikins Raynos rbuels redrocket Repelex rfoust rickruby Rickster rockfruit rodjek rofl____ rom1504 rush2end RyanD s0enke s_e safsdas sakkemo sayakb sayd sbryant ScottE scottrowe_ scrogson SebastianFlyte segy sent_hil_ sente sethe Seveas SeySayux sgkim126t shabble shentino shtirlic SicoWork SimonVT SirCmpwn SirFunk sitaktif skalnik skilledone slicky sn0wb1rdz sonOfRa soulcake spiffxp_ Spockz sshirokov ssx stephanmg sticky|away strax strictlyb Striki stutter stwalkerster svaksha swebb synergye t_kjaergaard tallest_red tfnico_ thedaniel thelamest TheMoonMaster thomasvs thot_ timeless tklun tlipcon TML tobias- toin0u tolland tomaw ToothlessGear torjus trevor Twey twisted` txdv tystr tyteen4a03 unreal Villadelfia Vinnie_win vivekrai_ wcarss webdestroya weeb1e wereHams1er whoami willwhite Will| Winslow_ Woet wycats_ wykydtron XAMPP xhoy xoebus xrogaan Y_Ichiro yano yibe___ yosafbridge z z1mme Zackio Zauberfisch-idle Zeelot zerok Ziber zibri Zooklubba zorzar]
+2013-06-29 20:57:16	--	Channel #github: 421 nicks (3 ops, 0 halfops, 0 voices, 418 normals)
+2013-06-29 20:57:22	--	Mode #github [+nt]
+2013-06-29 20:57:22	--	Channel created on Sun, 10 Feb 2008 19:00:20
+2013-06-29 21:00:01	<--	mikepack (~mikepack@c-67-176-73-117.hsd1.co.comcast.net) has quit (Remote host closed the connection)
+2013-06-29 21:00:29	-->	mikepack (~mikepack@c-67-176-73-117.hsd1.co.comcast.net) has joined #github
+2013-06-29 21:05:09	<--	mikepack (~mikepack@c-67-176-73-117.hsd1.co.comcast.net) has quit (Ping timeout: 252 seconds)
+2013-06-29 21:05:33	<--	Rarrikins (~Rarrikins@unaffiliated/rarrikins) has quit (Quit: Lost terminal)
+2013-06-29 21:07:06	<--	odraencode (~odra@177.188.20.23) has quit (Quit: Sleep probably)
+2013-06-29 21:08:23	-->	pirho (~pirho@124-150-79-1.dyn.iinet.net.au) has joined #github
+2013-06-29 21:11:39	-->	Tectonic (~tectonic@c-24-5-40-149.hsd1.ca.comcast.net) has joined #github
+2013-06-29 21:13:12	-->	negative273 (~negative2@108-233-126-107.lightspeed.sntcca.sbcglobal.net) has joined #github
+2013-06-29 21:36:54	--	irc: disconnected from server
+2013-06-29 21:38:40	-->	Mars` (~Mars`@c-67-180-10-135.hsd1.ca.comcast.net) has joined #github
+2013-06-29 21:38:40	--	Topic for #github is "Need help? http://github.com/contact | Service status updates at http://status.github.com/ and http://twitter.com/github | How-to guides at http://help.github.com"
+2013-06-29 21:38:40	--	Topic set by tekkub (~tekkub@WoWUIDev/WoWI/Featured/Dongle/GitHub/Tekkub) on Thu, 05 May 2011 01:46:09
+2013-06-29 21:38:41	--	Nicks #github: [@achiu @VxJasonxV @zerowidth [krisbulman] _br_ _SaCu_ `Kevin aaearon aboudreault adhawkins-away adnap Aim airborn akoumjian albel727 Alenah AlexMax alexwhitman algesten Alina-malina AllStruck AmberJ Amrykid anaconda anildigital arielserafini arnihr asksol aslak asuka_ Atlas autumn bacilla badboy_ barneybook basic` bdavenport BeanDip_ beawesomeinstead ben_alman bengl_ bish0p BJfreeman bobmcw brainproxy brian-mann brianloveswords brunoro Bry8Star bryanl_ Caelum Caius calmyournerves canton7 carl_ Catie caveat- cbloss cgbystrom__ chadi cheese1756 Chillax chilversc chol ChrisAnn chrisdickinson chrisirc chrismear chuckharmston classix closer009 CodeShark cofeineSunshine Conjuro Contex_ cooper Cork crankyadmin_ csalazar_ cxreg cypher23 D3Vito D4RK-PH0ENiX dabear dankest DanKnox_away danlentz danmackay DarthGandalf Davai davidboy dbussink DEADB33F defunctzombie_zz devdazed DKnox dleverton dmlloyd dmyers dna DonRichie DonVitoCorleone drager_ drags dreww_ ebouchut ec_ EdGruberman elliotf emmanuelux enhance EnTeQuAk epta esc EToS eventualbuddha EvilAww Exio faulkner ffio_ Fira firewyre Fli-c foca freeformz Freeyorp Frymaster garr gencha george2 ggherdov ghoti gitinfo gkatsev glennpratt goncalo_ Griwes GSpotAssassin Guest36897 guilleiguaran_ guilty_spark haarg hacfi hakunin HardDisk_WP hareth hatchetation heath heatxsink hekman_ heptal heroux herzi hexa2k9 heytrav HIGHBIT Hunner hush im0b imarcusthis- Industrial infernix Infininight infogulch introom invisiblek ivan\ ivey_off jab416171 jaeckel jaimef jalcine jamesfry- jan____ jarib jasonrm Jayflux JBreit jbub jds jefferai jeremyb jesseproulx_ jfinn jhford jinie_ jkyle joernchen johng johnlcox joki jonsowman joschi JPeterson jpnurmi jrgifford_ js_ JSharp jsmith_ JStoker jstout24 justinmburrous jwollert jwollert- jxriddle Kabaka kaictl kaitlyn Kaltiz Kamal_ kanzure kapowaz karnowski Karql kevinfagan khaase khaase_ kisielk kortti_ kossy krazyj kwbock lahwran lb Learath2 Leeol3 leepa_ leptonix liato loops Lord_DeathMatch Lorn_ luminous luto madduck madprops Mamoru markvandenborre marlinc Mars` martinjlowm mattyohe md_5 mdd mdwright Mez mgc___ mh` milk milki minerale monokrome Morrolan mrapple NChief ndim nDuff negative273 Nemo7 nephyrin Neptu Nevik Nexen nicedice nick_h nicksloan niftylettuce NimeshNeema nitrix notbrent___ nug700 nz ocut offby1 offbyone ohcibi olegp Orphis p3lim Parnic passcod PaulCapestany paulproteus pcarrier PCChris Peej Pengoo percival petisnnake petteyg phantomcircuit PhilK phuzion pigoz pirho poutine prettyrobots primalmotion prismatictrail Proditor przemoc Ragnor randym_ Raynos rbuels redrocket Repelex rfoust rickruby Rickster rockfruit rodjek rofl____ rom1504 rush2end RyanD s0enke s_e safsdas sakkemo sayakb sayd sbryant ScottE scottrowe_ scrogson SebastianFlyte segy sent_hil_ sente sethe Seveas SeySayux sgkim126t shabble shentino shtirlic SicoWork SimonVT SirCmpwn SirFunk sitaktif skalnik skilledone slicky sn0wb1rdz sonOfRa soulcake spiffxp_ Spockz sshirokov ssx stephanmg sticky|away strax strictlyb Striki stutter stwalkerster svaksha swebb synergye t_kjaergaard tallest_red Tectonic tfnico_ thedaniel thelamest TheMoonMaster thomasvs thot_ timeless tklun tlipcon TML tobias- toin0u tolland tomaw ToothlessGear torjus trevor Twey twisted` txdv tystr tyteen4a03 unreal Villadelfia Vinnie_win vivekrai_ wcarss webdestroya weeb1e wereHams1er whoami willwhite Will| Winslow_ Woet wycats_ wykydtron XAMPP xhoy xoebus xrogaan Y_Ichiro yano yibe___ yosafbridge z z1mme Zackio zacts Zauberfisch-idle Zeelot zerok Ziber zibri Zooklubba zorzar]
+2013-06-29 21:38:41	--	Channel #github: 421 nicks (3 ops, 0 halfops, 0 voices, 418 normals)
+2013-06-29 21:38:46	--	Mode #github [+nt]
+2013-06-29 21:38:47	--	Channel created on Sun, 10 Feb 2008 19:00:20
+2013-06-29 21:39:50	-->	bret (~boot@50.7.8.106) has joined #github
+2013-06-29 21:42:19	<--	willwhite (~willwhite@c-71-206-49-7.hsd1.md.comcast.net) has quit (Remote host closed the connection)
+2013-06-29 21:50:49	-->	djbkd (~djbkd@64.202.160.233) has joined #github
+2013-06-29 21:52:12	<--	BJfreeman (~bjfree@95.sub-75-233-8.myvzw.com) has quit (Ping timeout: 252 seconds)
+2013-06-29 21:54:07	-->	guideX (~guidex@71-94-138-127.static.mtpk.ca.charter.com) has joined #github
+2013-06-29 21:56:17	<--	Tectonic (~tectonic@c-24-5-40-149.hsd1.ca.comcast.net) has quit (Quit: Tectonic)
+2013-06-29 21:59:17	<--	PCChris (~Chris@c-71-205-245-5.hsd1.mi.comcast.net) has quit (Quit: Leaving)
+2013-06-29 22:03:56	-->	ghs (~gustavo@unaffiliated/ghs) has joined #github
+2013-06-29 22:04:16	ghs	Hi! Can someone me help to put codes at GitHub ?
+2013-06-30 02:16:14	--	irc: disconnected from server
+2013-06-30 02:16:59	-->	Mars` (~Mars`@c-67-180-10-135.hsd1.ca.comcast.net) has joined #github
+2013-06-30 02:16:59	--	Topic for #github is "Need help? http://github.com/contact | Service status updates at http://status.github.com/ and http://twitter.com/github | How-to guides at http://help.github.com"
+2013-06-30 02:16:59	--	Topic set by tekkub (~tekkub@WoWUIDev/WoWI/Featured/Dongle/GitHub/Tekkub) on Thu, 05 May 2011 01:46:09
+2013-06-30 02:17:00	--	Nicks #github: [@achiu @VxJasonxV @zerowidth _br_ _ffio_ _SaCu_ `Kevin aaearon aboudreault adhawkins-away adnap Aim airborn akoumjian albel727 AlbireoX Alenah AlexMax alexwhitman algesten Alina-malina AllStruck AmberJ Amrykid anaconda anildigital arielserafini arnihr asksol aslak asuka_ Atlas autumn bacilla badboy_ basic` BeanDip_ beawesomeinstead ben_alman bengl_ bish0p bobmcw brainproxy bret brian-mann brianloveswords Bry8Star bryanl_ Caelum Caius calmyournerves canton7 carl_ Catie caveat- cbloss cgbystrom__ chadi cheese1756 Chillax chilversc chol ChrisAnn chrisdickinson chrisirc chrismear chuckharmston classix closer009 CodeShark cofeineSunshine Conjuro Contex_ cooper Cork crankyadmin_ csalazar_ cxreg cypher23 D3Vito dabear dankest DanKnox_away danlentz danmackay DarthGandalf Davai__ davidboy dbussink DEADB33F defunctzombie_zz devdazed djbkd DKnox dleverton dmlloyd dmyers dna DonRichie DonVitoCorleone drager_ drags dreww_ ebouchut ec_ EdGruberman elliotf emmanuelux enhance EnTeQuAk epta esc EToS eventualbuddha EvilAww Exio exoon faulkner Fira firewyre Fli-c foca freeformz Freeyorp Frymaster garr gencha george2 ggherdov ghoti gitinfo gkatsev glennpratt goncalo_ Griwes GSpotAssassin Guest36897 guilleiguaran_ guilty_spark haarg hacfi hakunin HardDisk_WP hareth hatchetation heath heatxsink hekman_ heptal heroux herzi hexa2k9 heytrav HIGHBIT Hunner hush im0b imarcusthis- Industrial infernix Infininight infogulch invisiblek ivan\ ivey_off jab416171 Jackneill jaeckel jaimef jalcine jamesfry- jan____ jarib jasonrm Jayflux JBreit jbub jds jefferai jeremyb jesseproulx_ jfinn jhford jinie_ jkyle joernchen johng johnlcox joki jonsowman joschi JPeterson jpnurmi jrgifford_ js_ JSharp jsmith_ JStoker jstout24 justinmburrous jwollert jwollert- jxriddle Kabaka kaictl kaitlyn Kaltiz Kamal_ kanzure kapowaz karnowski Karql kevinfagan khaase khaase_ kisielk kleinweby kortti_ kossy krazyj krisbulman kwbock lahwran lb Learath2 Leeol2 leepa_ leptonix liato loops Lord_DeathMatch Lorn_ luminous luto madduck madprops Mamoru markvandenborre marlinc Mars` martinjlowm mattyohe md_5 mdd mdwright Mez mgc___ mh` milk milki minerale monokrome Morrolan mrapple NChief ndim nDuff nephyrin Neptu Nevik Nexen nicedice nick_h nicksloan niftylettuce NimeshNeema nitrix notbrent___ nz ocut offby1 offbyone ohcibi olegp one_zero Orphis Parnic passcod paulproteus pcarrier Peej Pengoo percival petisnnake petteyg phantomcircuit PhilK phuzion pigoz ping__ poutine prettyrobots primalmotion prismatictrail Proditor przemoc Ragnor randym_ Raynos rbuels redrocket rfoust Rickster rockfruit rodjek rofl____ rom1504 rush2end RyanD s0enke s_e safsdas sakkemo sayakb sayd sbryant ScottE scottrowe_ scrogson SebastianFlyte segy sent_hil_ sente sethe Seveas SeySayux sgkim126t shabble shentino shtirlic SicoWork SimonVT SirCmpwn sirdancealo2 SirFunk sitaktif skalnik skilledone slicky sn0wb1rdz sonOfRa soulcake spiffxp_ Spockz sshirokov ssx stephanmg stickyboy strax strictlyb Striki stutter stwalkerster svaksha swebb synergye t_kjaergaard tallest_red tfnico_ thelamest TheMoonMaster thomasvs thot_ timeless tklun tlipcon TML tobias- toin0u tolland tomaw ToothlessGear torjus trevor Twey twisted` txdv tystr tyteen4a03 unreal Villadelfia Vinnie_win vivekrai_ wcarss webdestroya weeb1e wereHams1er whoami Will| Winslow_ Woet wycats_ wykydtron XAMPP xhoy xoebus xrogaan Y_Ichiro yano yibe___ yosafbridge z z1mme Zackio Zauberfisch-idle Zeelot zerok Ziber zibri Zooklubba zorzar]
+2013-06-30 02:17:00	--	Channel #github: 411 nicks (3 ops, 0 halfops, 0 voices, 408 normals)
+2013-06-30 02:17:07	--	Mode #github [+nt]
+2013-06-30 02:17:07	--	Channel created on Sun, 10 Feb 2008 19:00:20
+2013-06-30 02:18:59	-->	Nemo7 (~nemo@unaffiliated/nemo7) has joined #github
+2013-06-30 02:19:45	-->	_BJFreeman (~bjfree@96.sub-75-244-148.myvzw.com) has joined #github
+2013-06-30 02:20:55	--	_BJFreeman is now known as BJfreeman
+2013-06-30 02:23:47	-->	dranov (~dranov@92.80.255.172) has joined #github
+2013-06-30 02:23:54	-->	Sigma (~yann@unaffiliated/sigma) has joined #github
+2013-06-30 02:24:02	-->	_BJFreeman (~bjfree@39.sub-75-196-1.myvzw.com) has joined #github
+2013-06-30 02:25:04	--	BJfreeman is now known as Guest22985
+2013-06-30 02:25:14	--	_BJFreeman is now known as BJfreeman
+2013-06-30 02:25:20	<--	Guest22985 (~bjfree@96.sub-75-244-148.myvzw.com) has quit (Ping timeout: 252 seconds)
+2013-06-30 02:25:51	<--	kleinweby (~textual@unaffiliated/kleinweby) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-06-30 02:26:21	<--	djbkd (~djbkd@64.202.160.233) has quit (Quit: Leaving)
+2013-06-30 02:28:46	-->	edoop (~user3023@95.234.197.163) has joined #github
+2013-06-30 02:31:30	-->	Xano (~bart@524BD713.cm-4-4d.dynamic.ziggo.nl) has joined #github
+2013-06-30 02:32:35	-->	kcj (~casey@unaffiliated/kcj) has joined #github
+2013-06-30 02:36:23	<--	yibe___ (~yibe@163.43.161.140) has quit (Quit: Tiarra 0.1+svn-36726: SIGTERM received; exit)
+2013-06-30 02:39:11	-->	D4RK-PH0ENiX (~D4RK-PH0E@129.134.232.202.bf.2iij.net) has joined #github
+2013-06-30 02:39:14	--	stickyboy is now known as sticky|away
+2013-06-30 02:43:01	-->	thedaniel (~thedaniel@cpe-75-85-15-227.socal.res.rr.com) has joined #github
+2013-06-30 02:43:05	-->	yibe (~yibe@192.241.193.63) has joined #github
+2013-06-30 02:43:09	-->	pirho (~pirho@124-150-79-1.dyn.iinet.net.au) has joined #github
+2013-06-30 02:43:51	<--	pirho (~pirho@124-150-79-1.dyn.iinet.net.au) has quit (Read error: Connection reset by peer)
+2013-06-30 02:44:07	-->	pirho (~pirho@124-150-79-1.dyn.iinet.net.au) has joined #github
+2013-06-30 02:44:07	<--	yibe (~yibe@192.241.193.63) has quit (Client Quit)
+2013-06-30 02:45:55	-->	Protux (~Protux@abo-57-129-68.bdx.modulonet.fr) has joined #github
+2013-06-30 02:47:51	-->	yibe (~yibe@192.241.193.63) has joined #github
+2013-06-30 02:49:44	-->	thedanie_ (~thedaniel@cpe-75-85-15-227.socal.res.rr.com) has joined #github
+2013-06-30 02:50:12	<--	thedaniel (~thedaniel@cpe-75-85-15-227.socal.res.rr.com) has quit (Read error: Connection reset by peer)
+2013-06-30 02:50:49	<--	thedanie_ (~thedaniel@cpe-75-85-15-227.socal.res.rr.com) has quit (Remote host closed the connection)
+2013-06-30 02:51:48	<--	Zackio (morpheus@unaffiliated/matrixiumn) has quit (Quit: WeeChat 0.4.2-dev)
+2013-06-30 02:52:28	-->	Davey (~Davey@orchestra/staff/Davey) has joined #github
+2013-06-30 02:52:32	-->	Zackio (morpheus@unaffiliated/matrixiumn) has joined #github
+2013-06-30 02:52:52	<--	edoop (~user3023@95.234.197.163) has quit (Remote host closed the connection)
+2013-06-30 04:04:19	--	irc: disconnected from server
+2013-06-30 04:05:06	-->	Mars` (~Mars`@c-67-180-10-135.hsd1.ca.comcast.net) has joined #github
+2013-06-30 04:05:06	--	Topic for #github is "Need help? http://github.com/contact | Service status updates at http://status.github.com/ and http://twitter.com/github | How-to guides at http://help.github.com"
+2013-06-30 04:05:06	--	Topic set by tekkub (~tekkub@WoWUIDev/WoWI/Featured/Dongle/GitHub/Tekkub) on Thu, 05 May 2011 01:46:09
+2013-06-30 04:05:06	--	Nicks #github: [@achiu @VxJasonxV @zerowidth [krisbulman] _br_ _ffio_ _SaCu_ `Kevin aaearon aboudreault adhawkins-away adnap Aim airborn akoumjian albel727 AlbireoX Alenah AlexMax alexwhitman algesten Alina-malina AllStruck AmberJ Amrykid anaconda anildigital arielserafini arnihr asksol aslak asuka_ Atlas autumn bacilla badboy_ basic` BeanDip_ beawesomeinstead ben_alman bengl_ bish0p bobmcw brainproxy bret brian-mann brianloveswords Bry8Star bryanl_ Caelum Caius calmyournerves canton7 carl_ Catie caveat- cbloss cgbystrom__ chadi cheese1756 Chillax chilversc chol ChrisAnn chrisdickinson chrisirc chrismear chuckharmston classix closer009 CodeShark cofeineSunshine Conjuro Contex_ cooper Cork crankyadmin_ csalazar_ cxreg cypher23 D3Vito D4RK-PH0ENiX dabear dankest DanKnox_away danlentz danmackay DarthGandalf Davai__ davidboy dbussink DEADB33F defunctzombie_zz devdazed DKnox dleverton dmlloyd dmyers dna DonRichie DonVitoCorleone drager_ drags dreww_ ebouchut ec_ EdGruberman elliotf emmanuelux enhance EnTeQuAk epta esc EToS eventualbuddha EvilAww Exio exoon faulkner Fira firewyre Fli-c foca freeformz Freeyorp Frymaster garr gencha george2 ggherdov ghoti gitinfo gkatsev glennpratt goncalo_ Griwes GSpotAssassin Guest36897 guilleiguaran_ guilty_spark haarg hacfi hakunin HardDisk_WP hareth hatchetation heath heatxsink hekman_ heptal heroux herzi hexa2k9 heytrav HIGHBIT Hunner hush im0b imarcusthis- Industrial infernix Infininight infogulch invisiblek ivan\ ivey_off jab416171 Jackneill jaeckel jaimef jalcine jamesfry- jan____ jarib jasonrm Jayflux JBreit jbub jds jefferai jeremyb jesseproulx_ jfinn jhford jinie_ jkyle joernchen johng johnlcox joki jonsowman joschi JPeterson jpnurmi jrgifford_ js_ JSharp jsmith_ JStoker jstout24 justinmburrous jwollert jwollert- jxriddle Kabaka kaictl kaitlyn Kaltiz Kamal_ kanzure kapowaz karnowski Karql kcj kevinfagan khaase khaase_ kisielk kortti_ kossy krazyj kwbock lahwran lb Learath2 Leeol2 leepa_ leptonix liato loops Lord_DeathMatch Lorn_ luminous luto madduck madprops Mamoru markvandenborre marlinc Mars` martinjlowm mattyohe md_5 mdd mdwright Mez mgc___ mh` milk milki minerale monokrome Morrolan mrapple NChief ndim ndngvr nDuff Nemo7 nephyrin Neptu Nevik Nexen nicedice nick_h nicksloan niftylettuce NimeshNeema nitrix notbrent___ nz ocut offby1 offbyone ohcibi olegp one_zero Orphis Parnic passcod paulproteus pcarrier Peej Pengoo percival petisnnake petteyg phantomcircuit PhilK phuzion pigoz pirho poutine prettyrobots primalmotion prismatictrail Proditor Protux przemoc Ragnor randym_ Raynos rbuels redrocket rfoust rickruby Rickster rockfruit rodjek rofl____ rom1504 rush2end RyanD s-h s0enke s_e safsdas sakkemo sayakb sayd sbryant ScottE scottrowe_ scrogson SebastianFlyte segy sent_hil_ sente sethe Seveas SeySayux sgkim126t shabble shentino shtirlic SicoWork SimonVT SirCmpwn sirdancealo2 SirFunk sitaktif skalnik skilledone slicky sn0wb1rdz sonOfRa soulcake spiffxp_ Spockz sshirokov ssx stephanmg stickyboy strax strictlyb Striki stutter stwalkerster svaksha swebb synergye t_kjaergaard tallest_red tfnico_ thelamest TheMoonMaster thomasvs thot_ timeless tklun tlipcon TML tobias- toin0u tolland tomaw ToothlessGear torjus trevor Twey twisted` txdv tystr tyteen4a03 unreal Villadelfia Vinnie_win vivekrai_ wcarss webdestroya weeb1e wereHams1er whoami Will| Winslow_ Woet wycats_ wykydtron XAMPP Xano xhoy xoebus xrogaan Y_Ichiro yano yibe yosafbridge z z1mme Zackio Zauberfisch-idle Zeelot zerok Ziber zibri Zooklubba zorzar]
+2013-06-30 04:05:06	--	Channel #github: 417 nicks (3 ops, 0 halfops, 0 voices, 414 normals)
+2013-06-30 04:05:16	--	Mode #github [+nt]
+2013-06-30 04:05:16	--	Channel created on Sun, 10 Feb 2008 19:00:20
+2013-06-30 12:07:36	--	irc: disconnected from server
+2013-06-30 12:08:20	-->	Mars` (~Mars`@c-67-180-10-135.hsd1.ca.comcast.net) has joined #github
+2013-06-30 12:08:20	--	Topic for #github is "Need help? http://github.com/contact | Service status updates at http://status.github.com/ and http://twitter.com/github | How-to guides at http://help.github.com"
+2013-06-30 12:08:20	--	Topic set by tekkub (~tekkub@WoWUIDev/WoWI/Featured/Dongle/GitHub/Tekkub) on Thu, 05 May 2011 01:46:09
+2013-06-30 12:08:21	--	Nicks #github: [@achiu @VxJasonxV @zerowidth [krisbulman] _br_ _ffio_ _SaCu_ `Kevin aaearon aboudreault adhawkins-away adnap AdrienBrault Aim airborn akoumjian albel727 Alenah AlexMax alexwhitman algesten Alina-malina AllStruck AmberJ Amrykid anaconda anildigital arielserafini arnihr asksol aslak asuka_ Atlas autumn bacilla badboy_ barneybook basic` BeanDip_ beawesomeinstead ben_alman bengl_ bish0p bobmcw brainproxy bret brian-mann brianloveswords brunoro Bry8Star bryanl_ Caelum Caius calmyournerves canton7 carl_ Catie caveat- cbloss cgbystrom__ chadi cheese1756 Chillax chilversc chol ChrisAnn chrisdickinson chrisirc chrismear chuckharmston classix closer009 cofeineSunshine Conjuro Contex_ cooper Cork crankyadmin_ csalazar_ cxreg cypher23 D3Vito D4RK-PH0ENiX dabear DanKnox_away danlentz danmackay DarthGandalf Davai__ davidboy dbussink DEADB33F defunctzombie_zz devdazed DKnox dleverton dmlloyd dmyers dna DonRichie DonVitoCorleone drager_ drags dranov dreww_ ebouchut ec_ EdGruberman elliotf emmanuelux enhance EnTeQuAk epta esc EToS eventualbuddha EvilAww Exio faulkner Fira firewyre Fli-c foca freeformz Freeyorp Frymaster garr gencha george2 ggherdov ghoti gitinfo gkatsev glennpratt goncalo_ Griwes GSpotAssassin GT4066 Guest36897 guilleiguaran_ guilty_spark haarg hacfi hakunin HardDisk_WP hareth hatchetation heath heatxsink hekman_ HenningJ heptal heroux herzi hexa2k9 heytrav HIGHBIT Hunner hush im0b imarcusthis- imsky Industrial Infininight infogulch invisiblek ivan\ ivey_off jab416171 Jackneill jaeckel jaimef jakehow jalcine jamesfry- jan____ jarib jasonrm JBreit jbub jds jefferai jeremyb jesseproulx_ jfinn jhford jinie_ jkyle joernchen johng johnlcox joki jonsowman joschi JPeterson jpnurmi jrgifford_ js_ JSharp jsmith_ JStoker jstout24 justinmburrous jwollert jwollert- jxriddle Kabaka kaictl kaitlyn Kaltiz Kamal_ kanzure kapowaz karnowski Karql kevinfagan khaase khaase_ kisielk kleinweby kortti_ kossy krazyj kwbock lahwran lb Learath2 Leeol2 leepa_ leptonix liato loops Lord_DeathMatch Lorn_ luminous luto maddenwg madduck madprops Mamoru markvandenborre marlinc Mars` martinjlowm mattyohe md_5 mdd mdwright Mez mgaunard mgc___ mh` milk milki minerale mloskot monokrome Morrolan mrapple NChief ndim ndngvr nDuff Nemo7 nephyrin Neptu Nevik Nexen nicedice nick_h nicksloan niftylettuce NimeshNeema nitrix Noldorin notbrent___ nug700 nz ocut offby1 offbyone ohcibi Orphis p3lim Parnic passcod PaulCapestany paulproteus pcarrier Peej Pengoo percival petisnnake petteyg phantomcircuit PhilK phuzion pigoz pirho poutine prettyrobots primalmotion prismatictrail private Proditor przemoc rafaqueque Ragnor randym_ Raynos rbuels redrocket rfoust Rickster rihnapstor rockfruit rodjek rofl____ rom1504 rush2end RyanD s-h s0enke s_e safsdas sakkemo SamWhited sayakb sayd sbryant ScottE scottrowe_ scrogson SebastianFlyte segy sent_hil_ sente sethe Seveas SeySayux sgkim126t shabble shentino shtirlic SicoWork Sigma SimonVT SirCmpwn sirdancealo2 SirFunk sitaktif skalnik skilledone slicky sn0wb1rdz sonOfRa soulcake spiffxp_ Spockz sshirokov ssx stephanmg stickyboy strictlyb Striki stutter stwalkerster svaksha swebb synergye t_kjaergaard tallest_red tfnico_ thedaniel thelamest TheMoonMaster thomasvs thot_ timeless tklun tlipcon TML tobias- toin0u tolland tomaw TomyLobo ToothlessGear torjus trevor Twey twisted` txdv tystr tyteen4a03 unreal Villadelfia Vinnie_win vivekrai_ wcarss webdestroya weeb1e wereHams1er whoami Will| Winslow_ Woet wycats_ wykydtron XAMPP XAMPP-8 Xano xhoy xoebus xrogaan Y_Ichiro yano yibe yosafbridge z z1mme Zackio Zauberfisch Zeelot zerok Ziber zibri Zooklubba zorzar]
+2013-06-30 12:08:21	--	Channel #github: 429 nicks (3 ops, 0 halfops, 0 voices, 426 normals)
+2013-06-30 12:08:26	--	Mode #github [+nt]
+2013-06-30 12:08:26	--	Channel created on Sun, 10 Feb 2008 19:00:20
+2013-06-30 12:10:00	-->	flashpixx (~Adium@p4FC622B6.dip0.t-ipconnect.de) has joined #github
+2013-06-30 12:10:33	<--	flashpixx (~Adium@p4FC622B6.dip0.t-ipconnect.de) has left #github
+2013-06-30 12:11:14	-->	justinmb_ (~justinmbu@c-50-138-251-114.hsd1.ct.comcast.net) has joined #github
+2013-06-30 12:12:16	<--	Sigma (~yann@unaffiliated/sigma) has quit (Ping timeout: 246 seconds)
+2013-06-30 12:12:19	-->	TripTastic (~Trip@72.25.42.29) has joined #github
+2013-06-30 12:12:29	-->	infernix (nix@unaffiliated/infernix) has joined #github
+2013-06-30 12:13:06	<--	JBreit (~Trip@h107.16.25.72.dynamic.ip.windstream.net) has quit (Ping timeout: 248 seconds)
+2013-06-30 12:13:30	--	TripTastic is now known as JBreit
+2013-06-30 12:14:56	<--	justinmburrous (~justinmbu@moloch.espn.com) has quit (Ping timeout: 264 seconds)
+2013-06-30 12:15:25	<--	thedaniel (~thedaniel@cpe-75-85-15-227.socal.res.rr.com) has quit (Remote host closed the connection)
+2013-06-30 12:17:14	<--	infernix (nix@unaffiliated/infernix) has quit (Ping timeout: 245 seconds)
+2013-06-30 12:17:36	-->	brennanMKE (~brennanMK@2600:1008:b109:a510:c0da:25c3:61fc:ba68) has joined #github
+2013-06-30 13:28:25	--	irc: disconnected from server
+2013-06-30 18:46:35	-->	Mars` (~Mars`@c-67-180-10-135.hsd1.ca.comcast.net) has joined #github
+2013-06-30 18:46:35	--	Topic for #github is "Need help? http://github.com/contact | Service status updates at http://status.github.com/ and http://twitter.com/github | How-to guides at http://help.github.com"
+2013-06-30 18:46:35	--	Topic set by tekkub (~tekkub@WoWUIDev/WoWI/Featured/Dongle/GitHub/Tekkub) on Thu, 05 May 2011 01:46:09
+2013-06-30 18:46:35	--	Nicks #github: [@achiu @VxJasonxV @zerowidth _br_ _SaCu_ `Kevin aaearon aboudreault adhawkins-away adnap afx_hero Aim airborn akoumjian albel727 Alenah AlexMax alexwhitman algesten Alina-malina AllStruck AmberJ amjam Amrykid anaconda anildigital arielserafini arnihr asksol asuka_ Atlas autumn Aww bacilla badboy_ basic` BeanDip_ beawesomeinstead ben_alman bengl_ bish0p bobmcw brainproxy bret brian-mann brianloveswords brunoro Bry8Star bryanl_ Caelum Caius calmyournerves canton7 carl_ Catie caveat- cbloss cgbystrom__ chadi cheese1756 Chillax chilversc chol ChrisAnn chrisdickinson chrisirc chrismear chuckharmston classix closer009 CodeShark cofeineSunshine Conjuro Contex_ cooper Cork crankyadmin_ csalazar_ cxreg cypher23 D3Vito dabear DanKnox_away danlentz danmackay dark_splinter DarthGandalf Davai__ davidboy dbussink DEADB33F defunctzombie_zz devdazed djbkd DKnox dleverton dmlloyd dmyers dna DonRichie DonVitoCorleone drager_ drags dreww_ dvide ebouchut ec_ EdGruberman elliotf enhance EnTeQuAk epta Es0teric esc EToS eventualbuddha Exio faulkner ferai ffio Fira firewyre Fli-c foca freeformz Freeyorp Frymaster garr gencha george2 ggherdov ghoti gitinfo gkatsev glennpratt goncalo_ Griwes GSpotAssassin Guest36897 guilleiguaran_ guilty_spark haarg hacfi hakunin HardDisk_WP HariboPenguin hatchetation heath heatxsink hekman_ heptal heroux herzi hexa2k9 heytrav HIGHBIT Hunner hush im0b imarcusthis- Industrial Infininight infogulch introom invisiblek ivan\ ivey_off jab416171 jaeckel jaimef jakehow jalcine jamesfry- jan____ JaredMiller jarib jasonrm JBreit jbub jds jeremyb jesseproulx_ jfinn jhford jinie_ jkyle joernchen johng johnlcox joki jonsowman joschi JosephSilber JPeterson jpnurmi jrgifford_ js_ JSharp jsmith_ JStoker jstout24 jwollert jwollert- jxriddle Kabaka kaictl kaitlyn Kaltiz Kamal_ kanzure kapowaz karnowski Karql kevinfagan khaase khaase_ kisielk kortti_ kossy krazyj krisbulman kwbock lahwran lb Learath2 Leeol2 leepa_ leptonix liato loops Lord_DeathMatch Lorn_ luminous luto madduck madprops Mamoru markvandenborre marlinc Mars` martinjlowm mattyohe md_5 mdwright Mez mgaunard mgc___ mh` milk milki minerale monokrome Morrolan mrapple NChief ndim ndngvr nDuff negative273 nephyrin Neptu Nevik Nexen nick_h nicksloan niftylettuce NimeshNeema nitrix Noldorin notbrent___ nug700 nz ocut offby1 offbyone ohcibi olegp one_zero OnlyMax Orphis p3lim pan82 Parnic passcod PaulCapestany paulproteus pcarrier Peej Pengoo percival petisnnake petteyg phantomcircuit PhilK phuzion pigoz poutine prettyrobots primalmotion prismatictrail Proditor przemoc Ragnor randym_ Raynos rbuels redrocket rfoust Rickster rockfruit rodjek rofl____ rom1504 rush2end RyanD s0enke s_e safsdas sakkemo SamWhited sayakb sayd sbryant ScottE scottrowe_ scrogson SebastianFlyte segy sent_hil_ sente sethe Seveas SeySayux sgkim126t shabble shentino shtirlic SicoWork SimonVT SirCmpwn sirdancealo2 SirFunk sitaktif skalnik skilledone slicky sn0wb1rdz sonOfRa soulcake spiffxp_ Spockz sshirokov ssx staniel25 stephanmg sticky|away stliu strax strictlyb Striki stutter stwalkerster svaksha swebb synergye t_kjaergaard tallest_red tfnico_ thelamest TheMoonMaster thomasvs timeless tklun tlipcon TML tobias- toin0u tolland tomaw tomb_ TomyLobo ToothlessGear torjus trevor Twey twisted` txdv tystr tyteen4a03 unreal Villadelfia Vinnie_win vivekrai_ wcarss webdestroya weeb1e wereHams1er whoami Will| Winslow_ Woet wycats_ wykydtron XAMPP XAMPP-8 xhoy xoebus xrogaan Y_Ichiro yano yibe yosafbridge z z1mme Zackio zacts Zauberfisch Zeelot zerok Ziber zibri Zooklubba zorzar]
+2013-06-30 18:46:35	--	Channel #github: 423 nicks (3 ops, 0 halfops, 0 voices, 420 normals)
+2013-06-30 18:46:39	<--	JaredMiller (~JaredMill@c-174-49-17-140.hsd1.tn.comcast.net) has quit (Quit: Leaving.)
+2013-06-30 18:46:41	--	Mode #github [+nt]
+2013-06-30 18:46:41	--	Channel created on Sun, 10 Feb 2008 19:00:20
+2013-06-30 18:47:29	-->	ProLoser (~ProLoser@108-222-65-193.lightspeed.sntcca.sbcglobal.net) has joined #github
+2013-06-30 18:47:30	ProLoser	hallo
+2013-06-30 18:47:33	ProLoser	anyone around?
+2013-06-30 18:52:23	offby1	nobody here but us zombie processes.
+2013-06-30 18:53:42	ProLoser	have you checked out my chrome plugin for github?
+2013-06-30 18:54:31	-->	Davey (~Davey@orchestra/staff/Davey) has joined #github
+2013-06-30 18:55:11	-->	MistrX (~mrx@unaffiliated/mistrx) has joined #github
+2013-06-30 18:55:20	offby1	no.
+2013-06-30 18:56:10	MistrX	hi, i'm trying to get the tags on a repo using the github api. but i don't know what is the "sha" that is needed for that -> http://developer.github.com/v3/git/tags/
+2013-06-30 18:59:17	-->	D4RK-PH0ENiX (~D4RK-PH0E@129.134.232.202.bf.2iij.net) has joined #github
+2013-06-30 19:00:35	<--	staniel25 (~textual@wsip-70-167-195-77.ph.ph.cox.net) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2013-06-30 19:00:55	<--	hakunin (~hakunin@173-165-58-253-Illinois.hfc.comcastbusiness.net) has quit (Remote host closed the connection)
+2013-06-30 19:01:22	-->	hakunin (~hakunin@173-165-58-253-Illinois.hfc.comcastbusiness.net) has joined #github
+2013-06-30 19:01:42	<--	shentino (~shentino@gentoo/contributor/shentino) has quit (Quit: Konversation terminated!)
+2013-06-30 19:01:46	-->	thot_ (~thot@189.148.100.110) has joined #github
+2013-06-30 19:02:05	<--	hakunin (~hakunin@173-165-58-253-Illinois.hfc.comcastbusiness.net) has quit (Read error: Connection reset by peer)
+2013-06-30 19:02:15	-->	luc_ (~luc@124.205.66.195) has joined #github
+2013-06-30 19:02:30	-->	hakunin (~hakunin@173-165-58-253-Illinois.hfc.comcastbusiness.net) has joined #github
+2013-06-30 19:03:03	-->	barneybook (~kvirc@220-136-50-33.dynamic.hinet.net) has joined #github
+2013-06-30 19:03:39	-->	_BJFreeman (~bjfree@77.sub-75-233-144.myvzw.com) has joined #github
+2013-06-30 19:05:33	MistrX	oh, i could with https://api.github.com/repos/:user/:repo/git/refs/tags
+2013-06-30 19:06:09	-->	shentino (~shentino@66-191-9-216.dhcp.knwc.wa.charter.com) has joined #github
+2013-06-30 19:06:09	<--	shentino (~shentino@66-191-9-216.dhcp.knwc.wa.charter.com) has quit (Changing host)
+2013-06-30 19:06:09	-->	shentino (~shentino@gentoo/contributor/shentino) has joined #github
+2013-06-30 19:08:24	-->	justinmburrous (~justinmbu@moloch.espn.com) has joined #github
+2013-06-30 19:08:46	-->	ian9 (~ian2@1.214.131.188) has joined #github
+2013-06-30 19:10:43	-->	Tickle (~hunter@c-98-253-186-186.hsd1.in.comcast.net) has joined #github
+2013-06-30 19:13:23	<--	tklun (~tklun@c-24-13-107-173.hsd1.il.comcast.net) has quit (Ping timeout: 248 seconds)
+2013-06-30 19:15:22	<--	Tickle (~hunter@c-98-253-186-186.hsd1.in.comcast.net) has quit (Ping timeout: 268 seconds)
+2013-06-30 19:15:47	--	_BJFreeman is now known as BJfreeman
+2013-06-30 19:16:31	<--	ian9 (~ian2@1.214.131.188) has quit
+2013-06-30 19:16:43	<--	MistrX (~mrx@unaffiliated/mistrx) has quit (Ping timeout: 252 seconds)
+2013-06-30 19:16:45	-->	tklun (~tklun@c-24-13-107-173.hsd1.il.comcast.net) has joined #github
+2013-06-30 19:18:18	-->	KernelPanicMK2 (~ian2@1.214.131.188) has joined #github
+2013-06-30 19:50:33	--	irc: disconnected from server
+2013-06-30 19:51:18	-->	Mars` (~Mars`@c-67-180-10-135.hsd1.ca.comcast.net) has joined #github
+2013-06-30 19:51:18	--	Topic for #github is "Need help? http://github.com/contact | Service status updates at http://status.github.com/ and http://twitter.com/github | How-to guides at http://help.github.com"
+2013-06-30 19:51:18	--	Topic set by tekkub (~tekkub@WoWUIDev/WoWI/Featured/Dongle/GitHub/Tekkub) on Thu, 05 May 2011 01:46:09
+2013-06-30 19:51:18	--	Nicks #github: [@achiu @petran @VxJasonxV @zerowidth [krisbulman] _br_ _SaCu_ `Kevin aaearon aboudreault acratophorus adhawkins-away adnap afx_hero Aim airborn akoumjian albel727 Alenah AlexMax alexwhitman algesten Alina-malina AllStruck AmberJ amjam Amrykid anaconda anildigital arielserafini arnihr asksol asuka_ Atlas autumn Aww bacilla badboy_ barneybook basic` BeanDip_ beawesomeinstead ben_alman bengl_ bish0p BJfreeman bobmcw brainproxy bret brian-mann brianloveswords brunoro Bry8Star bryanl_ Caelum Caius calmyournerves canton7 carl_ Catie caveat- cbloss cgbystrom__ chadi cheese1756 Chillax chilversc chol ChrisAnn chrisdickinson chrisirc chrismear chuckharmston classix closer009 CodeShark cofeineSunshine Conjuro Contex_ cooper Cork crankyadmin_ csalazar_ cxreg cypher23 D3Vito D4RK-PH0ENiX dabear DanKnox_away danlentz danmackay dark_splinter DarthGandalf Davai__ davidboy dbussink DEADB33F defunctzombie_zz devdazed DKnox dleverton dmlloyd dmyers dna DonRichie DonVitoCorleone drager_ drags dreww_ dvide ebouchut ec_ EdGruberman elliotf enhance EnTeQuAk epta Es0teric esc EToS eventualbuddha Exio faulkner ferai ffio Fira firewyre Fli-c foca freeformz Freeyorp Frymaster garr gencha george2 ggherdov ghoti gitinfo gkatsev glennpratt goncalo_ Griwes GSpotAssassin Guest36897 guilleiguaran_ guilty_spark haarg hacfi hakunin HardDisk_WP HariboPenguin hatchetation heath heatxsink hekman_ heptal heroux herzi hexa2k9 heytrav HIGHBIT Hunner hush im0b imarcusthis- Industrial Infininight infogulch introom invisiblek ivan\ ivey_off jab416171 jaeckel jaimef jakehow jalcine jamesfry- jan____ jarib jasonrm JBreit jbub jds jeremyb jesseproulx_ jfinn jhford jinie_ jkyle joernchen johng johnlcox joki jonsowman joschi JosephSilber JPeterson jpnurmi jrgifford_ js_ JSharp jsmith_ JStoker jstout24 jwollert jwollert- jxriddle Kabaka kaictl kaitlyn Kaltiz Kamal_ kanzure kapowaz karnowski Karql KernelPanicMK2 kevinfagan khaase khaase_ kisielk kortti_ kossy krazyj kwbock lahwran lb Learath2 Leeol2 leepa_ leptonix liato loops Lord_DeathMatch Lorn_ luc_ luminous luto madduck madprops Mamoru markvandenborre marlinc Mars` martinjlowm mattyohe md_5 mdwright Mez mgaunard mgc___ mh` milk milki minerale monokrome Morrolan mrapple NChief ndim ndngvr nDuff nephyrin Neptu Nevik Nexen nick_h nicksloan niftylettuce NimeshNeema nitrix Noldorin notbrent___ nug700 nz ocut offby1 offbyone ohcibi olegp one_zero OnlyMax Orphis p3lim pan82 Parnic passcod PaulCapestany paulproteus pcarrier Peej Pengoo percival petisnnake petteyg phantomcircuit PhilK phuzion pigoz poutine prettyrobots primalmotion prismatictrail Proditor ProLoser przemoc Ragnor randym_ Raynos rbuels redrocket rfoust Rickster rockfruit rodjek rofl____ rom1504 rush2end RyanD s0enke s_e safsdas sakkemo SamWhited sayakb sayd sbryant ScottE scottrowe_ scrogson SebastianFlyte segy sent_hil_ sente sethe Seveas SeySayux sgkim126t shabble shentino shtirlic SicoWork SimonVT SirCmpwn sirdancealo2 SirFunk sitaktif skalnik skilledone slicky sn0wb1rdz sonOfRa soulcake spiffxp_ Spockz sshirokov ssx stephanmg sticky|away stliu strax strictlyb Striki stutter stwalkerster svaksha swebb synergye t_kjaergaard tallest_red tfnico_ thelamest TheMoonMaster thomasvs thot_ Tickle timeless tklun tlipcon TML tobias- toin0u tolland tomaw tomb_ TomyLobo ToothlessGear torjus trevor Twey twisted` txdv tystr tyteen4a03 unreal Villadelfia Vinnie_win vivekrai_ wcarss webdestroya weeb1e wereHams1er whoami Will| Winslow_ Woet wycats_ wykydtron XAMPP XAMPP_8 xhoy xoebus xrogaan Y_Ichiro yano yibe yosafbridge z z1mme Zackio Zauberfisch Zeelot zerok Ziber zibri Zooklubba zorzar]
+2013-06-30 19:51:18	--	Channel #github: 428 nicks (4 ops, 0 halfops, 0 voices, 424 normals)
+2013-06-30 19:51:25	--	Mode #github [+nt]
+2013-06-30 19:51:25	--	Channel created on Sun, 10 Feb 2008 19:00:20
+2013-06-30 19:51:50	-->	tectonic (~tectonic@c-24-5-40-149.hsd1.ca.comcast.net) has joined #github
+2013-06-30 19:57:20	<--	BJfreeman (~bjfree@77.sub-75-233-144.myvzw.com) has quit (Quit: had a good time)
+2013-06-30 19:57:50	<--	thot_ (~thot@189.148.100.110) has quit (Quit: Konversation terminated!)
+2013-06-30 19:58:04	-->	thot_ (~thot@189.148.100.110) has joined #github
+2013-06-30 20:00:09	-->	Crawford (~CrawfordC@unaffiliated/crawfordcomeaux) has joined #github
+2013-06-30 20:01:38	<--	Davai__ (~stbaby@220.130.36.2) has quit (Ping timeout: 246 seconds)
+2013-06-30 20:03:28	Crawford	can anyone recommend some bots for interacting w/git or github?
+2013-06-30 20:04:16	z	Hubot
+2013-06-30 20:07:51	<--	ProLoser (~ProLoser@108-222-65-193.lightspeed.sntcca.sbcglobal.net) has quit (Quit: ProLoser)
+2013-06-30 20:08:18	<--	D4RK-PH0ENiX (~D4RK-PH0E@129.134.232.202.bf.2iij.net) has quit (Ping timeout: 248 seconds)
+2013-06-30 20:08:20	<--	XAMPP_8 (~XAMPP8@199.254.116.102) has quit (Ping timeout: 264 seconds)
+2013-06-30 20:09:07	-->	D4RK-PH0ENiX (~D4RK-PH0E@129.134.232.202.bf.2iij.net) has joined #github
+2013-06-30 20:09:26	<--	KernelPanicMK2 (~KernelPan@1.214.131.188) has left #github
+2013-06-30 20:10:20	Crawford	doh...forgot I'd already found the answer a couple days ago and have the hubot repo open in one of my 40 tabs :P
+2013-06-30 20:10:23	Crawford	thanks
+2013-06-30 20:11:04	-->	XAMPP_8 (~XAMPP8@199.254.116.102) has joined #github
+2013-06-30 20:11:37	<--	thot_ (~thot@189.148.100.110) has quit (Ping timeout: 256 seconds)
+2013-06-30 20:13:59	--	[krisbulman] is now known as krisbulman
+2013-06-30 20:18:58	<--	jakehow (~jakehow@user-160v08k.cable.mindspring.com) has quit (Ping timeout: 248 seconds)
+2013-06-30 20:19:14	-->	Davai__ (~stbaby@118-163-101-241.HINET-IP.hinet.net) has joined #github
+2013-06-30 20:20:46	--	tectonic is now known as zz_tectonic
+2013-06-30 20:21:20	-->	rickruby (~rickruby@c-76-27-115-117.hsd1.ut.comcast.net) has joined #github
+2013-06-30 20:21:36	<--	sente (~stu@vervet.isomerica.net) has quit (Ping timeout: 252 seconds)
