@@ -12,18 +12,13 @@ set signature        = ~/.mutt/sig           # my signature file
 # }}}
 
 ## Basic Options {{{
-set spoolfile="+crowdtilt/INBOX"
-# Alternate email addresses.
-# alternates sjl@pculture.org still\.?life@gmail.com steve@ladyluckblues.com steve@pculture.org
-#
-# Mailboxes to show in the sidebar.
-mailboxes +crowdtilt/INBOX \
-          +crowdtilt/archive \
-          +crowdtilt/sent \
-          +crowdtilt/drafts \
-#set mbox = "+crowdtilt/archive"
-set postponed = "+crowdtilt/drafts"
-set mbox_type=Maildir
+
+source ~/.mutt/crowdtilt.muttrc
+
+mailboxes +personal/INBOX \
+          +crowdtilt/INBOX \
+          +old/INBOX \
+          +temporary/search \
 
 ignore "Authentication-Results:"
 ignore "DomainKey-Signature:"
@@ -82,8 +77,6 @@ bind index,pager <down>   sidebar-next
 bind index,pager <up>     sidebar-prev
 bind index,pager <right>  sidebar-open
 
-# Folder Shortcuts
-macro index,pager gi "<change-folder>=crowdtilt/INBOX<enter>" "Go to inbox"
 
 # }}}
 # Status Bar {{{
@@ -109,13 +102,6 @@ macro index "\Cu"    "<pipe-message>urlview<enter>"                       # URL 
 
 
 # Compose View Options {{{
-set from = "michael@crowdtilt.com"
-set realname = "Michael Revell"
-set sendmail = "/usr/local/bin/msmtp -a crowdtilt"
-set sendmail_wait = 0
-unset record
-set sig_dashes=no
-set sig_on_top=yes
 
 # Change the following line to a different editor you prefer.
 set editor = "vim -c 'setlocal ft=mail' +/\^$ ++0" # Open at the first blank line. Hack for zsh
@@ -214,6 +200,12 @@ macro index S "<enter-command>unset wait_key<enter><shell-escape>mutt-notmuch-py
 # Unlimit (show [a]ll)
 macro index a "<limit>all\n" "show all messages (undo limit)"
 
+# }}}
+# Folder Hooks {{{
+folder-hook . 'source ~/.mutt/crowdtilt.muttrc'
+folder-hook ^crowdtilt 'source ~/.mutt/crowdtilt.muttrc'
+folder-hook ^personal 'source ~/.mutt/personal.muttrc'
+folder-hook ^old 'source ~/.mutt/old.muttrc'
 # }}}
 # Pager {{{
 

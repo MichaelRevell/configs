@@ -1,0 +1,20 @@
+set spoolfile="+personal/INBOX"
+# Alternate email addresses.
+# alternates sjl@pculture.org still\.?life@gmail.com steve@ladyluckblues.com steve@pculture.org
+#
+# Mailboxes to show in the sidebar.
+#set mbox = "+personal/archive"
+set postponed = "+personal/drafts"
+set mbox_type=Maildir
+set from = "mikearevell@gmail.com"
+set realname = "Michael Revell"
+set sendmail = "/usr/local/bin/msmtp -a personal"
+set sendmail_wait = 0
+unset record
+set sig_dashes=no
+set sig_on_top=yes
+
+# Folder Shortcuts
+macro index,pager gi "<change-folder>=personal/INBOX<enter>" "Go to inbox"
+macro index,pager gs "<change-folder>=personal/star<enter>" "Go to inbox"
+macro index,pager ga "<change-folder>=personal/all<enter>" "Go to inbox"
