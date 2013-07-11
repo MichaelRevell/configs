@@ -187,7 +187,6 @@ au BufRead,BufNewFile .jshintrc set ft=javascript
 au BufRead,BufNewFile *.tt2 setf html
 au BufRead,BufNewFile *.tt setf html
 au BufRead,BufNewFile *.js.tt set filetype=javascript
-au BufRead,BufNewFile Rexfile set filetype=
 
 " ======================== Navigation ======================
 
@@ -387,3 +386,5 @@ autocmd Filetype perl setlocal softtabstop=4 " Remove this if you want spaces
 autocmd Filetype perl setlocal tabstop=4
 
 " }}}
+
+:set laststatus=2

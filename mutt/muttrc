@@ -144,7 +144,6 @@ set tilde                                 # Fill out messages with '~'.
 
 # }}}
 
-source ~/.mutt/bindings       # Define key bindings.
 
 
 # }}}
@@ -242,3 +241,4 @@ macro index,pager V "|vim -c 'setlocal ft=mail' -c 'setlocal buftype=nofile' -<e
 macro index,pager M "|mvim -c 'setlocal ft=mail' -c 'setlocal buftype=nofile' - >/dev/null<enter>"  "open in macvim"
 
 # }}}
+source ~/.mutt/bindings       # Define key bindings.
