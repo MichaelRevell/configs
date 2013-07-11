@@ -1,0 +1,329 @@
+2013-07-06 20:23:54	-->	Mars^ (~Mars`@199.21.86.38) has joined #notmuch
+2013-07-06 20:23:54	--	Topic for #notmuch is "How much mail is in your inbox?  http://notmuchmail.org/releases/notmuch-0.15.2.tar.gz http://lwn.net/Articles/380073/ http://notmuchmail.org/nmbug/"
+2013-07-06 20:23:54	--	Topic set by Domo_ (U2FsdGVkX1@guru.guru-group.fi) on Mon, 04 Mar 2013 00:41:26
+2013-07-06 20:23:54	--	Nicks #notmuch: [aidecoe alip amdragon atrus` awg bdale bqp bremner catsup ccxCZ cgeier chaoflow crazedpsyc cworth daurnima1or dkg_ Domo_ ecraven else- fil_ frediz frozencemetery gianlucadv glasserc harrow` hramrach__ Hunner iera Ingmar j4ni james_w jooonas joshc jrollins jy2wong kenyon kurochkin laarmen madduck Mars^ micah mjw1009_ MrAnders1n mtp notmuch-buildbot np ocharles PaulePanter paulproteus qmx raorn riddle Sagi sanoj1 slowpoke snufu tgummerer thomasg tomprince tridactyla trn tschwinge Valodim vpm wart__ wdouglas webframp wereHamster wishi witten yeled zmo zorzar zrail ZyX-I]
+2013-07-06 20:23:54	--	Channel #notmuch: 75 nicks (0 ops, 0 halfops, 0 voices, 75 normals)
+2013-07-06 20:23:54	--	URL for #notmuch: http://notmuchmail.org
+2013-07-06 20:23:55	--	Mode #notmuch [+cn]
+2013-07-06 20:23:55	--	Channel created on Sun, 01 Nov 2009 11:44:03
+2013-07-06 20:25:01	Mars^	is there a patch for the issue in notmuch where it throws an IO exception if it tries to read a deleted file?
+2013-07-06 20:36:30	--	irc: disconnected from server
+2013-07-06 20:37:06	-->	Mars^ (~Mars`@199.21.86.38) has joined #notmuch
+2013-07-06 20:37:06	--	Topic for #notmuch is "How much mail is in your inbox?  http://notmuchmail.org/releases/notmuch-0.15.2.tar.gz http://lwn.net/Articles/380073/ http://notmuchmail.org/nmbug/"
+2013-07-06 20:37:06	--	Topic set by Domo_ (U2FsdGVkX1@guru.guru-group.fi) on Mon, 04 Mar 2013 00:41:26
+2013-07-06 20:37:06	--	Nicks #notmuch: [aidecoe alip amdragon atrus` awg bdale bqp bremner catsup ccxCZ cgeier chaoflow crazedpsyc cworth daurnima1or dkg_ Domo_ ecraven else- fil_ frediz frozencemetery gianlucadv glasserc harrow` hramrach__ Hunner iera Ingmar j4ni james_w jooonas joshc jrollins jy2wong kenyon kurochkin laarmen madduck Mars^ micah mjw1009_ MrAnders1n mtp notmuch-buildbot np ocharles PaulePanter paulproteus qmx raorn riddle Sagi sanoj1 slowpoke snufu tgummerer thomasg tomprince tridactyla trn tschwinge Valodim vpm wart__ wdouglas webframp wereHamster wishi witten yeled zmo zorzar zrail ZyX-I]
+2013-07-06 20:37:06	--	Channel #notmuch: 75 nicks (0 ops, 0 halfops, 0 voices, 75 normals)
+2013-07-06 20:37:06	--	URL for #notmuch: http://notmuchmail.org
+2013-07-06 20:37:14	--	Mode #notmuch [+cn]
+2013-07-06 20:37:14	--	Channel created on Sun, 01 Nov 2009 11:44:03
+2013-07-06 23:31:52	--	irc: disconnected from server
+2013-07-06 23:32:40	-->	Mars^ (~Mars`@c-98-210-152-81.hsd1.ca.comcast.net) has joined #notmuch
+2013-07-06 23:32:40	--	Topic for #notmuch is "How much mail is in your inbox?  http://notmuchmail.org/releases/notmuch-0.15.2.tar.gz http://lwn.net/Articles/380073/ http://notmuchmail.org/nmbug/"
+2013-07-06 23:32:40	--	Topic set by Domo_ (U2FsdGVkX1@guru.guru-group.fi) on Mon, 04 Mar 2013 00:41:26
+2013-07-06 23:32:40	--	Nicks #notmuch: [aidecoe alip amdragon atrus` awg bdale bqp bremner catsup ccxCZ cgeier chaoflow crazedpsyc cworth daurnima1or dkg_ Domo_ ecraven else- fil_ frediz frozencemetery gianlucadv glasserc harrow` hramrach__ Hunner iera Ingmar j4ni james_w jooonas joshc jrollins jy2wong kenyon kurochkin laarmen madduck Mars^ micah mjw1009_ MrAnders1n mtp notmuch-buildbot np ocharles PaulePanter paulproteus qmx raorn riddle Sagi sanoj1 slowpoke snufu tgummerer thomasg tomprince tridactyla trn tschwinge Valodim vpm wart__ wdouglas webframp wereHamster wishi witten yeled zmo zorzar zrail ZyX-I]
+2013-07-06 23:32:40	--	Channel #notmuch: 75 nicks (0 ops, 0 halfops, 0 voices, 75 normals)
+2013-07-06 23:32:40	--	URL for #notmuch: http://notmuchmail.org
+2013-07-06 23:35:52	--	irc: disconnected from server
+2013-07-06 23:36:38	-->	Mars1 (~Mars`@c-98-210-152-81.hsd1.ca.comcast.net) has joined #notmuch
+2013-07-06 23:36:38	--	Topic for #notmuch is "How much mail is in your inbox?  http://notmuchmail.org/releases/notmuch-0.15.2.tar.gz http://lwn.net/Articles/380073/ http://notmuchmail.org/nmbug/"
+2013-07-06 23:36:38	--	Topic set by Domo_ (U2FsdGVkX1@guru.guru-group.fi) on Mon, 04 Mar 2013 00:41:26
+2013-07-06 23:36:38	--	Nicks #notmuch: [aidecoe alip amdragon atrus` awg bdale bqp bremner catsup ccxCZ cgeier chaoflow crazedpsyc cworth daurnima1or dkg_ Domo_ ecraven else- fil_ frediz frozencemetery gianlucadv glasserc harrow` hramrach__ Hunner iera Ingmar j4ni james_w jooonas joshc jrollins jy2wong kenyon kurochkin laarmen madduck Mars1 Mars^ micah mjw1009_ MrAnders1n mtp notmuch-buildbot np ocharles PaulePanter paulproteus qmx raorn riddle Sagi sanoj1 slowpoke snufu tgummerer thomasg tomprince tridactyla trn tschwinge Valodim vpm wart__ wdouglas webframp wereHamster wishi witten yeled zmo zorzar zrail ZyX-I]
+2013-07-06 23:36:38	--	Channel #notmuch: 76 nicks (0 ops, 0 halfops, 0 voices, 76 normals)
+2013-07-06 23:36:38	--	URL for #notmuch: http://notmuchmail.org
+2013-07-06 23:36:45	--	Mode #notmuch [+cn]
+2013-07-06 23:36:45	--	Channel created on Sun, 01 Nov 2009 11:44:03
+2013-07-06 23:41:49	-->	cworth` (~cworth@arlo.cworth.org) has joined #notmuch
+2013-07-06 23:42:10	-->	frediz_ (~Fred@jor31-1-78-225-230-73.fbx.proxad.net) has joined #notmuch
+2013-07-06 23:43:45	<--	Mars^ (~Mars`@c-98-210-152-81.hsd1.ca.comcast.net) has quit (*.net *.split)
+2013-07-06 23:43:46	<--	trn (~trn@adsl-065-007-181-160.sip.bct.bellsouth.net) has quit (*.net *.split)
+2013-07-06 23:43:46	<--	frediz (~Fred@jor31-1-78-225-230-73.fbx.proxad.net) has quit (*.net *.split)
+2013-07-06 23:43:47	<--	wdouglas (~user@c-76-105-221-52.hsd1.or.comcast.net) has quit (*.net *.split)
+2013-07-06 23:43:47	<--	cworth (~cworth@arlo.cworth.org) has quit (*.net *.split)
+2013-07-06 23:43:47	--	frediz_ is now known as frediz
+2013-07-06 23:54:18	-->	trn (~trn@adsl-065-007-181-160.sip.bct.bellsouth.net) has joined #notmuch
+2013-07-07 12:52:05	--	irc: disconnected from server
+2013-07-07 12:52:43	-->	Mars1 (~Mars`@199.21.86.38) has joined #notmuch
+2013-07-07 12:52:43	--	Topic for #notmuch is "How much mail is in your inbox?  http://notmuchmail.org/releases/notmuch-0.15.2.tar.gz http://lwn.net/Articles/380073/ http://notmuchmail.org/nmbug/"
+2013-07-07 12:52:43	--	Topic set by Domo_ (U2FsdGVkX1@guru.guru-group.fi) on Mon, 04 Mar 2013 00:41:26
+2013-07-07 12:52:43	--	Nicks #notmuch: [aidecoe alip amdragon atrus awg bdale bqp bremner catsup ccxCZ cgeier chaoflow crazedpsyc cworth` daurnima1or dkg_ Domo_ ecraven else- fil_ frediz frozencemetery gianlucadv glasserc harrow` hramrach__ Hunner iera Ingmar j4ni james_w joshc jrollins jy2wong kenyon kurochkin laarmen madduck Mars1 micah mjw1009_ MrAnders1n mtp mwhudson notmuch-buildbot np ocharles PaulePanter paulproteus qmx raorn riddle Sagi seschwar slowpoke snufu tgummerer thomasg tomprince tridactyla trn tschwinge Valodim vpm wart_ webframp wereHamster wishi witten yeled zmo zorzar zrail ZyX-I]
+2013-07-07 12:52:43	--	Channel #notmuch: 74 nicks (0 ops, 0 halfops, 0 voices, 74 normals)
+2013-07-07 12:52:43	--	URL for #notmuch: http://notmuchmail.org
+2013-07-07 12:52:51	--	Mode #notmuch [+cn]
+2013-07-07 12:52:51	--	Channel created on Sun, 01 Nov 2009 11:44:03
+2013-07-07 13:12:52	<--	mwhudson (~mwh@linaro/mwhudson) has quit (Ping timeout: 276 seconds)
+2013-07-07 13:55:07	<--	wart_ (~peterjh@dyn-160-39-49-19.dyn.columbia.edu) has quit (Ping timeout: 276 seconds)
+2013-07-07 14:06:37	--	irc: disconnected from server
+2013-07-07 14:07:16	-->	Mars` (~Mars`@199.21.86.38) has joined #notmuch
+2013-07-07 14:07:16	--	Topic for #notmuch is "How much mail is in your inbox?  http://notmuchmail.org/releases/notmuch-0.15.2.tar.gz http://lwn.net/Articles/380073/ http://notmuchmail.org/nmbug/"
+2013-07-07 14:07:16	--	Topic set by Domo_ (U2FsdGVkX1@guru.guru-group.fi) on Mon, 04 Mar 2013 00:41:26
+2013-07-07 14:07:16	--	Nicks #notmuch: [aidecoe alip amdragon atrus awg bdale bqp bremner catsup ccxCZ cgeier chaoflow crazedpsyc cworth` daurnima1or dkg_ Domo_ ecraven else- fil_ frediz frozencemetery gianlucadv glasserc harrow` hramrach__ Hunner iera Ingmar j4ni james_w joshc jrollins jy2wong kenyon kurochkin laarmen madduck Mars1 Mars` micah mjw1009_ MrAnders1n mtp notmuch-buildbot np ocharles PaulePanter paulproteus qmx raorn riddle Sagi seschwar slowpoke snufu tgummerer thomasg tomprince tridactyla trn tschwinge Valodim vpm webframp wereHamster wishi witten yeled zmo zorzar zrail ZyX-I]
+2013-07-07 14:07:16	--	Channel #notmuch: 73 nicks (0 ops, 0 halfops, 0 voices, 73 normals)
+2013-07-07 14:07:16	--	URL for #notmuch: http://notmuchmail.org
+2013-07-07 14:07:24	--	Mode #notmuch [+cn]
+2013-07-07 14:07:24	--	Channel created on Sun, 01 Nov 2009 11:44:03
+2013-07-07 14:39:38	--	irc: disconnected from server
+2013-07-07 14:40:16	-->	Mars` (~Mars`@199.21.86.38) has joined #notmuch
+2013-07-07 14:40:16	--	Topic for #notmuch is "How much mail is in your inbox?  http://notmuchmail.org/releases/notmuch-0.15.2.tar.gz http://lwn.net/Articles/380073/ http://notmuchmail.org/nmbug/"
+2013-07-07 14:40:16	--	Topic set by Domo_ (U2FsdGVkX1@guru.guru-group.fi) on Mon, 04 Mar 2013 00:41:26
+2013-07-07 14:40:16	--	Nicks #notmuch: [aidecoe alip amdragon atrus awg bdale bqp bremner catsup ccxCZ cgeier chaoflow crazedpsyc cworth` daurnima1or dkg_ Domo_ ecraven else- fil_ frediz frozencemetery gianlucadv glasserc greghendershott harrow` hramrach__ Hunner iera Ingmar j4ni james_w joshc jrollins jy2wong kenyon kurochkin laarmen madduck Mars` micah mjw1009_ MrAnders1n mtp notmuch-buildbot np ocharles PaulePanter paulproteus qmx raorn riddle Sagi seschwar slowpoke snufu tgummerer thomasg tomprince tridactyla trn tschwinge Valodim vpm webframp wereHamster wishi witten yeled zmo zorzar zrail ZyX-I]
+2013-07-07 14:40:16	--	Channel #notmuch: 73 nicks (0 ops, 0 halfops, 0 voices, 73 normals)
+2013-07-07 14:40:16	--	URL for #notmuch: http://notmuchmail.org
+2013-07-07 14:40:23	--	Mode #notmuch [+cn]
+2013-07-07 14:40:23	--	Channel created on Sun, 01 Nov 2009 11:44:03
+2013-07-07 14:51:20	<--	seschwar (~seschwar@unaffiliated/seschwar) has quit (Quit: :qa)
+2013-07-07 15:13:44	--	daurnima1or is now known as daurnimator
+2013-07-07 19:00:43	--	irc: disconnected from server
+2013-07-07 19:01:28	-->	Mars` (~Mars`@c-98-210-152-81.hsd1.ca.comcast.net) has joined #notmuch
+2013-07-07 19:01:28	--	Topic for #notmuch is "How much mail is in your inbox?  http://notmuchmail.org/releases/notmuch-0.15.2.tar.gz http://lwn.net/Articles/380073/ http://notmuchmail.org/nmbug/"
+2013-07-07 19:01:28	--	Topic set by Domo_ (U2FsdGVkX1@guru.guru-group.fi) on Mon, 04 Mar 2013 00:41:26
+2013-07-07 19:01:28	--	Nicks #notmuch: [aidecoe alip amdragon atrus awg bdale bqp bremner catsup ccxCZ cgeier chaoflow crazedpsyc cworth` daurnimator dkg_ Domo_ ecraven else- fil_ frediz frozencemetery gianlucadv glasserc greghendershott harrow` hramrach__ Hunner iera Ingmar j4ni james_w joshc jrollins jy2wong kenyon kurochkin laarmen madduck Mars` micah mjw1009_ MrAnders1n mtp notmuch-buildbot np ocharles PaulePanter paulproteus qmx raorn riddle Sagi slowpoke snufu stewart tgummerer thomasg tomprince tridactyla trn tschwinge Valodim vpm wart_ webframp wereHamster wishi witten yeled zmo zorzar zrail ZyX-I]
+2013-07-07 19:01:28	--	Channel #notmuch: 74 nicks (0 ops, 0 halfops, 0 voices, 74 normals)
+2013-07-07 19:01:28	--	URL for #notmuch: http://notmuchmail.org
+2013-07-07 19:01:35	--	Mode #notmuch [+cn]
+2013-07-07 19:01:35	--	Channel created on Sun, 01 Nov 2009 11:44:03
+2013-07-07 20:01:37	--	irc: disconnected from server
+2013-07-08 10:55:33	-->	Mars` (~Mars`@c-67-180-209-52.hsd1.ca.comcast.net) has joined #notmuch
+2013-07-08 10:55:33	--	Topic for #notmuch is "How much mail is in your inbox?  http://notmuchmail.org/releases/notmuch-0.15.2.tar.gz http://lwn.net/Articles/380073/ http://notmuchmail.org/nmbug/"
+2013-07-08 10:55:33	--	Topic set by Domo_ (U2FsdGVkX1@guru.guru-group.fi) on Mon, 04 Mar 2013 00:41:26
+2013-07-08 10:55:33	--	Nicks #notmuch: [aidecoe alip amdragon atrus awg bdale bqp bremner catsup ccxCZ cgeier chaoflow crazedpsyc cworth daurnimator dkg_ Domo_ ecraven else- fil_ frediz frozencemetery gianlucadv greghendershott harrow` hramrach__ Hunner iera Ingmar j4ni james_w joshc jrollins jy2wong kenyon kurochkin kzak laarmen madduck Mars` micah mjw1009_ MrAnders1n mtp mwhudson notmuch-buildbot np ocharles PaulePanter paulproteus qmx raorn riddle Sagi seschwar slowpoke snufu stewart tgummerer thomasg tomprince tridactyla trn tschwinge Valodim vpm wart_ webframp wereHamster wishi witten yeled ygbillet zmo zorzar zrail|afk ZyX-I]
+2013-07-08 10:55:33	--	Channel #notmuch: 77 nicks (0 ops, 0 halfops, 0 voices, 77 normals)
+2013-07-08 10:55:33	--	Notice(hitchcock.freenode.net): [freenode-info] help freenode weed out clonebots -- please register your IRC nick and auto-identify: http://freenode.net/faq.shtml#nicksetup
+2013-07-08 10:55:33	--	URL for #notmuch: http://notmuchmail.org
+2013-07-08 10:55:40	--	Mode #notmuch [+cn]
+2013-07-08 10:55:41	--	Channel created on Sun, 01 Nov 2009 11:44:03
+2013-07-08 11:03:12	<--	kzak (~kzak@109.54.broadband13.iol.cz) has quit (Ping timeout: 246 seconds)
+2013-07-08 11:56:12	--	zrail|afk is now known as zrail
+2013-07-08 12:03:50	--	irc: disconnected from server
+2013-07-08 12:07:36	-->	Mars` (~Mars`@c-67-180-209-52.hsd1.ca.comcast.net) has joined #notmuch
+2013-07-08 12:07:36	--	Topic for #notmuch is "How much mail is in your inbox?  http://notmuchmail.org/releases/notmuch-0.15.2.tar.gz http://lwn.net/Articles/380073/ http://notmuchmail.org/nmbug/"
+2013-07-08 12:07:36	--	Topic set by Domo_ (U2FsdGVkX1@guru.guru-group.fi) on Mon, 04 Mar 2013 00:41:26
+2013-07-08 12:07:36	--	Nicks #notmuch: [aidecoe alip amdragon atrus awg bdale bqp bremner catsup ccxCZ cgeier chaoflow crazedpsyc cworth daurnimator dkg_ Domo_ ecraven else- fil_ frediz frozencemetery gianlucadv greghendershott harrow` hramrach__ Hunner iera Ingmar j4ni james_w joshc jrollins jy2wong kenyon kurochkin laarmen madduck Mars` micah mjw1009_ MrAnders1n mtp mwhudson notmuch-buildbot np ocharles PaulePanter paulproteus qmx raorn riddle Sagi seschwar slowpoke snufu stewart tgummerer thomasg tomprince tridactyla trn tschwinge Valodim vpm wart_ webframp wereHamster wishi witten yeled ygbillet zmo zorzar zrail ZyX-I]
+2013-07-08 12:07:36	--	Channel #notmuch: 76 nicks (0 ops, 0 halfops, 0 voices, 76 normals)
+2013-07-08 12:07:36	--	URL for #notmuch: http://notmuchmail.org
+2013-07-08 12:07:44	--	Mode #notmuch [+cn]
+2013-07-08 12:07:44	--	Channel created on Sun, 01 Nov 2009 11:44:03
+2013-07-08 12:22:57	<--	ygbillet (~ygbillet@29.179.81.79.rev.sfr.net) has quit (Ping timeout: 264 seconds)
+2013-07-08 12:45:53	-->	ygbillet (~ygbillet@29.179.81.79.rev.sfr.net) has joined #notmuch
+2013-07-08 12:49:57	<--	mwhudson (~mwh@linaro/mwhudson) has quit (Ping timeout: 264 seconds)
+2013-07-08 12:59:55	<--	ygbillet (~ygbillet@29.179.81.79.rev.sfr.net) has quit (Ping timeout: 264 seconds)
+2013-07-08 13:03:34	-->	mwhudson (~mwh@193.120.41.115) has joined #notmuch
+2013-07-08 13:03:34	<--	mwhudson (~mwh@193.120.41.115) has quit (Changing host)
+2013-07-08 13:03:34	-->	mwhudson (~mwh@linaro/mwhudson) has joined #notmuch
+2013-07-08 13:46:08	-->	mwhudson_ (~mwh@193.120.41.115) has joined #notmuch
+2013-07-08 13:48:24	<--	mwhudson (~mwh@linaro/mwhudson) has quit (Ping timeout: 246 seconds)
+2013-07-08 14:04:49	Sagi	amdragon: you asked me to post some of the headers of emails missing List-post
+2013-07-08 14:04:56	Sagi	any preference where?
+2013-07-08 14:06:08	Sagi	I think it's mostly mailman, but then for some lists only ocassionally (strangely enough).
+2013-07-08 14:14:38	ecraven	what's the current status on notmuch and smime? there was a working patch, but it seems it never ended up in master?
+2013-07-08 14:26:01	<--	ecraven (~user@www.nexoid.at) has quit (Quit: brb)
+2013-07-08 14:39:43	-->	ecraven (~user@www.nexoid.at) has joined #notmuch
+2013-07-08 14:59:34	<--	seschwar (~seschwar@unaffiliated/seschwar) has quit (Quit: :qa)
+2013-07-08 14:59:35	-->	sanoj (~sanoj@77.109.117.214) has joined #notmuch
+2013-07-08 15:03:15	<--	Hunner (hunner@puppetlabs/ps/Hunner) has quit (Read error: Connection reset by peer)
+2013-07-08 15:03:22	-->	Hunner (hunner@serenity.cat.pdx.edu) has joined #notmuch
+2013-07-08 15:03:23	<--	Hunner (hunner@serenity.cat.pdx.edu) has quit (Changing host)
+2013-07-08 15:03:23	-->	Hunner (hunner@puppetlabs/ps/Hunner) has joined #notmuch
+2013-07-08 15:03:50	<--	hramrach__ (~hramrach@gateway/tor-sasl/hramrach) has quit (Ping timeout: 240 seconds)
+2013-07-08 15:04:18	<--	fil_ (~phil@switch.hands.com) has quit (Ping timeout: 264 seconds)
+2013-07-08 15:04:54	<--	tomprince (~tomprince@socrates.hocat.ca) has quit (Ping timeout: 264 seconds)
+2013-07-08 15:05:03	-->	fil_ (~phil@switch.hands.com) has joined #notmuch
+2013-07-08 15:06:34	-->	hramrach__ (~hramrach@gateway/tor-sasl/hramrach) has joined #notmuch
+2013-07-08 15:06:39	-->	tomprince (~tomprince@socrates.hocat.ca) has joined #notmuch
+2013-07-08 15:32:05	<--	mwhudson_ (~mwh@193.120.41.115) has quit (Ping timeout: 248 seconds)
+2013-07-08 16:08:26	<--	sanoj (~sanoj@77.109.117.214) has quit (Ping timeout: 268 seconds)
+2013-07-08 18:13:19	-->	glasserc (~ethan@66.114.71.21) has joined #notmuch
+2013-07-08 20:29:40	amdragon	Sagi: Whatever pastebin you prefer. Are they maybe control messages (or digests?) from mailman? IIRC, the few messages I had with list-id but not list-post were subscription messages and password reminders and such.
+2013-07-08 20:59:33	frozencemetery	hey, trying not to bother you all too much, but do we know when there'll be a backport of 0.15?
+2013-07-08 21:23:29	--	irc: disconnected from server
+2013-07-08 21:24:11	-->	Mars` (~Mars`@c-98-210-152-81.hsd1.ca.comcast.net) has joined #notmuch
+2013-07-08 21:24:11	--	Topic for #notmuch is "How much mail is in your inbox?  http://notmuchmail.org/releases/notmuch-0.15.2.tar.gz http://lwn.net/Articles/380073/ http://notmuchmail.org/nmbug/"
+2013-07-08 21:24:11	--	Topic set by Domo_ (U2FsdGVkX1@guru.guru-group.fi) on Mon, 04 Mar 2013 00:41:26
+2013-07-08 21:24:11	--	Nicks #notmuch: [aidecoe alip amdragon atrus awg bdale bqp bremner catsup ccxCZ cgeier chaoflow crazedpsyc cworth daurnimator dkg_ Domo_ ecraven else- fil_ frediz frozencemetery gianlucadv glasserc greghendershott harrow` hramrach__ Hunner iera Ingmar j4ni james_w joshc jrollins jy2wong kenyon kurochkin laarmen madduck Mars` micah mjw1009_ MrAnders1n mtp notmuch-buildbot np ocharles PaulePanter paulproteus qmx raorn riddle Sagi slowpoke snufu stewart tgummerer thomasg tomprince tridactyla trn tschwinge Valodim vpm wart_ webframp wereHamster wishi witten yeled zmo zorzar zrail ZyX-I]
+2013-07-08 21:24:11	--	Channel #notmuch: 74 nicks (0 ops, 0 halfops, 0 voices, 74 normals)
+2013-07-08 21:24:13	--	URL for #notmuch: http://notmuchmail.org
+2013-07-08 21:24:19	--	Mode #notmuch [+cn]
+2013-07-08 21:24:19	--	Channel created on Sun, 01 Nov 2009 11:44:03
+2013-07-08 22:11:25	--	irc: disconnected from server
+2013-07-08 22:12:13	-->	Mars^ (~Mars`@c-98-210-152-81.hsd1.ca.comcast.net) has joined #notmuch
+2013-07-08 22:12:13	--	Topic for #notmuch is "How much mail is in your inbox?  http://notmuchmail.org/releases/notmuch-0.15.2.tar.gz http://lwn.net/Articles/380073/ http://notmuchmail.org/nmbug/"
+2013-07-08 22:12:13	--	Topic set by Domo_ (U2FsdGVkX1@guru.guru-group.fi) on Mon, 04 Mar 2013 00:41:26
+2013-07-08 22:12:13	--	Nicks #notmuch: [aidecoe alip amdragon atrus awg bdale bqp bremner catsup ccxCZ cgeier chaoflow crazedpsyc cworth daurnimator dkg_ Domo_ ecraven else- fil_ frediz frozencemetery gianlucadv glasserc greghendershott harrow` hramrach__ Hunner iera Ingmar j4ni james_w joshc jrollins jy2wong kenyon kurochkin laarmen madduck Mars^ Mars` micah mjw1009_ MrAnders1n mtp notmuch-buildbot np ocharles PaulePanter paulproteus qmx raorn riddle Sagi slowpoke snufu stewart tgummerer thomasg tomprince tridactyla trn tschwinge Valodim vpm wart_ webframp wereHamster wishi witten yeled zmo zorzar zrail ZyX-I]
+2013-07-08 22:12:13	--	Channel #notmuch: 75 nicks (0 ops, 0 halfops, 0 voices, 75 normals)
+2013-07-08 22:12:13	--	URL for #notmuch: http://notmuchmail.org
+2013-07-08 22:12:19	--	Mode #notmuch [+cn]
+2013-07-08 22:12:19	--	Channel created on Sun, 01 Nov 2009 11:44:03
+2013-07-08 22:12:46	<--	ZyX-I (~ZyX-I@broadband-77-37-228-65.nationalcablenetworks.ru) has quit (Ping timeout: 276 seconds)
+2013-07-08 22:13:58	<--	Mars` (~Mars`@c-98-210-152-81.hsd1.ca.comcast.net) has quit (Ping timeout: 264 seconds)
+2013-07-08 22:25:00	--	irc: disconnected from server
+2013-07-08 22:26:01	-->	Mars^ (~Mars`@c-98-210-152-81.hsd1.ca.comcast.net) has joined #notmuch
+2013-07-08 22:26:01	--	Topic for #notmuch is "How much mail is in your inbox?  http://notmuchmail.org/releases/notmuch-0.15.2.tar.gz http://lwn.net/Articles/380073/ http://notmuchmail.org/nmbug/"
+2013-07-08 22:26:01	--	Topic set by Domo_ (U2FsdGVkX1@guru.guru-group.fi) on Mon, 04 Mar 2013 00:41:26
+2013-07-08 22:26:01	--	Nicks #notmuch: [aidecoe alip amdragon atrus awg bdale bqp bremner catsup ccxCZ cgeier chaoflow crazedpsyc cworth daurnimator dkg_ Domo_ ecraven else- fil_ frediz frozencemetery gianlucadv glasserc greghendershott harrow` hramrach__ Hunner iera Ingmar j4ni james_w joshc jrollins jy2wong kenyon kurochkin laarmen madduck Mars^ micah mjw1009_ MrAnders1n mtp mwhudson_ notmuch-buildbot np ocharles PaulePanter paulproteus qmx raorn riddle Sagi slowpoke snufu stewart tgummerer thomasg tomprince tridactyla trn tschwinge Valodim vpm wart_ webframp wereHamster wishi witten yeled zmo zorzar zrail]
+2013-07-08 22:26:01	--	Channel #notmuch: 74 nicks (0 ops, 0 halfops, 0 voices, 74 normals)
+2013-07-08 22:26:01	--	URL for #notmuch: http://notmuchmail.org
+2013-07-08 22:26:09	--	Mode #notmuch [+cn]
+2013-07-08 22:26:09	--	Channel created on Sun, 01 Nov 2009 11:44:03
+2013-07-08 23:29:06	-->	sanoj (~sanoj@77.109.117.214) has joined #notmuch
+2013-07-09 00:03:06	--	irc: disconnected from server
+2013-07-09 00:03:58	-->	Mars^ (~Mars`@c-98-210-152-81.hsd1.ca.comcast.net) has joined #notmuch
+2013-07-09 00:03:59	--	Topic for #notmuch is "How much mail is in your inbox?  http://notmuchmail.org/releases/notmuch-0.15.2.tar.gz http://lwn.net/Articles/380073/ http://notmuchmail.org/nmbug/"
+2013-07-09 00:03:59	--	Topic set by Domo_ (U2FsdGVkX1@guru.guru-group.fi) on Mon, 04 Mar 2013 00:41:26
+2013-07-09 00:03:59	--	Nicks #notmuch: [aidecoe alip amdragon atrus awg bdale bqp bremner catsup ccxCZ cgeier chaoflow crazedpsyc cworth daurnimator dkg_ Domo_ ecraven else- fil_ frediz frozencemetery gianlucadv glasserc greghendershott harrow` hramrach__ Hunner iera Ingmar j4ni james_w joshc jrollins jy2wong kenyon kurochkin laarmen madduck Mars^ micah mjw1009_ MrAnders1n mtp notmuch-buildbot np ocharles PaulePanter paulproteus qmx raorn riddle Sagi sanoj slowpoke snufu stewart tgummerer thomasg tomprince tridactyla trn tschwinge Valodim vpm wart_ webframp wereHamster wishi witten yeled zmo zorzar zrail]
+2013-07-09 00:03:59	--	Channel #notmuch: 74 nicks (0 ops, 0 halfops, 0 voices, 74 normals)
+2013-07-09 00:03:59	--	URL for #notmuch: http://notmuchmail.org
+2013-07-09 00:04:04	--	Mode #notmuch [+cn]
+2013-07-09 00:04:05	--	Channel created on Sun, 01 Nov 2009 11:44:03
+2013-07-09 00:30:29	-->	mwhudson_ (~mwh@193.120.41.118) has joined #notmuch
+2013-07-09 00:31:39	<--	sanoj (~sanoj@77.109.117.214) has quit (Ping timeout: 256 seconds)
+2013-07-09 00:32:30	-->	kzak (~kzak@109.54.broadband13.iol.cz) has joined #notmuch
+2013-07-09 09:51:39	--	irc: disconnected from server
+2013-07-09 09:52:27	-->	Mars^ (~Mars`@c-67-180-209-52.hsd1.ca.comcast.net) has joined #notmuch
+2013-07-09 09:52:27	--	Topic for #notmuch is "How much mail is in your inbox?  http://notmuchmail.org/releases/notmuch-0.15.2.tar.gz http://lwn.net/Articles/380073/ http://notmuchmail.org/nmbug/"
+2013-07-09 09:52:27	--	Topic set by Domo_ (U2FsdGVkX1@guru.guru-group.fi) on Mon, 04 Mar 2013 00:41:26
+2013-07-09 09:52:27	--	Nicks #notmuch: [aidecoe alip amdragon atrus awg bdale bqp bremner` catsup ccxCZ cgeier chaoflow crazedpsyc cworth daurnimator dkg_ Domo_ dschoepe ecraven else- fil_ frediz frozencemetery gianlucadv glasserc greghendershott harrow` hramrach__ Hunner iera Ingmar j4ni james_w joshc jrollins jy2wong kenyon kurochkin kzak laarmen madduck Mars^ micah mjw1009_ MrAnders1n mtp notmuch-buildbot np ocharles PaulePanter paulproteus qmx raorn riddle Sagi seschwar slowpoke snufu stewart tgummerer thomasg tomprince tridactyla trn tschwinge Valodim vpm wart_ wdouglas webframp wereHamster wishi witten yeled zmo zorzar zrail ZyX-I]
+2013-07-09 09:52:27	--	Channel #notmuch: 78 nicks (0 ops, 0 halfops, 0 voices, 78 normals)
+2013-07-09 09:52:27	--	URL for #notmuch: http://notmuchmail.org
+2013-07-09 09:52:33	--	Mode #notmuch [+cn]
+2013-07-09 09:52:33	--	Channel created on Sun, 01 Nov 2009 11:44:03
+2013-07-09 10:08:31	-->	ygbillet (~ygbillet@29.179.81.79.rev.sfr.net) has joined #notmuch
+2013-07-09 10:37:01	<--	dschoepe (~dschoepe@unaffiliated/dschoepe) has quit (Quit: WeeChat 0.4.1)
+2013-07-09 10:58:53	<--	dkg_ (~dkg@lair.fifthhorseman.net) has quit (Quit: leaving)
+2013-07-09 12:00:41	ecraven	notmuch never directly invokes gpg, but only gmime (which does that), right?
+2013-07-09 12:00:53	ecraven	is there a way to force gmime to *not* use gpg2 (and pinentry-curses)?
+2013-07-09 12:37:09	<--	kzak (~kzak@109.54.broadband13.iol.cz) has quit (Ping timeout: 248 seconds)
+2013-07-09 12:55:26	-->	bqp_ (~bqp@ec2-50-112-87-115.us-west-2.compute.amazonaws.com) has joined #notmuch
+2013-07-09 12:58:58	-->	deley (~yeled@spodder.com) has joined #notmuch
+2013-07-09 13:01:37	<--	ZyX-I (~ZyX-I@broadband-77-37-228-65.nationalcablenetworks.ru) has quit (*.net *.split)
+2013-07-09 13:01:37	<--	yeled (~yeled@spodder.com) has quit (*.net *.split)
+2013-07-09 13:01:40	<--	gianlucadv (~gianlucad@aspic.bio.disco.unimib.it) has quit (*.net *.split)
+2013-07-09 13:01:41	<--	jrollins (~jrollins@finestructure.net) has quit (*.net *.split)
+2013-07-09 13:01:42	<--	bqp (~bqp@unaffiliated/bqp) has quit (*.net *.split)
+2013-07-09 13:01:43	<--	greghendershott (~greghende@ec2-54-235-253-38.compute-1.amazonaws.com) has quit (*.net *.split)
+2013-07-09 13:01:43	<--	alip (~alip@exherbo/developer/alip) has quit (*.net *.split)
+2013-07-09 13:04:34	ecraven	hm.. writing a pinentry-emacs that uses emacsclient to prompt for a passphrase wasn't so hard :) [probably totally insecure, but i'm the only one with access to this machine anyway, and pinentry-curses doesn't work here :( ]
+2013-07-09 13:04:54	mtp	ecraven: i'm now curious about pinentry-emacs
+2013-07-09 13:05:07	mtp	because yeah, pinentry-curses is kind of garbage
+2013-07-09 13:06:37	ecraven	a minute, i'll github it
+2013-07-09 13:06:46	-->	greghendershott (~greghende@ec2-54-235-253-38.compute-1.amazonaws.com) has joined #notmuch
+2013-07-09 13:06:46	-->	gianlucadv (~gianlucad@aspic.bio.disco.unimib.it) has joined #notmuch
+2013-07-09 13:06:46	-->	jrollins (~jrollins@finestructure.net) has joined #notmuch
+2013-07-09 13:06:46	-->	alip (~alip@exherbo/developer/alip) has joined #notmuch
+2013-07-09 13:14:48	-->	sanoj (~sanoj@77.109.117.214) has joined #notmuch
+2013-07-09 13:15:26	ecraven	https://github.com/ecraven/pinentry-emacs
+2013-07-09 13:15:34	ecraven	no guarantees at all :)
+2013-07-09 13:15:39	ecraven	works for me though :)
+2013-07-09 13:16:11	mtp	:)
+2013-07-09 13:16:33	ecraven	now I can *finally* sign and encrypt emails "normally"
+2013-07-09 13:16:41	<--	ygbillet (~ygbillet@29.179.81.79.rev.sfr.net) has quit (Quit: Lost terminal)
+2013-07-09 13:19:08	ecraven	only "problem" is that decrypting is done synchronously, so emacs hangs. so when opening an encrypted email, you have to C-g, then enter the passphrase, then quit out of the empty email, then open it again. gpg-agent caches the passphrase, so you'll see it without entering anything the second time
+2013-07-09 13:19:24	-->	jrollins_ (~jrollins@finestructure.net) has joined #notmuch
+2013-07-09 13:22:30	ecraven	this should probably fallback to pinentry-curses if no emacs is running or something.. ideally, it would notice when it is running inside emacs, and delegate to pinentry-curses in any other case
+2013-07-09 13:23:43	cworth	ecraven: The notmuch test suite includes some (fairly cheesy) code to detect if something can be run inside of emacs.
+2013-07-09 13:23:49	<--	gianlucadv (~gianlucad@aspic.bio.disco.unimib.it) has quit (*.net *.split)
+2013-07-09 13:23:50	<--	jrollins (~jrollins@finestructure.net) has quit (*.net *.split)
+2013-07-09 13:23:51	<--	greghendershott (~greghende@ec2-54-235-253-38.compute-1.amazonaws.com) has quit (*.net *.split)
+2013-07-09 13:23:51	<--	alip (~alip@exherbo/developer/alip) has quit (*.net *.split)
+2013-07-09 13:24:39	-->	greghendershott (~greghende@ec2-54-235-253-38.compute-1.amazonaws.com) has joined #notmuch
+2013-07-09 13:24:39	-->	gianlucadv (~gianlucad@aspic.bio.disco.unimib.it) has joined #notmuch
+2013-07-09 13:24:39	-->	alip (~alip@exherbo/developer/alip) has joined #notmuch
+2013-07-09 13:25:44	cworth	ecraven: Hmm... or maybe I was thinking of the little script I use to invoke emacs...
+2013-07-09 13:26:44	ecraven	cworth: i'd be glad about any pointers you could provide on how to do this :)
+2013-07-09 13:26:47	cworth	ecraven: Yeah, that was it. And that cheesy code is for detecting whether or not emacsclient is getting a graphical or non-graphical emacs, so not what you want here. But you could use a similar idea:
+2013-07-09 13:26:51	cworth	Inside a shell script:
+2013-07-09 13:26:59	cworth	graphical_emacs=$(emacsclient --no-wait --eval '(raise-frame)' '(x-focus-frame nil)' '(message (if (display-multi-frame-p) "t"))')
+2013-07-09 13:27:45	cworth	So you probably want something like:
+2013-07-09 13:27:59	cworth	inside_emacs=$(emacsclient --no-wait --eval '(message "t")')
+2013-07-09 13:28:27	ecraven	cworth: won't that show t in any terminal, not just in code started directly or indirectly by emacs?
+2013-07-09 13:28:52	cworth	ecraven: Oh. I thought you wanted to know if emacsclient was available.
+2013-07-09 13:29:03	cworth	Testing for inside emacs should be even easier...
+2013-07-09 13:29:43	cworth	If I do "env | grep EMACS" in an emacs shell I see:
+2013-07-09 13:29:50	cworth	EMACS=t
+2013-07-09 13:29:50	cworth	INSIDE_EMACS=23.4.1,comint
+2013-07-09 13:30:20	ecraven	ah, very cool!
+2013-07-09 13:30:46	ecraven	oh, this won't work, as pinentry-* is started by gpg-agent, not by emacs :(
+2013-07-09 13:36:03	-->	alip_ (~alip@exherbo/developer/alip) has joined #notmuch
+2013-07-09 13:38:42	<--	gianlucadv (~gianlucad@aspic.bio.disco.unimib.it) has quit (*.net *.split)
+2013-07-09 13:38:43	<--	greghendershott (~greghende@ec2-54-235-253-38.compute-1.amazonaws.com) has quit (*.net *.split)
+2013-07-09 13:38:43	<--	alip (~alip@exherbo/developer/alip) has quit (*.net *.split)
+2013-07-09 13:38:43	--	alip_ is now known as alip
+2013-07-09 13:39:51	<--	bqp_ (~bqp@ec2-50-112-87-115.us-west-2.compute.amazonaws.com) has quit (Quit: 0)
+2013-07-09 13:40:07	-->	bqp (~bqp@unaffiliated/bqp) has joined #notmuch
+2013-07-09 13:41:48	-->	greghendershott (~greghende@ec2-54-235-253-38.compute-1.amazonaws.com) has joined #notmuch
+2013-07-09 13:41:48	-->	gianlucadv (~gianlucad@aspic.bio.disco.unimib.it) has joined #notmuch
+2013-07-09 13:42:47	Domo_	i once attempted to write 'tty-pinentry.sh' to use gpg2 from emacs but for some reason that didn't work...
+2013-07-09 13:43:26	Domo_	iirc it worked on terminal -- or then it didn't...
+2013-07-09 14:11:08	-->	mwhudson (~mwh@linaro/mwhudson) has joined #notmuch
+2013-07-09 14:25:25	cworth	ecraven: You can't write a pinentry-foo that calls out to the one you want?
+2013-07-09 14:27:02	<--	seschwar (~seschwar@unaffiliated/seschwar) has quit (Quit: :qa)
+2013-07-09 14:31:38	ecraven	cworth: I can, the tricky thing is deciding when I actually want this :-/
+2013-07-09 14:31:54	ecraven	(i.e. how do I actually decide whether the current call to gpg-agent is from inside emacs or from outside?)
+2013-07-09 14:38:54	<--	sanoj (~sanoj@77.109.117.214) has quit (Ping timeout: 240 seconds)
+2013-07-09 15:37:09	cworth	ecraven: gpg-agent calls your pinentry-foo, right? Then pinentry-foo can inspect the EMACS environment variable and call either pinentry-emacs or pinentry-curses, right? Or am I missing something?
+2013-07-09 15:41:15	ecraven	cworth: gpg-agent always runs outside of emacs, even when called from inside (via a pipe or whatnot)
+2013-07-09 15:41:47	cworth	ecraven: Ah, I see.
+2013-07-09 15:45:58	cworth	ecraven: I forgot we had a long-runnning daemon involved here.
+2013-07-09 15:52:21	ecraven	i don't think there's a way to do this, unless I can pass information through gpg-agent into pinentry-* (which I believe is not possible)
+2013-07-09 16:11:28	<--	laarmen (~laarmen@31123hpv122133.ikoula.com) has quit (Ping timeout: 246 seconds)
+2013-07-09 16:11:39	-->	laarmen (~laarmen@31123hpv122133.ikoula.com) has joined #notmuch
+2013-07-09 16:12:46	<--	mwhudson (~mwh@linaro/mwhudson) has quit (Ping timeout: 240 seconds)
+2013-07-09 17:10:24	<--	ccxCZ (~ccxCZ@156.200.broadband11.iol.cz) has quit (Ping timeout: 240 seconds)
+2013-07-09 17:15:00	-->	ccxCZ (~ccxCZ@156.200.broadband11.iol.cz) has joined #notmuch
+2013-07-09 17:27:49	<--	hramrach__ (~hramrach@gateway/tor-sasl/hramrach) has quit (Ping timeout: 240 seconds)
+2013-07-09 17:29:11	-->	hramrach__ (~hramrach@gateway/tor-sasl/hramrach) has joined #notmuch
+2013-07-09 20:01:21	<--	ccxCZ (~ccxCZ@156.200.broadband11.iol.cz) has quit (Ping timeout: 248 seconds)
+2013-07-09 20:11:29	-->	ccxCZ (~ccxCZ@156.200.broadband11.iol.cz) has joined #notmuch
+2013-07-09 21:43:01	--	irc: disconnected from server
+2013-07-09 21:43:43	-->	Mars^ (~Mars`@c-98-210-152-81.hsd1.ca.comcast.net) has joined #notmuch
+2013-07-09 21:43:43	--	Topic for #notmuch is "How much mail is in your inbox?  http://notmuchmail.org/releases/notmuch-0.15.2.tar.gz http://lwn.net/Articles/380073/ http://notmuchmail.org/nmbug/"
+2013-07-09 21:43:43	--	Topic set by Domo_ (U2FsdGVkX1@guru.guru-group.fi) on Mon, 04 Mar 2013 00:41:26
+2013-07-09 21:43:44	--	Nicks #notmuch: [aidecoe alip amdragon atrus awg bdale bqp bremner` catsup ccxCZ cgeier chaoflow crazedpsyc cworth daurnimator deley Domo_ ecraven else- fil_ frediz frozencemetery gianlucadv glasserc greghendershott harrow` hramrach__ Hunner iera Ingmar j4ni james_w joshc jrollins_ jy2wong kenyon kurochkin laarmen madduck Mars^ micah mjw1009_ MrAnders1n mtp notmuch-buildbot np ocharles PaulePanter paulproteus qmx raorn riddle Sagi slowpoke snufu stewart tgummerer thomasg tomprince tridactyla trn tschwinge Valodim vpm wart_ wdouglas webframp wereHamster wishi witten zmo zorzar zrail]
+2013-07-09 21:43:44	--	Channel #notmuch: 73 nicks (0 ops, 0 halfops, 0 voices, 73 normals)
+2013-07-09 21:43:44	--	URL for #notmuch: http://notmuchmail.org
+2013-07-09 21:43:51	--	Mode #notmuch [+cn]
+2013-07-09 21:43:51	--	Channel created on Sun, 01 Nov 2009 11:44:03
+2013-07-09 22:02:40	<--	zrail (~zrail@bugsplat.xen.prgmr.com) has quit (Ping timeout: 245 seconds)
+2013-07-09 22:03:55	<--	tridactyla (~mforney@mforney.new.xen.prgmr.com) has quit (Ping timeout: 245 seconds)
+2013-07-09 22:05:33	-->	zrail (~zrail@bugsplat.xen.prgmr.com) has joined #notmuch
+2013-07-09 22:05:38	-->	tridactyla (~mforney@mforney.new.xen.prgmr.com) has joined #notmuch
+2013-07-09 22:55:02	--	irc: disconnected from server
+2013-07-09 22:55:45	-->	Mars^ (~Mars`@c-98-210-152-81.hsd1.ca.comcast.net) has joined #notmuch
+2013-07-09 22:55:45	--	Topic for #notmuch is "How much mail is in your inbox?  http://notmuchmail.org/releases/notmuch-0.15.2.tar.gz http://lwn.net/Articles/380073/ http://notmuchmail.org/nmbug/"
+2013-07-09 22:55:45	--	Topic set by Domo_ (U2FsdGVkX1@guru.guru-group.fi) on Mon, 04 Mar 2013 00:41:26
+2013-07-09 22:55:45	--	Nicks #notmuch: [aidecoe alip amdragon atrus awg bdale bqp bremner` catsup ccxCZ cgeier chaoflow crazedpsyc cworth daurnimator deley Domo_ ecraven else- fil_ frediz frozencemetery gianlucadv glasserc greghendershott harrow` hramrach__ Hunner iera Ingmar j4ni james_w joshc jrollins_ jy2wong kenyon kurochkin laarmen madduck Mars^ micah mjw1009_ MrAnders1n mtp notmuch-buildbot np ocharles PaulePanter paulproteus qmx raorn riddle Sagi slowpoke snufu stewart tgummerer thomasg tomprince tridactyla trn tschwinge Valodim vpm wart_ wdouglas webframp wereHamster wishi witten zmo zorzar zrail]
+2013-07-09 22:55:45	--	Channel #notmuch: 73 nicks (0 ops, 0 halfops, 0 voices, 73 normals)
+2013-07-09 22:55:45	--	URL for #notmuch: http://notmuchmail.org
+2013-07-09 22:55:52	--	Mode #notmuch [+cn]
+2013-07-09 22:55:53	--	Channel created on Sun, 01 Nov 2009 11:44:03
+2013-07-10 09:59:45	--	irc: disconnected from server
+2013-07-10 10:00:33	-->	Mars^ (~Mars`@c-98-210-152-81.hsd1.ca.comcast.net) has joined #notmuch
+2013-07-10 10:00:33	--	Topic for #notmuch is "How much mail is in your inbox?  http://notmuchmail.org/releases/notmuch-0.15.2.tar.gz http://lwn.net/Articles/380073/ http://notmuchmail.org/nmbug/"
+2013-07-10 10:00:33	--	Topic set by Domo_ (U2FsdGVkX1@guru.guru-group.fi) on Mon, 04 Mar 2013 00:41:26
+2013-07-10 10:00:33	--	Nicks #notmuch: [aidecoe alip amdragon atrus awg_ bdale bqp bremner` catsup ccxCZ cgeier chaoflow crazedpsyc cworth` daurnimator deley Domo_ else- fil_ frediz frozencemetery gianlucadv glasserc greghendershott Guest94629 harrow` hramrach__ Hunner iera Ingmar_ j4ni james_w joshc jrollins_ jy2wong kenyon_ kzak laarmen madduck Mars^ micah mjw1009_ MrAnders1n mtp mwhudson notmuch-buildbot np ocharles PaulePanter paulproteus qmx raorn riddle Sagi seschwar slowpoke snufux stewart tgummerer thomasg tomprince tridacty1a trn tschwing_ Valodim vpm wart_ wdouglas webframp wereHams1er wishi witten zmo zorzar zrail]
+2013-07-10 10:00:33	--	Channel #notmuch: 75 nicks (0 ops, 0 halfops, 0 voices, 75 normals)
+2013-07-10 10:00:39	--	Mode #notmuch [+cn]
+2013-07-10 10:00:39	--	Channel created on Sun, 01 Nov 2009 11:44:03
+2013-07-10 10:01:13	<--	tschwing_ (user@gateway/shell/gnu/x-yqfzqkcjpstbioyo) has quit (Remote host closed the connection)
+2013-07-10 10:16:21	--	qmx is now known as whocares
+2013-07-10 10:16:28	--	whocares is now known as qmx
+2013-07-10 11:24:06	--	irc: disconnected from server
+2013-07-10 11:24:53	-->	Mars^ (~Mars`@c-67-180-209-52.hsd1.ca.comcast.net) has joined #notmuch
+2013-07-10 11:24:53	--	Topic for #notmuch is "How much mail is in your inbox?  http://notmuchmail.org/releases/notmuch-0.15.2.tar.gz http://lwn.net/Articles/380073/ http://notmuchmail.org/nmbug/"
+2013-07-10 11:24:53	--	Topic set by Domo_ (U2FsdGVkX1@guru.guru-group.fi) on Mon, 04 Mar 2013 00:41:26
+2013-07-10 11:24:53	--	Nicks #notmuch: [aidecoe alip amdragon atrus awg_ bdale bqp bremner` catsup ccxCZ cgeier chaoflow crazedpsyc cworth` daurnimator deley Domo_ else- fil_ frediz frozencemetery gianlucadv glasserc greghendershott Guest94629 harrow` hramrach__ Hunner iera Ingmar_ j4ni james_w joshc jrollins_ jy2wong kenyon_ laarmen madduck Mars^ micah mjw1009_ MrAnders1n mtp mwhudson notmuch-buildbot np ocharles PaulePanter paulproteus qmx raorn riddle Sagi seschwar slowpoke snufux stewart tgummerer thomasg tomprince tridacty1a trn tschwinge Valodim vpm wart_ wdouglas webframp wereHams1er wishi witten zmo zorzar zrail]
+2013-07-10 11:24:53	--	Channel #notmuch: 74 nicks (0 ops, 0 halfops, 0 voices, 74 normals)
+2013-07-10 11:24:59	--	Mode #notmuch [+cn]
+2013-07-10 11:25:00	--	Channel created on Sun, 01 Nov 2009 11:44:03
+2013-07-10 12:04:35	--	tomprince is now known as tomprince``
+2013-07-10 12:38:16	--	cworth` is now known as cworth
+2013-07-10 13:08:34	<--	tschwinge (user@gateway/shell/gnu/x-glgnqmmgykkcvxyg) has quit (Changing host)
+2013-07-10 13:08:34	-->	tschwinge (user@gnu/the-hurd/tschwinge) has joined #notmuch
+2013-07-10 13:18:06	<--	tgummerer (~tgummerer@li348-43.members.linode.com) has quit (Ping timeout: 264 seconds)
+2013-07-10 13:18:27	-->	tgummerer (~tgummerer@li348-43.members.linode.com) has joined #notmuch
+2013-07-10 13:20:28	-->	tomprince (~tomprince@arrakis.hocat.ca) has joined #notmuch
+2013-07-10 13:21:50	-->	sanoj (~sanoj@62.205.75.105) has joined #notmuch
+2013-07-10 13:22:26	<--	tomprince (~tomprince@arrakis.hocat.ca) has quit (Client Quit)
+2013-07-10 13:24:57	--	kenyon_ is now known as kenyon
+2013-07-10 13:25:38	-->	tomprince (~tomprince@arrakis.hocat.ca) has joined #notmuch
+2013-07-10 13:29:20	<--	tomprince (~tomprince@arrakis.hocat.ca) has quit (Client Quit)
+2013-07-10 13:30:16	<--	sanoj (~sanoj@62.205.75.105) has quit (Ping timeout: 240 seconds)
+2013-07-10 13:31:08	-->	tomprince (~tomprince@arrakis.hocat.ca) has joined #notmuch

@@ -37,6 +37,14 @@ set wildmenu " Enhance comand line completion
 noremap <F3> :GundoToggle<CR>
 noremap Q :quitall<CR>
 
+" Moving up and down should be soft lines
+" We can use arrow keys for silly case we want to
+" navitate based on hard lines, yo
+map <silent> k gk
+" imap <silent> <Up> <C-o>gk
+map <silent> j gj
+" imap <silent> <Down> <C-o>gj
+
 " Testing. This should save history for buffers
 set hidden
 set history=1000
@@ -75,6 +83,7 @@ set wrap
 " Remap CtrlP to Ctr T
 noremap <C-t> :CtrlP<CR>
 noremap ,n :NERDTreeToggle<CR>
+noremap ,p :YRShow<CR>
 
 " Highlight files nicely
 au BufRead,BufNewFile *.tt2 setf html

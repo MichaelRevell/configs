@@ -15,8 +15,8 @@ set signature        = ~/.mutt/sig           # my signature file
 
 source ~/.mutt/crowdtilt.muttrc
 
-mailboxes +personal/INBOX \
-          +crowdtilt/INBOX \
+mailboxes +crowdtilt/INBOX \
+          +personal/INBOX \
           +old/INBOX \
           +temporary/search \
 
@@ -28,7 +28,8 @@ source ~/.mutt/test.colors
 
 alternative_order text/plain text/enriched text/html *
 auto_view text/html
-bind editor <space> noop 
+bind pager <space> half-down
+bind pager <shift><space> half-up 
 set auto_tag = yes
 set beep_new             # bell on new mails
 set delete               # don't ask, just do
@@ -70,7 +71,7 @@ macro pager "\eb"    "<pipe-message>lbdb-fetchaddr<enter>"                # Stor
 
 # Sidebar Patch {{{
 
-set sidebar_delim   = '  │'
+set sidebar_delim   = '│'
 set sidebar_visible = yes
 set sidebar_width   = 28
 bind index,pager <down>   sidebar-next

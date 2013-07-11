@@ -1,0 +1,148 @@
+OfflineIMAP 6.5.4
+  Licensed under the GNU GPL v2+ (v2 or any later version)
+msg:protocol:MainThread7.0.0
+msg:initbanner:MainThreadOfflineIMAP+6.5.4%0A++Licensed+under+the+GNU+GPL+v2%2B+%28v2+or+any+later+version%29
+msg:registerthread:Account sync CrowdtiltCrowdtilt
+msg:acct:Account sync CrowdtiltCrowdtilt
+msg:connecting:Account sync Crowdtiltimap.gmail.com%0A993
+msg:syncfolders:Account sync CrowdtiltGmail%0AMaildir
+msg:registerthread:Folder [GMail]/Sent Mail [acc: Crowdtilt]Crowdtilt
+msg:registerthread:Folder [Gmail]/All Mail [acc: Crowdtilt]Crowdtilt
+msg:syncingfolder:Folder [GMail]/Sent Mail [acc: Crowdtilt]Gmail%0A%5BGMail%5D%2FSent+Mail%0AMaildir%0A%5BGMail%5D.Sent+Mail%0A
+msg:loadmessagelist:Folder [GMail]/Sent Mail [acc: Crowdtilt]Maildir%0A%5BGMail%5D.Sent+Mail
+msg:messagelistloaded:Folder [GMail]/Sent Mail [acc: Crowdtilt]Maildir%0A%5BGMail%5D.Sent+Mail%0A36
+msg:syncingfolder:Folder [Gmail]/All Mail [acc: Crowdtilt]Gmail%0A%5BGmail%5D%2FAll+Mail%0AMaildir%0Aall%0A
+msg:loadmessagelist:Folder [Gmail]/All Mail [acc: Crowdtilt]Maildir%0A%5BGmail%5D%2FAll+Mail
+msg:messagelistloaded:Folder [Gmail]/All Mail [acc: Crowdtilt]Maildir%0Aall%0A3683
+msg:validityproblem:Folder [GMail]/Sent Mail [acc: Crowdtilt]%5BGMail%5D%2FSent+Mail%0ACrowdtilt-Remote%0A5%0A16
+msg:registerthread:Folder Archive [acc: Crowdtilt]Crowdtilt
+msg:syncingfolder:Folder Archive [acc: Crowdtilt]Gmail%0AArchive%0AMaildir%0AArchive%0A
+msg:loadmessagelist:Folder Archive [acc: Crowdtilt]Maildir%0AArchive
+msg:messagelistloaded:Folder Archive [acc: Crowdtilt]Maildir%0AArchive%0A27
+msg:threadExited:MainThreadFolder+%5BGMail%5D%2FSent+Mail+%5Bacc%3A+Crowdtilt%5D
+msg:unregisterthread:MainThreadFolder+%5BGMail%5D%2FSent+Mail+%5Bacc%3A+Crowdtilt%5D
+msg:loadmessagelist:Folder [Gmail]/All Mail [acc: Crowdtilt]Gmail%0Aall
+msg:loadmessagelist:Folder Archive [acc: Crowdtilt]Gmail%0AArchive
+msg:messagelistloaded:Folder [Gmail]/All Mail [acc: Crowdtilt]Gmail%0A%5BGmail%5D%2FAll+Mail%0A3683
+msg:syncingmessages:Folder [Gmail]/All Mail [acc: Crowdtilt]Gmail%0A%5BGmail%5D%2FAll+Mail%0AMaildir%0Aall%0A
+msg:syncingmessages:Folder [Gmail]/All Mail [acc: Crowdtilt]Maildir%0Aall%0AGmail%0A%5BGmail%5D%2FAll+Mail%0A
+msg:registerthread:Folder cluecross [acc: Crowdtilt]Crowdtilt
+msg:syncingfolder:Folder cluecross [acc: Crowdtilt]Gmail%0Acluecross%0AMaildir%0Acluecross%0A
+msg:loadmessagelist:Folder cluecross [acc: Crowdtilt]Maildir%0Acluecross
+msg:messagelistloaded:Folder cluecross [acc: Crowdtilt]Maildir%0Acluecross%0A1
+msg:threadExited:MainThreadFolder+%5BGmail%5D%2FAll+Mail+%5Bacc%3A+Crowdtilt%5D
+msg:unregisterthread:MainThreadFolder+%5BGmail%5D%2FAll+Mail+%5Bacc%3A+Crowdtilt%5D
+msg:messagelistloaded:Folder Archive [acc: Crowdtilt]Gmail%0AArchive%0A27
+msg:syncingmessages:Folder Archive [acc: Crowdtilt]Gmail%0AArchive%0AMaildir%0AArchive%0A
+msg:syncingmessages:Folder Archive [acc: Crowdtilt]Maildir%0AArchive%0AGmail%0AArchive%0A
+msg:registerthread:Folder Deleted Messages [acc: Crowdtilt]Crowdtilt
+msg:syncingfolder:Folder Deleted Messages [acc: Crowdtilt]Gmail%0ADeleted+Messages%0AMaildir%0ADeleted+Messages%0A
+msg:loadmessagelist:Folder Deleted Messages [acc: Crowdtilt]Maildir%0ADeleted+Messages
+msg:messagelistloaded:Folder Deleted Messages [acc: Crowdtilt]Maildir%0ADeleted+Messages%0A1
+msg:threadExited:MainThreadFolder+Archive+%5Bacc%3A+Crowdtilt%5D
+msg:unregisterthread:MainThreadFolder+Archive+%5Bacc%3A+Crowdtilt%5D
+msg:loadmessagelist:Folder cluecross [acc: Crowdtilt]Gmail%0Acluecross
+msg:loadmessagelist:Folder Deleted Messages [acc: Crowdtilt]Gmail%0ADeleted+Messages
+msg:messagelistloaded:Folder cluecross [acc: Crowdtilt]Gmail%0Acluecross%0A1
+msg:syncingmessages:Folder cluecross [acc: Crowdtilt]Gmail%0Acluecross%0AMaildir%0Acluecross%0A
+msg:syncingmessages:Folder cluecross [acc: Crowdtilt]Maildir%0Acluecross%0AGmail%0Acluecross%0A
+msg:registerthread:Folder Drafts [acc: Crowdtilt]Crowdtilt
+msg:_display:Folder Drafts [acc: Crowdtilt]ERROR%3A+Aborting+sync%2C+folder+%27Drafts%27+%5Bacc%3A+%27Crowdtilt%27%5D%0A++getfolder%28%29+asked+for+a+nonexisting+folder+%27Drafts%27.
+msg:registerthread:Folder [Gmail]/Drafts [acc: Crowdtilt]Crowdtilt
+msg:syncingfolder:Folder [Gmail]/Drafts [acc: Crowdtilt]Gmail%0A%5BGmail%5D%2FDrafts%0AMaildir%0Adrafts%0A
+msg:loadmessagelist:Folder [Gmail]/Drafts [acc: Crowdtilt]Maildir%0A%5BGmail%5D%2FDrafts
+msg:messagelistloaded:Folder [Gmail]/Drafts [acc: Crowdtilt]Maildir%0Adrafts%0A1
+msg:threadExited:MainThreadFolder+cluecross+%5Bacc%3A+Crowdtilt%5D
+msg:unregisterthread:MainThreadFolder+cluecross+%5Bacc%3A+Crowdtilt%5D
+msg:threadExited:MainThreadFolder+Drafts+%5Bacc%3A+Crowdtilt%5D
+msg:unregisterthread:MainThreadFolder+Drafts+%5Bacc%3A+Crowdtilt%5D
+msg:messagelistloaded:Folder Deleted Messages [acc: Crowdtilt]Gmail%0ADeleted+Messages%0A1
+msg:syncingmessages:Folder Deleted Messages [acc: Crowdtilt]Gmail%0ADeleted+Messages%0AMaildir%0ADeleted+Messages%0A
+msg:syncingmessages:Folder Deleted Messages [acc: Crowdtilt]Maildir%0ADeleted+Messages%0AGmail%0ADeleted+Messages%0A
+msg:registerthread:Folder INBOX [acc: Crowdtilt]Crowdtilt
+msg:syncingfolder:Folder INBOX [acc: Crowdtilt]Gmail%0AINBOX%0AMaildir%0AINBOX%0A
+msg:loadmessagelist:Folder INBOX [acc: Crowdtilt]Maildir%0AINBOX
+msg:messagelistloaded:Folder INBOX [acc: Crowdtilt]Maildir%0AINBOX%0A290
+msg:threadExited:MainThreadFolder+Deleted+Messages+%5Bacc%3A+Crowdtilt%5D
+msg:unregisterthread:MainThreadFolder+Deleted+Messages+%5Bacc%3A+Crowdtilt%5D
+msg:loadmessagelist:Folder [Gmail]/Drafts [acc: Crowdtilt]Gmail%0Adrafts
+msg:loadmessagelist:Folder INBOX [acc: Crowdtilt]Gmail%0AINBOX
+msg:messagelistloaded:Folder [Gmail]/Drafts [acc: Crowdtilt]Gmail%0A%5BGmail%5D%2FDrafts%0A1
+msg:syncingmessages:Folder [Gmail]/Drafts [acc: Crowdtilt]Gmail%0A%5BGmail%5D%2FDrafts%0AMaildir%0Adrafts%0A
+msg:syncingmessages:Folder [Gmail]/Drafts [acc: Crowdtilt]Maildir%0Adrafts%0AGmail%0A%5BGmail%5D%2FDrafts%0A
+msg:registerthread:Folder JIRA [acc: Crowdtilt]Crowdtilt
+msg:syncingfolder:Folder JIRA [acc: Crowdtilt]Gmail%0AJIRA%0AMaildir%0AJIRA%0A
+msg:loadmessagelist:Folder JIRA [acc: Crowdtilt]Maildir%0AJIRA
+msg:threadExited:MainThreadFolder+%5BGmail%5D%2FDrafts+%5Bacc%3A+Crowdtilt%5D
+msg:messagelistloaded:Folder JIRA [acc: Crowdtilt]Maildir%0AJIRA%0A1999
+msg:unregisterthread:MainThreadFolder+%5BGmail%5D%2FDrafts+%5Bacc%3A+Crowdtilt%5D
+msg:messagelistloaded:Folder INBOX [acc: Crowdtilt]Gmail%0AINBOX%0A290
+msg:syncingmessages:Folder INBOX [acc: Crowdtilt]Gmail%0AINBOX%0AMaildir%0AINBOX%0A
+msg:syncingmessages:Folder INBOX [acc: Crowdtilt]Maildir%0AINBOX%0AGmail%0AINBOX%0A
+msg:registerthread:Folder [Gmail]/Sent Mail [acc: Crowdtilt]Crowdtilt
+msg:syncingfolder:Folder [Gmail]/Sent Mail [acc: Crowdtilt]Gmail%0A%5BGmail%5D%2FSent+Mail%0AMaildir%0Asent%0A
+msg:loadmessagelist:Folder [Gmail]/Sent Mail [acc: Crowdtilt]Maildir%0A%5BGmail%5D%2FSent+Mail
+msg:messagelistloaded:Folder [Gmail]/Sent Mail [acc: Crowdtilt]Maildir%0Asent%0A249
+msg:threadExited:MainThreadFolder+INBOX+%5Bacc%3A+Crowdtilt%5D
+msg:unregisterthread:MainThreadFolder+INBOX+%5Bacc%3A+Crowdtilt%5D
+msg:loadmessagelist:Folder JIRA [acc: Crowdtilt]Gmail%0AJIRA
+msg:loadmessagelist:Folder [Gmail]/Sent Mail [acc: Crowdtilt]Gmail%0Asent
+msg:messagelistloaded:Folder JIRA [acc: Crowdtilt]Gmail%0AJIRA%0A1999
+msg:syncingmessages:Folder JIRA [acc: Crowdtilt]Gmail%0AJIRA%0AMaildir%0AJIRA%0A
+msg:syncingmessages:Folder JIRA [acc: Crowdtilt]Maildir%0AJIRA%0AGmail%0AJIRA%0A
+msg:registerthread:Folder Sent Messages [acc: Crowdtilt]Crowdtilt
+msg:syncingfolder:Folder Sent Messages [acc: Crowdtilt]Gmail%0ASent+Messages%0AMaildir%0ASent+Messages%0A
+msg:loadmessagelist:Folder Sent Messages [acc: Crowdtilt]Maildir%0ASent+Messages
+msg:messagelistloaded:Folder Sent Messages [acc: Crowdtilt]Maildir%0ASent+Messages%0A159
+msg:threadExited:MainThreadFolder+JIRA+%5Bacc%3A+Crowdtilt%5D
+msg:unregisterthread:MainThreadFolder+JIRA+%5Bacc%3A+Crowdtilt%5D
+msg:messagelistloaded:Folder [Gmail]/Sent Mail [acc: Crowdtilt]Gmail%0A%5BGmail%5D%2FSent+Mail%0A249
+msg:syncingmessages:Folder [Gmail]/Sent Mail [acc: Crowdtilt]Gmail%0A%5BGmail%5D%2FSent+Mail%0AMaildir%0Asent%0A
+msg:syncingmessages:Folder [Gmail]/Sent Mail [acc: Crowdtilt]Maildir%0Asent%0AGmail%0A%5BGmail%5D%2FSent+Mail%0A
+msg:registerthread:Folder [Gmail]/Starred [acc: Crowdtilt]Crowdtilt
+msg:syncingfolder:Folder [Gmail]/Starred [acc: Crowdtilt]Gmail%0A%5BGmail%5D%2FStarred%0AMaildir%0Astar%0A
+msg:loadmessagelist:Folder [Gmail]/Starred [acc: Crowdtilt]Maildir%0A%5BGmail%5D%2FStarred
+msg:messagelistloaded:Folder [Gmail]/Starred [acc: Crowdtilt]Maildir%0Astar%0A0
+msg:threadExited:MainThreadFolder+%5BGmail%5D%2FSent+Mail+%5Bacc%3A+Crowdtilt%5D
+msg:unregisterthread:MainThreadFolder+%5BGmail%5D%2FSent+Mail+%5Bacc%3A+Crowdtilt%5D
+msg:loadmessagelist:Folder Sent Messages [acc: Crowdtilt]Gmail%0ASent+Messages
+msg:loadmessagelist:Folder [Gmail]/Starred [acc: Crowdtilt]Gmail%0Astar
+msg:messagelistloaded:Folder Sent Messages [acc: Crowdtilt]Gmail%0ASent+Messages%0A159
+msg:syncingmessages:Folder Sent Messages [acc: Crowdtilt]Gmail%0ASent+Messages%0AMaildir%0ASent+Messages%0A
+msg:syncingmessages:Folder Sent Messages [acc: Crowdtilt]Maildir%0ASent+Messages%0AGmail%0ASent+Messages%0A
+msg:registerthread:Folder userfox [acc: Crowdtilt]Crowdtilt
+msg:syncingfolder:Folder userfox [acc: Crowdtilt]Gmail%0Auserfox%0AMaildir%0Auserfox%0A
+msg:loadmessagelist:Folder userfox [acc: Crowdtilt]Maildir%0Auserfox
+msg:messagelistloaded:Folder userfox [acc: Crowdtilt]Maildir%0Auserfox%0A17
+msg:threadExited:MainThreadFolder+Sent+Messages+%5Bacc%3A+Crowdtilt%5D
+msg:unregisterthread:MainThreadFolder+Sent+Messages+%5Bacc%3A+Crowdtilt%5D
+msg:messagelistloaded:Folder [Gmail]/Starred [acc: Crowdtilt]Gmail%0A%5BGmail%5D%2FStarred%0A0
+msg:syncingmessages:Folder [Gmail]/Starred [acc: Crowdtilt]Gmail%0A%5BGmail%5D%2FStarred%0AMaildir%0Astar%0A
+msg:syncingmessages:Folder [Gmail]/Starred [acc: Crowdtilt]Maildir%0Astar%0AGmail%0A%5BGmail%5D%2FStarred%0A
+msg:threadExited:MainThreadFolder+%5BGmail%5D%2FStarred+%5Bacc%3A+Crowdtilt%5D
+msg:unregisterthread:MainThreadFolder+%5BGmail%5D%2FStarred+%5Bacc%3A+Crowdtilt%5D
+msg:loadmessagelist:Folder userfox [acc: Crowdtilt]Gmail%0Auserfox
+msg:messagelistloaded:Folder userfox [acc: Crowdtilt]Gmail%0Auserfox%0A17
+msg:syncingmessages:Folder userfox [acc: Crowdtilt]Gmail%0Auserfox%0AMaildir%0Auserfox%0A
+msg:syncingmessages:Folder userfox [acc: Crowdtilt]Maildir%0Auserfox%0AGmail%0Auserfox%0A
+msg:threadExited:MainThreadFolder+userfox+%5Bacc%3A+Crowdtilt%5D
+msg:unregisterthread:MainThreadFolder+userfox+%5Bacc%3A+Crowdtilt%5D
+msg:callhook:Account sync CrowdtiltCalling+hook%3A+notmuch+new
+msg:callhook:Account sync CrowdtiltHook+stdout%3A+No+new+mail.%0A%0AHook+stderr%3A%0A
+msg:callhook:Account sync CrowdtiltHook+return+code%3A+0
+msg:acctdone:Account sync CrowdtiltCrowdtilt
+msg:registerthread:Account sync PersonalPersonal
+msg:acct:Account sync PersonalPersonal
+msg:_display:Account sync PersonalERROR%3A+Could+not+lock+account+Personal.+Is+another+instance+using+this+account%3F
+msg:acctdone:Account sync PersonalPersonal
+msg:registerthread:Account sync OldOld
+msg:acct:Account sync OldOld
+msg:_display:Account sync OldERROR%3A+Could+not+lock+account+Old.+Is+another+instance+using+this+account%3F
+msg:acctdone:Account sync OldOld
+msg:threadExited:MainThreadAccount+sync+Crowdtilt
+msg:unregisterthread:MainThreadAccount+sync+Crowdtilt
+msg:threadExited:MainThreadAccount+sync+Personal
+msg:unregisterthread:MainThreadAccount+sync+Personal
+msg:threadExited:MainThreadAccount+sync+Old
+msg:unregisterthread:MainThreadAccount+sync+Old
+msg:terminate:MainThread0%0A%0A

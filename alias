@@ -44,6 +44,7 @@ alias gfa='git fetch --all'
 alias gx='open -a Gitx'
 alias gdsv="git diff | vim -"
 alias gdv="git diff | vim -"
+alias gn="git --no-pager"
 
 #Vagrant
 # alias vssh='go ct && vagrant ssh srv1'
@@ -51,6 +52,7 @@ alias gdv="git diff | vim -"
 # alias pdb="sshc database1a \"sudo su postgres -c 'psql crowdtilt'\""
 alias vi="mvim -v"
 alias vim="mvim -v"
+alias m="mvim"
 alias ctags="`brew --prefix`/bin/ctags"
 alias t='/usr/local/Cellar/todo-txt/2.9/bin/todo.sh -d $HOME/.todo/todo.cfg'
 

@@ -2,13 +2,6 @@ set spoolfile="+old/INBOX"
 # Alternate email addresses.
 # alternates sjl@pculture.org still\.?life@gmail.com steve@ladyluckblues.com steve@pculture.org
 #
-# Mailboxes to show in the sidebar.
-mailboxes +old/INBOX \
-          +old/all \
-          +old/sent \
-          +old/drafts \
-          +crowdtilt/INBOX \
-          +personal/INBOX \
 #set mbox = "+old/archive"
 set postponed = "+old/drafts"
 set mbox_type=Maildir

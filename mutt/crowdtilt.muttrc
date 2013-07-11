@@ -2,13 +2,6 @@ set spoolfile="+crowdtilt/INBOX"
 # Alternate email addresses.
 # alternates sjl@pculture.org still\.?life@gmail.com steve@ladyluckblues.com steve@pculture.org
 #
-# Mailboxes to show in the sidebar.
-mailboxes +crowdtilt/INBOX \
-          +crowdtilt/all \
-          +crowdtilt/sent \
-          +crowdtilt/drafts \
-          +personal/INBOX \
-          +old/INBOX \
 #set mbox = "+crowdtilt/archive"
 set postponed = "+crowdtilt/drafts"
 set mbox_type=Maildir
