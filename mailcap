@@ -10,3 +10,21 @@ application/pdf; /Users/Mars/.mutt/view_attachment.sh %s pdf
 text/html; w3m -I %{charset} -T text/html; copiousoutput;
 text/html;                      links %s; nametemplate=%s.html
 text/html;                      links -dump %s; nametemplate=%s.html; copiousoutput
+x-content/win32-software; "/Users/Mars/Library/Application Support/CrossOver/desktopdata/CrossOver-0/cxassoc/Scripts/CrossOver-0:application_x-crossover-exe::install" '%s'; \
+    description="CrossOver (Install)"; \
+    test=test -n "$DISPLAY"
+application/x-crossover-exe; "/Users/Mars/Library/Application Support/CrossOver/desktopdata/CrossOver-0/cxassoc/Scripts/CrossOver-0:application_x-crossover-exe::install" '%s'; \
+    description="CrossOver (Install)"; \
+    test=test -n "$DISPLAY"
+application/x-ms-shortcut; "/Users/Mars/Library/Application Support/CrossOver/desktopdata/CrossOver-0/cxassoc/Scripts/CrossOver-0:application_x-crossover-lnk::run" '%s'; \
+    description="CrossOver (Run)"; \
+    test=test -n "$DISPLAY"
+application/x-crossover-lnk; "/Users/Mars/Library/Application Support/CrossOver/desktopdata/CrossOver-0/cxassoc/Scripts/CrossOver-0:application_x-crossover-lnk::run" '%s'; \
+    description="CrossOver (Run)"; \
+    test=test -n "$DISPLAY"
+application/x-win-lnk; "/Users/Mars/Library/Application Support/CrossOver/desktopdata/CrossOver-0/cxassoc/Scripts/CrossOver-0:application_x-crossover-lnk::run" '%s'; \
+    description="CrossOver (Run)"; \
+    test=test -n "$DISPLAY"
+application/x-crossover-msi; "/Users/Mars/Library/Application Support/CrossOver/desktopdata/CrossOver-0/cxassoc/Scripts/CrossOver-0:application_x-crossover-msi::install" '%s'; \
+    description="CrossOver (Install)"; \
+    test=test -n "$DISPLAY"

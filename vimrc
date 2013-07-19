@@ -1,29 +1,55 @@
-" Plugins Installed: 
-" :read !ls ~/.vim/bundle
-"Zoomwin-vim
-"ack.vim
-"ctrlp.vim
-"gundo.vim
-"nerdcommenter
-"nerdtree
-"perlomni.vim
-"profont-powerline
-"syntastic
-"tabular
-"tagbar
-"vim-colors-solarized
-"vim-easymotion
-"vim-extradite
-"vim-fugitive
-"vim-perl
-"vim-powerline
-"vim-rails
-"vim-repeat
-"vim-ruby
-"vim-unimpaired
-"vim-ruby
+""execute pathogen#infect()
+" ==================== Plugins ======================
+ set nocompatible               " be iMproved
+ filetype off                   " required!
 
-execute pathogen#infect()
+ set rtp+=~/.vim/bundle/vundle/
+ call vundle#rc()
+
+ " let Vundle manage Vundle
+ " required! 
+Bundle 'gmarik/vundle'
+
+ " My Bundles here:
+ "
+ " original repos on github
+Bundle 'vim-scripts/LustyJuggler'
+Bundle 'scrooloose/nerdtree'
+Bundle 'tpope/vim-surround'
+Bundle 'tpope/vim-unimpaired'
+Bundle 'scrooloose/nerdcommenter'
+Bundle 'scrooloose/syntastic'
+Bundle 'Townk/vim-autoclose'
+Bundle 'godlygeek/tabular'
+Bundle 'ervandew/supertab'
+Bundle 'vim-perl/vim-perl'
+Bundle 'Shougo/neocomplcache'
+Bundle 'Shougo/neosnippet'
+Bundle 'c9s/perlomni.vim'
+Bundle 'tehmaze/profont-powerline'
+Bundle 'kien/ctrlp.vim'
+Bundle 'sjl/gundo.vim'
+Bundle 'kien/rainbow_parentheses.vim'
+Bundle 'Lokaltog/vim-easymotion'
+Bundle 'bling/vim-airline'
+Bundle 'vim-scripts/YankRing.vim'
+
+
+Bundle 'mileszs/ack.vim'
+Bundle 'c9s/perlomni.vim'
+Bundle 'scrooloose/syntastic.git'
+Bundle 'majutsushi/tagbar.git'
+Bundle 'altercation/vim-colors-solarized'
+Bundle 'int3/vim-extradite'
+Bundle 'tpope/vim-fugitive'
+Bundle 'tpope/vim-rails'
+Bundle 'tpope/vim-repeat'
+Bundle 'vim-ruby/vim-ruby'
+Bundle 'ironcamel/vim-script-runner'
+Bundle 'mhinz/vim-startify'
+Bundle 'gmarik/vundle.git'
+Bundle 'Kris2k/Zoomwin-vim'
+
 
 " ==================== General Config ======================
 set ruler
@@ -120,6 +146,19 @@ autocmd FileType html,markdown setlocal omnifunc=htmlcomplete#CompleteTags
 autocmd FileType javascript setlocal omnifunc=javascriptcomplete#CompleteJS
 autocmd FileType python setlocal omnifunc=pythoncomplete#Complete
 autocmd FileType xml setlocal omnifunc=xmlcomplete#CompleteTags
+
+
+let g:neocomplcache_enable_at_startup=1
+let g:neocomplcache_enable_fuzzy_completion=1
+let g:neocomplcache_enable_underbar_completion=1
+let g:neocomplcache_enable_camel_case_completion=1
+let g:neocomplcache_enable_underbar_completion=1
+let g:neocomplcache_max_menu_width=25
+let g:neocomplcache_temporary_dir='~/.vim/neocon/'
+let g:neocomplcache_enable_auto_select=1
+"Plugin key mappings
+inoremap <expr><C-g>  neocomplcache#undo_completion()
+inoremap <expr><C-l>  neocomplcache#complete_common_string()
 
 " let c-x c-k autocomplete dictionary words
 "set dictionary+=/usr/share/dict/words
@@ -306,72 +345,35 @@ endif
 " Functions
 " ---------------------------------------------------------------
 
-" =============== Tab Browsing ===============
-"" Move current tab into the specified direction.
-" @param direction -1 for left, 1 for right.
-function! TabMove(direction)
-    " get number of tab pages.
-    let ntp=tabpagenr("$")
-    " move tab, if necessary.
-    if ntp > 1
-        " get number of current tab page.
-        let ctpn=tabpagenr()
-        " move left.
-        if a:direction < 0
-            let index=((ctpn-1+ntp-1)%ntp)
-        else
-            let index=(ctpn%ntp)
-      endif
 
-        " move tab page.
-        execute "tabmove ".index
-    endif
+"function! CleverTab()
+  "if pumvisible()
+    "return "\<C-N>"
+  "endif
+  "if strpart( getline('.'), 0, col('.')-1 ) =~ '^\s*$'
+    "return "\<Tab>"
+  "elseif exists('&omnifunc') && &omnifunc != ''
+    "return "\<C-X>\<C-O>"
+  "else
+    "return "\<C-N>"
+  "endif
+"endfunction
+
+"inoremap <Tab> <C-R>=CleverTab()<CR>
+" Visual ack, used to ack for highlighted text
+function! s:VAck()
+  let old = @"
+  norm! gvy
+  let @z = substitute(escape(@", '\'), '\n', '\\n', 'g')
+  let @" = old
 endfunction
 
-" Create tabs
-map <C-w><C-T> :tabnew<CR>
-noremap [n  :tabnew<CR>
-noremap tn :tabnew<CR>
-
-" Change tabs
-noremap th  :tabfirst<CR>
-noremap tj  :tabprev<CR>
-noremap tk  :tabnext<CR>
-noremap tl  :tablast<CR>
-noremap tt  :tabedit<Space>
-noremap tm  :tabm<Space>
-noremap td  :tabclose<CR>
-noremap tc  :tabclose<CR>
-
-" Jump to tabs
-noremap t1 1gt
-noremap t2 2gt
-noremap t3 3gt
-noremap t4 4gt
-noremap t5 5gt
-noremap t6 6gt
-noremap t7 7gt
-noremap t8 8gt
-noremap t9 9gt
-
-" Move tab left or right
-map <C-H> :call TabMove(-1)<CR>
-map <C-L> :call TabMove(1)<CR>
-
-function! CleverTab()
-  if pumvisible()
-    return "\<C-N>"
-  endif
-  if strpart( getline('.'), 0, col('.')-1 ) =~ '^\s*$'
-    return "\<Tab>"
-  elseif exists('&omnifunc') && &omnifunc != ''
-    return "\<C-X>\<C-O>"
-  else
-    return "\<C-N>"
-  endif
-endfunction
-
-inoremap <Tab> <C-R>=CleverTab()<CR>
+" Ack for visual selection
+vnoremap <Leader>av :<C-u>call <SID>VAck()<CR>:exe "Ack! ".@z.""<CR>
+" Ack for word under cursor
+nnoremap <Leader>av :Ack!<cr>
+" Open Ack
+nnoremap <Leader>ao :Ack! -i 
 
 " Mail {{{
 autocmd Filetype mail setlocal spell
