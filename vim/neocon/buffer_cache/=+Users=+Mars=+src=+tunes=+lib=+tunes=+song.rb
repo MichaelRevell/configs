@@ -1,0 +1,1 @@
+['module', 'Tunes', 'class', 'Song', '@current_song', 'initialize', 'properties', '@properties', 'nil?', 'get_current_song', 'puts', 'song', 'current', 'track', 'parse_properties', 'index', 'name', 'artist', 'album', 'rating', 'each', 'value', 'self', 'search', 'string', 'file', 'tracks', 'whose', 'contains', 'songs', 'split', ':file', 'shift', 'artists', 'set_rating']

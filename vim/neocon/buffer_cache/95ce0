@@ -1,0 +1,1 @@
+['package', 'Crowdtilt::API::Routes::Promotions', 'Crowdtilt::API::Routes::Promotions::VERSION', '0100', 'Dancer', ':syntax', 'ABSTRACT:', 'Crowdtilt', 'Public', 'Promotion', 'Routes', 'prefix', 'promotions', 'post', ':guid', 'Campaigns', 'campaigns', '__END__', 'head1', 'NAME']

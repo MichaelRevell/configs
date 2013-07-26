@@ -1,0 +1,1 @@
+['campaigns', 'contributions', 'SELECT', 'title', 'COUNT', 'campaign_id', 'amount', 'FROM', 'INNER', 'JOIN', 'WHERE', 'creation_date', 'INTERVAL', 'hours', 'GROUP', 'ORDER', 'DESC', 'LIMIT']

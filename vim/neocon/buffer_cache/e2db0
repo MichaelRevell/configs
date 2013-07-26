@@ -1,0 +1,1 @@
+['campaigns', 'that', 'expired', 'yesterday', 'successfully', 'tilted', 'select', 'title', 'tiltamount', 'tilt', 'amount', 'from', 'join', 'contributions', 'campaign_id', 'where', 'status', 'preauth_approved', 'postauth_accepted', 'postauth_approved', 'sale_approved', 'credit_released', 'expiration::Date', 'between', 'interval', 'hour', 'group', 'order', 'desc']

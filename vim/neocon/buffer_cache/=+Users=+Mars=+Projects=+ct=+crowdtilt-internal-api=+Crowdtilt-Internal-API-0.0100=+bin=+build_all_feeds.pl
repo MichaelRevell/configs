@@ -1,0 +1,1 @@
+['Dancer', ':script', 'Dancer::Plugin::DBIC', 'schema', 'Dancer::Plugin::Sque', 'sque', 'deleted', 'suspended', 'campaigns', 'resultset', 'Campaign', 'search', 'status', 'order_by', 'desc', 'creationdate', 'campaign', 'Rebuild', 'feed', 'create', 'push', 'Events', 'class', 'Crowdtilt::Worker::Event::BuildCampaignFeed', 'args', 'campaign_id', 'Queued', 'build']

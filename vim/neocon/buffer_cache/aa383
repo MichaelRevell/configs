@@ -1,0 +1,1 @@
+['select', 'This', 'Months', 'Charges', 'text', 'case', 'when', 'extract', 'month', 'from', 'charge_date::timestamptz', 'time', 'zone', '::date', 'then', 'amount', 'else', 'total', 'api_user_id', 'contributions', 'join', 'campaigns', 'campaign_id', 'deleted', 'where', 'status', 'postauth_accepted', 'postauth_approved', 'sale_approved', 'credit_released', 'year']

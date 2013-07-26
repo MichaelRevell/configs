@@ -1,0 +1,1 @@
+['perl', 'strict', 'warnings', 'FindBin', 'RealBin', 'BEGIN', 'DANCER_APPDIR', 'Dancer', ':syntax', 'Dancer::Plugin::DBIC', 'schema', 'Crowdtilt::Internal::API::Common', 'common', 'campaigns', 'resultset', 'Campaign', 'gen_campaign_url', 'update', 'else', 'error', 'Failed', 'campaign:', 'get_column']

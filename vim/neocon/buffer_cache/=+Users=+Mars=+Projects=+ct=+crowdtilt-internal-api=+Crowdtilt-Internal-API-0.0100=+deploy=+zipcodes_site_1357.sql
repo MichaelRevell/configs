@@ -1,0 +1,1 @@
+['Deploy', 'zipcodes_site_1357', 'BEGIN', 'CREATE', 'TABLE', 'user_sessions', 'serial', 'PRIMARY', 'user_id', 'integer', 'NULL', 'ip_address', 'character', 'varying', 'country_name', 'country_code', 'region', 'longitude', 'latitude', 'created_at', 'timestamp', 'DEFAULT', 'current_timestamp', 'ALTER', 'campaigns', 'COLUMN', 'user_session_id', 'FOREIGN', 'REFERENCES', 'COMMIT']

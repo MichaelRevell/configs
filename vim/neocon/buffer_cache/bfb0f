@@ -1,0 +1,1 @@
+['Total', 'Charged', 'select', 'Amount', 'text', 'amount', 'total', 'case', 'when', 'api_user_id', 'then', 'from', 'contributions', 'join', 'campaigns', 'campaign_id', 'deleted', 'where', 'status', 'postauth_accepted', 'postauth_approved', 'sale_approved', 'credit_released', 'charge_date::Timestamptz', 'time', 'zone', '::date', 'current_timestamp::timestamptz', 'group']

@@ -1,0 +1,1 @@
+['select', 'Charged', 'text', 'amount', 'total', 'case', 'when', 'api_user_id', 'then', 'else', 'from', 'contributions', 'join', 'campaigns', 'campaign_id', 'deleted', 'where', 'status', 'postauth_accepted', 'postauth_approved', 'sale_approved', 'credit_released', 'charge_date', 'between', 'interval', 'hour']

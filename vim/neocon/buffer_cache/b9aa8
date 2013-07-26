@@ -1,0 +1,1 @@
+['Total', 'campaigns', 'select', 'Campaigns', 'text', 'count', 'distinct', 'total', 'case', 'when', 'api_user_id', 'then', 'from', 'where', 'deleted', 'verified', 'creationdate::timestamptz', 'time', 'zone', '::date', 'current_timestamp::timestamptz', 'group']

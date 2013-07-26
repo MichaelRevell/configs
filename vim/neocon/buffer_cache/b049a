@@ -1,0 +1,1 @@
+['select', 'Campaigns', 'Created', 'text', 'count', 'total', 'case', 'when', 'api_user_id', 'then', 'else', 'from', 'campaigns', 'where', 'deleted', 'creationdate', 'between', 'interval', 'hour']

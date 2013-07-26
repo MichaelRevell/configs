@@ -1,0 +1,1 @@
+['Dancer', ':script', 'Dancer::Plugin::DBIC', 'schema', 'Data::Dumper', 'alars', 'resultset', 'AuditLogAction', 'Campaign', 'search', 'lololololo', 'single', 'edits', 'type', 'update', 'user', 'name', 'site', 'audited_table', 'campaigns', 'audited_row', 'join', 'changeset', 'order_by', 'desc', 'timestamp', 'rows']
