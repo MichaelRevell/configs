@@ -103,3 +103,76 @@ set wildignore+=*.png,*.jpg,*.gif
 set scrolloff=8         "Start scrolling when we're 8 lines away from margins
 set sidescrolloff=15
 set sidescroll=1
+
+
+" ====================== Key Bindings =====================
+" Splits
+noremap vv :vsplit<CR>
+noremap ss :split<CR>
+
+noremap <C-p> :CtrlP<CR>
+noremap ,n :NERDTreeToggle<CR>
+noremap ,p :YRShow<CR>
+
+noremap <C-t> :CtrlP<CR>
+noremap ,n :NERDTreeToggle<CR>
+noremap ,p :YRShow<CR>
+
+
+" Map window movement
+noremap H <C-w>h
+noremap J <C-w>j
+noremap K <C-w>k
+noremap L <C-w>l
+
+" ====================== Silly Columns =====================
+" Highlight column 80 and don't make it bright red like an idiot would (needs
+" to be done after syntax set)
+" This breaks auto complete for some reason :-(
+highlight ColorColumn guibg=#220000
+set colorcolumn=80
+
+" ======================= Copy & Paste =====================
+" Requires MacVim
+" set clipboard+=unnamed  "" Sets all to clipboard
+noremap <C-c> "+y " Copy to OS X Buffer
+
+" *note* Lets remap this to something else
+set pastetoggle=<F6> " Paste Mode for OS X pasting
+
+
+" ====================== MacVim Settings ===================
+
+if has("gui_running")
+  set guifont=Monaco:h13
+  colorscheme solarized
+endif
+
+" Visual ack, used to ack for highlighted text
+function! s:VAck()
+  let old = @"
+  norm! gvy
+  let @z = substitute(escape(@", '\'), '\n', '\\n', 'g')
+  let @" = old
+endfunction
+
+" Ack for visual selection
+vnoremap <Leader>av :<C-u>call <SID>VAck()<CR>:exe "Ack! ".@z.""<CR>
+" Ack for word under cursor
+nnoremap <Leader>av :Ack!<cr>
+" Open Ack
+nnoremap <Leader>ao :Ack! -i 
+
+" Mail {{{
+autocmd Filetype mail setlocal spell
+autocmd Filetype mail setlocal nohlsearch
+
+" }}}
+
+" Perl {{{
+
+autocmd Filetype perl setlocal shiftwidth=4
+autocmd Filetype perl setlocal softtabstop=4 " Remove this if you want spaces
+autocmd Filetype perl setlocal tabstop=4
+
+
