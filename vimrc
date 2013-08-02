@@ -106,18 +106,18 @@ set sidescroll=1
 
 
 " ====================== Key Bindings =====================
+
+" Map leader
+map , \
+map ,, \\
+
 " Splits
 noremap vv :vsplit<CR>
 noremap ss :split<CR>
 
-noremap <C-p> :CtrlP<CR>
-noremap ,n :NERDTreeToggle<CR>
-noremap ,p :YRShow<CR>
-
-noremap <C-t> :CtrlP<CR>
-noremap ,n :NERDTreeToggle<CR>
-noremap ,p :YRShow<CR>
-
+map <C-p> :CtrlP<CR>
+map <Leader>n <plug>NERDTreeTabsToggle<CR>
+map ,p :YRShow<CR>
 
 " Map window movement
 noremap H <C-w>h
@@ -139,6 +139,13 @@ noremap <C-c> "+y " Copy to OS X Buffer
 
 " *note* Lets remap this to something else
 set pastetoggle=<F6> " Paste Mode for OS X pasting
+
+" ====================== Edit   Vimrc ======================
+" source $MYVIMRC reloads the saved $MYVIMRC
+map <Leader>s :source $MYVIMRC
+
+" opens $MYVIMRC for editing, or use :tabedit $MYVIMRC
+map <Leader>e :e $MYVIMRC
 
 
 " ====================== MacVim Settings ===================
