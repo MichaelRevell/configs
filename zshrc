@@ -114,3 +114,4 @@ bindkey -M vicmd '\eb'   backward-word                     # Alt-b
 bindkey -M vicmd '\ed'   kill-word                         # Alt-d
 bindkey -M vicmd '\e[5~' history-beginning-search-backward # PageUp
 bindkey -M vicmd '\e[6~' history-beginning-search-forward  # PageDown
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"

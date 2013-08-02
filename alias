@@ -67,3 +67,5 @@ alias mutt-notmuch-py='~/.mutt/mutt-notmuch-py.py'
 
 #irssi
 alias irssi='TERM=screen-256color irssi'
+
+alias dance="perl -Ilocallib/lib/perl5 -Ilib -E 'use Dancer ":script"; require \"/Users/Mars/perl5/perlbrew/perls/perl-5.14.2/bin/reply\"'"
